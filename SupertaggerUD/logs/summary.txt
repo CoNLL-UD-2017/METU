@@ -1,0 +1,315 @@
+language: UD_Ancient_Greek code: grc
+training: ud-treebanks-conll2017/UD_Ancient_Greek/grc-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Ancient_Greek/grc-ud-dev.conllu
+76.6342895866
+
+language: UD_Ancient_Greek-PROIEL code: grc_proiel
+training: ud-treebanks-conll2017/UD_Ancient_Greek-PROIEL/grc_proiel-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Ancient_Greek-PROIEL/grc_proiel-ud-dev.conllu
+78.4207442133
+
+language: UD_Arabic code: ar
+training: ud-treebanks-conll2017/UD_Arabic/ar-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Arabic/ar-ud-dev.conllu
+83.6039551572
+
+language: UD_Basque code: eu
+training: ud-treebanks-conll2017/UD_Basque/eu-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Basque/eu-ud-dev.conllu
+86.6320813447
+
+language: UD_Bulgarian code: bg
+training: ud-treebanks-conll2017/UD_Bulgarian/bg-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Bulgarian/bg-ud-dev.conllu
+89.3902666418
+
+language: UD_Catalan code: ca
+training: ud-treebanks-conll2017/UD_Catalan/ca-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Catalan/ca-ud-dev.conllu
+88.6034488864
+
+language: UD_Chinese code: zh
+training: ud-treebanks-conll2017/UD_Chinese/zh-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Chinese/zh-ud-dev.conllu
+83.6057806207
+
+language: UD_Croatian code: hr
+training: ud-treebanks-conll2017/UD_Croatian/hr-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Croatian/hr-ud-dev.conllu
+86.437762334
+
+language: UD_Czech code: cs
+training: ud-treebanks-conll2017/UD_Czech/cs-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Czech/cs-ud-dev.conllu
+88.8017628889
+
+language: UD_Czech-CAC code: cs_cac
+training: ud-treebanks-conll2017/UD_Czech-CAC/cs_cac-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Czech-CAC/cs_cac-ud-dev.conllu
+90.3775659824
+
+language: UD_Czech-CLTT code: cs_cltt
+training: ud-treebanks-conll2017/UD_Czech-CLTT/cs_cltt-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Czech-CLTT/cs_cltt-ud-dev.conllu
+89.3362874482
+
+language: UD_Danish code: da
+training: ud-treebanks-conll2017/UD_Danish/da-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Danish/da-ud-dev.conllu
+85.7142857143
+
+language: UD_Dutch code: nl
+training: ud-treebanks-conll2017/UD_Dutch/nl-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Dutch/nl-ud-dev.conllu
+85.7043113981
+
+language: UD_Dutch-LassySmall code: nl_lassysmall
+training: ud-treebanks-conll2017/UD_Dutch-LassySmall/nl_lassysmall-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Dutch-LassySmall/nl_lassysmall-ud-dev.conllu
+87.0995260664
+
+language: UD_English code: en
+training: ud-treebanks-conll2017/UD_English/en-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_English/en-ud-dev.conllu
+too many values to unpack (expected 2)
+
+language: UD_English-LinES code: en_lines
+training: ud-treebanks-conll2017/UD_English-LinES/en_lines-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_English-LinES/en_lines-ud-dev.conllu
+85.9022336569
+
+language: UD_English-ParTUT code: en_partut
+training: ud-treebanks-conll2017/UD_English-ParTUT/en_partut-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_English-ParTUT/en_partut-ud-dev.conllu
+89.2918402352
+
+language: UD_Estonian code: et
+training: ud-treebanks-conll2017/UD_Estonian/et-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Estonian/et-ud-dev.conllu
+84.3179377014
+
+language: UD_Finnish code: fi
+training: ud-treebanks-conll2017/UD_Finnish/fi-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Finnish/fi-ud-dev.conllu
+too many values to unpack (expected 2)
+
+language: UD_Finnish-FTB code: fi_ftb
+training: ud-treebanks-conll2017/UD_Finnish-FTB/fi_ftb-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Finnish-FTB/fi_ftb-ud-dev.conllu
+84.6285932333
+
+language: UD_French code: fr
+training: ud-treebanks-conll2017/UD_French/fr-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_French/fr-ud-dev.conllu
+91.3688978359
+
+MISSING DEV
+language: UD_French-ParTUT code: fr_partut
+training: ud-treebanks-conll2017/UD_French-ParTUT/fr_partut-ud-train.conllu
+
+language: UD_French-Sequoia code: fr_sequoia
+training: ud-treebanks-conll2017/UD_French-Sequoia/fr_sequoia-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_French-Sequoia/fr_sequoia-ud-dev.conllu
+91.4710875861
+
+language: UD_Galician code: gl
+training: ud-treebanks-conll2017/UD_Galician/gl-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Galician/gl-ud-dev.conllu
+84.9816972831
+
+MISSING DEV
+language: UD_Galician-TreeGal code: gl_treegal
+training: ud-treebanks-conll2017/UD_Galician-TreeGal/gl_treegal-ud-train.conllu
+
+language: UD_German code: de
+training: ud-treebanks-conll2017/UD_German/de-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_German/de-ud-dev.conllu
+86.4026563006
+
+language: UD_Gothic code: got
+training: ud-treebanks-conll2017/UD_Gothic/got-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Gothic/got-ud-dev.conllu
+77.5262013051
+
+language: UD_Greek code: el
+training: ud-treebanks-conll2017/UD_Greek/el-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Greek/el-ud-dev.conllu
+88.9732715258
+
+language: UD_Hebrew code: he
+training: ud-treebanks-conll2017/UD_Hebrew/he-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Hebrew/he-ud-dev.conllu
+86.5532959327
+
+language: UD_Hindi code: hi
+training: ud-treebanks-conll2017/UD_Hindi/hi-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Hindi/hi-ud-dev.conllu
+87.6281341398
+
+language: UD_Hungarian code: hu
+training: ud-treebanks-conll2017/UD_Hungarian/hu-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Hungarian/hu-ud-dev.conllu
+84.5244351025
+
+language: UD_Indonesian code: id
+training: ud-treebanks-conll2017/UD_Indonesian/id-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Indonesian/id-ud-dev.conllu
+83.0082461148
+
+MISSING DEV
+language: UD_Irish code: ga
+training: ud-treebanks-conll2017/UD_Irish/ga-ud-train.conllu
+
+language: UD_Italian code: it
+training: ud-treebanks-conll2017/UD_Italian/it-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Italian/it-ud-dev.conllu
+90.9472623446
+
+language: UD_Italian-ParTUT code: it_partut
+training: ud-treebanks-conll2017/UD_Italian-ParTUT/it_partut-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Italian-ParTUT/it_partut-ud-dev.conllu
+90.0557688129
+
+language: UD_Japanese code: ja
+training: ud-treebanks-conll2017/UD_Japanese/ja-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Japanese/ja-ud-dev.conllu
+86.9331948771
+
+MISSING DEV
+language: UD_Kazakh code: kk
+training: ud-treebanks-conll2017/UD_Kazakh/kk-ud-train.conllu
+
+language: UD_Korean code: ko
+training: ud-treebanks-conll2017/UD_Korean/ko-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Korean/ko-ud-dev.conllu
+85.0693818706
+
+MISSING DEV
+language: UD_Latin code: la
+training: ud-treebanks-conll2017/UD_Latin/la-ud-train.conllu
+
+language: UD_Latin-ITTB code: la_ittb
+training: ud-treebanks-conll2017/UD_Latin-ITTB/la_ittb-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Latin-ITTB/la_ittb-ud-dev.conllu
+80.137450392
+
+language: UD_Latin-PROIEL code: la_proiel
+training: ud-treebanks-conll2017/UD_Latin-PROIEL/la_proiel-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Latin-PROIEL/la_proiel-ud-dev.conllu
+75.3377012052
+
+language: UD_Latvian code: lv
+training: ud-treebanks-conll2017/UD_Latvian/lv-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Latvian/lv-ud-dev.conllu
+85.4857819905
+
+language: UD_Norwegian-Bokmaal code: no_bokmaal
+training: ud-treebanks-conll2017/UD_Norwegian-Bokmaal/no_bokmaal-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Norwegian-Bokmaal/no_bokmaal-ud-dev.conllu
+86.6727157744
+
+language: UD_Norwegian-Nynorsk code: no_nynorsk
+training: ud-treebanks-conll2017/UD_Norwegian-Nynorsk/no_nynorsk-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Norwegian-Nynorsk/no_nynorsk-ud-dev.conllu
+85.36
+
+language: UD_Old_Church_Slavonic code: cu
+training: ud-treebanks-conll2017/UD_Old_Church_Slavonic/cu-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Old_Church_Slavonic/cu-ud-dev.conllu
+77.7425742574
+
+language: UD_Persian code: fa
+training: ud-treebanks-conll2017/UD_Persian/fa-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Persian/fa-ud-dev.conllu
+86.9631126832
+
+language: UD_Polish code: pl
+training: ud-treebanks-conll2017/UD_Polish/pl-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Polish/pl-ud-dev.conllu
+88.0140323524
+
+language: UD_Portuguese code: pt
+training: ud-treebanks-conll2017/UD_Portuguese/pt-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Portuguese/pt-ud-dev.conllu
+92.6366233527
+
+language: UD_Portuguese-BR code: pt_br
+training: ud-treebanks-conll2017/UD_Portuguese-BR/pt_br-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Portuguese-BR/pt_br-ud-dev.conllu
+89.9623393196
+
+language: UD_Romanian code: ro
+training: ud-treebanks-conll2017/UD_Romanian/ro-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Romanian/ro-ud-dev.conllu
+87.3726133302
+
+language: UD_Russian code: ru
+training: ud-treebanks-conll2017/UD_Russian/ru-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Russian/ru-ud-dev.conllu
+89.7364654374
+
+language: UD_Russian-SynTagRus code: ru_syntagrus
+training: ud-treebanks-conll2017/UD_Russian-SynTagRus/ru_syntagrus-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Russian-SynTagRus/ru_syntagrus-ud-dev.conllu
+too many values to unpack (expected 2)
+
+language: UD_Slovak code: sk
+training: ud-treebanks-conll2017/UD_Slovak/sk-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Slovak/sk-ud-dev.conllu
+88.7781350482
+
+language: UD_Slovenian code: sl
+training: ud-treebanks-conll2017/UD_Slovenian/sl-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Slovenian/sl-ud-dev.conllu
+89.0066130982
+
+MISSING DEV
+language: UD_Slovenian-SST code: sl_sst
+training: ud-treebanks-conll2017/UD_Slovenian-SST/sl_sst-ud-train.conllu
+
+language: UD_Spanish code: es
+training: ud-treebanks-conll2017/UD_Spanish/es-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Spanish/es-ud-dev.conllu
+89.6961050847
+
+language: UD_Spanish-AnCora code: es_ancora
+training: ud-treebanks-conll2017/UD_Spanish-AnCora/es_ancora-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Spanish-AnCora/es_ancora-ud-dev.conllu
+87.7617701009
+
+language: UD_Swedish code: sv
+training: ud-treebanks-conll2017/UD_Swedish/sv-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Swedish/sv-ud-dev.conllu
+84.4850464428
+
+language: UD_Swedish-LinES code: sv_lines
+training: ud-treebanks-conll2017/UD_Swedish-LinES/sv_lines-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Swedish-LinES/sv_lines-ud-dev.conllu
+85.2873283927
+
+language: UD_Turkish code: tr
+training: ud-treebanks-conll2017/UD_Turkish/tr-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Turkish/tr-ud-dev.conllu
+77.5447008291
+
+MISSING DEV
+language: UD_Ukrainian code: uk
+training: ud-treebanks-conll2017/UD_Ukrainian/uk-ud-train.conllu
+
+language: UD_Urdu code: ur
+training: ud-treebanks-conll2017/UD_Urdu/ur-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Urdu/ur-ud-dev.conllu
+82.9709896441
+
+MISSING DEV
+language: UD_Uyghur code: ug
+training: ud-treebanks-conll2017/UD_Uyghur/ug-ud-train.conllu
+
+language: UD_Vietnamese code: vi
+training: ud-treebanks-conll2017/UD_Vietnamese/vi-ud-train.conllu
+developm: ud-treebanks-conll2017/UD_Vietnamese/vi-ud-dev.conllu
+78.8170922355
+
+64 languages
+8 with no dev
+0 with no train

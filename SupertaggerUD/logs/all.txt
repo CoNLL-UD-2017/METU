@@ -1,0 +1,1963 @@
+load supertagger from model
+2017-04-03 14:51:52,883-|SupertaggerDep:        load|-INFO-> loaded model from models/supertagger_15.pickle
+
+LANGUAGE: UD_Ancient_Greek CODE: grc
+
+tagging ccg from dep for grc train
+2017-04-03 14:51:52,883-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 14:53:25,737-|SupertaggerDep:         tag|-INFO-> 92.85s extracted features
+2017-04-03 14:53:25,737-|SupertaggerDep:         tag|-INFO-> processed 11476 sentences
+2017-04-03 14:53:32,346-|SupertaggerDep:         tag|-INFO-> 6.61s vectorized features
+2017-04-03 14:53:33,696-|SupertaggerDep:         tag|-INFO-> 1.35s generated predictions
+2017-04-03 14:53:35,179-|SupertaggerDep:         tag|-INFO-> 1.48s saved as ud-treebanks-conll2017/UD_Ancient_Greek/grc-ud-train-ccg.conllu
+tagging ccg from dep for grc dev
+2017-04-03 14:53:35,193-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 14:53:51,438-|SupertaggerDep:         tag|-INFO-> 16.24s extracted features
+2017-04-03 14:53:51,438-|SupertaggerDep:         tag|-INFO-> processed 1137 sentences
+2017-04-03 14:53:52,375-|SupertaggerDep:         tag|-INFO-> 0.94s vectorized features
+2017-04-03 14:53:52,569-|SupertaggerDep:         tag|-INFO-> 0.19s generated predictions
+2017-04-03 14:53:52,768-|SupertaggerDep:         tag|-INFO-> 0.20s saved as ud-treebanks-conll2017/UD_Ancient_Greek/grc-ud-dev-ccg.conllu
+
+creating ccg tagger for grc
+2017-04-03 14:53:52,770-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 14:55:05,708-|Supertagger:    __init__|-INFO-> 72.94s extracted training features
+2017-04-03 14:55:05,708-|Supertagger:    __init__|-INFO-> processed 11476 sentences
+2017-04-03 14:55:13,527-|Supertagger:    __init__|-INFO-> 7.82s extracted test features
+2017-04-03 14:55:13,527-|Supertagger:    __init__|-INFO-> processed 1137 sentences
+2017-04-03 14:55:13,527-|Supertagger:         fit|-INFO-> started training
+2017-04-03 14:58:00,037-|Supertagger:         fit|-INFO-> 166.51s trained model
+2017-04-03 14:58:00,038-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 14:58:00,521-|Supertagger:    evaluate|-INFO-> 0.48s generated predictions
+2017-04-03 14:58:00,550-|Supertagger:    evaluate|-INFO-> Accuracy  : 76.63
+2017-04-03 14:58:00,550-|Supertagger:    evaluate|-INFO-> 0.03s evaluated test data
+2017-04-03 14:58:00,578-|Supertagger:        save|-INFO-> saved model to models/grc.pickle
+tagging ccg for grc dev
+2017-04-03 14:58:00,578-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 14:58:01,064-|Supertagger:         tag|-INFO-> 0.49s generated predictions
+2017-04-03 14:58:01,088-|Supertagger:         tag|-INFO-> 0.02s saved as ud-treebanks-conll2017/UD_Ancient_Greek/grc-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Ancient_Greek-PROIEL CODE: grc_proiel
+
+tagging ccg from dep for grc_proiel train
+2017-04-03 14:58:09,663-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 14:59:47,744-|SupertaggerDep:         tag|-INFO-> 98.08s extracted features
+2017-04-03 14:59:47,744-|SupertaggerDep:         tag|-INFO-> processed 14846 sentences
+2017-04-03 14:59:54,117-|SupertaggerDep:         tag|-INFO-> 6.37s vectorized features
+2017-04-03 14:59:55,469-|SupertaggerDep:         tag|-INFO-> 1.35s generated predictions
+2017-04-03 14:59:57,267-|SupertaggerDep:         tag|-INFO-> 1.80s saved as ud-treebanks-conll2017/UD_Ancient_Greek-PROIEL/grc_proiel-ud-train-ccg.conllu
+tagging ccg from dep for grc_proiel dev
+2017-04-03 14:59:57,281-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:00:14,497-|SupertaggerDep:         tag|-INFO-> 17.22s extracted features
+2017-04-03 15:00:14,497-|SupertaggerDep:         tag|-INFO-> processed 1019 sentences
+2017-04-03 15:00:14,980-|SupertaggerDep:         tag|-INFO-> 0.48s vectorized features
+2017-04-03 15:00:15,075-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 15:00:15,207-|SupertaggerDep:         tag|-INFO-> 0.13s saved as ud-treebanks-conll2017/UD_Ancient_Greek-PROIEL/grc_proiel-ud-dev-ccg.conllu
+
+creating ccg tagger for grc_proiel
+2017-04-03 15:00:15,209-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 15:01:48,848-|Supertagger:    __init__|-INFO-> 93.64s extracted training features
+2017-04-03 15:01:48,849-|Supertagger:    __init__|-INFO-> processed 14846 sentences
+2017-04-03 15:01:55,550-|Supertagger:    __init__|-INFO-> 6.70s extracted test features
+2017-04-03 15:01:55,550-|Supertagger:    __init__|-INFO-> processed 1019 sentences
+2017-04-03 15:01:55,550-|Supertagger:         fit|-INFO-> started training
+2017-04-03 15:05:43,080-|Supertagger:         fit|-INFO-> 227.53s trained model
+2017-04-03 15:05:43,080-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 15:05:43,422-|Supertagger:    evaluate|-INFO-> 0.34s generated predictions
+2017-04-03 15:05:43,440-|Supertagger:    evaluate|-INFO-> Accuracy  : 78.42
+2017-04-03 15:05:43,440-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 15:05:43,464-|Supertagger:        save|-INFO-> saved model to models/grc_proiel.pickle
+tagging ccg for grc_proiel dev
+2017-04-03 15:05:43,464-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 15:05:43,806-|Supertagger:         tag|-INFO-> 0.34s generated predictions
+2017-04-03 15:05:43,820-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Ancient_Greek-PROIEL/grc_proiel-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Arabic CODE: ar
+
+tagging ccg from dep for ar train
+2017-04-03 15:05:57,880-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:07:03,630-|SupertaggerDep:         tag|-INFO-> 65.75s extracted features
+2017-04-03 15:07:03,630-|SupertaggerDep:         tag|-INFO-> processed 6075 sentences
+2017-04-03 15:07:12,014-|SupertaggerDep:         tag|-INFO-> 8.38s vectorized features
+2017-04-03 15:07:13,771-|SupertaggerDep:         tag|-INFO-> 1.76s generated predictions
+2017-04-03 15:07:16,170-|SupertaggerDep:         tag|-INFO-> 2.40s saved as ud-treebanks-conll2017/UD_Arabic/ar-ud-train-ccg.conllu
+tagging ccg from dep for ar dev
+2017-04-03 15:07:16,188-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:07:29,244-|SupertaggerDep:         tag|-INFO-> 13.06s extracted features
+2017-04-03 15:07:29,244-|SupertaggerDep:         tag|-INFO-> processed 909 sentences
+2017-04-03 15:07:30,358-|SupertaggerDep:         tag|-INFO-> 1.11s vectorized features
+2017-04-03 15:07:30,597-|SupertaggerDep:         tag|-INFO-> 0.24s generated predictions
+2017-04-03 15:07:30,937-|SupertaggerDep:         tag|-INFO-> 0.34s saved as ud-treebanks-conll2017/UD_Arabic/ar-ud-dev-ccg.conllu
+
+creating ccg tagger for ar
+2017-04-03 15:07:30,940-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 15:08:20,780-|Supertagger:    __init__|-INFO-> 49.84s extracted training features
+2017-04-03 15:08:20,780-|Supertagger:    __init__|-INFO-> processed 6075 sentences
+2017-04-03 15:08:28,293-|Supertagger:    __init__|-INFO-> 7.51s extracted test features
+2017-04-03 15:08:28,293-|Supertagger:    __init__|-INFO-> processed 909 sentences
+2017-04-03 15:08:28,293-|Supertagger:         fit|-INFO-> started training
+2017-04-03 15:12:46,448-|Supertagger:         fit|-INFO-> 258.16s trained model
+2017-04-03 15:12:46,448-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 15:12:47,162-|Supertagger:    evaluate|-INFO-> 0.71s generated predictions
+2017-04-03 15:12:47,206-|Supertagger:    evaluate|-INFO-> Accuracy  : 83.60
+2017-04-03 15:12:47,206-|Supertagger:    evaluate|-INFO-> 0.04s evaluated test data
+2017-04-03 15:12:47,229-|Supertagger:        save|-INFO-> saved model to models/ar.pickle
+tagging ccg for ar dev
+2017-04-03 15:12:47,229-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 15:12:47,946-|Supertagger:         tag|-INFO-> 0.72s generated predictions
+2017-04-03 15:12:47,977-|Supertagger:         tag|-INFO-> 0.03s saved as ud-treebanks-conll2017/UD_Arabic/ar-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Basque CODE: eu
+
+tagging ccg from dep for eu train
+2017-04-03 15:12:51,805-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:13:32,415-|SupertaggerDep:         tag|-INFO-> 40.61s extracted features
+2017-04-03 15:13:32,415-|SupertaggerDep:         tag|-INFO-> processed 5396 sentences
+2017-04-03 15:13:35,164-|SupertaggerDep:         tag|-INFO-> 2.75s vectorized features
+2017-04-03 15:13:35,744-|SupertaggerDep:         tag|-INFO-> 0.58s generated predictions
+2017-04-03 15:13:36,416-|SupertaggerDep:         tag|-INFO-> 0.67s saved as ud-treebanks-conll2017/UD_Basque/eu-ud-train-ccg.conllu
+tagging ccg from dep for eu dev
+2017-04-03 15:13:36,423-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:13:51,383-|SupertaggerDep:         tag|-INFO-> 14.96s extracted features
+2017-04-03 15:13:51,383-|SupertaggerDep:         tag|-INFO-> processed 1798 sentences
+2017-04-03 15:13:52,298-|SupertaggerDep:         tag|-INFO-> 0.91s vectorized features
+2017-04-03 15:13:52,492-|SupertaggerDep:         tag|-INFO-> 0.19s generated predictions
+2017-04-03 15:13:52,711-|SupertaggerDep:         tag|-INFO-> 0.22s saved as ud-treebanks-conll2017/UD_Basque/eu-ud-dev-ccg.conllu
+
+creating ccg tagger for eu
+2017-04-03 15:13:52,712-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 15:14:26,115-|Supertagger:    __init__|-INFO-> 33.40s extracted training features
+2017-04-03 15:14:26,115-|Supertagger:    __init__|-INFO-> processed 5396 sentences
+2017-04-03 15:14:37,546-|Supertagger:    __init__|-INFO-> 11.43s extracted test features
+2017-04-03 15:14:37,546-|Supertagger:    __init__|-INFO-> processed 1798 sentences
+2017-04-03 15:14:37,546-|Supertagger:         fit|-INFO-> started training
+2017-04-03 15:15:38,632-|Supertagger:         fit|-INFO-> 61.09s trained model
+2017-04-03 15:15:38,632-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 15:15:39,124-|Supertagger:    evaluate|-INFO-> 0.49s generated predictions
+2017-04-03 15:15:39,168-|Supertagger:    evaluate|-INFO-> Accuracy  : 86.63
+2017-04-03 15:15:39,168-|Supertagger:    evaluate|-INFO-> 0.04s evaluated test data
+2017-04-03 15:15:39,174-|Supertagger:        save|-INFO-> saved model to models/eu.pickle
+tagging ccg for eu dev
+2017-04-03 15:15:39,174-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 15:15:39,661-|Supertagger:         tag|-INFO-> 0.49s generated predictions
+2017-04-03 15:15:39,683-|Supertagger:         tag|-INFO-> 0.02s saved as ud-treebanks-conll2017/UD_Basque/eu-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Bulgarian CODE: bg
+
+tagging ccg from dep for bg train
+2017-04-03 15:15:42,751-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:16:44,149-|SupertaggerDep:         tag|-INFO-> 61.40s extracted features
+2017-04-03 15:16:44,149-|SupertaggerDep:         tag|-INFO-> processed 8907 sentences
+2017-04-03 15:16:48,346-|SupertaggerDep:         tag|-INFO-> 4.20s vectorized features
+2017-04-03 15:16:49,263-|SupertaggerDep:         tag|-INFO-> 0.92s generated predictions
+2017-04-03 15:16:50,421-|SupertaggerDep:         tag|-INFO-> 1.16s saved as ud-treebanks-conll2017/UD_Bulgarian/bg-ud-train-ccg.conllu
+tagging ccg from dep for bg dev
+2017-04-03 15:16:50,433-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:17:02,325-|SupertaggerDep:         tag|-INFO-> 11.89s extracted features
+2017-04-03 15:17:02,325-|SupertaggerDep:         tag|-INFO-> processed 1115 sentences
+2017-04-03 15:17:02,874-|SupertaggerDep:         tag|-INFO-> 0.55s vectorized features
+2017-04-03 15:17:02,995-|SupertaggerDep:         tag|-INFO-> 0.12s generated predictions
+2017-04-03 15:17:03,147-|SupertaggerDep:         tag|-INFO-> 0.15s saved as ud-treebanks-conll2017/UD_Bulgarian/bg-ud-dev-ccg.conllu
+
+creating ccg tagger for bg
+2017-04-03 15:17:03,147-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 15:17:59,101-|Supertagger:    __init__|-INFO-> 55.95s extracted training features
+2017-04-03 15:17:59,101-|Supertagger:    __init__|-INFO-> processed 8907 sentences
+2017-04-03 15:18:06,469-|Supertagger:    __init__|-INFO-> 7.37s extracted test features
+2017-04-03 15:18:06,469-|Supertagger:    __init__|-INFO-> processed 1115 sentences
+2017-04-03 15:18:06,469-|Supertagger:         fit|-INFO-> started training
+2017-04-03 15:20:02,743-|Supertagger:         fit|-INFO-> 116.27s trained model
+2017-04-03 15:20:02,743-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 15:20:03,082-|Supertagger:    evaluate|-INFO-> 0.34s generated predictions
+2017-04-03 15:20:03,101-|Supertagger:    evaluate|-INFO-> Accuracy  : 89.39
+2017-04-03 15:20:03,101-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 15:20:03,113-|Supertagger:        save|-INFO-> saved model to models/bg.pickle
+tagging ccg for bg dev
+2017-04-03 15:20:03,113-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 15:20:03,451-|Supertagger:         tag|-INFO-> 0.34s generated predictions
+2017-04-03 15:20:03,468-|Supertagger:         tag|-INFO-> 0.02s saved as ud-treebanks-conll2017/UD_Bulgarian/bg-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Catalan CODE: ca
+
+tagging ccg from dep for ca train
+2017-04-03 15:20:09,407-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:22:24,091-|SupertaggerDep:         tag|-INFO-> 134.68s extracted features
+2017-04-03 15:22:24,091-|SupertaggerDep:         tag|-INFO-> processed 13123 sentences
+2017-04-03 15:22:40,960-|SupertaggerDep:         tag|-INFO-> 16.87s vectorized features
+2017-04-03 15:22:44,422-|SupertaggerDep:         tag|-INFO-> 3.46s generated predictions
+2017-04-03 15:22:47,968-|SupertaggerDep:         tag|-INFO-> 3.55s saved as ud-treebanks-conll2017/UD_Catalan/ca-ud-train-ccg.conllu
+tagging ccg from dep for ca dev
+2017-04-03 15:22:48,002-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:23:16,522-|SupertaggerDep:         tag|-INFO-> 28.52s extracted features
+2017-04-03 15:23:16,522-|SupertaggerDep:         tag|-INFO-> processed 1709 sentences
+2017-04-03 15:23:18,771-|SupertaggerDep:         tag|-INFO-> 2.25s vectorized features
+2017-04-03 15:23:19,238-|SupertaggerDep:         tag|-INFO-> 0.47s generated predictions
+2017-04-03 15:23:19,719-|SupertaggerDep:         tag|-INFO-> 0.48s saved as ud-treebanks-conll2017/UD_Catalan/ca-ud-dev-ccg.conllu
+
+creating ccg tagger for ca
+2017-04-03 15:23:19,724-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 15:24:59,661-|Supertagger:    __init__|-INFO-> 99.94s extracted training features
+2017-04-03 15:24:59,661-|Supertagger:    __init__|-INFO-> processed 13123 sentences
+2017-04-03 15:25:13,190-|Supertagger:    __init__|-INFO-> 13.53s extracted test features
+2017-04-03 15:25:13,190-|Supertagger:    __init__|-INFO-> processed 1709 sentences
+2017-04-03 15:25:13,190-|Supertagger:         fit|-INFO-> started training
+2017-04-03 15:35:30,197-|Supertagger:         fit|-INFO-> 617.01s trained model
+2017-04-03 15:35:30,197-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 15:35:31,739-|Supertagger:    evaluate|-INFO-> 1.54s generated predictions
+2017-04-03 15:35:31,827-|Supertagger:    evaluate|-INFO-> Accuracy  : 88.60
+2017-04-03 15:35:31,828-|Supertagger:    evaluate|-INFO-> 0.09s evaluated test data
+2017-04-03 15:35:31,850-|Supertagger:        save|-INFO-> saved model to models/ca.pickle
+tagging ccg for ca dev
+2017-04-03 15:35:31,850-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 15:35:33,385-|Supertagger:         tag|-INFO-> 1.54s generated predictions
+2017-04-03 15:35:33,441-|Supertagger:         tag|-INFO-> 0.06s saved as ud-treebanks-conll2017/UD_Catalan/ca-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Chinese CODE: zh
+
+tagging ccg from dep for zh train
+2017-04-03 15:35:46,957-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:36:27,111-|SupertaggerDep:         tag|-INFO-> 40.15s extracted features
+2017-04-03 15:36:27,111-|SupertaggerDep:         tag|-INFO-> processed 3997 sentences
+2017-04-03 15:36:31,509-|SupertaggerDep:         tag|-INFO-> 4.40s vectorized features
+2017-04-03 15:36:32,394-|SupertaggerDep:         tag|-INFO-> 0.88s generated predictions
+2017-04-03 15:36:33,270-|SupertaggerDep:         tag|-INFO-> 0.88s saved as ud-treebanks-conll2017/UD_Chinese/zh-ud-train-ccg.conllu
+tagging ccg from dep for zh dev
+2017-04-03 15:36:33,280-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:36:39,673-|SupertaggerDep:         tag|-INFO-> 6.39s extracted features
+2017-04-03 15:36:39,674-|SupertaggerDep:         tag|-INFO-> processed 500 sentences
+2017-04-03 15:36:40,261-|SupertaggerDep:         tag|-INFO-> 0.59s vectorized features
+2017-04-03 15:36:40,378-|SupertaggerDep:         tag|-INFO-> 0.12s generated predictions
+2017-04-03 15:36:40,491-|SupertaggerDep:         tag|-INFO-> 0.11s saved as ud-treebanks-conll2017/UD_Chinese/zh-ud-dev-ccg.conllu
+
+creating ccg tagger for zh
+2017-04-03 15:36:40,492-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 15:37:08,355-|Supertagger:    __init__|-INFO-> 27.86s extracted training features
+2017-04-03 15:37:08,355-|Supertagger:    __init__|-INFO-> processed 3997 sentences
+2017-04-03 15:37:11,882-|Supertagger:    __init__|-INFO-> 3.53s extracted test features
+2017-04-03 15:37:11,882-|Supertagger:    __init__|-INFO-> processed 500 sentences
+2017-04-03 15:37:11,882-|Supertagger:         fit|-INFO-> started training
+2017-04-03 15:38:34,425-|Supertagger:         fit|-INFO-> 82.54s trained model
+2017-04-03 15:38:34,425-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 15:38:34,672-|Supertagger:    evaluate|-INFO-> 0.25s generated predictions
+2017-04-03 15:38:34,688-|Supertagger:    evaluate|-INFO-> Accuracy  : 83.61
+2017-04-03 15:38:34,688-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 15:38:34,707-|Supertagger:        save|-INFO-> saved model to models/zh.pickle
+tagging ccg for zh dev
+2017-04-03 15:38:34,707-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 15:38:34,952-|Supertagger:         tag|-INFO-> 0.25s generated predictions
+2017-04-03 15:38:34,964-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Chinese/zh-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Croatian CODE: hr
+
+tagging ccg from dep for hr train
+2017-04-03 15:38:36,434-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:39:42,509-|SupertaggerDep:         tag|-INFO-> 66.07s extracted features
+2017-04-03 15:39:42,509-|SupertaggerDep:         tag|-INFO-> processed 7689 sentences
+2017-04-03 15:39:48,888-|SupertaggerDep:         tag|-INFO-> 6.38s vectorized features
+2017-04-03 15:39:50,231-|SupertaggerDep:         tag|-INFO-> 1.34s generated predictions
+2017-04-03 15:39:51,715-|SupertaggerDep:         tag|-INFO-> 1.48s saved as ud-treebanks-conll2017/UD_Croatian/hr-ud-train-ccg.conllu
+tagging ccg from dep for hr dev
+2017-04-03 15:39:51,727-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:40:00,495-|SupertaggerDep:         tag|-INFO-> 8.77s extracted features
+2017-04-03 15:40:00,495-|SupertaggerDep:         tag|-INFO-> processed 600 sentences
+2017-04-03 15:40:01,061-|SupertaggerDep:         tag|-INFO-> 0.57s vectorized features
+2017-04-03 15:40:01,178-|SupertaggerDep:         tag|-INFO-> 0.12s generated predictions
+2017-04-03 15:40:01,304-|SupertaggerDep:         tag|-INFO-> 0.13s saved as ud-treebanks-conll2017/UD_Croatian/hr-ud-dev-ccg.conllu
+
+creating ccg tagger for hr
+2017-04-03 15:40:01,305-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 15:40:54,178-|Supertagger:    __init__|-INFO-> 52.87s extracted training features
+2017-04-03 15:40:54,178-|Supertagger:    __init__|-INFO-> processed 7689 sentences
+2017-04-03 15:40:58,421-|Supertagger:    __init__|-INFO-> 4.24s extracted test features
+2017-04-03 15:40:58,421-|Supertagger:    __init__|-INFO-> processed 600 sentences
+2017-04-03 15:40:58,421-|Supertagger:         fit|-INFO-> started training
+2017-04-03 15:44:10,783-|Supertagger:         fit|-INFO-> 192.36s trained model
+2017-04-03 15:44:10,783-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 15:44:11,140-|Supertagger:    evaluate|-INFO-> 0.36s generated predictions
+2017-04-03 15:44:11,166-|Supertagger:    evaluate|-INFO-> Accuracy  : 86.44
+2017-04-03 15:44:11,167-|Supertagger:    evaluate|-INFO-> 0.03s evaluated test data
+2017-04-03 15:44:11,187-|Supertagger:        save|-INFO-> saved model to models/hr.pickle
+tagging ccg for hr dev
+2017-04-03 15:44:11,187-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 15:44:11,544-|Supertagger:         tag|-INFO-> 0.36s generated predictions
+2017-04-03 15:44:11,559-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Croatian/hr-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Czech CODE: cs
+
+tagging ccg from dep for cs train
+2017-04-03 15:44:15,627-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 15:54:02,667-|SupertaggerDep:         tag|-INFO-> 587.04s extracted features
+2017-04-03 15:54:02,667-|SupertaggerDep:         tag|-INFO-> processed 68495 sentences
+2017-04-03 15:54:45,118-|SupertaggerDep:         tag|-INFO-> 42.45s vectorized features
+2017-04-03 15:54:54,032-|SupertaggerDep:         tag|-INFO-> 8.91s generated predictions
+2017-04-03 15:55:05,043-|SupertaggerDep:         tag|-INFO-> 11.01s saved as ud-treebanks-conll2017/UD_Czech/cs-ud-train-ccg.conllu
+tagging ccg from dep for cs dev
+2017-04-03 15:55:05,123-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 16:01:25,526-|SupertaggerDep:         tag|-INFO-> 380.40s extracted features
+2017-04-03 16:01:25,527-|SupertaggerDep:         tag|-INFO-> processed 9270 sentences
+2017-04-03 16:01:31,125-|SupertaggerDep:         tag|-INFO-> 5.60s vectorized features
+2017-04-03 16:01:32,331-|SupertaggerDep:         tag|-INFO-> 1.21s generated predictions
+2017-04-03 16:01:33,825-|SupertaggerDep:         tag|-INFO-> 1.49s saved as ud-treebanks-conll2017/UD_Czech/cs-ud-dev-ccg.conllu
+
+creating ccg tagger for cs
+2017-04-03 16:01:33,836-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 16:10:32,889-|Supertagger:    __init__|-INFO-> 539.05s extracted training features
+2017-04-03 16:10:32,889-|Supertagger:    __init__|-INFO-> processed 68495 sentences
+2017-04-03 16:12:00,630-|Supertagger:    __init__|-INFO-> 87.74s extracted test features
+2017-04-03 16:12:00,630-|Supertagger:    __init__|-INFO-> processed 9270 sentences
+2017-04-03 16:12:00,630-|Supertagger:         fit|-INFO-> started training
+2017-04-03 16:46:22,282-|Supertagger:         fit|-INFO-> 2061.65s trained model
+2017-04-03 16:46:22,282-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 16:46:26,984-|Supertagger:    evaluate|-INFO-> 4.70s generated predictions
+2017-04-03 16:46:27,375-|Supertagger:    evaluate|-INFO-> Accuracy  : 88.80
+2017-04-03 16:46:27,375-|Supertagger:    evaluate|-INFO-> 0.39s evaluated test data
+2017-04-03 16:46:27,451-|Supertagger:        save|-INFO-> saved model to models/cs.pickle
+tagging ccg for cs dev
+2017-04-03 16:46:27,451-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 16:46:32,144-|Supertagger:         tag|-INFO-> 4.69s generated predictions
+2017-04-03 16:46:32,345-|Supertagger:         tag|-INFO-> 0.20s saved as ud-treebanks-conll2017/UD_Czech/cs-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Czech-CAC CODE: cs_cac
+
+tagging ccg from dep for cs_cac train
+2017-04-03 16:54:43,850-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 16:58:06,779-|SupertaggerDep:         tag|-INFO-> 202.93s extracted features
+2017-04-03 16:58:06,779-|SupertaggerDep:         tag|-INFO-> processed 23478 sentences
+2017-04-03 16:58:23,647-|SupertaggerDep:         tag|-INFO-> 16.87s vectorized features
+2017-04-03 16:58:27,272-|SupertaggerDep:         tag|-INFO-> 3.62s generated predictions
+2017-04-03 16:58:31,679-|SupertaggerDep:         tag|-INFO-> 4.41s saved as ud-treebanks-conll2017/UD_Czech-CAC/cs_cac-ud-train-ccg.conllu
+tagging ccg from dep for cs_cac dev
+2017-04-03 16:58:31,716-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 16:59:03,971-|SupertaggerDep:         tag|-INFO-> 32.26s extracted features
+2017-04-03 16:59:03,971-|SupertaggerDep:         tag|-INFO-> processed 603 sentences
+2017-04-03 16:59:04,347-|SupertaggerDep:         tag|-INFO-> 0.38s vectorized features
+2017-04-03 16:59:04,428-|SupertaggerDep:         tag|-INFO-> 0.08s generated predictions
+2017-04-03 16:59:04,533-|SupertaggerDep:         tag|-INFO-> 0.10s saved as ud-treebanks-conll2017/UD_Czech-CAC/cs_cac-ud-dev-ccg.conllu
+
+creating ccg tagger for cs_cac
+2017-04-03 16:59:04,534-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 17:01:49,178-|Supertagger:    __init__|-INFO-> 164.64s extracted training features
+2017-04-03 17:01:49,178-|Supertagger:    __init__|-INFO-> processed 23478 sentences
+2017-04-03 17:01:53,557-|Supertagger:    __init__|-INFO-> 4.38s extracted test features
+2017-04-03 17:01:53,557-|Supertagger:    __init__|-INFO-> processed 603 sentences
+2017-04-03 17:01:53,557-|Supertagger:         fit|-INFO-> started training
+2017-04-03 17:13:03,631-|Supertagger:         fit|-INFO-> 670.07s trained model
+2017-04-03 17:13:03,631-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 17:13:03,905-|Supertagger:    evaluate|-INFO-> 0.27s generated predictions
+2017-04-03 17:13:03,924-|Supertagger:    evaluate|-INFO-> Accuracy  : 90.38
+2017-04-03 17:13:03,924-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 17:13:03,956-|Supertagger:        save|-INFO-> saved model to models/cs_cac.pickle
+tagging ccg for cs_cac dev
+2017-04-03 17:13:03,956-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 17:13:04,228-|Supertagger:         tag|-INFO-> 0.27s generated predictions
+2017-04-03 17:13:04,240-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Czech-CAC/cs_cac-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Czech-CLTT CODE: cs_cltt
+
+tagging ccg from dep for cs_cltt train
+2017-04-03 17:13:38,043-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:13:43,055-|SupertaggerDep:         tag|-INFO-> 5.01s extracted features
+2017-04-03 17:13:43,055-|SupertaggerDep:         tag|-INFO-> processed 465 sentences
+2017-04-03 17:13:43,759-|SupertaggerDep:         tag|-INFO-> 0.70s vectorized features
+2017-04-03 17:13:43,904-|SupertaggerDep:         tag|-INFO-> 0.14s generated predictions
+2017-04-03 17:13:44,050-|SupertaggerDep:         tag|-INFO-> 0.15s saved as ud-treebanks-conll2017/UD_Czech-CLTT/cs_cltt-ud-train-ccg.conllu
+tagging ccg from dep for cs_cltt dev
+2017-04-03 17:13:44,051-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:13:47,283-|SupertaggerDep:         tag|-INFO-> 3.23s extracted features
+2017-04-03 17:13:47,284-|SupertaggerDep:         tag|-INFO-> processed 349 sentences
+2017-04-03 17:13:47,716-|SupertaggerDep:         tag|-INFO-> 0.43s vectorized features
+2017-04-03 17:13:47,802-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 17:13:47,892-|SupertaggerDep:         tag|-INFO-> 0.09s saved as ud-treebanks-conll2017/UD_Czech-CLTT/cs_cltt-ud-dev-ccg.conllu
+
+creating ccg tagger for cs_cltt
+2017-04-03 17:13:47,893-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 17:13:51,485-|Supertagger:    __init__|-INFO-> 3.59s extracted training features
+2017-04-03 17:13:51,485-|Supertagger:    __init__|-INFO-> processed 465 sentences
+2017-04-03 17:13:53,997-|Supertagger:    __init__|-INFO-> 2.51s extracted test features
+2017-04-03 17:13:53,997-|Supertagger:    __init__|-INFO-> processed 349 sentences
+2017-04-03 17:13:53,997-|Supertagger:         fit|-INFO-> started training
+2017-04-03 17:14:02,925-|Supertagger:         fit|-INFO-> 8.93s trained model
+2017-04-03 17:14:02,925-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 17:14:03,094-|Supertagger:    evaluate|-INFO-> 0.17s generated predictions
+2017-04-03 17:14:03,108-|Supertagger:    evaluate|-INFO-> Accuracy  : 89.34
+2017-04-03 17:14:03,109-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 17:14:03,110-|Supertagger:        save|-INFO-> saved model to models/cs_cltt.pickle
+tagging ccg for cs_cltt dev
+2017-04-03 17:14:03,110-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 17:14:03,279-|Supertagger:         tag|-INFO-> 0.17s generated predictions
+2017-04-03 17:14:03,289-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Czech-CLTT/cs_cltt-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Danish CODE: da
+
+tagging ccg from dep for da train
+2017-04-03 17:14:03,405-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:14:39,193-|SupertaggerDep:         tag|-INFO-> 35.79s extracted features
+2017-04-03 17:14:39,194-|SupertaggerDep:         tag|-INFO-> processed 4383 sentences
+2017-04-03 17:14:42,470-|SupertaggerDep:         tag|-INFO-> 3.28s vectorized features
+2017-04-03 17:14:43,141-|SupertaggerDep:         tag|-INFO-> 0.67s generated predictions
+2017-04-03 17:14:43,842-|SupertaggerDep:         tag|-INFO-> 0.70s saved as ud-treebanks-conll2017/UD_Danish/da-ud-train-ccg.conllu
+tagging ccg from dep for da dev
+2017-04-03 17:14:43,850-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:14:49,495-|SupertaggerDep:         tag|-INFO-> 5.64s extracted features
+2017-04-03 17:14:49,495-|SupertaggerDep:         tag|-INFO-> processed 564 sentences
+2017-04-03 17:14:49,905-|SupertaggerDep:         tag|-INFO-> 0.41s vectorized features
+2017-04-03 17:14:49,991-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 17:14:50,079-|SupertaggerDep:         tag|-INFO-> 0.09s saved as ud-treebanks-conll2017/UD_Danish/da-ud-dev-ccg.conllu
+
+creating ccg tagger for da
+2017-04-03 17:14:50,080-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 17:15:18,713-|Supertagger:    __init__|-INFO-> 28.63s extracted training features
+2017-04-03 17:15:18,713-|Supertagger:    __init__|-INFO-> processed 4383 sentences
+2017-04-03 17:15:22,533-|Supertagger:    __init__|-INFO-> 3.82s extracted test features
+2017-04-03 17:15:22,533-|Supertagger:    __init__|-INFO-> processed 564 sentences
+2017-04-03 17:15:22,533-|Supertagger:         fit|-INFO-> started training
+2017-04-03 17:16:50,965-|Supertagger:         fit|-INFO-> 88.43s trained model
+2017-04-03 17:16:50,965-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 17:16:51,216-|Supertagger:    evaluate|-INFO-> 0.25s generated predictions
+2017-04-03 17:16:51,229-|Supertagger:    evaluate|-INFO-> Accuracy  : 85.71
+2017-04-03 17:16:51,229-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 17:16:51,236-|Supertagger:        save|-INFO-> saved model to models/da.pickle
+tagging ccg for da dev
+2017-04-03 17:16:51,236-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 17:16:51,488-|Supertagger:         tag|-INFO-> 0.25s generated predictions
+2017-04-03 17:16:51,497-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Danish/da-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Dutch CODE: nl
+
+tagging ccg from dep for nl train
+2017-04-03 17:16:53,035-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:18:24,232-|SupertaggerDep:         tag|-INFO-> 91.20s extracted features
+2017-04-03 17:18:24,232-|SupertaggerDep:         tag|-INFO-> processed 12330 sentences
+2017-04-03 17:18:31,229-|SupertaggerDep:         tag|-INFO-> 7.00s vectorized features
+2017-04-03 17:18:32,695-|SupertaggerDep:         tag|-INFO-> 1.47s generated predictions
+2017-04-03 17:18:34,371-|SupertaggerDep:         tag|-INFO-> 1.68s saved as ud-treebanks-conll2017/UD_Dutch/nl-ud-train-ccg.conllu
+tagging ccg from dep for nl dev
+2017-04-03 17:18:34,386-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:18:47,286-|SupertaggerDep:         tag|-INFO-> 12.90s extracted features
+2017-04-03 17:18:47,287-|SupertaggerDep:         tag|-INFO-> processed 720 sentences
+2017-04-03 17:18:47,719-|SupertaggerDep:         tag|-INFO-> 0.43s vectorized features
+2017-04-03 17:18:47,810-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 17:18:47,911-|SupertaggerDep:         tag|-INFO-> 0.10s saved as ud-treebanks-conll2017/UD_Dutch/nl-ud-dev-ccg.conllu
+
+creating ccg tagger for nl
+2017-04-03 17:18:47,912-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 17:20:07,120-|Supertagger:    __init__|-INFO-> 79.21s extracted training features
+2017-04-03 17:20:07,120-|Supertagger:    __init__|-INFO-> processed 12330 sentences
+2017-04-03 17:20:12,139-|Supertagger:    __init__|-INFO-> 5.02s extracted test features
+2017-04-03 17:20:12,139-|Supertagger:    __init__|-INFO-> processed 720 sentences
+2017-04-03 17:20:12,139-|Supertagger:         fit|-INFO-> started training
+2017-04-03 17:24:55,339-|Supertagger:         fit|-INFO-> 283.20s trained model
+2017-04-03 17:24:55,339-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 17:24:55,673-|Supertagger:    evaluate|-INFO-> 0.33s generated predictions
+2017-04-03 17:24:55,693-|Supertagger:    evaluate|-INFO-> Accuracy  : 85.70
+2017-04-03 17:24:55,693-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 17:24:55,710-|Supertagger:        save|-INFO-> saved model to models/nl.pickle
+tagging ccg for nl dev
+2017-04-03 17:24:55,710-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 17:24:56,035-|Supertagger:         tag|-INFO-> 0.32s generated predictions
+2017-04-03 17:24:56,047-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Dutch/nl-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Dutch-LassySmall CODE: nl_lassysmall
+
+tagging ccg from dep for nl_lassysmall train
+2017-04-03 17:25:04,738-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:25:48,186-|SupertaggerDep:         tag|-INFO-> 43.45s extracted features
+2017-04-03 17:25:48,186-|SupertaggerDep:         tag|-INFO-> processed 6041 sentences
+2017-04-03 17:25:51,636-|SupertaggerDep:         tag|-INFO-> 3.45s vectorized features
+2017-04-03 17:25:52,338-|SupertaggerDep:         tag|-INFO-> 0.70s generated predictions
+2017-04-03 17:25:53,071-|SupertaggerDep:         tag|-INFO-> 0.73s saved as ud-treebanks-conll2017/UD_Dutch-LassySmall/nl_lassysmall-ud-train-ccg.conllu
+tagging ccg from dep for nl_lassysmall dev
+2017-04-03 17:25:53,079-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:26:00,801-|SupertaggerDep:         tag|-INFO-> 7.72s extracted features
+2017-04-03 17:26:00,801-|SupertaggerDep:         tag|-INFO-> processed 800 sentences
+2017-04-03 17:26:01,240-|SupertaggerDep:         tag|-INFO-> 0.44s vectorized features
+2017-04-03 17:26:01,329-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 17:26:01,424-|SupertaggerDep:         tag|-INFO-> 0.09s saved as ud-treebanks-conll2017/UD_Dutch-LassySmall/nl_lassysmall-ud-dev-ccg.conllu
+
+creating ccg tagger for nl_lassysmall
+2017-04-03 17:26:01,425-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 17:26:38,856-|Supertagger:    __init__|-INFO-> 37.43s extracted training features
+2017-04-03 17:26:38,856-|Supertagger:    __init__|-INFO-> processed 6041 sentences
+2017-04-03 17:26:43,847-|Supertagger:    __init__|-INFO-> 4.99s extracted test features
+2017-04-03 17:26:43,847-|Supertagger:    __init__|-INFO-> processed 800 sentences
+2017-04-03 17:26:43,847-|Supertagger:         fit|-INFO-> started training
+2017-04-03 17:27:53,265-|Supertagger:         fit|-INFO-> 69.42s trained model
+2017-04-03 17:27:53,266-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 17:27:53,499-|Supertagger:    evaluate|-INFO-> 0.23s generated predictions
+2017-04-03 17:27:53,513-|Supertagger:    evaluate|-INFO-> Accuracy  : 87.10
+2017-04-03 17:27:53,513-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 17:27:53,522-|Supertagger:        save|-INFO-> saved model to models/nl_lassysmall.pickle
+tagging ccg for nl_lassysmall dev
+2017-04-03 17:27:53,522-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 17:27:53,754-|Supertagger:         tag|-INFO-> 0.23s generated predictions
+2017-04-03 17:27:53,765-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Dutch-LassySmall/nl_lassysmall-ud-dev-ccg-2.col
+
+LANGUAGE: UD_English CODE: en
+
+tagging ccg from dep for en train
+2017-04-03 17:27:56,368-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:29:30,922-|SupertaggerDep:         tag|-INFO-> 94.55s extracted features
+2017-04-03 17:29:30,923-|SupertaggerDep:         tag|-INFO-> processed 12543 sentences
+2017-04-03 17:29:38,933-|SupertaggerDep:         tag|-INFO-> 8.01s vectorized features
+2017-04-03 17:29:40,592-|SupertaggerDep:         tag|-INFO-> 1.66s generated predictions
+2017-04-03 17:29:42,398-|SupertaggerDep:         tag|-INFO-> 1.81s saved as ud-treebanks-conll2017/UD_English/en-ud-train-ccg.conllu
+tagging ccg from dep for en dev
+2017-04-03 17:29:42,413-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:30:04,055-|SupertaggerDep:         tag|-INFO-> 21.64s extracted features
+2017-04-03 17:30:04,056-|SupertaggerDep:         tag|-INFO-> processed 2002 sentences
+2017-04-03 17:30:04,967-|SupertaggerDep:         tag|-INFO-> 0.91s vectorized features
+2017-04-03 17:30:05,168-|SupertaggerDep:         tag|-INFO-> 0.20s generated predictions
+2017-04-03 17:30:05,398-|SupertaggerDep:         tag|-INFO-> 0.23s saved as ud-treebanks-conll2017/UD_English/en-ud-dev-ccg.conllu
+
+creating ccg tagger for en
+2017-04-03 17:30:05,398-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 17:31:27,085-|Supertagger:    __init__|-INFO-> 81.69s extracted training features
+2017-04-03 17:31:27,085-|Supertagger:    __init__|-INFO-> processed 12543 sentences
+2017-04-03 17:31:39,945-|Supertagger:    __init__|-INFO-> 12.86s extracted test features
+2017-04-03 17:31:39,945-|Supertagger:    __init__|-INFO-> processed 2002 sentences
+2017-04-03 17:31:39,945-|Supertagger:         fit|-INFO-> started training
+2017-04-03 17:35:37,496-|Supertagger:         fit|-INFO-> 237.55s trained model
+2017-04-03 17:35:37,496-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 17:35:38,081-|Supertagger:    evaluate|-INFO-> 0.58s generated predictions
+2017-04-03 17:35:38,119-|Supertagger:    evaluate|-INFO-> Accuracy  : 87.29
+2017-04-03 17:35:38,119-|Supertagger:    evaluate|-INFO-> 0.04s evaluated test data
+2017-04-03 17:35:38,135-|Supertagger:        save|-INFO-> saved model to models/en.pickle
+tagging ccg for en dev
+2017-04-03 17:35:38,135-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 17:35:38,719-|Supertagger:         tag|-INFO-> 0.58s generated predictions
+2017-04-03 17:35:38,745-|Supertagger:         tag|-INFO-> 0.03s saved as ud-treebanks-conll2017/UD_English/en-ud-dev-ccg-2.col
+
+LANGUAGE: UD_English-LinES CODE: en_lines
+
+tagging ccg from dep for en_lines train
+2017-04-03 17:35:49,999-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:36:12,345-|SupertaggerDep:         tag|-INFO-> 22.35s extracted features
+2017-04-03 17:36:12,345-|SupertaggerDep:         tag|-INFO-> processed 2738 sentences
+2017-04-03 17:36:14,307-|SupertaggerDep:         tag|-INFO-> 1.96s vectorized features
+2017-04-03 17:36:14,718-|SupertaggerDep:         tag|-INFO-> 0.41s generated predictions
+2017-04-03 17:36:15,146-|SupertaggerDep:         tag|-INFO-> 0.43s saved as ud-treebanks-conll2017/UD_English-LinES/en_lines-ud-train-ccg.conllu
+tagging ccg from dep for en_lines dev
+2017-04-03 17:36:15,150-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:36:22,938-|SupertaggerDep:         tag|-INFO-> 7.79s extracted features
+2017-04-03 17:36:22,938-|SupertaggerDep:         tag|-INFO-> processed 912 sentences
+2017-04-03 17:36:23,598-|SupertaggerDep:         tag|-INFO-> 0.66s vectorized features
+2017-04-03 17:36:23,739-|SupertaggerDep:         tag|-INFO-> 0.14s generated predictions
+2017-04-03 17:36:23,885-|SupertaggerDep:         tag|-INFO-> 0.15s saved as ud-treebanks-conll2017/UD_English-LinES/en_lines-ud-dev-ccg.conllu
+
+creating ccg tagger for en_lines
+2017-04-03 17:36:23,886-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 17:36:41,618-|Supertagger:    __init__|-INFO-> 17.73s extracted training features
+2017-04-03 17:36:41,618-|Supertagger:    __init__|-INFO-> processed 2738 sentences
+2017-04-03 17:36:47,642-|Supertagger:    __init__|-INFO-> 6.02s extracted test features
+2017-04-03 17:36:47,642-|Supertagger:    __init__|-INFO-> processed 912 sentences
+2017-04-03 17:36:47,642-|Supertagger:         fit|-INFO-> started training
+2017-04-03 17:37:24,797-|Supertagger:         fit|-INFO-> 37.16s trained model
+2017-04-03 17:37:24,797-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 17:37:25,132-|Supertagger:    evaluate|-INFO-> 0.33s generated predictions
+2017-04-03 17:37:25,161-|Supertagger:    evaluate|-INFO-> Accuracy  : 85.90
+2017-04-03 17:37:25,161-|Supertagger:    evaluate|-INFO-> 0.03s evaluated test data
+2017-04-03 17:37:25,164-|Supertagger:        save|-INFO-> saved model to models/en_lines.pickle
+tagging ccg for en_lines dev
+2017-04-03 17:37:25,164-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 17:37:25,504-|Supertagger:         tag|-INFO-> 0.34s generated predictions
+2017-04-03 17:37:25,521-|Supertagger:         tag|-INFO-> 0.02s saved as ud-treebanks-conll2017/UD_English-LinES/en_lines-ud-dev-ccg-2.col
+
+LANGUAGE: UD_English-ParTUT CODE: en_partut
+
+tagging ccg from dep for en_partut train
+2017-04-03 17:37:26,447-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:37:36,152-|SupertaggerDep:         tag|-INFO-> 9.71s extracted features
+2017-04-03 17:37:36,152-|SupertaggerDep:         tag|-INFO-> processed 1090 sentences
+2017-04-03 17:37:37,150-|SupertaggerDep:         tag|-INFO-> 1.00s vectorized features
+2017-04-03 17:37:37,361-|SupertaggerDep:         tag|-INFO-> 0.21s generated predictions
+2017-04-03 17:37:37,582-|SupertaggerDep:         tag|-INFO-> 0.22s saved as ud-treebanks-conll2017/UD_English-ParTUT/en_partut-ud-train-ccg.conllu
+tagging ccg from dep for en_partut dev
+2017-04-03 17:37:37,583-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:37:42,171-|SupertaggerDep:         tag|-INFO-> 4.59s extracted features
+2017-04-03 17:37:42,171-|SupertaggerDep:         tag|-INFO-> processed 500 sentences
+2017-04-03 17:37:42,642-|SupertaggerDep:         tag|-INFO-> 0.47s vectorized features
+2017-04-03 17:37:42,743-|SupertaggerDep:         tag|-INFO-> 0.10s generated predictions
+2017-04-03 17:37:42,846-|SupertaggerDep:         tag|-INFO-> 0.10s saved as ud-treebanks-conll2017/UD_English-ParTUT/en_partut-ud-dev-ccg.conllu
+
+creating ccg tagger for en_partut
+2017-04-03 17:37:42,846-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 17:37:50,288-|Supertagger:    __init__|-INFO-> 7.44s extracted training features
+2017-04-03 17:37:50,288-|Supertagger:    __init__|-INFO-> processed 1090 sentences
+2017-04-03 17:37:53,705-|Supertagger:    __init__|-INFO-> 3.42s extracted test features
+2017-04-03 17:37:53,705-|Supertagger:    __init__|-INFO-> processed 500 sentences
+2017-04-03 17:37:53,705-|Supertagger:         fit|-INFO-> started training
+2017-04-03 17:38:12,706-|Supertagger:         fit|-INFO-> 19.00s trained model
+2017-04-03 17:38:12,706-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 17:38:12,928-|Supertagger:    evaluate|-INFO-> 0.22s generated predictions
+2017-04-03 17:38:12,949-|Supertagger:    evaluate|-INFO-> Accuracy  : 89.29
+2017-04-03 17:38:12,949-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 17:38:12,950-|Supertagger:        save|-INFO-> saved model to models/en_partut.pickle
+tagging ccg for en_partut dev
+2017-04-03 17:38:12,951-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 17:38:13,172-|Supertagger:         tag|-INFO-> 0.22s generated predictions
+2017-04-03 17:38:13,183-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_English-ParTUT/en_partut-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Estonian CODE: et
+
+tagging ccg from dep for et train
+2017-04-03 17:38:13,426-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:38:28,250-|SupertaggerDep:         tag|-INFO-> 14.82s extracted features
+2017-04-03 17:38:28,250-|SupertaggerDep:         tag|-INFO-> processed 2263 sentences
+2017-04-03 17:38:29,057-|SupertaggerDep:         tag|-INFO-> 0.81s vectorized features
+2017-04-03 17:38:29,231-|SupertaggerDep:         tag|-INFO-> 0.17s generated predictions
+2017-04-03 17:38:29,443-|SupertaggerDep:         tag|-INFO-> 0.21s saved as ud-treebanks-conll2017/UD_Estonian/et-ud-train-ccg.conllu
+tagging ccg from dep for et dev
+2017-04-03 17:38:29,444-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:38:36,347-|SupertaggerDep:         tag|-INFO-> 6.90s extracted features
+2017-04-03 17:38:36,348-|SupertaggerDep:         tag|-INFO-> processed 909 sentences
+2017-04-03 17:38:36,800-|SupertaggerDep:         tag|-INFO-> 0.45s vectorized features
+2017-04-03 17:38:36,892-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 17:38:37,001-|SupertaggerDep:         tag|-INFO-> 0.11s saved as ud-treebanks-conll2017/UD_Estonian/et-ud-dev-ccg.conllu
+
+creating ccg tagger for et
+2017-04-03 17:38:37,004-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 17:38:50,379-|Supertagger:    __init__|-INFO-> 13.38s extracted training features
+2017-04-03 17:38:50,380-|Supertagger:    __init__|-INFO-> processed 2263 sentences
+2017-04-03 17:38:56,045-|Supertagger:    __init__|-INFO-> 5.67s extracted test features
+2017-04-03 17:38:56,045-|Supertagger:    __init__|-INFO-> processed 909 sentences
+2017-04-03 17:38:56,045-|Supertagger:         fit|-INFO-> started training
+2017-04-03 17:39:11,103-|Supertagger:         fit|-INFO-> 15.06s trained model
+2017-04-03 17:39:11,103-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 17:39:11,314-|Supertagger:    evaluate|-INFO-> 0.21s generated predictions
+2017-04-03 17:39:11,331-|Supertagger:    evaluate|-INFO-> Accuracy  : 84.32
+2017-04-03 17:39:11,331-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 17:39:11,333-|Supertagger:        save|-INFO-> saved model to models/et.pickle
+tagging ccg for et dev
+2017-04-03 17:39:11,333-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 17:39:11,544-|Supertagger:         tag|-INFO-> 0.21s generated predictions
+2017-04-03 17:39:11,556-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Estonian/et-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Finnish CODE: fi
+
+tagging ccg from dep for fi train
+2017-04-03 17:39:12,221-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:40:40,427-|SupertaggerDep:         tag|-INFO-> 88.21s extracted features
+2017-04-03 17:40:40,427-|SupertaggerDep:         tag|-INFO-> processed 12217 sentences
+2017-04-03 17:40:46,452-|SupertaggerDep:         tag|-INFO-> 6.03s vectorized features
+2017-04-03 17:40:47,714-|SupertaggerDep:         tag|-INFO-> 1.26s generated predictions
+2017-04-03 17:40:49,215-|SupertaggerDep:         tag|-INFO-> 1.50s saved as ud-treebanks-conll2017/UD_Finnish/fi-ud-train-ccg.conllu
+tagging ccg from dep for fi dev
+2017-04-03 17:40:49,227-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:41:06,403-|SupertaggerDep:         tag|-INFO-> 17.18s extracted features
+2017-04-03 17:41:06,403-|SupertaggerDep:         tag|-INFO-> processed 1364 sentences
+2017-04-03 17:41:07,073-|SupertaggerDep:         tag|-INFO-> 0.67s vectorized features
+2017-04-03 17:41:07,215-|SupertaggerDep:         tag|-INFO-> 0.14s generated predictions
+2017-04-03 17:41:07,388-|SupertaggerDep:         tag|-INFO-> 0.17s saved as ud-treebanks-conll2017/UD_Finnish/fi-ud-dev-ccg.conllu
+
+creating ccg tagger for fi
+2017-04-03 17:41:07,388-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 17:42:24,250-|Supertagger:    __init__|-INFO-> 76.86s extracted training features
+2017-04-03 17:42:24,250-|Supertagger:    __init__|-INFO-> processed 12217 sentences
+2017-04-03 17:42:33,280-|Supertagger:    __init__|-INFO-> 9.03s extracted test features
+2017-04-03 17:42:33,281-|Supertagger:    __init__|-INFO-> processed 1364 sentences
+2017-04-03 17:42:33,281-|Supertagger:         fit|-INFO-> started training
+2017-04-03 17:45:49,653-|Supertagger:         fit|-INFO-> 196.37s trained model
+2017-04-03 17:45:49,653-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 17:45:50,104-|Supertagger:    evaluate|-INFO-> 0.45s generated predictions
+2017-04-03 17:45:50,130-|Supertagger:    evaluate|-INFO-> Accuracy  : 84.01
+2017-04-03 17:45:50,130-|Supertagger:    evaluate|-INFO-> 0.03s evaluated test data
+2017-04-03 17:45:50,151-|Supertagger:        save|-INFO-> saved model to models/fi.pickle
+tagging ccg for fi dev
+2017-04-03 17:45:50,152-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 17:45:50,605-|Supertagger:         tag|-INFO-> 0.45s generated predictions
+2017-04-03 17:45:50,625-|Supertagger:         tag|-INFO-> 0.02s saved as ud-treebanks-conll2017/UD_Finnish/fi-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Finnish-FTB CODE: fi_ftb
+
+tagging ccg from dep for fi_ftb train
+2017-04-03 17:46:00,529-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:47:24,310-|SupertaggerDep:         tag|-INFO-> 83.78s extracted features
+2017-04-03 17:47:24,310-|SupertaggerDep:         tag|-INFO-> processed 14981 sentences
+2017-04-03 17:47:28,197-|SupertaggerDep:         tag|-INFO-> 3.89s vectorized features
+2017-04-03 17:47:29,073-|SupertaggerDep:         tag|-INFO-> 0.88s generated predictions
+2017-04-03 17:47:30,318-|SupertaggerDep:         tag|-INFO-> 1.25s saved as ud-treebanks-conll2017/UD_Finnish-FTB/fi_ftb-ud-train-ccg.conllu
+tagging ccg from dep for fi_ftb dev
+2017-04-03 17:47:30,330-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:47:50,499-|SupertaggerDep:         tag|-INFO-> 20.17s extracted features
+2017-04-03 17:47:50,499-|SupertaggerDep:         tag|-INFO-> processed 1875 sentences
+2017-04-03 17:47:50,964-|SupertaggerDep:         tag|-INFO-> 0.47s vectorized features
+2017-04-03 17:47:51,074-|SupertaggerDep:         tag|-INFO-> 0.11s generated predictions
+2017-04-03 17:47:51,227-|SupertaggerDep:         tag|-INFO-> 0.15s saved as ud-treebanks-conll2017/UD_Finnish-FTB/fi_ftb-ud-dev-ccg.conllu
+
+creating ccg tagger for fi_ftb
+2017-04-03 17:47:51,228-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 17:49:21,131-|Supertagger:    __init__|-INFO-> 89.90s extracted training features
+2017-04-03 17:49:21,131-|Supertagger:    __init__|-INFO-> processed 14981 sentences
+2017-04-03 17:49:33,017-|Supertagger:    __init__|-INFO-> 11.89s extracted test features
+2017-04-03 17:49:33,017-|Supertagger:    __init__|-INFO-> processed 1875 sentences
+2017-04-03 17:49:33,017-|Supertagger:         fit|-INFO-> started training
+2017-04-03 17:52:29,748-|Supertagger:         fit|-INFO-> 176.73s trained model
+2017-04-03 17:52:29,748-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 17:52:30,141-|Supertagger:    evaluate|-INFO-> 0.39s generated predictions
+2017-04-03 17:52:30,164-|Supertagger:    evaluate|-INFO-> Accuracy  : 84.63
+2017-04-03 17:52:30,164-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 17:52:30,181-|Supertagger:        save|-INFO-> saved model to models/fi_ftb.pickle
+tagging ccg for fi_ftb dev
+2017-04-03 17:52:30,181-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 17:52:30,576-|Supertagger:         tag|-INFO-> 0.40s generated predictions
+2017-04-03 17:52:30,595-|Supertagger:         tag|-INFO-> 0.02s saved as ud-treebanks-conll2017/UD_Finnish-FTB/fi_ftb-ud-dev-ccg-2.col
+
+LANGUAGE: UD_French CODE: fr
+
+tagging ccg from dep for fr train
+2017-04-03 17:52:45,087-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:55:02,375-|SupertaggerDep:         tag|-INFO-> 137.29s extracted features
+2017-04-03 17:55:02,375-|SupertaggerDep:         tag|-INFO-> processed 14553 sentences
+2017-04-03 17:55:16,972-|SupertaggerDep:         tag|-INFO-> 14.60s vectorized features
+2017-04-03 17:55:19,949-|SupertaggerDep:         tag|-INFO-> 2.98s generated predictions
+2017-04-03 17:55:23,109-|SupertaggerDep:         tag|-INFO-> 3.16s saved as ud-treebanks-conll2017/UD_French/fr-ud-train-ccg.conllu
+tagging ccg from dep for fr dev
+2017-04-03 17:55:23,137-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 17:55:49,192-|SupertaggerDep:         tag|-INFO-> 26.06s extracted features
+2017-04-03 17:55:49,192-|SupertaggerDep:         tag|-INFO-> processed 1478 sentences
+2017-04-03 17:55:50,615-|SupertaggerDep:         tag|-INFO-> 1.42s vectorized features
+2017-04-03 17:55:50,913-|SupertaggerDep:         tag|-INFO-> 0.30s generated predictions
+2017-04-03 17:55:51,229-|SupertaggerDep:         tag|-INFO-> 0.32s saved as ud-treebanks-conll2017/UD_French/fr-ud-dev-ccg.conllu
+
+creating ccg tagger for fr
+2017-04-03 17:55:51,232-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 17:57:35,295-|Supertagger:    __init__|-INFO-> 104.06s extracted training features
+2017-04-03 17:57:35,295-|Supertagger:    __init__|-INFO-> processed 14553 sentences
+2017-04-03 17:57:46,466-|Supertagger:    __init__|-INFO-> 11.17s extracted test features
+2017-04-03 17:57:46,466-|Supertagger:    __init__|-INFO-> processed 1478 sentences
+2017-04-03 17:57:46,466-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:04:18,861-|Supertagger:         fit|-INFO-> 392.40s trained model
+2017-04-03 18:04:18,861-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:04:19,763-|Supertagger:    evaluate|-INFO-> 0.90s generated predictions
+2017-04-03 18:04:19,837-|Supertagger:    evaluate|-INFO-> Accuracy  : 91.37
+2017-04-03 18:04:19,838-|Supertagger:    evaluate|-INFO-> 0.07s evaluated test data
+2017-04-03 18:04:19,855-|Supertagger:        save|-INFO-> saved model to models/fr.pickle
+tagging ccg for fr dev
+2017-04-03 18:04:19,855-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:04:20,761-|Supertagger:         tag|-INFO-> 0.91s generated predictions
+2017-04-03 18:04:20,795-|Supertagger:         tag|-INFO-> 0.03s saved as ud-treebanks-conll2017/UD_French/fr-ud-dev-ccg-2.col
+
+LANGUAGE: UD_French-Sequoia CODE: fr_sequoia
+
+tagging ccg from dep for fr_sequoia train
+2017-04-03 18:04:35,673-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:04:55,148-|SupertaggerDep:         tag|-INFO-> 19.48s extracted features
+2017-04-03 18:04:55,149-|SupertaggerDep:         tag|-INFO-> processed 2231 sentences
+2017-04-03 18:04:57,279-|SupertaggerDep:         tag|-INFO-> 2.13s vectorized features
+2017-04-03 18:04:57,717-|SupertaggerDep:         tag|-INFO-> 0.44s generated predictions
+2017-04-03 18:04:58,171-|SupertaggerDep:         tag|-INFO-> 0.45s saved as ud-treebanks-conll2017/UD_French-Sequoia/fr_sequoia-ud-train-ccg.conllu
+tagging ccg from dep for fr_sequoia dev
+2017-04-03 18:04:58,176-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:05:02,297-|SupertaggerDep:         tag|-INFO-> 4.12s extracted features
+2017-04-03 18:05:02,297-|SupertaggerDep:         tag|-INFO-> processed 412 sentences
+2017-04-03 18:05:02,715-|SupertaggerDep:         tag|-INFO-> 0.42s vectorized features
+2017-04-03 18:05:02,800-|SupertaggerDep:         tag|-INFO-> 0.08s generated predictions
+2017-04-03 18:05:02,887-|SupertaggerDep:         tag|-INFO-> 0.09s saved as ud-treebanks-conll2017/UD_French-Sequoia/fr_sequoia-ud-dev-ccg.conllu
+
+creating ccg tagger for fr_sequoia
+2017-04-03 18:05:02,888-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 18:05:18,080-|Supertagger:    __init__|-INFO-> 15.19s extracted training features
+2017-04-03 18:05:18,080-|Supertagger:    __init__|-INFO-> processed 2231 sentences
+2017-04-03 18:05:20,911-|Supertagger:    __init__|-INFO-> 2.83s extracted test features
+2017-04-03 18:05:20,911-|Supertagger:    __init__|-INFO-> processed 412 sentences
+2017-04-03 18:05:20,911-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:06:05,267-|Supertagger:         fit|-INFO-> 44.36s trained model
+2017-04-03 18:06:05,268-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:06:05,473-|Supertagger:    evaluate|-INFO-> 0.21s generated predictions
+2017-04-03 18:06:05,486-|Supertagger:    evaluate|-INFO-> Accuracy  : 91.47
+2017-04-03 18:06:05,486-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 18:06:05,490-|Supertagger:        save|-INFO-> saved model to models/fr_sequoia.pickle
+tagging ccg for fr_sequoia dev
+2017-04-03 18:06:05,490-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:06:05,695-|Supertagger:         tag|-INFO-> 0.21s generated predictions
+2017-04-03 18:06:05,704-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_French-Sequoia/fr_sequoia-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Galician CODE: gl
+
+tagging ccg from dep for gl train
+2017-04-03 18:06:06,252-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:06:30,452-|SupertaggerDep:         tag|-INFO-> 24.20s extracted features
+2017-04-03 18:06:30,452-|SupertaggerDep:         tag|-INFO-> processed 2276 sentences
+2017-04-03 18:06:33,582-|SupertaggerDep:         tag|-INFO-> 3.13s vectorized features
+2017-04-03 18:06:34,239-|SupertaggerDep:         tag|-INFO-> 0.66s generated predictions
+2017-04-03 18:06:34,907-|SupertaggerDep:         tag|-INFO-> 0.67s saved as ud-treebanks-conll2017/UD_Galician/gl-ud-train-ccg.conllu
+tagging ccg from dep for gl dev
+2017-04-03 18:06:34,915-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:06:44,552-|SupertaggerDep:         tag|-INFO-> 9.64s extracted features
+2017-04-03 18:06:44,552-|SupertaggerDep:         tag|-INFO-> processed 863 sentences
+2017-04-03 18:06:45,747-|SupertaggerDep:         tag|-INFO-> 1.20s vectorized features
+2017-04-03 18:06:45,997-|SupertaggerDep:         tag|-INFO-> 0.25s generated predictions
+2017-04-03 18:06:46,249-|SupertaggerDep:         tag|-INFO-> 0.25s saved as ud-treebanks-conll2017/UD_Galician/gl-ud-dev-ccg.conllu
+
+creating ccg tagger for gl
+2017-04-03 18:06:46,252-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 18:07:03,679-|Supertagger:    __init__|-INFO-> 17.43s extracted training features
+2017-04-03 18:07:03,679-|Supertagger:    __init__|-INFO-> processed 2276 sentences
+2017-04-03 18:07:10,451-|Supertagger:    __init__|-INFO-> 6.77s extracted test features
+2017-04-03 18:07:10,451-|Supertagger:    __init__|-INFO-> processed 863 sentences
+2017-04-03 18:07:10,451-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:08:29,144-|Supertagger:         fit|-INFO-> 78.69s trained model
+2017-04-03 18:08:29,144-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:08:29,804-|Supertagger:    evaluate|-INFO-> 0.66s generated predictions
+2017-04-03 18:08:29,847-|Supertagger:    evaluate|-INFO-> Accuracy  : 84.98
+2017-04-03 18:08:29,847-|Supertagger:    evaluate|-INFO-> 0.04s evaluated test data
+2017-04-03 18:08:29,855-|Supertagger:        save|-INFO-> saved model to models/gl.pickle
+tagging ccg for gl dev
+2017-04-03 18:08:29,855-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:08:30,519-|Supertagger:         tag|-INFO-> 0.66s generated predictions
+2017-04-03 18:08:30,548-|Supertagger:         tag|-INFO-> 0.03s saved as ud-treebanks-conll2017/UD_Galician/gl-ud-dev-ccg-2.col
+
+LANGUAGE: UD_German CODE: de
+
+tagging ccg from dep for de train
+2017-04-03 18:08:31,497-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:10:30,419-|SupertaggerDep:         tag|-INFO-> 118.92s extracted features
+2017-04-03 18:10:30,419-|SupertaggerDep:         tag|-INFO-> processed 14118 sentences
+2017-04-03 18:10:40,932-|SupertaggerDep:         tag|-INFO-> 10.51s vectorized features
+2017-04-03 18:10:43,111-|SupertaggerDep:         tag|-INFO-> 2.18s generated predictions
+2017-04-03 18:10:45,526-|SupertaggerDep:         tag|-INFO-> 2.42s saved as ud-treebanks-conll2017/UD_German/de-ud-train-ccg.conllu
+tagging ccg from dep for de dev
+2017-04-03 18:10:45,548-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:11:02,663-|SupertaggerDep:         tag|-INFO-> 17.12s extracted features
+2017-04-03 18:11:02,664-|SupertaggerDep:         tag|-INFO-> processed 799 sentences
+2017-04-03 18:11:03,154-|SupertaggerDep:         tag|-INFO-> 0.49s vectorized features
+2017-04-03 18:11:03,257-|SupertaggerDep:         tag|-INFO-> 0.10s generated predictions
+2017-04-03 18:11:03,369-|SupertaggerDep:         tag|-INFO-> 0.11s saved as ud-treebanks-conll2017/UD_German/de-ud-dev-ccg.conllu
+
+creating ccg tagger for de
+2017-04-03 18:11:03,369-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 18:12:38,856-|Supertagger:    __init__|-INFO-> 95.49s extracted training features
+2017-04-03 18:12:38,856-|Supertagger:    __init__|-INFO-> processed 14118 sentences
+2017-04-03 18:12:44,183-|Supertagger:    __init__|-INFO-> 5.33s extracted test features
+2017-04-03 18:12:44,183-|Supertagger:    __init__|-INFO-> processed 799 sentences
+2017-04-03 18:12:44,183-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:18:33,691-|Supertagger:         fit|-INFO-> 349.51s trained model
+2017-04-03 18:18:33,691-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:18:33,990-|Supertagger:    evaluate|-INFO-> 0.30s generated predictions
+2017-04-03 18:18:34,007-|Supertagger:    evaluate|-INFO-> Accuracy  : 86.40
+2017-04-03 18:18:34,007-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 18:18:34,029-|Supertagger:        save|-INFO-> saved model to models/de.pickle
+tagging ccg for de dev
+2017-04-03 18:18:34,029-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:18:34,328-|Supertagger:         tag|-INFO-> 0.30s generated predictions
+2017-04-03 18:18:34,341-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_German/de-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Gothic CODE: got
+
+tagging ccg from dep for got train
+2017-04-03 18:18:46,278-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:19:06,380-|SupertaggerDep:         tag|-INFO-> 20.10s extracted features
+2017-04-03 18:19:06,380-|SupertaggerDep:         tag|-INFO-> processed 3387 sentences
+2017-04-03 18:19:07,490-|SupertaggerDep:         tag|-INFO-> 1.11s vectorized features
+2017-04-03 18:19:07,740-|SupertaggerDep:         tag|-INFO-> 0.25s generated predictions
+2017-04-03 18:19:08,083-|SupertaggerDep:         tag|-INFO-> 0.34s saved as ud-treebanks-conll2017/UD_Gothic/got-ud-train-ccg.conllu
+tagging ccg from dep for got dev
+2017-04-03 18:19:08,086-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:19:14,530-|SupertaggerDep:         tag|-INFO-> 6.44s extracted features
+2017-04-03 18:19:14,530-|SupertaggerDep:         tag|-INFO-> processed 985 sentences
+2017-04-03 18:19:14,856-|SupertaggerDep:         tag|-INFO-> 0.33s vectorized features
+2017-04-03 18:19:14,928-|SupertaggerDep:         tag|-INFO-> 0.07s generated predictions
+2017-04-03 18:19:15,028-|SupertaggerDep:         tag|-INFO-> 0.10s saved as ud-treebanks-conll2017/UD_Gothic/got-ud-dev-ccg.conllu
+
+creating ccg tagger for got
+2017-04-03 18:19:15,029-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 18:19:35,312-|Supertagger:    __init__|-INFO-> 20.28s extracted training features
+2017-04-03 18:19:35,312-|Supertagger:    __init__|-INFO-> processed 3387 sentences
+2017-04-03 18:19:41,329-|Supertagger:    __init__|-INFO-> 6.02s extracted test features
+2017-04-03 18:19:41,329-|Supertagger:    __init__|-INFO-> processed 985 sentences
+2017-04-03 18:19:41,329-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:20:14,755-|Supertagger:         fit|-INFO-> 33.43s trained model
+2017-04-03 18:20:14,755-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:20:14,968-|Supertagger:    evaluate|-INFO-> 0.21s generated predictions
+2017-04-03 18:20:14,982-|Supertagger:    evaluate|-INFO-> Accuracy  : 77.53
+2017-04-03 18:20:14,982-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 18:20:14,986-|Supertagger:        save|-INFO-> saved model to models/got.pickle
+tagging ccg for got dev
+2017-04-03 18:20:14,986-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:20:15,199-|Supertagger:         tag|-INFO-> 0.21s generated predictions
+2017-04-03 18:20:15,210-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Gothic/got-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Greek CODE: el
+
+tagging ccg from dep for el train
+2017-04-03 18:20:16,387-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:20:30,520-|SupertaggerDep:         tag|-INFO-> 14.13s extracted features
+2017-04-03 18:20:30,520-|SupertaggerDep:         tag|-INFO-> processed 1662 sentences
+2017-04-03 18:20:32,028-|SupertaggerDep:         tag|-INFO-> 1.51s vectorized features
+2017-04-03 18:20:32,351-|SupertaggerDep:         tag|-INFO-> 0.32s generated predictions
+2017-04-03 18:20:32,716-|SupertaggerDep:         tag|-INFO-> 0.36s saved as ud-treebanks-conll2017/UD_Greek/el-ud-train-ccg.conllu
+tagging ccg from dep for el dev
+2017-04-03 18:20:32,720-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:20:36,493-|SupertaggerDep:         tag|-INFO-> 3.77s extracted features
+2017-04-03 18:20:36,493-|SupertaggerDep:         tag|-INFO-> processed 403 sentences
+2017-04-03 18:20:36,858-|SupertaggerDep:         tag|-INFO-> 0.36s vectorized features
+2017-04-03 18:20:36,937-|SupertaggerDep:         tag|-INFO-> 0.08s generated predictions
+2017-04-03 18:20:37,025-|SupertaggerDep:         tag|-INFO-> 0.09s saved as ud-treebanks-conll2017/UD_Greek/el-ud-dev-ccg.conllu
+
+creating ccg tagger for el
+2017-04-03 18:20:37,026-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 18:20:48,512-|Supertagger:    __init__|-INFO-> 11.49s extracted training features
+2017-04-03 18:20:48,512-|Supertagger:    __init__|-INFO-> processed 1662 sentences
+2017-04-03 18:20:51,301-|Supertagger:    __init__|-INFO-> 2.79s extracted test features
+2017-04-03 18:20:51,301-|Supertagger:    __init__|-INFO-> processed 403 sentences
+2017-04-03 18:20:51,301-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:21:23,144-|Supertagger:         fit|-INFO-> 31.84s trained model
+2017-04-03 18:21:23,144-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:21:23,346-|Supertagger:    evaluate|-INFO-> 0.20s generated predictions
+2017-04-03 18:21:23,360-|Supertagger:    evaluate|-INFO-> Accuracy  : 88.97
+2017-04-03 18:21:23,360-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 18:21:23,363-|Supertagger:        save|-INFO-> saved model to models/el.pickle
+tagging ccg for el dev
+2017-04-03 18:21:23,364-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:21:23,565-|Supertagger:         tag|-INFO-> 0.20s generated predictions
+2017-04-03 18:21:23,578-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Greek/el-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Hebrew CODE: he
+
+tagging ccg from dep for he train
+2017-04-03 18:21:23,988-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:22:12,502-|SupertaggerDep:         tag|-INFO-> 48.51s extracted features
+2017-04-03 18:22:12,502-|SupertaggerDep:         tag|-INFO-> processed 5241 sentences
+2017-04-03 18:22:17,757-|SupertaggerDep:         tag|-INFO-> 5.26s vectorized features
+2017-04-03 18:22:18,855-|SupertaggerDep:         tag|-INFO-> 1.10s generated predictions
+2017-04-03 18:22:20,352-|SupertaggerDep:         tag|-INFO-> 1.50s saved as ud-treebanks-conll2017/UD_Hebrew/he-ud-train-ccg.conllu
+tagging ccg from dep for he dev
+2017-04-03 18:22:20,366-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:22:26,530-|SupertaggerDep:         tag|-INFO-> 6.16s extracted features
+2017-04-03 18:22:26,530-|SupertaggerDep:         tag|-INFO-> processed 484 sentences
+2017-04-03 18:22:26,953-|SupertaggerDep:         tag|-INFO-> 0.42s vectorized features
+2017-04-03 18:22:27,042-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 18:22:27,163-|SupertaggerDep:         tag|-INFO-> 0.12s saved as ud-treebanks-conll2017/UD_Hebrew/he-ud-dev-ccg.conllu
+
+creating ccg tagger for he
+2017-04-03 18:22:27,164-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 18:23:04,811-|Supertagger:    __init__|-INFO-> 37.65s extracted training features
+2017-04-03 18:23:04,811-|Supertagger:    __init__|-INFO-> processed 5241 sentences
+2017-04-03 18:23:08,215-|Supertagger:    __init__|-INFO-> 3.40s extracted test features
+2017-04-03 18:23:08,215-|Supertagger:    __init__|-INFO-> processed 484 sentences
+2017-04-03 18:23:08,215-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:25:48,761-|Supertagger:         fit|-INFO-> 160.55s trained model
+2017-04-03 18:25:48,761-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:25:49,029-|Supertagger:    evaluate|-INFO-> 0.27s generated predictions
+2017-04-03 18:25:49,043-|Supertagger:    evaluate|-INFO-> Accuracy  : 86.55
+2017-04-03 18:25:49,043-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 18:25:49,057-|Supertagger:        save|-INFO-> saved model to models/he.pickle
+tagging ccg for he dev
+2017-04-03 18:25:49,057-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:25:49,324-|Supertagger:         tag|-INFO-> 0.27s generated predictions
+2017-04-03 18:25:49,336-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Hebrew/he-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Hindi CODE: hi
+
+tagging ccg from dep for hi train
+2017-04-03 18:25:51,770-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:27:51,883-|SupertaggerDep:         tag|-INFO-> 120.11s extracted features
+2017-04-03 18:27:51,883-|SupertaggerDep:         tag|-INFO-> processed 13304 sentences
+2017-04-03 18:28:02,572-|SupertaggerDep:         tag|-INFO-> 10.69s vectorized features
+2017-04-03 18:28:04,812-|SupertaggerDep:         tag|-INFO-> 2.24s generated predictions
+2017-04-03 18:28:07,537-|SupertaggerDep:         tag|-INFO-> 2.73s saved as ud-treebanks-conll2017/UD_Hindi/hi-ud-train-ccg.conllu
+tagging ccg from dep for hi dev
+2017-04-03 18:28:07,559-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:28:33,262-|SupertaggerDep:         tag|-INFO-> 25.70s extracted features
+2017-04-03 18:28:33,262-|SupertaggerDep:         tag|-INFO-> processed 1659 sentences
+2017-04-03 18:28:34,606-|SupertaggerDep:         tag|-INFO-> 1.34s vectorized features
+2017-04-03 18:28:34,893-|SupertaggerDep:         tag|-INFO-> 0.29s generated predictions
+2017-04-03 18:28:35,243-|SupertaggerDep:         tag|-INFO-> 0.35s saved as ud-treebanks-conll2017/UD_Hindi/hi-ud-dev-ccg.conllu
+
+creating ccg tagger for hi
+2017-04-03 18:28:35,246-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 18:30:09,628-|Supertagger:    __init__|-INFO-> 94.38s extracted training features
+2017-04-03 18:30:09,628-|Supertagger:    __init__|-INFO-> processed 13304 sentences
+2017-04-03 18:30:21,736-|Supertagger:    __init__|-INFO-> 12.11s extracted test features
+2017-04-03 18:30:21,736-|Supertagger:    __init__|-INFO-> processed 1659 sentences
+2017-04-03 18:30:21,736-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:35:37,807-|Supertagger:         fit|-INFO-> 316.07s trained model
+2017-04-03 18:35:37,807-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:35:38,656-|Supertagger:    evaluate|-INFO-> 0.85s generated predictions
+2017-04-03 18:35:38,726-|Supertagger:    evaluate|-INFO-> Accuracy  : 87.63
+2017-04-03 18:35:38,726-|Supertagger:    evaluate|-INFO-> 0.07s evaluated test data
+2017-04-03 18:35:38,742-|Supertagger:        save|-INFO-> saved model to models/hi.pickle
+tagging ccg for hi dev
+2017-04-03 18:35:38,742-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:35:39,594-|Supertagger:         tag|-INFO-> 0.85s generated predictions
+2017-04-03 18:35:39,634-|Supertagger:         tag|-INFO-> 0.04s saved as ud-treebanks-conll2017/UD_Hindi/hi-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Hungarian CODE: hu
+
+tagging ccg from dep for hu train
+2017-04-03 18:35:54,063-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:36:02,517-|SupertaggerDep:         tag|-INFO-> 8.45s extracted features
+2017-04-03 18:36:02,517-|SupertaggerDep:         tag|-INFO-> processed 910 sentences
+2017-04-03 18:36:03,290-|SupertaggerDep:         tag|-INFO-> 0.77s vectorized features
+2017-04-03 18:36:03,452-|SupertaggerDep:         tag|-INFO-> 0.16s generated predictions
+2017-04-03 18:36:03,630-|SupertaggerDep:         tag|-INFO-> 0.18s saved as ud-treebanks-conll2017/UD_Hungarian/hu-ud-train-ccg.conllu
+tagging ccg from dep for hu dev
+2017-04-03 18:36:03,630-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:36:07,833-|SupertaggerDep:         tag|-INFO-> 4.20s extracted features
+2017-04-03 18:36:07,833-|SupertaggerDep:         tag|-INFO-> processed 441 sentences
+2017-04-03 18:36:08,285-|SupertaggerDep:         tag|-INFO-> 0.45s vectorized features
+2017-04-03 18:36:08,377-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 18:36:08,475-|SupertaggerDep:         tag|-INFO-> 0.10s saved as ud-treebanks-conll2017/UD_Hungarian/hu-ud-dev-ccg.conllu
+
+creating ccg tagger for hu
+2017-04-03 18:36:08,477-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 18:36:14,652-|Supertagger:    __init__|-INFO-> 6.17s extracted training features
+2017-04-03 18:36:14,652-|Supertagger:    __init__|-INFO-> processed 910 sentences
+2017-04-03 18:36:17,728-|Supertagger:    __init__|-INFO-> 3.08s extracted test features
+2017-04-03 18:36:17,728-|Supertagger:    __init__|-INFO-> processed 441 sentences
+2017-04-03 18:36:17,728-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:36:29,932-|Supertagger:         fit|-INFO-> 12.20s trained model
+2017-04-03 18:36:29,932-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:36:30,140-|Supertagger:    evaluate|-INFO-> 0.21s generated predictions
+2017-04-03 18:36:30,156-|Supertagger:    evaluate|-INFO-> Accuracy  : 84.52
+2017-04-03 18:36:30,156-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 18:36:30,159-|Supertagger:        save|-INFO-> saved model to models/hu.pickle
+tagging ccg for hu dev
+2017-04-03 18:36:30,159-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:36:30,366-|Supertagger:         tag|-INFO-> 0.21s generated predictions
+2017-04-03 18:36:30,378-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Hungarian/hu-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Indonesian CODE: id
+
+tagging ccg from dep for id train
+2017-04-03 18:36:30,580-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:37:07,825-|SupertaggerDep:         tag|-INFO-> 37.24s extracted features
+2017-04-03 18:37:07,825-|SupertaggerDep:         tag|-INFO-> processed 4477 sentences
+2017-04-03 18:37:11,466-|SupertaggerDep:         tag|-INFO-> 3.64s vectorized features
+2017-04-03 18:37:12,231-|SupertaggerDep:         tag|-INFO-> 0.77s generated predictions
+2017-04-03 18:37:13,055-|SupertaggerDep:         tag|-INFO-> 0.82s saved as ud-treebanks-conll2017/UD_Indonesian/id-ud-train-ccg.conllu
+tagging ccg from dep for id dev
+2017-04-03 18:37:13,064-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:37:19,261-|SupertaggerDep:         tag|-INFO-> 6.20s extracted features
+2017-04-03 18:37:19,261-|SupertaggerDep:         tag|-INFO-> processed 559 sentences
+2017-04-03 18:37:19,741-|SupertaggerDep:         tag|-INFO-> 0.48s vectorized features
+2017-04-03 18:37:19,842-|SupertaggerDep:         tag|-INFO-> 0.10s generated predictions
+2017-04-03 18:37:19,949-|SupertaggerDep:         tag|-INFO-> 0.11s saved as ud-treebanks-conll2017/UD_Indonesian/id-ud-dev-ccg.conllu
+
+creating ccg tagger for id
+2017-04-03 18:37:19,951-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 18:37:50,314-|Supertagger:    __init__|-INFO-> 30.36s extracted training features
+2017-04-03 18:37:50,314-|Supertagger:    __init__|-INFO-> processed 4477 sentences
+2017-04-03 18:37:54,306-|Supertagger:    __init__|-INFO-> 3.99s extracted test features
+2017-04-03 18:37:54,306-|Supertagger:    __init__|-INFO-> processed 559 sentences
+2017-04-03 18:37:54,306-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:39:25,409-|Supertagger:         fit|-INFO-> 91.10s trained model
+2017-04-03 18:39:25,409-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:39:25,700-|Supertagger:    evaluate|-INFO-> 0.29s generated predictions
+2017-04-03 18:39:25,715-|Supertagger:    evaluate|-INFO-> Accuracy  : 83.01
+2017-04-03 18:39:25,715-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 18:39:25,728-|Supertagger:        save|-INFO-> saved model to models/id.pickle
+tagging ccg for id dev
+2017-04-03 18:39:25,728-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:39:26,021-|Supertagger:         tag|-INFO-> 0.29s generated predictions
+2017-04-03 18:39:26,033-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Indonesian/id-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Italian CODE: it
+
+tagging ccg from dep for it train
+2017-04-03 18:39:27,681-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:41:13,885-|SupertaggerDep:         tag|-INFO-> 106.20s extracted features
+2017-04-03 18:41:13,886-|SupertaggerDep:         tag|-INFO-> processed 12838 sentences
+2017-04-03 18:41:24,203-|SupertaggerDep:         tag|-INFO-> 10.32s vectorized features
+2017-04-03 18:41:26,363-|SupertaggerDep:         tag|-INFO-> 2.16s generated predictions
+2017-04-03 18:41:28,874-|SupertaggerDep:         tag|-INFO-> 2.51s saved as ud-treebanks-conll2017/UD_Italian/it-ud-train-ccg.conllu
+tagging ccg from dep for it dev
+2017-04-03 18:41:28,895-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:41:42,115-|SupertaggerDep:         tag|-INFO-> 13.22s extracted features
+2017-04-03 18:41:42,115-|SupertaggerDep:         tag|-INFO-> processed 564 sentences
+2017-04-03 18:41:42,556-|SupertaggerDep:         tag|-INFO-> 0.44s vectorized features
+2017-04-03 18:41:42,649-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 18:41:42,757-|SupertaggerDep:         tag|-INFO-> 0.11s saved as ud-treebanks-conll2017/UD_Italian/it-ud-dev-ccg.conllu
+
+creating ccg tagger for it
+2017-04-03 18:41:42,759-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 18:43:11,117-|Supertagger:    __init__|-INFO-> 88.36s extracted training features
+2017-04-03 18:43:11,117-|Supertagger:    __init__|-INFO-> processed 12838 sentences
+2017-04-03 18:43:15,109-|Supertagger:    __init__|-INFO-> 3.99s extracted test features
+2017-04-03 18:43:15,109-|Supertagger:    __init__|-INFO-> processed 564 sentences
+2017-04-03 18:43:15,109-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:47:43,129-|Supertagger:         fit|-INFO-> 268.02s trained model
+2017-04-03 18:47:43,129-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:47:43,393-|Supertagger:    evaluate|-INFO-> 0.26s generated predictions
+2017-04-03 18:47:43,408-|Supertagger:    evaluate|-INFO-> Accuracy  : 90.95
+2017-04-03 18:47:43,408-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 18:47:43,421-|Supertagger:        save|-INFO-> saved model to models/it.pickle
+tagging ccg for it dev
+2017-04-03 18:47:43,421-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:47:43,686-|Supertagger:         tag|-INFO-> 0.26s generated predictions
+2017-04-03 18:47:43,698-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Italian/it-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Italian-ParTUT CODE: it_partut
+
+tagging ccg from dep for it_partut train
+2017-04-03 18:47:53,334-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:48:03,343-|SupertaggerDep:         tag|-INFO-> 10.01s extracted features
+2017-04-03 18:48:03,343-|SupertaggerDep:         tag|-INFO-> processed 1090 sentences
+2017-04-03 18:48:04,442-|SupertaggerDep:         tag|-INFO-> 1.10s vectorized features
+2017-04-03 18:48:04,677-|SupertaggerDep:         tag|-INFO-> 0.23s generated predictions
+2017-04-03 18:48:04,940-|SupertaggerDep:         tag|-INFO-> 0.26s saved as ud-treebanks-conll2017/UD_Italian-ParTUT/it_partut-ud-train-ccg.conllu
+tagging ccg from dep for it_partut dev
+2017-04-03 18:48:04,943-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:48:09,676-|SupertaggerDep:         tag|-INFO-> 4.73s extracted features
+2017-04-03 18:48:09,676-|SupertaggerDep:         tag|-INFO-> processed 500 sentences
+2017-04-03 18:48:10,207-|SupertaggerDep:         tag|-INFO-> 0.53s vectorized features
+2017-04-03 18:48:10,320-|SupertaggerDep:         tag|-INFO-> 0.11s generated predictions
+2017-04-03 18:48:10,445-|SupertaggerDep:         tag|-INFO-> 0.12s saved as ud-treebanks-conll2017/UD_Italian-ParTUT/it_partut-ud-dev-ccg.conllu
+
+creating ccg tagger for it_partut
+2017-04-03 18:48:10,445-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 18:48:18,021-|Supertagger:    __init__|-INFO-> 7.58s extracted training features
+2017-04-03 18:48:18,021-|Supertagger:    __init__|-INFO-> processed 1090 sentences
+2017-04-03 18:48:21,612-|Supertagger:    __init__|-INFO-> 3.59s extracted test features
+2017-04-03 18:48:21,612-|Supertagger:    __init__|-INFO-> processed 500 sentences
+2017-04-03 18:48:21,612-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:48:40,742-|Supertagger:         fit|-INFO-> 19.13s trained model
+2017-04-03 18:48:40,742-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:48:40,985-|Supertagger:    evaluate|-INFO-> 0.24s generated predictions
+2017-04-03 18:48:41,003-|Supertagger:    evaluate|-INFO-> Accuracy  : 90.06
+2017-04-03 18:48:41,003-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 18:48:41,005-|Supertagger:        save|-INFO-> saved model to models/it_partut.pickle
+tagging ccg for it_partut dev
+2017-04-03 18:48:41,005-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:48:41,246-|Supertagger:         tag|-INFO-> 0.24s generated predictions
+2017-04-03 18:48:41,260-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Italian-ParTUT/it_partut-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Japanese CODE: ja
+
+tagging ccg from dep for ja train
+2017-04-03 18:48:41,527-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:49:45,898-|SupertaggerDep:         tag|-INFO-> 64.37s extracted features
+2017-04-03 18:49:45,899-|SupertaggerDep:         tag|-INFO-> processed 7164 sentences
+2017-04-03 18:49:52,578-|SupertaggerDep:         tag|-INFO-> 6.68s vectorized features
+2017-04-03 18:49:53,953-|SupertaggerDep:         tag|-INFO-> 1.37s generated predictions
+2017-04-03 18:49:55,390-|SupertaggerDep:         tag|-INFO-> 1.44s saved as ud-treebanks-conll2017/UD_Japanese/ja-ud-train-ccg.conllu
+tagging ccg from dep for ja dev
+2017-04-03 18:49:55,403-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:50:03,545-|SupertaggerDep:         tag|-INFO-> 8.14s extracted features
+2017-04-03 18:50:03,545-|SupertaggerDep:         tag|-INFO-> processed 511 sentences
+2017-04-03 18:50:04,029-|SupertaggerDep:         tag|-INFO-> 0.48s vectorized features
+2017-04-03 18:50:04,123-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 18:50:04,225-|SupertaggerDep:         tag|-INFO-> 0.10s saved as ud-treebanks-conll2017/UD_Japanese/ja-ud-dev-ccg.conllu
+
+creating ccg tagger for ja
+2017-04-03 18:50:04,227-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 18:50:53,706-|Supertagger:    __init__|-INFO-> 49.48s extracted training features
+2017-04-03 18:50:53,706-|Supertagger:    __init__|-INFO-> processed 7164 sentences
+2017-04-03 18:50:57,319-|Supertagger:    __init__|-INFO-> 3.61s extracted test features
+2017-04-03 18:50:57,319-|Supertagger:    __init__|-INFO-> processed 511 sentences
+2017-04-03 18:50:57,319-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:54:11,918-|Supertagger:         fit|-INFO-> 194.60s trained model
+2017-04-03 18:54:11,919-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:54:12,210-|Supertagger:    evaluate|-INFO-> 0.29s generated predictions
+2017-04-03 18:54:12,226-|Supertagger:    evaluate|-INFO-> Accuracy  : 86.93
+2017-04-03 18:54:12,226-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 18:54:12,247-|Supertagger:        save|-INFO-> saved model to models/ja.pickle
+tagging ccg for ja dev
+2017-04-03 18:54:12,247-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:54:12,536-|Supertagger:         tag|-INFO-> 0.29s generated predictions
+2017-04-03 18:54:12,549-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Japanese/ja-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Korean CODE: ko
+
+tagging ccg from dep for ko train
+2017-04-03 18:54:16,357-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:54:42,402-|SupertaggerDep:         tag|-INFO-> 26.04s extracted features
+2017-04-03 18:54:42,402-|SupertaggerDep:         tag|-INFO-> processed 4400 sentences
+2017-04-03 18:54:43,964-|SupertaggerDep:         tag|-INFO-> 1.56s vectorized features
+2017-04-03 18:54:44,317-|SupertaggerDep:         tag|-INFO-> 0.35s generated predictions
+2017-04-03 18:54:44,805-|SupertaggerDep:         tag|-INFO-> 0.49s saved as ud-treebanks-conll2017/UD_Korean/ko-ud-train-ccg.conllu
+tagging ccg from dep for ko dev
+2017-04-03 18:54:44,809-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:54:51,465-|SupertaggerDep:         tag|-INFO-> 6.66s extracted features
+2017-04-03 18:54:51,465-|SupertaggerDep:         tag|-INFO-> processed 950 sentences
+2017-04-03 18:54:51,794-|SupertaggerDep:         tag|-INFO-> 0.33s vectorized features
+2017-04-03 18:54:51,867-|SupertaggerDep:         tag|-INFO-> 0.07s generated predictions
+2017-04-03 18:54:51,970-|SupertaggerDep:         tag|-INFO-> 0.10s saved as ud-treebanks-conll2017/UD_Korean/ko-ud-dev-ccg.conllu
+
+creating ccg tagger for ko
+2017-04-03 18:54:51,971-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 18:55:18,927-|Supertagger:    __init__|-INFO-> 26.96s extracted training features
+2017-04-03 18:55:18,927-|Supertagger:    __init__|-INFO-> processed 4400 sentences
+2017-04-03 18:55:24,710-|Supertagger:    __init__|-INFO-> 5.78s extracted test features
+2017-04-03 18:55:24,710-|Supertagger:    __init__|-INFO-> processed 950 sentences
+2017-04-03 18:55:24,710-|Supertagger:         fit|-INFO-> started training
+2017-04-03 18:56:10,476-|Supertagger:         fit|-INFO-> 45.77s trained model
+2017-04-03 18:56:10,476-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 18:56:10,701-|Supertagger:    evaluate|-INFO-> 0.22s generated predictions
+2017-04-03 18:56:10,722-|Supertagger:    evaluate|-INFO-> Accuracy  : 85.07
+2017-04-03 18:56:10,722-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 18:56:10,739-|Supertagger:        save|-INFO-> saved model to models/ko.pickle
+tagging ccg for ko dev
+2017-04-03 18:56:10,739-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 18:56:10,963-|Supertagger:         tag|-INFO-> 0.22s generated predictions
+2017-04-03 18:56:10,976-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Korean/ko-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Latin-ITTB CODE: la_ittb
+
+tagging ccg from dep for la_ittb train
+2017-04-03 18:56:12,763-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:58:15,718-|SupertaggerDep:         tag|-INFO-> 122.95s extracted features
+2017-04-03 18:58:15,718-|SupertaggerDep:         tag|-INFO-> processed 15808 sentences
+2017-04-03 18:58:25,934-|SupertaggerDep:         tag|-INFO-> 10.22s vectorized features
+2017-04-03 18:58:28,050-|SupertaggerDep:         tag|-INFO-> 2.12s generated predictions
+2017-04-03 18:58:30,439-|SupertaggerDep:         tag|-INFO-> 2.39s saved as ud-treebanks-conll2017/UD_Latin-ITTB/la_ittb-ud-train-ccg.conllu
+tagging ccg from dep for la_ittb dev
+2017-04-03 18:58:30,459-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 18:58:47,655-|SupertaggerDep:         tag|-INFO-> 17.20s extracted features
+2017-04-03 18:58:47,655-|SupertaggerDep:         tag|-INFO-> processed 700 sentences
+2017-04-03 18:58:48,020-|SupertaggerDep:         tag|-INFO-> 0.37s vectorized features
+2017-04-03 18:58:48,097-|SupertaggerDep:         tag|-INFO-> 0.08s generated predictions
+2017-04-03 18:58:48,188-|SupertaggerDep:         tag|-INFO-> 0.09s saved as ud-treebanks-conll2017/UD_Latin-ITTB/la_ittb-ud-dev-ccg.conllu
+
+creating ccg tagger for la_ittb
+2017-04-03 18:58:48,189-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 19:00:33,269-|Supertagger:    __init__|-INFO-> 105.08s extracted training features
+2017-04-03 19:00:33,269-|Supertagger:    __init__|-INFO-> processed 15808 sentences
+2017-04-03 19:00:37,972-|Supertagger:    __init__|-INFO-> 4.70s extracted test features
+2017-04-03 19:00:37,972-|Supertagger:    __init__|-INFO-> processed 700 sentences
+2017-04-03 19:00:37,972-|Supertagger:         fit|-INFO-> started training
+2017-04-03 19:06:17,560-|Supertagger:         fit|-INFO-> 339.59s trained model
+2017-04-03 19:06:17,560-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 19:06:17,843-|Supertagger:    evaluate|-INFO-> 0.28s generated predictions
+2017-04-03 19:06:17,857-|Supertagger:    evaluate|-INFO-> Accuracy  : 80.14
+2017-04-03 19:06:17,857-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 19:06:17,874-|Supertagger:        save|-INFO-> saved model to models/la_ittb.pickle
+tagging ccg for la_ittb dev
+2017-04-03 19:06:17,874-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 19:06:18,154-|Supertagger:         tag|-INFO-> 0.28s generated predictions
+2017-04-03 19:06:18,164-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Latin-ITTB/la_ittb-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Latin-PROIEL CODE: la_proiel
+
+tagging ccg from dep for la_proiel train
+2017-04-03 19:06:32,171-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:07:57,730-|SupertaggerDep:         tag|-INFO-> 85.56s extracted features
+2017-04-03 19:07:57,730-|SupertaggerDep:         tag|-INFO-> processed 14192 sentences
+2017-04-03 19:08:02,440-|SupertaggerDep:         tag|-INFO-> 4.71s vectorized features
+2017-04-03 19:08:03,477-|SupertaggerDep:         tag|-INFO-> 1.04s generated predictions
+2017-04-03 19:08:04,884-|SupertaggerDep:         tag|-INFO-> 1.41s saved as ud-treebanks-conll2017/UD_Latin-PROIEL/la_proiel-ud-train-ccg.conllu
+tagging ccg from dep for la_proiel dev
+2017-04-03 19:08:04,897-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:08:20,629-|SupertaggerDep:         tag|-INFO-> 15.73s extracted features
+2017-04-03 19:08:20,629-|SupertaggerDep:         tag|-INFO-> processed 1132 sentences
+2017-04-03 19:08:21,027-|SupertaggerDep:         tag|-INFO-> 0.40s vectorized features
+2017-04-03 19:08:21,113-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 19:08:21,231-|SupertaggerDep:         tag|-INFO-> 0.12s saved as ud-treebanks-conll2017/UD_Latin-PROIEL/la_proiel-ud-dev-ccg.conllu
+
+creating ccg tagger for la_proiel
+2017-04-03 19:08:21,233-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 19:09:48,579-|Supertagger:    __init__|-INFO-> 87.35s extracted training features
+2017-04-03 19:09:48,579-|Supertagger:    __init__|-INFO-> processed 14192 sentences
+2017-04-03 19:09:55,762-|Supertagger:    __init__|-INFO-> 7.18s extracted test features
+2017-04-03 19:09:55,762-|Supertagger:    __init__|-INFO-> processed 1132 sentences
+2017-04-03 19:09:55,762-|Supertagger:         fit|-INFO-> started training
+2017-04-03 19:13:18,494-|Supertagger:         fit|-INFO-> 202.73s trained model
+2017-04-03 19:13:18,494-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 19:13:18,801-|Supertagger:    evaluate|-INFO-> 0.31s generated predictions
+2017-04-03 19:13:18,817-|Supertagger:    evaluate|-INFO-> Accuracy  : 75.34
+2017-04-03 19:13:18,817-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 19:13:18,836-|Supertagger:        save|-INFO-> saved model to models/la_proiel.pickle
+tagging ccg for la_proiel dev
+2017-04-03 19:13:18,836-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 19:13:19,143-|Supertagger:         tag|-INFO-> 0.31s generated predictions
+2017-04-03 19:13:19,155-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Latin-PROIEL/la_proiel-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Latvian CODE: lv
+
+tagging ccg from dep for lv train
+2017-04-03 19:13:30,660-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:13:47,117-|SupertaggerDep:         tag|-INFO-> 16.46s extracted features
+2017-04-03 19:13:47,117-|SupertaggerDep:         tag|-INFO-> processed 2313 sentences
+2017-04-03 19:13:48,378-|SupertaggerDep:         tag|-INFO-> 1.26s vectorized features
+2017-04-03 19:13:48,651-|SupertaggerDep:         tag|-INFO-> 0.27s generated predictions
+2017-04-03 19:13:48,971-|SupertaggerDep:         tag|-INFO-> 0.32s saved as ud-treebanks-conll2017/UD_Latvian/lv-ud-train-ccg.conllu
+tagging ccg from dep for lv dev
+2017-04-03 19:13:48,974-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:13:54,420-|SupertaggerDep:         tag|-INFO-> 5.45s extracted features
+2017-04-03 19:13:54,420-|SupertaggerDep:         tag|-INFO-> processed 741 sentences
+2017-04-03 19:13:54,795-|SupertaggerDep:         tag|-INFO-> 0.37s vectorized features
+2017-04-03 19:13:54,872-|SupertaggerDep:         tag|-INFO-> 0.08s generated predictions
+2017-04-03 19:13:54,964-|SupertaggerDep:         tag|-INFO-> 0.09s saved as ud-treebanks-conll2017/UD_Latvian/lv-ud-dev-ccg.conllu
+
+creating ccg tagger for lv
+2017-04-03 19:13:54,965-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 19:14:09,507-|Supertagger:    __init__|-INFO-> 14.54s extracted training features
+2017-04-03 19:14:09,507-|Supertagger:    __init__|-INFO-> processed 2313 sentences
+2017-04-03 19:14:14,102-|Supertagger:    __init__|-INFO-> 4.59s extracted test features
+2017-04-03 19:14:14,102-|Supertagger:    __init__|-INFO-> processed 741 sentences
+2017-04-03 19:14:14,102-|Supertagger:         fit|-INFO-> started training
+2017-04-03 19:14:43,318-|Supertagger:         fit|-INFO-> 29.22s trained model
+2017-04-03 19:14:43,318-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 19:14:43,513-|Supertagger:    evaluate|-INFO-> 0.19s generated predictions
+2017-04-03 19:14:43,526-|Supertagger:    evaluate|-INFO-> Accuracy  : 85.49
+2017-04-03 19:14:43,526-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 19:14:43,531-|Supertagger:        save|-INFO-> saved model to models/lv.pickle
+tagging ccg for lv dev
+2017-04-03 19:14:43,531-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 19:14:43,725-|Supertagger:         tag|-INFO-> 0.19s generated predictions
+2017-04-03 19:14:43,737-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Latvian/lv-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Norwegian-Bokmaal CODE: no_bokmaal
+
+tagging ccg from dep for no_bokmaal train
+2017-04-03 19:14:44,394-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:16:45,628-|SupertaggerDep:         tag|-INFO-> 121.23s extracted features
+2017-04-03 19:16:45,628-|SupertaggerDep:         tag|-INFO-> processed 15696 sentences
+2017-04-03 19:16:55,236-|SupertaggerDep:         tag|-INFO-> 9.61s vectorized features
+2017-04-03 19:16:57,218-|SupertaggerDep:         tag|-INFO-> 1.98s generated predictions
+2017-04-03 19:16:59,389-|SupertaggerDep:         tag|-INFO-> 2.17s saved as ud-treebanks-conll2017/UD_Norwegian-Bokmaal/no_bokmaal-ud-train-ccg.conllu
+tagging ccg from dep for no_bokmaal dev
+2017-04-03 19:16:59,409-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:17:30,340-|SupertaggerDep:         tag|-INFO-> 30.93s extracted features
+2017-04-03 19:17:30,341-|SupertaggerDep:         tag|-INFO-> processed 2410 sentences
+2017-04-03 19:17:31,719-|SupertaggerDep:         tag|-INFO-> 1.38s vectorized features
+2017-04-03 19:17:32,015-|SupertaggerDep:         tag|-INFO-> 0.30s generated predictions
+2017-04-03 19:17:32,338-|SupertaggerDep:         tag|-INFO-> 0.32s saved as ud-treebanks-conll2017/UD_Norwegian-Bokmaal/no_bokmaal-ud-dev-ccg.conllu
+
+creating ccg tagger for no_bokmaal
+2017-04-03 19:17:32,342-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 19:19:15,045-|Supertagger:    __init__|-INFO-> 102.70s extracted training features
+2017-04-03 19:19:15,045-|Supertagger:    __init__|-INFO-> processed 15696 sentences
+2017-04-03 19:19:31,304-|Supertagger:    __init__|-INFO-> 16.26s extracted test features
+2017-04-03 19:19:31,305-|Supertagger:    __init__|-INFO-> processed 2410 sentences
+2017-04-03 19:19:31,305-|Supertagger:         fit|-INFO-> started training
+2017-04-03 19:24:02,502-|Supertagger:         fit|-INFO-> 271.20s trained model
+2017-04-03 19:24:02,503-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 19:24:03,405-|Supertagger:    evaluate|-INFO-> 0.90s generated predictions
+2017-04-03 19:24:03,464-|Supertagger:    evaluate|-INFO-> Accuracy  : 86.67
+2017-04-03 19:24:03,464-|Supertagger:    evaluate|-INFO-> 0.06s evaluated test data
+2017-04-03 19:24:03,482-|Supertagger:        save|-INFO-> saved model to models/no_bokmaal.pickle
+tagging ccg for no_bokmaal dev
+2017-04-03 19:24:03,482-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 19:24:04,385-|Supertagger:         tag|-INFO-> 0.90s generated predictions
+2017-04-03 19:24:04,422-|Supertagger:         tag|-INFO-> 0.04s saved as ud-treebanks-conll2017/UD_Norwegian-Bokmaal/no_bokmaal-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Norwegian-Nynorsk CODE: no_nynorsk
+
+tagging ccg from dep for no_nynorsk train
+2017-04-03 19:24:22,754-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:26:18,037-|SupertaggerDep:         tag|-INFO-> 115.28s extracted features
+2017-04-03 19:26:18,037-|SupertaggerDep:         tag|-INFO-> processed 14174 sentences
+2017-04-03 19:26:27,843-|SupertaggerDep:         tag|-INFO-> 9.81s vectorized features
+2017-04-03 19:26:29,869-|SupertaggerDep:         tag|-INFO-> 2.03s generated predictions
+2017-04-03 19:26:32,047-|SupertaggerDep:         tag|-INFO-> 2.18s saved as ud-treebanks-conll2017/UD_Norwegian-Nynorsk/no_nynorsk-ud-train-ccg.conllu
+tagging ccg from dep for no_nynorsk dev
+2017-04-03 19:26:32,067-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:26:57,602-|SupertaggerDep:         tag|-INFO-> 25.53s extracted features
+2017-04-03 19:26:57,602-|SupertaggerDep:         tag|-INFO-> processed 1890 sentences
+2017-04-03 19:26:58,817-|SupertaggerDep:         tag|-INFO-> 1.21s vectorized features
+2017-04-03 19:26:59,075-|SupertaggerDep:         tag|-INFO-> 0.26s generated predictions
+2017-04-03 19:26:59,352-|SupertaggerDep:         tag|-INFO-> 0.28s saved as ud-treebanks-conll2017/UD_Norwegian-Nynorsk/no_nynorsk-ud-dev-ccg.conllu
+
+creating ccg tagger for no_nynorsk
+2017-04-03 19:26:59,354-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 19:28:33,225-|Supertagger:    __init__|-INFO-> 93.87s extracted training features
+2017-04-03 19:28:33,225-|Supertagger:    __init__|-INFO-> processed 14174 sentences
+2017-04-03 19:28:46,294-|Supertagger:    __init__|-INFO-> 13.07s extracted test features
+2017-04-03 19:28:46,294-|Supertagger:    __init__|-INFO-> processed 1890 sentences
+2017-04-03 19:28:46,294-|Supertagger:         fit|-INFO-> started training
+2017-04-03 19:33:25,650-|Supertagger:         fit|-INFO-> 279.36s trained model
+2017-04-03 19:33:25,650-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 19:33:26,417-|Supertagger:    evaluate|-INFO-> 0.77s generated predictions
+2017-04-03 19:33:26,465-|Supertagger:    evaluate|-INFO-> Accuracy  : 85.36
+2017-04-03 19:33:26,465-|Supertagger:    evaluate|-INFO-> 0.05s evaluated test data
+2017-04-03 19:33:26,487-|Supertagger:        save|-INFO-> saved model to models/no_nynorsk.pickle
+tagging ccg for no_nynorsk dev
+2017-04-03 19:33:26,487-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 19:33:27,258-|Supertagger:         tag|-INFO-> 0.77s generated predictions
+2017-04-03 19:33:27,290-|Supertagger:         tag|-INFO-> 0.03s saved as ud-treebanks-conll2017/UD_Norwegian-Nynorsk/no_nynorsk-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Old_Church_Slavonic CODE: cu
+
+tagging ccg from dep for cu train
+2017-04-03 19:33:41,724-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:34:05,794-|SupertaggerDep:         tag|-INFO-> 24.07s extracted features
+2017-04-03 19:34:05,794-|SupertaggerDep:         tag|-INFO-> processed 4123 sentences
+2017-04-03 19:34:06,995-|SupertaggerDep:         tag|-INFO-> 1.20s vectorized features
+2017-04-03 19:34:07,262-|SupertaggerDep:         tag|-INFO-> 0.27s generated predictions
+2017-04-03 19:34:07,647-|SupertaggerDep:         tag|-INFO-> 0.39s saved as ud-treebanks-conll2017/UD_Old_Church_Slavonic/cu-ud-train-ccg.conllu
+tagging ccg from dep for cu dev
+2017-04-03 19:34:07,651-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:34:14,884-|SupertaggerDep:         tag|-INFO-> 7.23s extracted features
+2017-04-03 19:34:14,885-|SupertaggerDep:         tag|-INFO-> processed 1073 sentences
+2017-04-03 19:34:15,227-|SupertaggerDep:         tag|-INFO-> 0.34s vectorized features
+2017-04-03 19:34:15,300-|SupertaggerDep:         tag|-INFO-> 0.07s generated predictions
+2017-04-03 19:34:15,401-|SupertaggerDep:         tag|-INFO-> 0.10s saved as ud-treebanks-conll2017/UD_Old_Church_Slavonic/cu-ud-dev-ccg.conllu
+
+creating ccg tagger for cu
+2017-04-03 19:34:15,402-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 19:34:39,775-|Supertagger:    __init__|-INFO-> 24.37s extracted training features
+2017-04-03 19:34:39,775-|Supertagger:    __init__|-INFO-> processed 4123 sentences
+2017-04-03 19:34:46,260-|Supertagger:    __init__|-INFO-> 6.48s extracted test features
+2017-04-03 19:34:46,260-|Supertagger:    __init__|-INFO-> processed 1073 sentences
+2017-04-03 19:34:46,260-|Supertagger:         fit|-INFO-> started training
+2017-04-03 19:35:15,111-|Supertagger:         fit|-INFO-> 28.85s trained model
+2017-04-03 19:35:15,111-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 19:35:15,321-|Supertagger:    evaluate|-INFO-> 0.21s generated predictions
+2017-04-03 19:35:15,335-|Supertagger:    evaluate|-INFO-> Accuracy  : 77.74
+2017-04-03 19:35:15,335-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 19:35:15,342-|Supertagger:        save|-INFO-> saved model to models/cu.pickle
+tagging ccg for cu dev
+2017-04-03 19:35:15,342-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 19:35:15,552-|Supertagger:         tag|-INFO-> 0.21s generated predictions
+2017-04-03 19:35:15,565-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Old_Church_Slavonic/cu-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Persian CODE: fa
+
+tagging ccg from dep for fa train
+2017-04-03 19:35:17,261-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:36:01,825-|SupertaggerDep:         tag|-INFO-> 44.56s extracted features
+2017-04-03 19:36:01,825-|SupertaggerDep:         tag|-INFO-> processed 4798 sentences
+2017-04-03 19:36:06,731-|SupertaggerDep:         tag|-INFO-> 4.91s vectorized features
+2017-04-03 19:36:07,741-|SupertaggerDep:         tag|-INFO-> 1.01s generated predictions
+2017-04-03 19:36:08,811-|SupertaggerDep:         tag|-INFO-> 1.07s saved as ud-treebanks-conll2017/UD_Persian/fa-ud-train-ccg.conllu
+tagging ccg from dep for fa dev
+2017-04-03 19:36:08,822-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:36:15,903-|SupertaggerDep:         tag|-INFO-> 7.08s extracted features
+2017-04-03 19:36:15,903-|SupertaggerDep:         tag|-INFO-> processed 599 sentences
+2017-04-03 19:36:16,536-|SupertaggerDep:         tag|-INFO-> 0.63s vectorized features
+2017-04-03 19:36:16,669-|SupertaggerDep:         tag|-INFO-> 0.13s generated predictions
+2017-04-03 19:36:16,806-|SupertaggerDep:         tag|-INFO-> 0.14s saved as ud-treebanks-conll2017/UD_Persian/fa-ud-dev-ccg.conllu
+
+creating ccg tagger for fa
+2017-04-03 19:36:16,807-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 19:36:50,629-|Supertagger:    __init__|-INFO-> 33.82s extracted training features
+2017-04-03 19:36:50,629-|Supertagger:    __init__|-INFO-> processed 4798 sentences
+2017-04-03 19:36:54,902-|Supertagger:    __init__|-INFO-> 4.27s extracted test features
+2017-04-03 19:36:54,902-|Supertagger:    __init__|-INFO-> processed 599 sentences
+2017-04-03 19:36:54,902-|Supertagger:         fit|-INFO-> started training
+2017-04-03 19:38:45,284-|Supertagger:         fit|-INFO-> 110.38s trained model
+2017-04-03 19:38:45,285-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 19:38:45,628-|Supertagger:    evaluate|-INFO-> 0.34s generated predictions
+2017-04-03 19:38:45,649-|Supertagger:    evaluate|-INFO-> Accuracy  : 86.96
+2017-04-03 19:38:45,649-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 19:38:45,660-|Supertagger:        save|-INFO-> saved model to models/fa.pickle
+tagging ccg for fa dev
+2017-04-03 19:38:45,660-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 19:38:46,007-|Supertagger:         tag|-INFO-> 0.35s generated predictions
+2017-04-03 19:38:46,025-|Supertagger:         tag|-INFO-> 0.02s saved as ud-treebanks-conll2017/UD_Persian/fa-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Polish CODE: pl
+
+tagging ccg from dep for pl train
+2017-04-03 19:38:48,224-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:39:26,289-|SupertaggerDep:         tag|-INFO-> 38.07s extracted features
+2017-04-03 19:39:26,289-|SupertaggerDep:         tag|-INFO-> processed 6100 sentences
+2017-04-03 19:39:28,289-|SupertaggerDep:         tag|-INFO-> 2.00s vectorized features
+2017-04-03 19:39:28,733-|SupertaggerDep:         tag|-INFO-> 0.44s generated predictions
+2017-04-03 19:39:29,350-|SupertaggerDep:         tag|-INFO-> 0.62s saved as ud-treebanks-conll2017/UD_Polish/pl-ud-train-ccg.conllu
+tagging ccg from dep for pl dev
+2017-04-03 19:39:29,355-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:39:37,586-|SupertaggerDep:         tag|-INFO-> 8.23s extracted features
+2017-04-03 19:39:37,587-|SupertaggerDep:         tag|-INFO-> processed 1027 sentences
+2017-04-03 19:39:37,911-|SupertaggerDep:         tag|-INFO-> 0.32s vectorized features
+2017-04-03 19:39:37,980-|SupertaggerDep:         tag|-INFO-> 0.07s generated predictions
+2017-04-03 19:39:38,080-|SupertaggerDep:         tag|-INFO-> 0.10s saved as ud-treebanks-conll2017/UD_Polish/pl-ud-dev-ccg.conllu
+
+creating ccg tagger for pl
+2017-04-03 19:39:38,086-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 19:40:14,693-|Supertagger:    __init__|-INFO-> 36.61s extracted training features
+2017-04-03 19:40:14,693-|Supertagger:    __init__|-INFO-> processed 6100 sentences
+2017-04-03 19:40:21,026-|Supertagger:    __init__|-INFO-> 6.33s extracted test features
+2017-04-03 19:40:21,027-|Supertagger:    __init__|-INFO-> processed 1027 sentences
+2017-04-03 19:40:21,027-|Supertagger:         fit|-INFO-> started training
+2017-04-03 19:41:04,110-|Supertagger:         fit|-INFO-> 43.08s trained model
+2017-04-03 19:41:04,110-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 19:41:04,308-|Supertagger:    evaluate|-INFO-> 0.20s generated predictions
+2017-04-03 19:41:04,320-|Supertagger:    evaluate|-INFO-> Accuracy  : 88.01
+2017-04-03 19:41:04,321-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 19:41:04,328-|Supertagger:        save|-INFO-> saved model to models/pl.pickle
+tagging ccg for pl dev
+2017-04-03 19:41:04,328-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 19:41:04,527-|Supertagger:         tag|-INFO-> 0.20s generated predictions
+2017-04-03 19:41:04,540-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Polish/pl-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Portuguese CODE: pt
+
+tagging ccg from dep for pt train
+2017-04-03 19:41:07,396-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:42:20,875-|SupertaggerDep:         tag|-INFO-> 73.48s extracted features
+2017-04-03 19:42:20,875-|SupertaggerDep:         tag|-INFO-> processed 8331 sentences
+2017-04-03 19:42:28,972-|SupertaggerDep:         tag|-INFO-> 8.10s vectorized features
+2017-04-03 19:42:30,641-|SupertaggerDep:         tag|-INFO-> 1.67s generated predictions
+2017-04-03 19:42:32,579-|SupertaggerDep:         tag|-INFO-> 1.94s saved as ud-treebanks-conll2017/UD_Portuguese/pt-ud-train-ccg.conllu
+tagging ccg from dep for pt dev
+2017-04-03 19:42:32,594-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:42:41,149-|SupertaggerDep:         tag|-INFO-> 8.55s extracted features
+2017-04-03 19:42:41,149-|SupertaggerDep:         tag|-INFO-> processed 560 sentences
+2017-04-03 19:42:41,543-|SupertaggerDep:         tag|-INFO-> 0.39s vectorized features
+2017-04-03 19:42:41,626-|SupertaggerDep:         tag|-INFO-> 0.08s generated predictions
+2017-04-03 19:42:41,727-|SupertaggerDep:         tag|-INFO-> 0.10s saved as ud-treebanks-conll2017/UD_Portuguese/pt-ud-dev-ccg.conllu
+
+creating ccg tagger for pt
+2017-04-03 19:42:41,729-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 19:43:40,908-|Supertagger:    __init__|-INFO-> 59.18s extracted training features
+2017-04-03 19:43:40,908-|Supertagger:    __init__|-INFO-> processed 8331 sentences
+2017-04-03 19:43:44,734-|Supertagger:    __init__|-INFO-> 3.83s extracted test features
+2017-04-03 19:43:44,734-|Supertagger:    __init__|-INFO-> processed 560 sentences
+2017-04-03 19:43:44,734-|Supertagger:         fit|-INFO-> started training
+2017-04-03 19:48:02,568-|Supertagger:         fit|-INFO-> 257.83s trained model
+2017-04-03 19:48:02,568-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 19:48:02,859-|Supertagger:    evaluate|-INFO-> 0.29s generated predictions
+2017-04-03 19:48:02,873-|Supertagger:    evaluate|-INFO-> Accuracy  : 92.64
+2017-04-03 19:48:02,873-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 19:48:02,887-|Supertagger:        save|-INFO-> saved model to models/pt.pickle
+tagging ccg for pt dev
+2017-04-03 19:48:02,887-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 19:48:03,180-|Supertagger:         tag|-INFO-> 0.29s generated predictions
+2017-04-03 19:48:03,192-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Portuguese/pt-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Portuguese-BR CODE: pt_br
+
+tagging ccg from dep for pt_br train
+2017-04-03 19:48:08,173-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:49:35,783-|SupertaggerDep:         tag|-INFO-> 87.61s extracted features
+2017-04-03 19:49:35,783-|SupertaggerDep:         tag|-INFO-> processed 9664 sentences
+2017-04-03 19:49:45,425-|SupertaggerDep:         tag|-INFO-> 9.64s vectorized features
+2017-04-03 19:49:47,450-|SupertaggerDep:         tag|-INFO-> 2.03s generated predictions
+2017-04-03 19:49:49,787-|SupertaggerDep:         tag|-INFO-> 2.34s saved as ud-treebanks-conll2017/UD_Portuguese-BR/pt_br-ud-train-ccg.conllu
+tagging ccg from dep for pt_br dev
+2017-04-03 19:49:49,807-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:50:06,214-|SupertaggerDep:         tag|-INFO-> 16.41s extracted features
+2017-04-03 19:50:06,214-|SupertaggerDep:         tag|-INFO-> processed 1210 sentences
+2017-04-03 19:50:07,383-|SupertaggerDep:         tag|-INFO-> 1.17s vectorized features
+2017-04-03 19:50:07,638-|SupertaggerDep:         tag|-INFO-> 0.25s generated predictions
+2017-04-03 19:50:07,931-|SupertaggerDep:         tag|-INFO-> 0.29s saved as ud-treebanks-conll2017/UD_Portuguese-BR/pt_br-ud-dev-ccg.conllu
+
+creating ccg tagger for pt_br
+2017-04-03 19:50:07,934-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 19:51:17,928-|Supertagger:    __init__|-INFO-> 69.99s extracted training features
+2017-04-03 19:51:17,928-|Supertagger:    __init__|-INFO-> processed 9664 sentences
+2017-04-03 19:51:27,101-|Supertagger:    __init__|-INFO-> 9.17s extracted test features
+2017-04-03 19:51:27,101-|Supertagger:    __init__|-INFO-> processed 1210 sentences
+2017-04-03 19:51:27,101-|Supertagger:         fit|-INFO-> started training
+2017-04-03 19:56:08,203-|Supertagger:         fit|-INFO-> 281.10s trained model
+2017-04-03 19:56:08,203-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 19:56:08,973-|Supertagger:    evaluate|-INFO-> 0.77s generated predictions
+2017-04-03 19:56:09,021-|Supertagger:    evaluate|-INFO-> Accuracy  : 89.96
+2017-04-03 19:56:09,022-|Supertagger:    evaluate|-INFO-> 0.05s evaluated test data
+2017-04-03 19:56:09,043-|Supertagger:        save|-INFO-> saved model to models/pt_br.pickle
+tagging ccg for pt_br dev
+2017-04-03 19:56:09,043-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 19:56:09,808-|Supertagger:         tag|-INFO-> 0.77s generated predictions
+2017-04-03 19:56:09,840-|Supertagger:         tag|-INFO-> 0.03s saved as ud-treebanks-conll2017/UD_Portuguese-BR/pt_br-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Romanian CODE: ro
+
+tagging ccg from dep for ro train
+2017-04-03 19:56:17,311-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:57:26,713-|SupertaggerDep:         tag|-INFO-> 69.40s extracted features
+2017-04-03 19:57:26,713-|SupertaggerDep:         tag|-INFO-> processed 8043 sentences
+2017-04-03 19:57:33,469-|SupertaggerDep:         tag|-INFO-> 6.76s vectorized features
+2017-04-03 19:57:34,903-|SupertaggerDep:         tag|-INFO-> 1.43s generated predictions
+2017-04-03 19:57:36,531-|SupertaggerDep:         tag|-INFO-> 1.63s saved as ud-treebanks-conll2017/UD_Romanian/ro-ud-train-ccg.conllu
+tagging ccg from dep for ro dev
+2017-04-03 19:57:36,544-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 19:57:46,735-|SupertaggerDep:         tag|-INFO-> 10.19s extracted features
+2017-04-03 19:57:46,735-|SupertaggerDep:         tag|-INFO-> processed 752 sentences
+2017-04-03 19:57:47,357-|SupertaggerDep:         tag|-INFO-> 0.62s vectorized features
+2017-04-03 19:57:47,491-|SupertaggerDep:         tag|-INFO-> 0.13s generated predictions
+2017-04-03 19:57:47,641-|SupertaggerDep:         tag|-INFO-> 0.15s saved as ud-treebanks-conll2017/UD_Romanian/ro-ud-dev-ccg.conllu
+
+creating ccg tagger for ro
+2017-04-03 19:57:47,641-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 19:58:43,714-|Supertagger:    __init__|-INFO-> 56.07s extracted training features
+2017-04-03 19:58:43,714-|Supertagger:    __init__|-INFO-> processed 8043 sentences
+2017-04-03 19:58:49,237-|Supertagger:    __init__|-INFO-> 5.52s extracted test features
+2017-04-03 19:58:49,237-|Supertagger:    __init__|-INFO-> processed 752 sentences
+2017-04-03 19:58:49,237-|Supertagger:         fit|-INFO-> started training
+2017-04-03 20:02:48,848-|Supertagger:         fit|-INFO-> 239.61s trained model
+2017-04-03 20:02:48,849-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 20:02:49,276-|Supertagger:    evaluate|-INFO-> 0.43s generated predictions
+2017-04-03 20:02:49,299-|Supertagger:    evaluate|-INFO-> Accuracy  : 87.37
+2017-04-03 20:02:49,299-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 20:02:49,317-|Supertagger:        save|-INFO-> saved model to models/ro.pickle
+tagging ccg for ro dev
+2017-04-03 20:02:49,317-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 20:02:49,739-|Supertagger:         tag|-INFO-> 0.42s generated predictions
+2017-04-03 20:02:49,758-|Supertagger:         tag|-INFO-> 0.02s saved as ud-treebanks-conll2017/UD_Romanian/ro-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Russian CODE: ru
+
+tagging ccg from dep for ru train
+2017-04-03 20:02:54,661-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 20:03:24,936-|SupertaggerDep:         tag|-INFO-> 30.27s extracted features
+2017-04-03 20:03:24,937-|SupertaggerDep:         tag|-INFO-> processed 3850 sentences
+2017-04-03 20:03:27,670-|SupertaggerDep:         tag|-INFO-> 2.73s vectorized features
+2017-04-03 20:03:28,255-|SupertaggerDep:         tag|-INFO-> 0.59s generated predictions
+2017-04-03 20:03:28,945-|SupertaggerDep:         tag|-INFO-> 0.69s saved as ud-treebanks-conll2017/UD_Russian/ru-ud-train-ccg.conllu
+tagging ccg from dep for ru dev
+2017-04-03 20:03:28,952-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 20:03:34,672-|SupertaggerDep:         tag|-INFO-> 5.72s extracted features
+2017-04-03 20:03:34,672-|SupertaggerDep:         tag|-INFO-> processed 579 sentences
+2017-04-03 20:03:35,106-|SupertaggerDep:         tag|-INFO-> 0.43s vectorized features
+2017-04-03 20:03:35,197-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 20:03:35,302-|SupertaggerDep:         tag|-INFO-> 0.10s saved as ud-treebanks-conll2017/UD_Russian/ru-ud-dev-ccg.conllu
+
+creating ccg tagger for ru
+2017-04-03 20:03:35,303-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 20:04:00,792-|Supertagger:    __init__|-INFO-> 25.49s extracted training features
+2017-04-03 20:04:00,792-|Supertagger:    __init__|-INFO-> processed 3850 sentences
+2017-04-03 20:04:04,790-|Supertagger:    __init__|-INFO-> 4.00s extracted test features
+2017-04-03 20:04:04,790-|Supertagger:    __init__|-INFO-> processed 579 sentences
+2017-04-03 20:04:04,790-|Supertagger:         fit|-INFO-> started training
+2017-04-03 20:05:01,946-|Supertagger:         fit|-INFO-> 57.16s trained model
+2017-04-03 20:05:01,947-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 20:05:02,189-|Supertagger:    evaluate|-INFO-> 0.24s generated predictions
+2017-04-03 20:05:02,204-|Supertagger:    evaluate|-INFO-> Accuracy  : 89.74
+2017-04-03 20:05:02,204-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 20:05:02,212-|Supertagger:        save|-INFO-> saved model to models/ru.pickle
+tagging ccg for ru dev
+2017-04-03 20:05:02,212-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 20:05:02,454-|Supertagger:         tag|-INFO-> 0.24s generated predictions
+2017-04-03 20:05:02,467-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Russian/ru-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Russian-SynTagRus CODE: ru_syntagrus
+
+tagging ccg from dep for ru_syntagrus train
+2017-04-03 20:05:03,935-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 20:11:31,295-|SupertaggerDep:         tag|-INFO-> 387.36s extracted features
+2017-04-03 20:11:31,295-|SupertaggerDep:         tag|-INFO-> processed 48814 sentences
+2017-04-03 20:11:59,806-|SupertaggerDep:         tag|-INFO-> 28.51s vectorized features
+2017-04-03 20:12:06,091-|SupertaggerDep:         tag|-INFO-> 6.28s generated predictions
+2017-04-03 20:12:14,045-|SupertaggerDep:         tag|-INFO-> 7.95s saved as ud-treebanks-conll2017/UD_Russian-SynTagRus/ru_syntagrus-ud-train-ccg.conllu
+tagging ccg from dep for ru_syntagrus dev
+2017-04-03 20:12:14,102-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 20:15:34,255-|SupertaggerDep:         tag|-INFO-> 200.15s extracted features
+2017-04-03 20:15:34,255-|SupertaggerDep:         tag|-INFO-> processed 6584 sentences
+2017-04-03 20:15:38,140-|SupertaggerDep:         tag|-INFO-> 3.88s vectorized features
+2017-04-03 20:15:38,996-|SupertaggerDep:         tag|-INFO-> 0.86s generated predictions
+2017-04-03 20:15:40,072-|SupertaggerDep:         tag|-INFO-> 1.08s saved as ud-treebanks-conll2017/UD_Russian-SynTagRus/ru_syntagrus-ud-dev-ccg.conllu
+
+creating ccg tagger for ru_syntagrus
+2017-04-03 20:15:40,083-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 20:21:44,585-|Supertagger:    __init__|-INFO-> 364.50s extracted training features
+2017-04-03 20:21:44,585-|Supertagger:    __init__|-INFO-> processed 48814 sentences
+2017-04-03 20:22:41,350-|Supertagger:    __init__|-INFO-> 56.77s extracted test features
+2017-04-03 20:22:41,350-|Supertagger:    __init__|-INFO-> processed 6584 sentences
+2017-04-03 20:22:41,350-|Supertagger:         fit|-INFO-> started training
+2017-04-03 20:47:16,196-|Supertagger:         fit|-INFO-> 1474.85s trained model
+2017-04-03 20:47:16,196-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 20:47:19,984-|Supertagger:    evaluate|-INFO-> 3.79s generated predictions
+2017-04-03 20:47:20,266-|Supertagger:    evaluate|-INFO-> Accuracy  : 85.97
+2017-04-03 20:47:20,266-|Supertagger:    evaluate|-INFO-> 0.28s evaluated test data
+2017-04-03 20:47:20,338-|Supertagger:        save|-INFO-> saved model to models/ru_syntagrus.pickle
+tagging ccg for ru_syntagrus dev
+2017-04-03 20:47:20,338-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 20:47:24,119-|Supertagger:         tag|-INFO-> 3.78s generated predictions
+2017-04-03 20:47:24,259-|Supertagger:         tag|-INFO-> 0.14s saved as ud-treebanks-conll2017/UD_Russian-SynTagRus/ru_syntagrus-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Slovak CODE: sk
+
+tagging ccg from dep for sk train
+2017-04-03 20:51:20,560-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 20:52:15,841-|SupertaggerDep:         tag|-INFO-> 55.28s extracted features
+2017-04-03 20:52:15,841-|SupertaggerDep:         tag|-INFO-> processed 8483 sentences
+2017-04-03 20:52:18,431-|SupertaggerDep:         tag|-INFO-> 2.59s vectorized features
+2017-04-03 20:52:19,004-|SupertaggerDep:         tag|-INFO-> 0.57s generated predictions
+2017-04-03 20:52:19,804-|SupertaggerDep:         tag|-INFO-> 0.80s saved as ud-treebanks-conll2017/UD_Slovak/sk-ud-train-ccg.conllu
+tagging ccg from dep for sk dev
+2017-04-03 20:52:19,811-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 20:52:29,802-|SupertaggerDep:         tag|-INFO-> 9.99s extracted features
+2017-04-03 20:52:29,802-|SupertaggerDep:         tag|-INFO-> processed 1060 sentences
+2017-04-03 20:52:30,201-|SupertaggerDep:         tag|-INFO-> 0.40s vectorized features
+2017-04-03 20:52:30,288-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 20:52:30,406-|SupertaggerDep:         tag|-INFO-> 0.12s saved as ud-treebanks-conll2017/UD_Slovak/sk-ud-dev-ccg.conllu
+
+creating ccg tagger for sk
+2017-04-03 20:52:30,407-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 20:53:21,209-|Supertagger:    __init__|-INFO-> 50.80s extracted training features
+2017-04-03 20:53:21,209-|Supertagger:    __init__|-INFO-> processed 8483 sentences
+2017-04-03 20:53:27,994-|Supertagger:    __init__|-INFO-> 6.79s extracted test features
+2017-04-03 20:53:27,994-|Supertagger:    __init__|-INFO-> processed 1060 sentences
+2017-04-03 20:53:27,994-|Supertagger:         fit|-INFO-> started training
+2017-04-03 20:54:30,692-|Supertagger:         fit|-INFO-> 62.70s trained model
+2017-04-03 20:54:30,693-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 20:54:30,926-|Supertagger:    evaluate|-INFO-> 0.23s generated predictions
+2017-04-03 20:54:30,949-|Supertagger:    evaluate|-INFO-> Accuracy  : 88.78
+2017-04-03 20:54:30,949-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 20:54:30,959-|Supertagger:        save|-INFO-> saved model to models/sk.pickle
+tagging ccg for sk dev
+2017-04-03 20:54:30,959-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 20:54:31,195-|Supertagger:         tag|-INFO-> 0.24s generated predictions
+2017-04-03 20:54:31,209-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Slovak/sk-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Slovenian CODE: sl
+
+tagging ccg from dep for sl train
+2017-04-03 20:54:36,155-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 20:55:28,573-|SupertaggerDep:         tag|-INFO-> 52.42s extracted features
+2017-04-03 20:55:28,574-|SupertaggerDep:         tag|-INFO-> processed 6478 sentences
+2017-04-03 20:55:32,856-|SupertaggerDep:         tag|-INFO-> 4.28s vectorized features
+2017-04-03 20:55:33,758-|SupertaggerDep:         tag|-INFO-> 0.90s generated predictions
+2017-04-03 20:55:34,806-|SupertaggerDep:         tag|-INFO-> 1.05s saved as ud-treebanks-conll2017/UD_Slovenian/sl-ud-train-ccg.conllu
+tagging ccg from dep for sl dev
+2017-04-03 20:55:34,818-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 20:55:43,602-|SupertaggerDep:         tag|-INFO-> 8.78s extracted features
+2017-04-03 20:55:43,602-|SupertaggerDep:         tag|-INFO-> processed 734 sentences
+2017-04-03 20:55:44,140-|SupertaggerDep:         tag|-INFO-> 0.54s vectorized features
+2017-04-03 20:55:44,255-|SupertaggerDep:         tag|-INFO-> 0.11s generated predictions
+2017-04-03 20:55:44,383-|SupertaggerDep:         tag|-INFO-> 0.13s saved as ud-treebanks-conll2017/UD_Slovenian/sl-ud-dev-ccg.conllu
+
+creating ccg tagger for sl
+2017-04-03 20:55:44,383-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 20:56:27,062-|Supertagger:    __init__|-INFO-> 42.68s extracted training features
+2017-04-03 20:56:27,062-|Supertagger:    __init__|-INFO-> processed 6478 sentences
+2017-04-03 20:56:32,038-|Supertagger:    __init__|-INFO-> 4.98s extracted test features
+2017-04-03 20:56:32,038-|Supertagger:    __init__|-INFO-> processed 734 sentences
+2017-04-03 20:56:32,038-|Supertagger:         fit|-INFO-> started training
+2017-04-03 20:57:54,842-|Supertagger:         fit|-INFO-> 82.80s trained model
+2017-04-03 20:57:54,842-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 20:57:55,119-|Supertagger:    evaluate|-INFO-> 0.28s generated predictions
+2017-04-03 20:57:55,144-|Supertagger:    evaluate|-INFO-> Accuracy  : 89.01
+2017-04-03 20:57:55,144-|Supertagger:    evaluate|-INFO-> 0.03s evaluated test data
+2017-04-03 20:57:55,154-|Supertagger:        save|-INFO-> saved model to models/sl.pickle
+tagging ccg for sl dev
+2017-04-03 20:57:55,154-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 20:57:55,427-|Supertagger:         tag|-INFO-> 0.27s generated predictions
+2017-04-03 20:57:55,443-|Supertagger:         tag|-INFO-> 0.02s saved as ud-treebanks-conll2017/UD_Slovenian/sl-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Spanish CODE: es
+
+tagging ccg from dep for es train
+2017-04-03 20:57:58,589-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:00:10,284-|SupertaggerDep:         tag|-INFO-> 131.69s extracted features
+2017-04-03 21:00:10,284-|SupertaggerDep:         tag|-INFO-> processed 14187 sentences
+2017-04-03 21:00:25,186-|SupertaggerDep:         tag|-INFO-> 14.90s vectorized features
+2017-04-03 21:00:28,245-|SupertaggerDep:         tag|-INFO-> 3.06s generated predictions
+2017-04-03 21:00:31,596-|SupertaggerDep:         tag|-INFO-> 3.35s saved as ud-treebanks-conll2017/UD_Spanish/es-ud-train-ccg.conllu
+tagging ccg from dep for es dev
+2017-04-03 21:00:31,625-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:00:56,812-|SupertaggerDep:         tag|-INFO-> 25.19s extracted features
+2017-04-03 21:00:56,812-|SupertaggerDep:         tag|-INFO-> processed 1400 sentences
+2017-04-03 21:00:58,223-|SupertaggerDep:         tag|-INFO-> 1.41s vectorized features
+2017-04-03 21:00:58,524-|SupertaggerDep:         tag|-INFO-> 0.30s generated predictions
+2017-04-03 21:00:58,848-|SupertaggerDep:         tag|-INFO-> 0.32s saved as ud-treebanks-conll2017/UD_Spanish/es-ud-dev-ccg.conllu
+
+creating ccg tagger for es
+2017-04-03 21:00:58,851-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 21:02:42,261-|Supertagger:    __init__|-INFO-> 103.41s extracted training features
+2017-04-03 21:02:42,261-|Supertagger:    __init__|-INFO-> processed 14187 sentences
+2017-04-03 21:02:52,745-|Supertagger:    __init__|-INFO-> 10.48s extracted test features
+2017-04-03 21:02:52,745-|Supertagger:    __init__|-INFO-> processed 1400 sentences
+2017-04-03 21:02:52,745-|Supertagger:         fit|-INFO-> started training
+2017-04-03 21:11:16,197-|Supertagger:         fit|-INFO-> 503.45s trained model
+2017-04-03 21:11:16,197-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 21:11:17,178-|Supertagger:    evaluate|-INFO-> 0.98s generated predictions
+2017-04-03 21:11:17,233-|Supertagger:    evaluate|-INFO-> Accuracy  : 89.70
+2017-04-03 21:11:17,233-|Supertagger:    evaluate|-INFO-> 0.05s evaluated test data
+2017-04-03 21:11:17,259-|Supertagger:        save|-INFO-> saved model to models/es.pickle
+tagging ccg for es dev
+2017-04-03 21:11:17,259-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 21:11:18,245-|Supertagger:         tag|-INFO-> 0.99s generated predictions
+2017-04-03 21:11:18,280-|Supertagger:         tag|-INFO-> 0.04s saved as ud-treebanks-conll2017/UD_Spanish/es-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Spanish-AnCora CODE: es_ancora
+
+tagging ccg from dep for es_ancora train
+2017-04-03 21:11:32,836-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:13:56,992-|SupertaggerDep:         tag|-INFO-> 144.16s extracted features
+2017-04-03 21:13:56,992-|SupertaggerDep:         tag|-INFO-> processed 14305 sentences
+2017-04-03 21:14:14,576-|SupertaggerDep:         tag|-INFO-> 17.58s vectorized features
+2017-04-03 21:14:18,210-|SupertaggerDep:         tag|-INFO-> 3.63s generated predictions
+2017-04-03 21:14:22,001-|SupertaggerDep:         tag|-INFO-> 3.79s saved as ud-treebanks-conll2017/UD_Spanish-AnCora/es_ancora-ud-train-ccg.conllu
+tagging ccg from dep for es_ancora dev
+2017-04-03 21:14:22,035-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:14:50,678-|SupertaggerDep:         tag|-INFO-> 28.64s extracted features
+2017-04-03 21:14:50,678-|SupertaggerDep:         tag|-INFO-> processed 1654 sentences
+2017-04-03 21:14:52,732-|SupertaggerDep:         tag|-INFO-> 2.05s vectorized features
+2017-04-03 21:14:53,161-|SupertaggerDep:         tag|-INFO-> 0.43s generated predictions
+2017-04-03 21:14:53,609-|SupertaggerDep:         tag|-INFO-> 0.45s saved as ud-treebanks-conll2017/UD_Spanish-AnCora/es_ancora-ud-dev-ccg.conllu
+
+creating ccg tagger for es_ancora
+2017-04-03 21:14:53,613-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 21:16:43,063-|Supertagger:    __init__|-INFO-> 109.45s extracted training features
+2017-04-03 21:16:43,063-|Supertagger:    __init__|-INFO-> processed 14305 sentences
+2017-04-03 21:16:56,049-|Supertagger:    __init__|-INFO-> 12.99s extracted test features
+2017-04-03 21:16:56,050-|Supertagger:    __init__|-INFO-> processed 1654 sentences
+2017-04-03 21:16:56,050-|Supertagger:         fit|-INFO-> started training
+2017-04-03 21:26:30,919-|Supertagger:         fit|-INFO-> 574.87s trained model
+2017-04-03 21:26:30,919-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 21:26:32,325-|Supertagger:    evaluate|-INFO-> 1.41s generated predictions
+2017-04-03 21:26:32,411-|Supertagger:    evaluate|-INFO-> Accuracy  : 87.76
+2017-04-03 21:26:32,411-|Supertagger:    evaluate|-INFO-> 0.09s evaluated test data
+2017-04-03 21:26:32,435-|Supertagger:        save|-INFO-> saved model to models/es_ancora.pickle
+tagging ccg for es_ancora dev
+2017-04-03 21:26:32,436-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 21:26:33,823-|Supertagger:         tag|-INFO-> 1.39s generated predictions
+2017-04-03 21:26:33,876-|Supertagger:         tag|-INFO-> 0.05s saved as ud-treebanks-conll2017/UD_Spanish-AnCora/es_ancora-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Swedish CODE: sv
+
+tagging ccg from dep for sv train
+2017-04-03 21:26:50,272-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:27:22,531-|SupertaggerDep:         tag|-INFO-> 32.26s extracted features
+2017-04-03 21:27:22,531-|SupertaggerDep:         tag|-INFO-> processed 4303 sentences
+2017-04-03 21:27:25,011-|SupertaggerDep:         tag|-INFO-> 2.48s vectorized features
+2017-04-03 21:27:25,537-|SupertaggerDep:         tag|-INFO-> 0.53s generated predictions
+2017-04-03 21:27:26,144-|SupertaggerDep:         tag|-INFO-> 0.61s saved as ud-treebanks-conll2017/UD_Swedish/sv-ud-train-ccg.conllu
+tagging ccg from dep for sv dev
+2017-04-03 21:27:26,150-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:27:31,433-|SupertaggerDep:         tag|-INFO-> 5.28s extracted features
+2017-04-03 21:27:31,434-|SupertaggerDep:         tag|-INFO-> processed 504 sentences
+2017-04-03 21:27:31,820-|SupertaggerDep:         tag|-INFO-> 0.39s vectorized features
+2017-04-03 21:27:31,899-|SupertaggerDep:         tag|-INFO-> 0.08s generated predictions
+2017-04-03 21:27:31,984-|SupertaggerDep:         tag|-INFO-> 0.08s saved as ud-treebanks-conll2017/UD_Swedish/sv-ud-dev-ccg.conllu
+
+creating ccg tagger for sv
+2017-04-03 21:27:31,985-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 21:27:59,212-|Supertagger:    __init__|-INFO-> 27.23s extracted training features
+2017-04-03 21:27:59,213-|Supertagger:    __init__|-INFO-> processed 4303 sentences
+2017-04-03 21:28:02,546-|Supertagger:    __init__|-INFO-> 3.33s extracted test features
+2017-04-03 21:28:02,546-|Supertagger:    __init__|-INFO-> processed 504 sentences
+2017-04-03 21:28:02,546-|Supertagger:         fit|-INFO-> started training
+2017-04-03 21:29:06,436-|Supertagger:         fit|-INFO-> 63.89s trained model
+2017-04-03 21:29:06,436-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 21:29:06,656-|Supertagger:    evaluate|-INFO-> 0.22s generated predictions
+2017-04-03 21:29:06,670-|Supertagger:    evaluate|-INFO-> Accuracy  : 84.49
+2017-04-03 21:29:06,670-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 21:29:06,676-|Supertagger:        save|-INFO-> saved model to models/sv.pickle
+tagging ccg for sv dev
+2017-04-03 21:29:06,676-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 21:29:06,897-|Supertagger:         tag|-INFO-> 0.22s generated predictions
+2017-04-03 21:29:06,908-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Swedish/sv-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Swedish-LinES CODE: sv_lines
+
+tagging ccg from dep for sv_lines train
+2017-04-03 21:29:08,434-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:29:30,444-|SupertaggerDep:         tag|-INFO-> 22.01s extracted features
+2017-04-03 21:29:30,444-|SupertaggerDep:         tag|-INFO-> processed 2738 sentences
+2017-04-03 21:29:32,321-|SupertaggerDep:         tag|-INFO-> 1.88s vectorized features
+2017-04-03 21:29:32,720-|SupertaggerDep:         tag|-INFO-> 0.40s generated predictions
+2017-04-03 21:29:33,146-|SupertaggerDep:         tag|-INFO-> 0.43s saved as ud-treebanks-conll2017/UD_Swedish-LinES/sv_lines-ud-train-ccg.conllu
+tagging ccg from dep for sv_lines dev
+2017-04-03 21:29:33,150-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:29:40,930-|SupertaggerDep:         tag|-INFO-> 7.78s extracted features
+2017-04-03 21:29:40,930-|SupertaggerDep:         tag|-INFO-> processed 912 sentences
+2017-04-03 21:29:41,573-|SupertaggerDep:         tag|-INFO-> 0.64s vectorized features
+2017-04-03 21:29:41,711-|SupertaggerDep:         tag|-INFO-> 0.14s generated predictions
+2017-04-03 21:29:41,853-|SupertaggerDep:         tag|-INFO-> 0.14s saved as ud-treebanks-conll2017/UD_Swedish-LinES/sv_lines-ud-dev-ccg.conllu
+
+creating ccg tagger for sv_lines
+2017-04-03 21:29:41,854-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 21:29:59,620-|Supertagger:    __init__|-INFO-> 17.77s extracted training features
+2017-04-03 21:29:59,620-|Supertagger:    __init__|-INFO-> processed 2738 sentences
+2017-04-03 21:30:05,542-|Supertagger:    __init__|-INFO-> 5.92s extracted test features
+2017-04-03 21:30:05,542-|Supertagger:    __init__|-INFO-> processed 912 sentences
+2017-04-03 21:30:05,542-|Supertagger:         fit|-INFO-> started training
+2017-04-03 21:30:41,527-|Supertagger:         fit|-INFO-> 35.99s trained model
+2017-04-03 21:30:41,527-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 21:30:41,851-|Supertagger:    evaluate|-INFO-> 0.32s generated predictions
+2017-04-03 21:30:41,875-|Supertagger:    evaluate|-INFO-> Accuracy  : 85.29
+2017-04-03 21:30:41,875-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 21:30:41,878-|Supertagger:        save|-INFO-> saved model to models/sv_lines.pickle
+tagging ccg for sv_lines dev
+2017-04-03 21:30:41,878-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 21:30:42,204-|Supertagger:         tag|-INFO-> 0.33s generated predictions
+2017-04-03 21:30:42,221-|Supertagger:         tag|-INFO-> 0.02s saved as ud-treebanks-conll2017/UD_Swedish-LinES/sv_lines-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Turkish CODE: tr
+
+tagging ccg from dep for tr train
+2017-04-03 21:30:43,198-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:31:05,527-|SupertaggerDep:         tag|-INFO-> 22.33s extracted features
+2017-04-03 21:31:05,527-|SupertaggerDep:         tag|-INFO-> processed 3685 sentences
+2017-04-03 21:31:06,735-|SupertaggerDep:         tag|-INFO-> 1.21s vectorized features
+2017-04-03 21:31:07,007-|SupertaggerDep:         tag|-INFO-> 0.27s generated predictions
+2017-04-03 21:31:07,386-|SupertaggerDep:         tag|-INFO-> 0.38s saved as ud-treebanks-conll2017/UD_Turkish/tr-ud-train-ccg.conllu
+tagging ccg from dep for tr dev
+2017-04-03 21:31:07,390-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:31:13,899-|SupertaggerDep:         tag|-INFO-> 6.51s extracted features
+2017-04-03 21:31:13,899-|SupertaggerDep:         tag|-INFO-> processed 975 sentences
+2017-04-03 21:31:14,212-|SupertaggerDep:         tag|-INFO-> 0.31s vectorized features
+2017-04-03 21:31:14,282-|SupertaggerDep:         tag|-INFO-> 0.07s generated predictions
+2017-04-03 21:31:14,379-|SupertaggerDep:         tag|-INFO-> 0.10s saved as ud-treebanks-conll2017/UD_Turkish/tr-ud-dev-ccg.conllu
+
+creating ccg tagger for tr
+2017-04-03 21:31:14,380-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 21:31:36,490-|Supertagger:    __init__|-INFO-> 22.11s extracted training features
+2017-04-03 21:31:36,490-|Supertagger:    __init__|-INFO-> processed 3685 sentences
+2017-04-03 21:31:42,322-|Supertagger:    __init__|-INFO-> 5.83s extracted test features
+2017-04-03 21:31:42,322-|Supertagger:    __init__|-INFO-> processed 975 sentences
+2017-04-03 21:31:42,322-|Supertagger:         fit|-INFO-> started training
+2017-04-03 21:32:18,209-|Supertagger:         fit|-INFO-> 35.89s trained model
+2017-04-03 21:32:18,209-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 21:32:18,414-|Supertagger:    evaluate|-INFO-> 0.20s generated predictions
+2017-04-03 21:32:18,427-|Supertagger:    evaluate|-INFO-> Accuracy  : 77.54
+2017-04-03 21:32:18,427-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 21:32:18,435-|Supertagger:        save|-INFO-> saved model to models/tr.pickle
+tagging ccg for tr dev
+2017-04-03 21:32:18,435-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 21:32:18,638-|Supertagger:         tag|-INFO-> 0.20s generated predictions
+2017-04-03 21:32:18,650-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Turkish/tr-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Urdu CODE: ur
+
+tagging ccg from dep for ur train
+2017-04-03 21:32:19,997-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:32:59,779-|SupertaggerDep:         tag|-INFO-> 39.78s extracted features
+2017-04-03 21:32:59,779-|SupertaggerDep:         tag|-INFO-> processed 4043 sentences
+2017-04-03 21:33:04,221-|SupertaggerDep:         tag|-INFO-> 4.44s vectorized features
+2017-04-03 21:33:05,135-|SupertaggerDep:         tag|-INFO-> 0.91s generated predictions
+2017-04-03 21:33:06,136-|SupertaggerDep:         tag|-INFO-> 1.00s saved as ud-treebanks-conll2017/UD_Urdu/ur-ud-train-ccg.conllu
+tagging ccg from dep for ur dev
+2017-04-03 21:33:06,146-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:33:12,801-|SupertaggerDep:         tag|-INFO-> 6.65s extracted features
+2017-04-03 21:33:12,801-|SupertaggerDep:         tag|-INFO-> processed 552 sentences
+2017-04-03 21:33:13,390-|SupertaggerDep:         tag|-INFO-> 0.59s vectorized features
+2017-04-03 21:33:13,515-|SupertaggerDep:         tag|-INFO-> 0.12s generated predictions
+2017-04-03 21:33:13,650-|SupertaggerDep:         tag|-INFO-> 0.14s saved as ud-treebanks-conll2017/UD_Urdu/ur-ud-dev-ccg.conllu
+
+creating ccg tagger for ur
+2017-04-03 21:33:13,650-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 21:33:43,221-|Supertagger:    __init__|-INFO-> 29.57s extracted training features
+2017-04-03 21:33:43,221-|Supertagger:    __init__|-INFO-> processed 4043 sentences
+2017-04-03 21:33:47,289-|Supertagger:    __init__|-INFO-> 4.07s extracted test features
+2017-04-03 21:33:47,289-|Supertagger:    __init__|-INFO-> processed 552 sentences
+2017-04-03 21:33:47,289-|Supertagger:         fit|-INFO-> started training
+2017-04-03 21:35:53,802-|Supertagger:         fit|-INFO-> 126.51s trained model
+2017-04-03 21:35:53,802-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 21:35:54,132-|Supertagger:    evaluate|-INFO-> 0.33s generated predictions
+2017-04-03 21:35:54,150-|Supertagger:    evaluate|-INFO-> Accuracy  : 82.97
+2017-04-03 21:35:54,150-|Supertagger:    evaluate|-INFO-> 0.02s evaluated test data
+2017-04-03 21:35:54,160-|Supertagger:        save|-INFO-> saved model to models/ur.pickle
+tagging ccg for ur dev
+2017-04-03 21:35:54,160-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 21:35:54,488-|Supertagger:         tag|-INFO-> 0.33s generated predictions
+2017-04-03 21:35:54,504-|Supertagger:         tag|-INFO-> 0.02s saved as ud-treebanks-conll2017/UD_Urdu/ur-ud-dev-ccg-2.col
+
+LANGUAGE: UD_Vietnamese CODE: vi
+
+tagging ccg from dep for vi train
+2017-04-03 21:35:56,315-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:36:07,056-|SupertaggerDep:         tag|-INFO-> 10.74s extracted features
+2017-04-03 21:36:07,056-|SupertaggerDep:         tag|-INFO-> processed 1400 sentences
+2017-04-03 21:36:07,819-|SupertaggerDep:         tag|-INFO-> 0.76s vectorized features
+2017-04-03 21:36:07,983-|SupertaggerDep:         tag|-INFO-> 0.16s generated predictions
+2017-04-03 21:36:08,170-|SupertaggerDep:         tag|-INFO-> 0.19s saved as ud-treebanks-conll2017/UD_Vietnamese/vi-ud-train-ccg.conllu
+tagging ccg from dep for vi dev
+2017-04-03 21:36:08,170-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 21:36:14,427-|SupertaggerDep:         tag|-INFO-> 6.26s extracted features
+2017-04-03 21:36:14,427-|SupertaggerDep:         tag|-INFO-> processed 800 sentences
+2017-04-03 21:36:14,863-|SupertaggerDep:         tag|-INFO-> 0.44s vectorized features
+2017-04-03 21:36:14,954-|SupertaggerDep:         tag|-INFO-> 0.09s generated predictions
+2017-04-03 21:36:15,058-|SupertaggerDep:         tag|-INFO-> 0.10s saved as ud-treebanks-conll2017/UD_Vietnamese/vi-ud-dev-ccg.conllu
+
+creating ccg tagger for vi
+2017-04-03 21:36:15,059-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 21:36:23,788-|Supertagger:    __init__|-INFO-> 8.73s extracted training features
+2017-04-03 21:36:23,788-|Supertagger:    __init__|-INFO-> processed 1400 sentences
+2017-04-03 21:36:28,757-|Supertagger:    __init__|-INFO-> 4.97s extracted test features
+2017-04-03 21:36:28,757-|Supertagger:    __init__|-INFO-> processed 800 sentences
+2017-04-03 21:36:28,757-|Supertagger:         fit|-INFO-> started training
+2017-04-03 21:36:39,435-|Supertagger:         fit|-INFO-> 10.68s trained model
+2017-04-03 21:36:39,435-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 21:36:39,631-|Supertagger:    evaluate|-INFO-> 0.20s generated predictions
+2017-04-03 21:36:39,646-|Supertagger:    evaluate|-INFO-> Accuracy  : 78.82
+2017-04-03 21:36:39,646-|Supertagger:    evaluate|-INFO-> 0.01s evaluated test data
+2017-04-03 21:36:39,649-|Supertagger:        save|-INFO-> saved model to models/vi.pickle
+tagging ccg for vi dev
+2017-04-03 21:36:39,649-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 21:36:39,849-|Supertagger:         tag|-INFO-> 0.20s generated predictions
+2017-04-03 21:36:39,862-|Supertagger:         tag|-INFO-> 0.01s saved as ud-treebanks-conll2017/UD_Vietnamese/vi-ud-dev-ccg-2.col
+

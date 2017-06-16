@@ -1,0 +1,35 @@
+LANGUAGE: UD_Russian-SynTagRus CODE: ru_syntagrus
+
+tagging ccg from dep for ru_syntagrus train
+2017-04-03 13:16:39,364-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 13:23:06,197-|SupertaggerDep:         tag|-INFO-> 386.83s extracted features
+2017-04-03 13:23:06,197-|SupertaggerDep:         tag|-INFO-> processed 48814 sentences
+2017-04-03 13:23:33,463-|SupertaggerDep:         tag|-INFO-> 27.27s vectorized features
+2017-04-03 13:23:39,713-|SupertaggerDep:         tag|-INFO-> 6.25s generated predictions
+2017-04-03 13:23:47,456-|SupertaggerDep:         tag|-INFO-> 7.74s saved as ud-treebanks-conll2017/UD_Russian-SynTagRus/ru_syntagrus-ud-train-ccg.conllu
+tagging ccg from dep for ru_syntagrus dev
+2017-04-03 13:23:47,521-|SupertaggerDep:         tag|-INFO-> started tagging
+2017-04-03 13:27:04,882-|SupertaggerDep:         tag|-INFO-> 197.36s extracted features
+2017-04-03 13:27:04,882-|SupertaggerDep:         tag|-INFO-> processed 6584 sentences
+2017-04-03 13:27:08,681-|SupertaggerDep:         tag|-INFO-> 3.80s vectorized features
+2017-04-03 13:27:09,538-|SupertaggerDep:         tag|-INFO-> 0.86s generated predictions
+2017-04-03 13:27:10,596-|SupertaggerDep:         tag|-INFO-> 1.06s saved as ud-treebanks-conll2017/UD_Russian-SynTagRus/ru_syntagrus-ud-dev-ccg.conllu
+
+creating ccg tagger for ru_syntagrus
+2017-04-03 13:27:10,607-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-04-03 13:33:14,248-|Supertagger:    __init__|-INFO-> 363.64s extracted training features
+2017-04-03 13:33:14,248-|Supertagger:    __init__|-INFO-> processed 48814 sentences
+2017-04-03 13:34:10,722-|Supertagger:    __init__|-INFO-> 56.47s extracted test features
+2017-04-03 13:34:10,722-|Supertagger:    __init__|-INFO-> processed 6584 sentences
+2017-04-03 13:34:10,722-|Supertagger:         fit|-INFO-> started training
+2017-04-03 13:58:40,366-|Supertagger:         fit|-INFO-> 1469.64s trained model
+2017-04-03 13:58:40,366-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-04-03 13:58:44,136-|Supertagger:    evaluate|-INFO-> 3.77s generated predictions
+2017-04-03 13:58:44,423-|Supertagger:    evaluate|-INFO-> Accuracy  : 85.97
+2017-04-03 13:58:44,423-|Supertagger:    evaluate|-INFO-> 0.29s evaluated test data
+85.9733998618
+2017-04-03 13:58:44,491-|Supertagger:        save|-INFO-> saved model to models/ru_syntagrus.pickle
+tagging ccg for ru_syntagrus dev
+2017-04-03 13:58:44,491-|Supertagger:         tag|-INFO-> started evaluation
+2017-04-03 13:58:48,261-|Supertagger:         tag|-INFO-> 3.77s generated predictions
+2017-04-03 13:58:48,398-|Supertagger:         tag|-INFO-> 0.14s saved as ud-treebanks-conll2017/UD_Russian-SynTagRus/ru_syntagrus-ud-dev-ccg-2.col
