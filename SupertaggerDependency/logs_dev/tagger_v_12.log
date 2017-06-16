@@ -1,0 +1,17 @@
+CoNLL_UD_12
+2017-02-28 16:09:39,781-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-02-28 16:11:51,855-|Supertagger:    __init__|-INFO-> 132.07s extracted training features
+2017-02-28 16:11:51,855-|Supertagger:    __init__|-INFO-> processed 7807 sentences
+2017-02-28 16:12:25,331-|Supertagger:    __init__|-INFO-> 33.48s extracted test features
+2017-02-28 16:12:25,331-|Supertagger:    __init__|-INFO-> processed 1904 sentences
+2017-02-28 16:12:25,332-|Supertagger:         fit|-INFO-> started training
+2017-02-28 16:12:41,077-|Supertagger:         fit|-INFO-> 2599 features
+2017-02-28 16:12:41,077-|Supertagger:         fit|-INFO-> 15.75s vectorized features
+2017-02-28 16:33:57,259-|Supertagger:         fit|-INFO-> 1276.18s trained model
+2017-02-28 16:33:57,278-|Supertagger:        save|-INFO-> saved model to models_dev/supertagger_12.pickle
+2017-02-28 16:33:57,278-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-02-28 16:34:01,116-|Supertagger:    evaluate|-INFO-> 3.84s vectorized features
+2017-02-28 16:34:01,550-|Supertagger:    evaluate|-INFO-> 0.43s generated predictions
+2017-02-28 16:34:01,688-|Supertagger:    evaluate|-INFO-> Accuracy  : 92.64
+2017-02-28 16:34:01,688-|Supertagger:    evaluate|-INFO-> 0.14s evaluated test data
+

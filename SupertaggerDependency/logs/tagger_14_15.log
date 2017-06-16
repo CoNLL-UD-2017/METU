@@ -1,0 +1,39 @@
+CoNLL_UD_14
+2017-03-02 12:56:50,640-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-03-02 13:05:19,569-|Supertagger:    __init__|-INFO-> 508.93s extracted training features
+2017-03-02 13:05:19,569-|Supertagger:    __init__|-INFO-> processed 39443 sentences
+2017-03-02 13:05:50,196-|Supertagger:    __init__|-INFO-> 30.63s extracted test features
+2017-03-02 13:05:50,196-|Supertagger:    __init__|-INFO-> processed 1904 sentences
+2017-03-02 13:05:50,196-|Supertagger:         fit|-INFO-> started training
+2017-03-02 13:06:37,742-|Supertagger:         fit|-INFO-> 1882 features
+2017-03-02 13:06:37,742-|Supertagger:         fit|-INFO-> 47.55s vectorized features
+2017-03-02 15:29:19,132-|Supertagger:         fit|-INFO-> 8561.39s trained model
+2017-03-02 15:29:19,160-|Supertagger:        save|-INFO-> saved model to models/supertagger_14.pickle
+2017-03-02 15:29:19,160-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-03-02 15:29:21,217-|Supertagger:    evaluate|-INFO-> 2.06s vectorized features
+2017-03-02 15:29:21,613-|Supertagger:    evaluate|-INFO-> 0.40s generated predictions
+2017-03-02 15:29:21,832-|Supertagger:    evaluate|-INFO-> Accuracy  : 91.75
+2017-03-02 15:29:21,832-|Supertagger:    evaluate|-INFO-> 0.22s evaluated test data
+
+CoNLL_UD_15
+2017-03-02 15:29:21,837-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-03-02 15:29:21,837-|Supertagger:    __init__|-INFO-> started feature extraction
+2017-03-02 15:36:14,056-|Supertagger:    __init__|-INFO-> 412.22s extracted training features
+2017-03-02 15:36:14,056-|Supertagger:    __init__|-INFO-> 412.22s extracted training features
+2017-03-02 15:36:14,056-|Supertagger:    __init__|-INFO-> processed 39443 sentences
+2017-03-02 15:36:14,056-|Supertagger:    __init__|-INFO-> processed 39443 sentences
+2017-03-02 15:36:35,493-|Supertagger:    __init__|-INFO-> 21.44s extracted test features
+2017-03-02 15:36:35,493-|Supertagger:    __init__|-INFO-> 21.44s extracted test features
+2017-03-02 15:36:35,493-|Supertagger:    __init__|-INFO-> processed 1904 sentences
+2017-03-02 15:36:35,493-|Supertagger:    __init__|-INFO-> processed 1904 sentences
+2017-03-02 15:38:25,329-|Supertagger:         fit|-INFO-> started training
+2017-03-02 15:39:07,779-|Supertagger:         fit|-INFO-> 1924 features
+2017-03-02 15:39:07,780-|Supertagger:         fit|-INFO-> 42.45s vectorized features
+2017-03-02 17:54:11,706-|Supertagger:         fit|-INFO-> 8103.93s trained model
+2017-03-02 17:54:11,734-|Supertagger:        save|-INFO-> saved model to models/supertagger_15.pickle
+2017-03-02 17:54:11,734-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-03-02 17:54:13,740-|Supertagger:    evaluate|-INFO-> 2.01s vectorized features
+2017-03-02 17:54:14,115-|Supertagger:    evaluate|-INFO-> 0.38s generated predictions
+2017-03-02 17:54:14,303-|Supertagger:    evaluate|-INFO-> Accuracy  : 91.78
+2017-03-02 17:54:14,303-|Supertagger:    evaluate|-INFO-> 0.19s evaluated test data
+

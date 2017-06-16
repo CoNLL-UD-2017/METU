@@ -1,0 +1,20 @@
+CoNLL_UD_8 load from model
+2017-02-28 13:31:27,972-|Supertagger:        load|-INFO-> loaded model from models/supertagger_8.pickle
+2017-02-28 13:31:27,972-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-02-28 13:32:01,116-|Supertagger:    evaluate|-INFO-> 33.14s extracted test features
+2017-02-28 13:32:01,116-|Supertagger:    evaluate|-INFO-> processed 2398 sentences
+2017-02-28 13:32:06,141-|Supertagger:    evaluate|-INFO-> 5.03s vectorized features
+2017-02-28 13:32:07,278-|Supertagger:    evaluate|-INFO-> 1.14s generated predictions
+2017-02-28 13:32:07,505-|Supertagger:    evaluate|-INFO-> Accuracy  : 93.34
+2017-02-28 13:32:07,505-|Supertagger:    evaluate|-INFO-> 0.23s evaluated test data
+
+CoNLL_UD_10 load from model
+2017-02-28 13:32:07,563-|Supertagger:        load|-INFO-> loaded model from models/supertagger_10.pickle
+2017-02-28 13:32:07,563-|Supertagger:    evaluate|-INFO-> started evaluation
+2017-02-28 13:32:47,635-|Supertagger:    evaluate|-INFO-> 40.07s extracted test features
+2017-02-28 13:32:47,636-|Supertagger:    evaluate|-INFO-> processed 2398 sentences
+2017-02-28 13:32:53,680-|Supertagger:    evaluate|-INFO-> 6.04s vectorized features
+2017-02-28 13:32:55,063-|Supertagger:    evaluate|-INFO-> 1.38s generated predictions
+2017-02-28 13:32:55,288-|Supertagger:    evaluate|-INFO-> Accuracy  : 93.55
+2017-02-28 13:32:55,288-|Supertagger:    evaluate|-INFO-> 0.22s evaluated test data
+
