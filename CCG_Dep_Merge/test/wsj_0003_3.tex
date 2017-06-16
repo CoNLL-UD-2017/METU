@@ -1,0 +1,137 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt,a4paper]{article} 
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{fontspec}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{adjustbox}
+
+\usepackage{tikz} 
+\usepackage{tikzscale}
+\usepackage{tikz-dependency}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
+
+
+\begin{document}
+
+\setmainfont{Arial Unicode MS}
+
+
+\begin{figure}[h]
+\centering
+\adjustbox{max width=\columnwidth}{
+
+\begin{dependency}[theme = simple]
+
+\tikzstyle{word}=[font=\normalsize, text=black,
+                   draw=Green, rounded corners]
+
+\tikzstyle{word-empty}=[font=\normalsize, text=Thistle,
+                        draw=Thistle, rounded corners]
+
+\tikzstyle{attr}=[text=black, font=\normalsize, ]
+
+\tikzstyle{attr-empty}=[text=Thistle, font=\normalsize, ]
+
+\depstyle{rel}{edge style = {thick, OrangeRed}, 
+                 label style = {thick, draw=OrangeRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{rel2}{edge style = {thick, BrickRed}, 
+                 label style = {thick, draw=BrickRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root}{edge style = {thick, OliveGreen}, 
+                 label style = {thick, draw=OliveGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root2}{edge style = {thick, YellowGreen}, 
+                  label style = {thick, draw=YellowGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{relccg}{edge style = {thick, NavyBlue}, 
+                 label style = {thick, draw=NavyBlue, text=blue, fill=white, anchor=mid,}}
+
+% words
+\begin{deptext}[column sep=1em, row sep=0.1em]
+|[word]| Lorillard \& |[word]| Inc. \& |[word]| , \& |[word]| the \& |[word]| unit \& |[word]| of \& |[word]| New \& |[word]| York-based \& |[word]| Loews \& |[word]| Corp. \& |[word]| that \& |[word]| makes \& |[word]| Kent \& |[word]| cigarettes \& |[word]| , \& |[word]| stopped \& |[word]| using \& |[word]| crocidolite \& |[word]| in \& |[word]| its \& |[word]| Micronite \& |[word]| cigarette \& |[word]| filters \& |[word]| in \& |[word]| 1956 \& |[word]| . \\
+|[attr]| PROPN \& |[attr]| PROPN \& |[attr]| PUNCT \& |[attr]| DET \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| ADJ \& |[attr]| ADJ \& |[attr]| PROPN \& |[attr]| PROPN \& |[attr]| PRON \& |[attr]| VERB \& |[attr]| PROPN \& |[attr]| NOUN \& |[attr]| PUNCT \& |[attr]| VERB \& |[attr]| VERB \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| PRON \& |[attr]| NOUN \& |[attr]| NOUN \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| NUM \& |[attr]| PUNCT \\
+|[word]| N/N \& |[word]| N \& |[word]| \_ \& |[word]| NP{[}nb{]}/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| (N/N)/(N/N) \& |[word]| N/N \& |[word]| N/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/(S{[}dcl{]}\textbackslash{}NP) \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/NP \& |[word]| N/N \& |[word]| N \& |[word]| \_ \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/(S{[}ng{]}\textbackslash{}NP) \& |[word]| (S{[}ng{]}\textbackslash{}NP)/NP \& |[word]| N \& |[word]| ((S\textbackslash{}NP)\textbackslash{}(S\textbackslash{}NP))/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N/N \& |[word]| N \& |[word]| ((S\textbackslash{}NP)\textbackslash{}(S\textbackslash{}NP))/NP \& |[word]| N \& |[word]| \_ \\
+\end{deptext}
+
+% roots
+\deproot[root, edge unit distance=15ex]{16}{ROOT}
+
+% edges ud
+\depedge[rel]{8}{7}{amod}
+\depedge[rel]{10}{9}{compound}
+\depedge[rel]{10}{8}{amod}
+\depedge[rel]{10}{6}{case}
+\depedge[rel]{14}{13}{compound}
+\depedge[rel]{2}{1}{compound}
+\depedge[rel]{2}{3}{punct}
+\depedge[rel]{2}{5}{appos}
+\depedge[rel]{2}{15}{punct}
+\depedge[rel]{25}{24}{case}
+\depedge[rel]{12}{11}{nsubj}
+\depedge[rel]{12}{14}{dobj}
+\depedge[rel]{12}{14}{dobj}
+\depedge[rel]{23}{21}{compound}
+\depedge[rel]{23}{19}{case}
+\depedge[rel]{23}{22}{compound}
+\depedge[rel]{23}{20}{nmod:poss}
+\depedge[rel]{16}{2}{nsubj}
+\depedge[rel]{16}{2}{nsubj}
+\depedge[rel]{16}{26}{punct}
+\depedge[rel]{16}{17}{xcomp}
+\depedge[rel]{16}{17}{xcomp}
+\depedge[rel]{5}{10}{nmod}
+\depedge[rel]{5}{12}{acl:relcl}
+\depedge[rel]{5}{4}{det}
+\depedge[rel]{17}{23}{nmod}
+\depedge[rel]{17}{25}{nmod}
+\depedge[rel]{17}{18}{dobj}
+\depedge[rel]{17}{18}{dobj}
+
+% edges ccg
+\depedge[relccg, edge below]{1}{2}{1}
+\depedge[relccg, edge below]{8}{10}{1}
+\depedge[relccg, edge below]{21}{23}{1}
+\depedge[relccg, edge below]{22}{23}{1}
+\depedge[relccg, edge below]{20}{23}{1}
+\depedge[relccg, edge below]{19}{23}{3}
+\depedge[relccg, edge below]{19}{17}{2}
+\depedge[relccg, edge below]{7}{8}{2}
+\depedge[relccg, edge below]{9}{10}{1}
+\depedge[relccg, edge below]{11}{5}{1}
+\depedge[relccg, edge below]{11}{12}{2}
+\depedge[relccg, edge below]{12}{5}{1}
+\depedge[relccg, edge below]{12}{14}{2}
+\depedge[relccg, edge below]{12}{14}{2}
+\depedge[relccg, edge below]{13}{14}{1}
+\depedge[relccg, edge below]{16}{2}{1}
+\depedge[relccg, edge below]{16}{2}{1}
+\depedge[relccg, edge below]{16}{5}{1}
+\depedge[relccg, edge below]{16}{17}{2}
+\depedge[relccg, edge below]{16}{17}{2}
+\depedge[relccg, edge below]{4}{5}{1}
+\depedge[relccg, edge below]{6}{10}{2}
+\depedge[relccg, edge below]{6}{5}{1}
+\depedge[relccg, edge below]{24}{25}{3}
+\depedge[relccg, edge below]{24}{17}{2}
+\depedge[relccg, edge below]{17}{2}{1}
+\depedge[relccg, edge below]{17}{5}{1}
+\depedge[relccg, edge below]{17}{18}{2}
+\depedge[relccg, edge below]{17}{18}{2}
+
+% groups
+
+\end{dependency}
+
+}
+\caption{wsj\_0003.3}
+
+\end{figure}
+
+
+\end{document}
+

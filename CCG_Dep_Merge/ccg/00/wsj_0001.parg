@@ -1,0 +1,29 @@
+<s id="wsj_0001.1"> 17
+1 	 0 	 N/N 	 1 	 Vinken Pierre
+1 	 5 	 (S[adj]\NP)\NP 	 1 	 Vinken old <XB>
+1 	 7 	 (S[dcl]\NP)/(S[b]\NP) 	 1 	 Vinken will
+1 	 8 	 ((S[b]\NP)/PP)/NP 	 1 	 Vinken join <XB>
+4 	 3 	 N/N 	 1 	 years 61
+4 	 5 	 (S[adj]\NP)\NP 	 2 	 years old
+8 	 7 	 (S[dcl]\NP)/(S[b]\NP) 	 2 	 join will
+8 	 15 	 ((S\NP)\(S\NP))/N[num] 	 2 	 join Nov.
+10 	 8 	 ((S[b]\NP)/PP)/NP 	 3 	 board join
+10 	 9 	 NP[nb]/N 	 1 	 board the
+11 	 8 	 ((S[b]\NP)/PP)/NP 	 2 	 as join
+14 	 11 	 PP/NP 	 1 	 director as
+14 	 12 	 NP[nb]/N 	 1 	 director a
+14 	 13 	 N/N 	 1 	 director nonexecutive
+16 	 15 	 ((S\NP)\(S\NP))/N[num] 	 3 	 29 Nov.
+<\s>
+<s id="wsj_0001.2"> 12
+1 	 0 	 N/N 	 1 	 Vinken Mr.
+1 	 2 	 (S[dcl]\NP)/NP 	 1 	 Vinken is
+3 	 2 	 (S[dcl]\NP)/NP 	 2 	 chairman is
+3 	 4 	 (NP\NP)/NP 	 1 	 chairman of
+6 	 4 	 (NP\NP)/NP 	 2 	 N.V. of
+6 	 5 	 N/N 	 1 	 N.V. Elsevier
+11 	 4 	 (NP\NP)/NP 	 2 	 group of
+11 	 8 	 NP[nb]/N 	 1 	 group the
+11 	 9 	 N/N 	 1 	 group Dutch
+11 	 10 	 N/N 	 1 	 group publishing
+<\s>

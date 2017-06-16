@@ -1,0 +1,125 @@
+
+
+
+
+
+
+ls: data_dep/eu-udpipe-ccg-2-parsed.conllu: No such file or directory
+
+
+ls: data_dep/bg-udpipe-ccg-2-parsed.conllu: No such file or directory
+
+
+ls: data_dep/ca-udpipe-ccg-2-parsed.conllu: No such file or directory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ls: ../DependencyTraining/models/got-nndep-ccg.model.txt.gz: No such file or directory
+ls: data_dep/got-udpipe-ccg-2-parsed.conllu: No such file or directory
+
+
+
+
+ls: data_dep/he-udpipe-ccg-2-parsed.conllu: No such file or directory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ls: data_dep/ru_syntagrus-udpipe-ccg-2-parsed.conllu: No such file or directory
+
+
+ls: data_dep/sk-udpipe-ccg-2-parsed.conllu: No such file or directory
+
+
+ls: data_dep/sl-udpipe-ccg-2-parsed.conllu: No such file or directory
+
+
+ls: data_dep/es-udpipe-ccg-2-parsed.conllu: No such file or directory
+
+
+ls: data_dep/es_ancora-udpipe-ccg-2-parsed.conllu: No such file or directory
+
+
+
+
+ls: data_dep/sv_lines-udpipe-ccg-2-parsed.conllu: No such file or directory
+
+
+
+
+
+
+ls: data_dep/vi-udpipe-ccg-2-parsed.conllu: No such file or directory
+
+

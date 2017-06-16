@@ -1,0 +1,126 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt,a4paper]{article} 
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{fontspec}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{adjustbox}
+
+\usepackage{tikz} 
+\usepackage{tikzscale}
+\usepackage{tikz-dependency}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
+
+
+\begin{document}
+
+\setmainfont{Arial Unicode MS}
+
+
+\begin{figure}[h]
+\centering
+\adjustbox{max width=\columnwidth}{
+
+\begin{dependency}[theme = simple]
+
+\tikzstyle{word}=[font=\normalsize, text=black,
+                   draw=Green, rounded corners]
+
+\tikzstyle{word-empty}=[font=\normalsize, text=Thistle,
+                        draw=Thistle, rounded corners]
+
+\tikzstyle{attr}=[text=black, font=\normalsize, ]
+
+\tikzstyle{attr-empty}=[text=Thistle, font=\normalsize, ]
+
+\depstyle{rel}{edge style = {thick, OrangeRed}, 
+                 label style = {thick, draw=OrangeRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{rel2}{edge style = {thick, BrickRed}, 
+                 label style = {thick, draw=BrickRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root}{edge style = {thick, OliveGreen}, 
+                 label style = {thick, draw=OliveGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root2}{edge style = {thick, YellowGreen}, 
+                  label style = {thick, draw=YellowGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{relccg}{edge style = {thick, NavyBlue}, 
+                 label style = {thick, draw=NavyBlue, text=blue, fill=white, anchor=mid,}}
+
+% words
+\begin{deptext}[column sep=1em, row sep=0.1em]
+|[word]| Workers \& |[word]| described \& |[word]| {}`{}` \& |[word]| clouds \& |[word]| of \& |[word]| blue \& |[word]| dust \& |[word]| '' \& |[word]| that \& |[word]| hung \& |[word]| over \& |[word]| parts \& |[word]| of \& |[word]| the \& |[word]| factory \& |[word]| , \& |[word]| even \& |[word]| though \& |[word]| exhaust \& |[word]| fans \& |[word]| ventilated \& |[word]| the \& |[word]| area \& |[word]| . \\
+|[attr]| NOUN \& |[attr]| VERB \& |[attr]| PUNCT \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| ADJ \& |[attr]| NOUN \& |[attr]| PUNCT \& |[attr]| PRON \& |[attr]| VERB \& |[attr]| ADP \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| DET \& |[attr]| NOUN \& |[attr]| PUNCT \& |[attr]| ADV \& |[attr]| SCONJ \& |[attr]| NOUN \& |[attr]| NOUN \& |[attr]| VERB \& |[attr]| DET \& |[attr]| NOUN \& |[attr]| PUNCT \\
+|[word]| N \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/NP \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| N/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/(S{[}dcl{]}\textbackslash{}NP) \& |[word]| S{[}dcl{]}\textbackslash{}NP \& |[word]| ((S\textbackslash{}NP)\textbackslash{}(S\textbackslash{}NP))/NP \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N \& |[word]| \_ \& |[word]| ((S\textbackslash{}NP)\textbackslash{}(S\textbackslash{}NP))/((S\textbackslash{}NP)\textbackslash{}(S\textbackslash{}NP)) \& |[word]| ((S\textbackslash{}NP)\textbackslash{}(S\textbackslash{}NP))/S{[}dcl{]} \& |[word]| N/N \& |[word]| N \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N \& |[word]| \_ \& |[word]| \_ \& |[word]| \_ \\
+\end{deptext}
+
+% roots
+\deproot[root, edge unit distance=22ex]{2}{ROOT}
+
+% edges ud
+\depedge[rel]{15}{13}{case}
+\depedge[rel]{15}{14}{det}
+\depedge[rel]{2}{1}{nsubj}
+\depedge[rel]{2}{1}{nsubj}
+\depedge[rel]{2}{24}{punct}
+\depedge[rel]{2}{4}{dobj}
+\depedge[rel]{20}{19}{compound}
+\depedge[rel]{12}{11}{case}
+\depedge[rel]{12}{15}{nmod}
+\depedge[rel]{7}{5}{case}
+\depedge[rel]{7}{6}{amod}
+\depedge[rel]{21}{20}{nsubj}
+\depedge[rel]{21}{18}{mark}
+\depedge[rel]{21}{17}{advmod}
+\depedge[rel]{21}{23}{dobj}
+\depedge[rel]{23}{22}{det}
+\depedge[rel]{4}{7}{nmod}
+\depedge[rel]{4}{8}{punct}
+\depedge[rel]{4}{10}{acl:relcl}
+\depedge[rel]{4}{3}{punct}
+\depedge[rel]{4}{3}{punct}
+\depedge[rel]{10}{16}{punct}
+\depedge[rel]{10}{12}{nmod}
+\depedge[rel]{10}{9}{nsubj}
+\depedge[rel]{10}{21}{advcl}
+
+% edges ccg
+\depedge[relccg, edge below]{11}{13}{2}
+\depedge[relccg, edge below]{11}{10}{1}
+\depedge[relccg, edge below]{17}{18}{1}
+\depedge[relccg, edge below]{15}{16}{3}
+\depedge[relccg, edge below]{2}{1}{1}
+\depedge[relccg, edge below]{2}{1}{1}
+\depedge[relccg, edge below]{2}{3}{2}
+\depedge[relccg, edge below]{9}{8}{2}
+\depedge[relccg, edge below]{9}{10}{3}
+\depedge[relccg, edge below]{20}{21}{1}
+\depedge[relccg, edge below]{16}{8}{2}
+\depedge[relccg, edge below]{16}{19}{3}
+\depedge[relccg, edge below]{12}{13}{1}
+\depedge[relccg, edge below]{7}{8}{2}
+\depedge[relccg, edge below]{7}{3}{1}
+\depedge[relccg, edge below]{5}{6}{1}
+\depedge[relccg, edge below]{19}{18}{1}
+\depedge[relccg, edge below]{19}{21}{2}
+\depedge[relccg, edge below]{4}{3}{1}
+\depedge[relccg, edge below]{4}{3}{1}
+\depedge[relccg, edge below]{4}{6}{2}
+\depedge[relccg, edge below]{8}{3}{1}
+
+% groups
+
+\end{dependency}
+
+}
+\caption{wsj\_0003.27}
+
+\end{figure}
+
+
+\end{document}
+

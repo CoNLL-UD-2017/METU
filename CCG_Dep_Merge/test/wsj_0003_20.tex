@@ -1,0 +1,187 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt,a4paper]{article} 
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{fontspec}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{adjustbox}
+
+\usepackage{tikz} 
+\usepackage{tikzscale}
+\usepackage{tikz-dependency}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
+
+
+\begin{document}
+
+\setmainfont{Arial Unicode MS}
+
+
+\begin{figure}[h]
+\centering
+\adjustbox{max width=\columnwidth}{
+
+\begin{dependency}[theme = simple]
+
+\tikzstyle{word}=[font=\normalsize, text=black,
+                   draw=Green, rounded corners]
+
+\tikzstyle{word-empty}=[font=\normalsize, text=Thistle,
+                        draw=Thistle, rounded corners]
+
+\tikzstyle{attr}=[text=black, font=\normalsize, ]
+
+\tikzstyle{attr-empty}=[text=Thistle, font=\normalsize, ]
+
+\depstyle{rel}{edge style = {thick, OrangeRed}, 
+                 label style = {thick, draw=OrangeRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{rel2}{edge style = {thick, BrickRed}, 
+                 label style = {thick, draw=BrickRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root}{edge style = {thick, OliveGreen}, 
+                 label style = {thick, draw=OliveGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root2}{edge style = {thick, YellowGreen}, 
+                  label style = {thick, draw=YellowGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{relccg}{edge style = {thick, NavyBlue}, 
+                 label style = {thick, draw=NavyBlue, text=blue, fill=white, anchor=mid,}}
+
+% words
+\begin{deptext}[column sep=1em, row sep=0.1em]
+|[word]| The \& |[word]| U.S. \& |[word]| is \& |[word]| one \& |[word]| of \& |[word]| the \& |[word]| few \& |[word]| industrialized \& |[word]| nations \& |[word]| that \& |[word]| does \& |[word]| n't \& |[word]| have \& |[word]| a \& |[word]| higher \& |[word]| standard \& |[word]| of \& |[word]| regulation \& |[word]| for \& |[word]| the \& |[word]| smooth \& |[word]| , \& |[word]| needle-like \& |[word]| fibers \& |[word]| such \& |[word]| as \& |[word]| crocidolite \& |[word]| that \& |[word]| are \& |[word]| classified \& |[word]| as \& |[word]| amphobiles \& |[word]| , \& |[word]| according \& |[word]| to \& |[word]| Brooke \& |[word]| T. \& |[word]| Mossman \& |[word]| , \& |[word]| a \& |[word]| professor \& |[word]| of \& |[word]| pathlogy \& |[word]| at \& |[word]| the \& |[word]| University \& |[word]| of \& |[word]| Vermont \& |[word]| College \& |[word]| of \& |[word]| Medicine \& |[word]| . \\
+|[attr]| DET \& |[attr]| PROPN \& |[attr]| VERB \& |[attr]| NUM \& |[attr]| ADP \& |[attr]| DET \& |[attr]| ADJ \& |[attr]| VERB \& |[attr]| NOUN \& |[attr]| PRON \& |[attr]| AUX \& |[attr]| PART \& |[attr]| VERB \& |[attr]| DET \& |[attr]| ADJ \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| DET \& |[attr]| ADJ \& |[attr]| PUNCT \& |[attr]| ADJ \& |[attr]| NOUN \& |[attr]| ADJ \& |[attr]| ADP \& |[attr]| NOUN \& |[attr]| PRON \& |[attr]| AUX \& |[attr]| VERB \& |[attr]| ADP \& |[attr]| NOUN \& |[attr]| PUNCT \& |[attr]| VERB \& |[attr]| ADP \& |[attr]| PROPN \& |[attr]| PROPN \& |[attr]| PROPN \& |[attr]| PUNCT \& |[attr]| DET \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| DET \& |[attr]| PROPN \& |[attr]| ADP \& |[attr]| PROPN \& |[attr]| PROPN \& |[attr]| ADP \& |[attr]| PROPN \& |[attr]| PUNCT \\
+|[word]| NP{[}nb{]}/N \& |[word]| N \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/NP \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/(S{[}dcl{]}\textbackslash{}NP) \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/(S{[}b{]}\textbackslash{}NP) \& |[word]| (S\textbackslash{}NP)\textbackslash{}(S\textbackslash{}NP) \& |[word]| (S{[}b{]}\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| \_ \& |[word]| N/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/(NP\textbackslash{}NP) \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/(S{[}dcl{]}\textbackslash{}NP) \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/(S{[}pss{]}\textbackslash{}NP) \& |[word]| (S{[}pss{]}\textbackslash{}NP)/PP \& |[word]| PP/NP \& |[word]| N \& |[word]| \_ \& |[word]| ((S\textbackslash{}NP)\textbackslash{}(S\textbackslash{}NP))/PP \& |[word]| PP/NP \& |[word]| N/N \& |[word]| N/N \& |[word]| N \& |[word]| \_ \& |[word]| NP{[}nb{]}/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| ((N/N)\textbackslash{}(N/N))/NP \& |[word]| N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| N \& |[word]| \_ \\
+\end{deptext}
+
+% roots
+\deproot[root, edge unit distance=48ex]{4}{ROOT}
+
+% edges ud
+\depedge[rel]{43}{42}{case}
+\depedge[rel]{32}{31}{case}
+\depedge[rel]{9}{13}{acl:relcl}
+\depedge[rel]{9}{5}{case}
+\depedge[rel]{9}{8}{amod}
+\depedge[rel]{9}{6}{det}
+\depedge[rel]{9}{7}{amod}
+\depedge[rel]{46}{48}{nmod}
+\depedge[rel]{48}{47}{case}
+\depedge[rel]{18}{17}{case}
+\depedge[rel]{38}{36}{compound}
+\depedge[rel]{38}{41}{appos}
+\depedge[rel]{38}{37}{compound}
+\depedge[rel]{38}{39}{punct}
+\depedge[rel]{38}{34}{case}
+\depedge[rel]{24}{30}{acl:relcl}
+\depedge[rel]{24}{23}{amod}
+\depedge[rel]{24}{22}{punct}
+\depedge[rel]{24}{27}{nmod}
+\depedge[rel]{24}{19}{case}
+\depedge[rel]{24}{20}{det}
+\depedge[rel]{24}{21}{amod}
+\depedge[rel]{30}{28}{nsubjpass}
+\depedge[rel]{30}{32}{nmod}
+\depedge[rel]{30}{29}{auxpass}
+\depedge[rel]{34}{35}{mwe}
+\depedge[rel]{34}{35}{mwe}
+\depedge[rel]{2}{1}{det}
+\depedge[rel]{13}{11}{aux}
+\depedge[rel]{13}{16}{dobj}
+\depedge[rel]{13}{16}{dobj}
+\depedge[rel]{13}{12}{neg}
+\depedge[rel]{13}{10}{nsubj}
+\depedge[rel]{16}{14}{det}
+\depedge[rel]{16}{24}{nmod}
+\depedge[rel]{16}{15}{amod}
+\depedge[rel]{16}{18}{nmod}
+\depedge[rel]{41}{40}{det}
+\depedge[rel]{41}{43}{nmod}
+\depedge[rel]{41}{49}{nmod}
+\depedge[rel]{27}{25}{case}
+\depedge[rel]{4}{2}{nsubj}
+\depedge[rel]{4}{3}{cop}
+\depedge[rel]{4}{9}{nmod}
+\depedge[rel]{4}{52}{punct}
+\depedge[rel]{4}{33}{punct}
+\depedge[rel]{4}{38}{nmod}
+\depedge[rel]{25}{26}{mwe}
+\depedge[rel]{25}{26}{mwe}
+\depedge[rel]{49}{46}{dep}
+\depedge[rel]{49}{44}{case}
+\depedge[rel]{49}{45}{det}
+\depedge[rel]{49}{51}{nmod}
+\depedge[rel]{51}{50}{case}
+
+% edges ccg
+\depedge[relccg, edge below]{36}{38}{1}
+\depedge[relccg, edge below]{46}{49}{1}
+\depedge[relccg, edge below]{11}{13}{2}
+\depedge[relccg, edge below]{11}{9}{1}
+\depedge[relccg, edge below]{26}{27}{2}
+\depedge[relccg, edge below]{26}{24}{1}
+\depedge[relccg, edge below]{12}{11}{2}
+\depedge[relccg, edge below]{21}{24}{1}
+\depedge[relccg, edge below]{17}{16}{1}
+\depedge[relccg, edge below]{17}{18}{2}
+\depedge[relccg, edge below]{8}{9}{1}
+\depedge[relccg, edge below]{10}{11}{2}
+\depedge[relccg, edge below]{10}{9}{1}
+\depedge[relccg, edge below]{31}{32}{1}
+\depedge[relccg, edge below]{44}{41}{1}
+\depedge[relccg, edge below]{44}{49}{2}
+\depedge[relccg, edge below]{50}{49}{1}
+\depedge[relccg, edge below]{50}{51}{2}
+\depedge[relccg, edge below]{45}{49}{1}
+\depedge[relccg, edge below]{29}{24}{1}
+\depedge[relccg, edge below]{29}{30}{2}
+\depedge[relccg, edge below]{40}{41}{1}
+\depedge[relccg, edge below]{30}{31}{2}
+\depedge[relccg, edge below]{30}{24}{1}
+\depedge[relccg, edge below]{23}{24}{1}
+\depedge[relccg, edge below]{34}{3}{2}
+\depedge[relccg, edge below]{34}{35}{3}
+\depedge[relccg, edge below]{34}{35}{3}
+\depedge[relccg, edge below]{6}{9}{1}
+\depedge[relccg, edge below]{14}{16}{1}
+\depedge[relccg, edge below]{15}{16}{1}
+\depedge[relccg, edge below]{20}{24}{1}
+\depedge[relccg, edge below]{13}{16}{2}
+\depedge[relccg, edge below]{13}{16}{2}
+\depedge[relccg, edge below]{13}{9}{1}
+\depedge[relccg, edge below]{7}{9}{1}
+\depedge[relccg, edge below]{3}{2}{1}
+\depedge[relccg, edge below]{3}{4}{2}
+\depedge[relccg, edge below]{35}{41}{1}
+\depedge[relccg, edge below]{35}{38}{1}
+\depedge[relccg, edge below]{1}{2}{1}
+\depedge[relccg, edge below]{5}{4}{1}
+\depedge[relccg, edge below]{5}{9}{2}
+\depedge[relccg, edge below]{19}{16}{1}
+\depedge[relccg, edge below]{19}{24}{2}
+\depedge[relccg, edge below]{25}{26}{2}
+\depedge[relccg, edge below]{25}{26}{2}
+\depedge[relccg, edge below]{28}{24}{1}
+\depedge[relccg, edge below]{28}{29}{2}
+\depedge[relccg, edge below]{42}{43}{2}
+\depedge[relccg, edge below]{42}{41}{1}
+\depedge[relccg, edge below]{47}{48}{3}
+\depedge[relccg, edge below]{47}{46}{2}
+\depedge[relccg, edge below]{37}{38}{1}
+
+% groups
+
+\end{dependency}
+
+}
+\caption{wsj\_0003.20}
+
+\end{figure}
+
+
+\end{document}
+

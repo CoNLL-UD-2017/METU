@@ -1,0 +1,118 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt,a4paper]{article} 
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{fontspec}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{adjustbox}
+
+\usepackage{tikz} 
+\usepackage{tikzscale}
+\usepackage{tikz-dependency}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
+
+
+\begin{document}
+
+\setmainfont{Arial Unicode MS}
+
+
+\begin{figure}[h]
+\centering
+\adjustbox{max width=\columnwidth}{
+
+\begin{dependency}[theme = simple]
+
+\tikzstyle{word}=[font=\normalsize, text=black,
+                   draw=Green, rounded corners]
+
+\tikzstyle{word-empty}=[font=\normalsize, text=Thistle,
+                        draw=Thistle, rounded corners]
+
+\tikzstyle{attr}=[text=black, font=\normalsize, ]
+
+\tikzstyle{attr-empty}=[text=Thistle, font=\normalsize, ]
+
+\depstyle{rel}{edge style = {thick, OrangeRed}, 
+                 label style = {thick, draw=OrangeRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{rel2}{edge style = {thick, BrickRed}, 
+                 label style = {thick, draw=BrickRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root}{edge style = {thick, OliveGreen}, 
+                 label style = {thick, draw=OliveGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root2}{edge style = {thick, YellowGreen}, 
+                  label style = {thick, draw=YellowGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{relccg}{edge style = {thick, NavyBlue}, 
+                 label style = {thick, draw=NavyBlue, text=blue, fill=white, anchor=mid,}}
+
+% words
+\begin{deptext}[column sep=1em, row sep=0.1em]
+|[word]| We \& |[word]| 're \& |[word]| talking \& |[word]| about \& |[word]| years \& |[word]| ago \& |[word]| before \& |[word]| anyone \& |[word]| heard \& |[word]| of \& |[word]| asbestos \& |[word]| having \& |[word]| any \& |[word]| questionable \& |[word]| properties \& |[word]| . \\
+|[attr]| PRON \& |[attr]| AUX \& |[attr]| VERB \& |[attr]| ADP \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| SCONJ \& |[attr]| PRON \& |[attr]| VERB \& |[attr]| SCONJ \& |[attr]| NOUN \& |[attr]| VERB \& |[attr]| DET \& |[attr]| ADJ \& |[attr]| NOUN \& |[attr]| PUNCT \\
+|[word]| N \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/(S{[}ng{]}\textbackslash{}NP) \& |[word]| (S{[}ng{]}\textbackslash{}NP)/PP \& |[word]| PP/(S{[}adj{]}\textbackslash{}NP) \& |[word]| N \& |[word]| (S{[}adj{]}\textbackslash{}NP)\textbackslash{}NP \& |[word]| ((S{[}adj{]}\textbackslash{}NP)\textbackslash{}(S{[}adj{]}\textbackslash{}NP))/S{[}dcl{]} \& |[word]| N \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/PP \& |[word]| (PP/(S{[}ng{]}\textbackslash{}NP))/NP \& |[word]| N \& |[word]| (S{[}ng{]}\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N \& |[word]| \_ \\
+\end{deptext}
+
+% roots
+\deproot[root, edge unit distance=13ex]{3}{ROOT}
+
+% edges ud
+\depedge[rel]{15}{13}{det}
+\depedge[rel]{15}{14}{amod}
+\depedge[rel]{9}{8}{nsubj}
+\depedge[rel]{9}{8}{nsubj}
+\depedge[rel]{9}{12}{advcl}
+\depedge[rel]{9}{7}{mark}
+\depedge[rel]{12}{10}{mark}
+\depedge[rel]{12}{11}{nsubj}
+\depedge[rel]{12}{11}{nsubj}
+\depedge[rel]{12}{15}{dobj}
+\depedge[rel]{12}{15}{dobj}
+\depedge[rel]{3}{1}{nsubj}
+\depedge[rel]{3}{1}{nsubj}
+\depedge[rel]{3}{2}{aux}
+\depedge[rel]{3}{5}{advcl}
+\depedge[rel]{3}{16}{punct}
+\depedge[rel]{5}{4}{case}
+\depedge[rel]{5}{6}{case}
+\depedge[rel]{5}{9}{advcl}
+
+% edges ccg
+\depedge[relccg, edge below]{9}{10}{2}
+\depedge[relccg, edge below]{9}{8}{1}
+\depedge[relccg, edge below]{9}{8}{1}
+\depedge[relccg, edge below]{14}{15}{1}
+\depedge[relccg, edge below]{2}{1}{1}
+\depedge[relccg, edge below]{2}{3}{2}
+\depedge[relccg, edge below]{6}{5}{2}
+\depedge[relccg, edge below]{10}{11}{2}
+\depedge[relccg, edge below]{10}{12}{1}
+\depedge[relccg, edge below]{13}{15}{1}
+\depedge[relccg, edge below]{12}{11}{1}
+\depedge[relccg, edge below]{12}{11}{1}
+\depedge[relccg, edge below]{12}{15}{2}
+\depedge[relccg, edge below]{12}{15}{2}
+\depedge[relccg, edge below]{7}{6}{2}
+\depedge[relccg, edge below]{7}{9}{3}
+\depedge[relccg, edge below]{3}{1}{1}
+\depedge[relccg, edge below]{3}{1}{1}
+\depedge[relccg, edge below]{3}{4}{2}
+\depedge[relccg, edge below]{4}{6}{1}
+
+% groups
+
+\end{dependency}
+
+}
+\caption{wsj\_0003.6}
+
+\end{figure}
+
+
+\end{document}
+

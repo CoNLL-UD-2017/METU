@@ -1,0 +1,124 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt,a4paper]{article} 
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{fontspec}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{adjustbox}
+
+\usepackage{tikz} 
+\usepackage{tikzscale}
+\usepackage{tikz-dependency}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
+
+
+\begin{document}
+
+\setmainfont{Arial Unicode MS}
+
+
+\begin{figure}[h]
+\centering
+\adjustbox{max width=\columnwidth}{
+
+\begin{dependency}[theme = simple]
+
+\tikzstyle{word}=[font=\normalsize, text=black,
+                   draw=Green, rounded corners]
+
+\tikzstyle{word-empty}=[font=\normalsize, text=Thistle,
+                        draw=Thistle, rounded corners]
+
+\tikzstyle{attr}=[text=black, font=\normalsize, ]
+
+\tikzstyle{attr-empty}=[text=Thistle, font=\normalsize, ]
+
+\depstyle{rel}{edge style = {thick, OrangeRed}, 
+                 label style = {thick, draw=OrangeRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{rel2}{edge style = {thick, BrickRed}, 
+                 label style = {thick, draw=BrickRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root}{edge style = {thick, OliveGreen}, 
+                 label style = {thick, draw=OliveGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root2}{edge style = {thick, YellowGreen}, 
+                  label style = {thick, draw=YellowGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{relccg}{edge style = {thick, NavyBlue}, 
+                 label style = {thick, draw=NavyBlue, text=blue, fill=white, anchor=mid,}}
+
+% words
+\begin{deptext}[column sep=1em, row sep=0.1em]
+|[word]| Dr. \& |[word]| Talcott \& |[word]| led \& |[word]| a \& |[word]| team \& |[word]| of \& |[word]| researchers \& |[word]| from \& |[word]| the \& |[word]| National \& |[word]| Cancer \& |[word]| Institute \& |[word]| and \& |[word]| the \& |[word]| medical \& |[word]| schools \& |[word]| of \& |[word]| Harvard \& |[word]| University \& |[word]| and \& |[word]| Boston \& |[word]| University \& |[word]| . \\
+|[attr]| PROPN \& |[attr]| PROPN \& |[attr]| VERB \& |[attr]| DET \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| DET \& |[attr]| PROPN \& |[attr]| PROPN \& |[attr]| PROPN \& |[attr]| CONJ \& |[attr]| DET \& |[attr]| ADJ \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| PROPN \& |[attr]| PROPN \& |[attr]| CONJ \& |[attr]| PROPN \& |[attr]| PROPN \& |[attr]| PUNCT \\
+|[word]| N/N \& |[word]| N \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N/N \& |[word]| N \& |[word]| \_ \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| N/N \& |[word]| N \& |[word]| \_ \& |[word]| N/N \& |[word]| N \& |[word]| \_ \\
+\end{deptext}
+
+% roots
+\deproot[root, edge unit distance=20ex]{3}{ROOT}
+
+% edges ud
+\depedge[rel]{22}{21}{compound}
+\depedge[rel]{2}{1}{compound}
+\depedge[rel]{16}{14}{det}
+\depedge[rel]{16}{19}{nmod}
+\depedge[rel]{16}{15}{amod}
+\depedge[rel]{12}{13}{cc}
+\depedge[rel]{12}{16}{conj}
+\depedge[rel]{12}{8}{case}
+\depedge[rel]{12}{11}{compound}
+\depedge[rel]{12}{10}{compound}
+\depedge[rel]{12}{9}{det}
+\depedge[rel]{7}{12}{nmod}
+\depedge[rel]{7}{6}{case}
+\depedge[rel]{3}{5}{dobj}
+\depedge[rel]{3}{5}{dobj}
+\depedge[rel]{3}{2}{nsubj}
+\depedge[rel]{3}{2}{nsubj}
+\depedge[rel]{3}{23}{punct}
+\depedge[rel]{5}{4}{det}
+\depedge[rel]{5}{7}{nmod}
+\depedge[rel]{19}{22}{conj}
+\depedge[rel]{19}{18}{compound}
+\depedge[rel]{19}{17}{case}
+\depedge[rel]{19}{20}{cc}
+
+% edges ccg
+\depedge[relccg, edge below]{11}{12}{1}
+\depedge[relccg, edge below]{17}{22}{2}
+\depedge[relccg, edge below]{17}{16}{1}
+\depedge[relccg, edge below]{17}{19}{2}
+\depedge[relccg, edge below]{15}{16}{1}
+\depedge[relccg, edge below]{14}{16}{1}
+\depedge[relccg, edge below]{9}{12}{1}
+\depedge[relccg, edge below]{6}{5}{1}
+\depedge[relccg, edge below]{6}{7}{2}
+\depedge[relccg, edge below]{3}{5}{2}
+\depedge[relccg, edge below]{3}{5}{2}
+\depedge[relccg, edge below]{3}{2}{1}
+\depedge[relccg, edge below]{3}{2}{1}
+\depedge[relccg, edge below]{21}{22}{1}
+\depedge[relccg, edge below]{1}{2}{1}
+\depedge[relccg, edge below]{18}{19}{1}
+\depedge[relccg, edge below]{4}{5}{1}
+\depedge[relccg, edge below]{10}{12}{1}
+\depedge[relccg, edge below]{8}{16}{2}
+\depedge[relccg, edge below]{8}{12}{2}
+\depedge[relccg, edge below]{8}{7}{1}
+
+% groups
+
+\end{dependency}
+
+}
+\caption{wsj\_0003.10}
+
+\end{figure}
+
+
+\end{document}
+

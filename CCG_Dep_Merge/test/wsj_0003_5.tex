@@ -1,0 +1,100 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt,a4paper]{article} 
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{fontspec}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{adjustbox}
+
+\usepackage{tikz} 
+\usepackage{tikzscale}
+\usepackage{tikz-dependency}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
+
+
+\begin{document}
+
+\setmainfont{Arial Unicode MS}
+
+
+\begin{figure}[h]
+\centering
+\adjustbox{max width=\columnwidth}{
+
+\begin{dependency}[theme = simple]
+
+\tikzstyle{word}=[font=\normalsize, text=black,
+                   draw=Green, rounded corners]
+
+\tikzstyle{word-empty}=[font=\normalsize, text=Thistle,
+                        draw=Thistle, rounded corners]
+
+\tikzstyle{attr}=[text=black, font=\normalsize, ]
+
+\tikzstyle{attr-empty}=[text=Thistle, font=\normalsize, ]
+
+\depstyle{rel}{edge style = {thick, OrangeRed}, 
+                 label style = {thick, draw=OrangeRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{rel2}{edge style = {thick, BrickRed}, 
+                 label style = {thick, draw=BrickRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root}{edge style = {thick, OliveGreen}, 
+                 label style = {thick, draw=OliveGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root2}{edge style = {thick, YellowGreen}, 
+                  label style = {thick, draw=YellowGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{relccg}{edge style = {thick, NavyBlue}, 
+                 label style = {thick, draw=NavyBlue, text=blue, fill=white, anchor=mid,}}
+
+% words
+\begin{deptext}[column sep=1em, row sep=0.1em]
+|[word]| A \& |[word]| Lorillard \& |[word]| spokewoman \& |[word]| said \& |[word]| , \& |[word]| {}`{}` \& |[word]| This \& |[word]| is \& |[word]| an \& |[word]| old \& |[word]| story \& |[word]| . \\
+|[attr]| DET \& |[attr]| PROPN \& |[attr]| NOUN \& |[attr]| VERB \& |[attr]| PUNCT \& |[attr]| PUNCT \& |[attr]| PRON \& |[attr]| VERB \& |[attr]| DET \& |[attr]| ADJ \& |[attr]| NOUN \& |[attr]| PUNCT \\
+|[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/S{[}dcl{]} \& |[word]| \_ \& |[word]| N \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N \& |[word]| \_ \& |[word]| \_ \\
+\end{deptext}
+
+% roots
+\deproot[root, edge unit distance=8ex]{4}{ROOT}
+
+% edges ud
+\depedge[rel]{11}{7}{nsubj}
+\depedge[rel]{11}{8}{cop}
+\depedge[rel]{11}{9}{det}
+\depedge[rel]{11}{10}{amod}
+\depedge[rel]{3}{1}{det}
+\depedge[rel]{3}{2}{compound}
+\depedge[rel]{4}{11}{ccomp}
+\depedge[rel]{4}{3}{nsubj}
+\depedge[rel]{4}{3}{nsubj}
+\depedge[rel]{4}{12}{punct}
+\depedge[rel]{4}{5}{punct}
+\depedge[rel]{4}{6}{punct}
+
+% edges ccg
+\depedge[relccg, edge below]{1}{3}{1}
+\depedge[relccg, edge below]{2}{3}{1}
+\depedge[relccg, edge below]{9}{10}{1}
+\depedge[relccg, edge below]{8}{10}{1}
+\depedge[relccg, edge below]{7}{6}{1}
+\depedge[relccg, edge below]{7}{10}{2}
+\depedge[relccg, edge below]{4}{7}{2}
+\depedge[relccg, edge below]{4}{3}{1}
+\depedge[relccg, edge below]{4}{3}{1}
+
+% groups
+
+\end{dependency}
+
+}
+\caption{wsj\_0003.5}
+
+\end{figure}
+
+
+\end{document}
+

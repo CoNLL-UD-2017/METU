@@ -1,0 +1,138 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt,a4paper]{article} 
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{fontspec}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{adjustbox}
+
+\usepackage{tikz} 
+\usepackage{tikzscale}
+\usepackage{tikz-dependency}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
+
+
+\begin{document}
+
+\setmainfont{Arial Unicode MS}
+
+
+\begin{figure}[h]
+\centering
+\adjustbox{max width=\columnwidth}{
+
+\begin{dependency}[theme = simple]
+
+\tikzstyle{word}=[font=\normalsize, text=black,
+                   draw=Green, rounded corners]
+
+\tikzstyle{word-empty}=[font=\normalsize, text=Thistle,
+                        draw=Thistle, rounded corners]
+
+\tikzstyle{attr}=[text=black, font=\normalsize, ]
+
+\tikzstyle{attr-empty}=[text=Thistle, font=\normalsize, ]
+
+\depstyle{rel}{edge style = {thick, OrangeRed}, 
+                 label style = {thick, draw=OrangeRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{rel2}{edge style = {thick, BrickRed}, 
+                 label style = {thick, draw=BrickRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root}{edge style = {thick, OliveGreen}, 
+                 label style = {thick, draw=OliveGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root2}{edge style = {thick, YellowGreen}, 
+                  label style = {thick, draw=YellowGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{relccg}{edge style = {thick, NavyBlue}, 
+                 label style = {thick, draw=NavyBlue, text=blue, fill=white, anchor=mid,}}
+
+% words
+\begin{deptext}[column sep=1em, row sep=0.1em]
+|[word]| {}`{}` \& |[word]| There \& |[word]| 's \& |[word]| no \& |[word]| question \& |[word]| that \& |[word]| some \& |[word]| of \& |[word]| those \& |[word]| workers \& |[word]| and \& |[word]| managers \& |[word]| contracted \& |[word]| asbestos-related \& |[word]| diseases \& |[word]| , \& |[word]| '' \& |[word]| said \& |[word]| Darrell \& |[word]| Phillips \& |[word]| , \& |[word]| vice \& |[word]| president \& |[word]| of \& |[word]| human \& |[word]| resources \& |[word]| for \& |[word]| Hollingsworth \& |[word]| \& \& |[word]| Vose \& |[word]| . \\
+|[attr]| PUNCT \& |[attr]| PRON \& |[attr]| VERB \& |[attr]| DET \& |[attr]| NOUN \& |[attr]| SCONJ \& |[attr]| DET \& |[attr]| ADP \& |[attr]| DET \& |[attr]| NOUN \& |[attr]| CONJ \& |[attr]| NOUN \& |[attr]| VERB \& |[attr]| ADJ \& |[attr]| NOUN \& |[attr]| PUNCT \& |[attr]| PUNCT \& |[attr]| VERB \& |[attr]| PROPN \& |[attr]| PROPN \& |[attr]| PUNCT \& |[attr]| NOUN \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| ADJ \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| PROPN \& |[attr]| CONJ \& |[attr]| PROPN \& |[attr]| PUNCT \\
+|[word]| N \& |[word]| (S{[}dcl{]}\textbackslash{}NP{[}thr{]})/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/S{[}dcl{]} \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N \& |[word]| \_ \& |[word]| N \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/NP \& |[word]| N/N \& |[word]| N \& |[word]| \_ \& |[word]| (S{[}dcl{]}\textbackslash{}S{[}dcl{]})/NP \& |[word]| N/N \& |[word]| N \& |[word]| \_ \& |[word]| N/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| N/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| N/N \& |[word]| N/N \& |[word]| N \& |[word]| \_ \& |[word]| \_ \& |[word]| \_ \\
+\end{deptext}
+
+% roots
+\deproot[root, edge unit distance=17ex]{18}{ROOT}
+
+% edges ud
+\depedge[rel]{15}{14}{amod}
+\depedge[rel]{20}{19}{compound}
+\depedge[rel]{20}{23}{appos}
+\depedge[rel]{20}{21}{punct}
+\depedge[rel]{20}{21}{punct}
+\depedge[rel]{13}{6}{mark}
+\depedge[rel]{13}{7}{nsubj}
+\depedge[rel]{13}{15}{dobj}
+\depedge[rel]{7}{10}{nmod}
+\depedge[rel]{3}{5}{nsubj}
+\depedge[rel]{3}{2}{expl}
+\depedge[rel]{23}{22}{compound}
+\depedge[rel]{23}{28}{nmod}
+\depedge[rel]{23}{26}{nmod}
+\depedge[rel]{5}{13}{dep}
+\depedge[rel]{5}{4}{neg}
+\depedge[rel]{5}{4}{neg}
+\depedge[rel]{18}{31}{punct}
+\depedge[rel]{18}{1}{punct}
+\depedge[rel]{18}{17}{punct}
+\depedge[rel]{18}{16}{punct}
+\depedge[rel]{18}{20}{nsubj}
+\depedge[rel]{18}{3}{ccomp}
+\depedge[rel]{10}{11}{cc}
+\depedge[rel]{10}{8}{case}
+\depedge[rel]{10}{12}{conj}
+\depedge[rel]{10}{9}{det}
+\depedge[rel]{28}{27}{case}
+\depedge[rel]{28}{30}{conj}
+\depedge[rel]{28}{29}{cc}
+\depedge[rel]{26}{25}{amod}
+\depedge[rel]{26}{24}{case}
+
+% edges ccg
+\depedge[relccg, edge below]{17}{18}{1}
+\depedge[relccg, edge below]{22}{24}{2}
+\depedge[relccg, edge below]{22}{21}{1}
+\depedge[relccg, edge below]{2}{1}{1}
+\depedge[relccg, edge below]{2}{4}{2}
+\depedge[relccg, edge below]{20}{21}{1}
+\depedge[relccg, edge below]{20}{21}{1}
+\depedge[relccg, edge below]{13}{14}{1}
+\depedge[relccg, edge below]{16}{18}{2}
+\depedge[relccg, edge below]{16}{2}{1}
+\depedge[relccg, edge below]{16}{21}{2}
+\depedge[relccg, edge below]{12}{14}{2}
+\depedge[relccg, edge below]{12}{6}{1}
+\depedge[relccg, edge below]{7}{9}{2}
+\depedge[relccg, edge below]{7}{6}{1}
+\depedge[relccg, edge below]{7}{11}{2}
+\depedge[relccg, edge below]{3}{4}{1}
+\depedge[relccg, edge below]{27}{28}{1}
+\depedge[relccg, edge below]{23}{24}{1}
+\depedge[relccg, edge below]{5}{12}{2}
+\depedge[relccg, edge below]{5}{4}{1}
+\depedge[relccg, edge below]{5}{4}{1}
+\depedge[relccg, edge below]{8}{11}{1}
+\depedge[relccg, edge below]{8}{9}{1}
+\depedge[relccg, edge below]{26}{28}{1}
+\depedge[relccg, edge below]{25}{28}{2}
+\depedge[relccg, edge below]{25}{21}{1}
+
+% groups
+
+\end{dependency}
+
+}
+\caption{wsj\_0003.28}
+
+\end{figure}
+
+
+\end{document}
+

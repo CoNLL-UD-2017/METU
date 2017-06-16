@@ -1,0 +1,125 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt,a4paper]{article} 
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{fontspec}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{adjustbox}
+
+\usepackage{tikz} 
+\usepackage{tikzscale}
+\usepackage{tikz-dependency}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
+
+
+\begin{document}
+
+\setmainfont{Arial Unicode MS}
+
+
+\begin{figure}[h]
+\centering
+\adjustbox{max width=\columnwidth}{
+
+\begin{dependency}[theme = simple]
+
+\tikzstyle{word}=[font=\normalsize, text=black,
+                   draw=Green, rounded corners]
+
+\tikzstyle{word-empty}=[font=\normalsize, text=Thistle,
+                        draw=Thistle, rounded corners]
+
+\tikzstyle{attr}=[text=black, font=\normalsize, ]
+
+\tikzstyle{attr-empty}=[text=Thistle, font=\normalsize, ]
+
+\depstyle{rel}{edge style = {thick, OrangeRed}, 
+                 label style = {thick, draw=OrangeRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{rel2}{edge style = {thick, BrickRed}, 
+                 label style = {thick, draw=BrickRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root}{edge style = {thick, OliveGreen}, 
+                 label style = {thick, draw=OliveGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root2}{edge style = {thick, YellowGreen}, 
+                  label style = {thick, draw=YellowGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{relccg}{edge style = {thick, NavyBlue}, 
+                 label style = {thick, draw=NavyBlue, text=blue, fill=white, anchor=mid,}}
+
+% words
+\begin{deptext}[column sep=1em, row sep=0.1em]
+|[word]| Neither \& |[word]| Lorillard \& |[word]| nor \& |[word]| the \& |[word]| researchers \& |[word]| who \& |[word]| studied \& |[word]| the \& |[word]| workers \& |[word]| were \& |[word]| aware \& |[word]| of \& |[word]| any \& |[word]| research \& |[word]| on \& |[word]| smokers \& |[word]| of \& |[word]| the \& |[word]| Kent \& |[word]| cigarettes \& |[word]| . \\
+|[attr]| DET \& |[attr]| PROPN \& |[attr]| CONJ \& |[attr]| DET \& |[attr]| NOUN \& |[attr]| PRON \& |[attr]| VERB \& |[attr]| DET \& |[attr]| NOUN \& |[attr]| VERB \& |[attr]| ADJ \& |[attr]| ADP \& |[attr]| DET \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| DET \& |[attr]| PROPN \& |[attr]| NOUN \& |[attr]| PUNCT \\
+|[word]| NP/NP \& |[word]| N \& |[word]| \_ \& |[word]| NP{[}nb{]}/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/(S{[}dcl{]}\textbackslash{}NP) \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/(S{[}adj{]}\textbackslash{}NP) \& |[word]| (S{[}adj{]}\textbackslash{}NP)/PP \& |[word]| PP/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N \& |[word]| \_ \\
+\end{deptext}
+
+% roots
+\deproot[root, edge unit distance=10ex]{11}{ROOT}
+
+% edges ud
+\depedge[rel]{11}{14}{nmod}
+\depedge[rel]{11}{2}{nsubj}
+\depedge[rel]{11}{2}{nsubj}
+\depedge[rel]{11}{10}{cop}
+\depedge[rel]{11}{21}{punct}
+\depedge[rel]{9}{8}{det}
+\depedge[rel]{14}{13}{det}
+\depedge[rel]{14}{16}{nmod}
+\depedge[rel]{14}{12}{case}
+\depedge[rel]{20}{18}{det}
+\depedge[rel]{20}{19}{compound}
+\depedge[rel]{20}{17}{case}
+\depedge[rel]{2}{1}{cc:preconj}
+\depedge[rel]{2}{3}{cc}
+\depedge[rel]{2}{5}{conj}
+\depedge[rel]{16}{15}{case}
+\depedge[rel]{16}{20}{nmod}
+\depedge[rel]{7}{6}{nsubj}
+\depedge[rel]{7}{9}{dobj}
+\depedge[rel]{7}{9}{dobj}
+\depedge[rel]{5}{4}{det}
+\depedge[rel]{5}{7}{acl:relcl}
+
+% edges ccg
+\depedge[relccg, edge below]{1}{5}{1}
+\depedge[relccg, edge below]{1}{2}{1}
+\depedge[relccg, edge below]{11}{12}{2}
+\depedge[relccg, edge below]{11}{5}{1}
+\depedge[relccg, edge below]{11}{2}{1}
+\depedge[relccg, edge below]{11}{2}{1}
+\depedge[relccg, edge below]{17}{16}{1}
+\depedge[relccg, edge below]{17}{20}{2}
+\depedge[relccg, edge below]{15}{16}{2}
+\depedge[relccg, edge below]{15}{14}{1}
+\depedge[relccg, edge below]{19}{20}{1}
+\depedge[relccg, edge below]{6}{5}{1}
+\depedge[relccg, edge below]{6}{7}{2}
+\depedge[relccg, edge below]{10}{5}{1}
+\depedge[relccg, edge below]{10}{11}{2}
+\depedge[relccg, edge below]{10}{2}{1}
+\depedge[relccg, edge below]{13}{14}{1}
+\depedge[relccg, edge below]{8}{9}{1}
+\depedge[relccg, edge below]{12}{14}{1}
+\depedge[relccg, edge below]{7}{9}{2}
+\depedge[relccg, edge below]{7}{9}{2}
+\depedge[relccg, edge below]{7}{5}{1}
+\depedge[relccg, edge below]{4}{5}{1}
+\depedge[relccg, edge below]{18}{20}{1}
+
+% groups
+
+\end{dependency}
+
+}
+\caption{wsj\_0003.8}
+
+\end{figure}
+
+
+\end{document}
+

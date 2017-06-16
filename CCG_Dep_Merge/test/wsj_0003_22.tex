@@ -1,0 +1,115 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt,a4paper]{article} 
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{fontspec}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{adjustbox}
+
+\usepackage{tikz} 
+\usepackage{tikzscale}
+\usepackage{tikz-dependency}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
+
+
+\begin{document}
+
+\setmainfont{Arial Unicode MS}
+
+
+\begin{figure}[h]
+\centering
+\adjustbox{max width=\columnwidth}{
+
+\begin{dependency}[theme = simple]
+
+\tikzstyle{word}=[font=\normalsize, text=black,
+                   draw=Green, rounded corners]
+
+\tikzstyle{word-empty}=[font=\normalsize, text=Thistle,
+                        draw=Thistle, rounded corners]
+
+\tikzstyle{attr}=[text=black, font=\normalsize, ]
+
+\tikzstyle{attr-empty}=[text=Thistle, font=\normalsize, ]
+
+\depstyle{rel}{edge style = {thick, OrangeRed}, 
+                 label style = {thick, draw=OrangeRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{rel2}{edge style = {thick, BrickRed}, 
+                 label style = {thick, draw=BrickRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root}{edge style = {thick, OliveGreen}, 
+                 label style = {thick, draw=OliveGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root2}{edge style = {thick, YellowGreen}, 
+                  label style = {thick, draw=YellowGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{relccg}{edge style = {thick, NavyBlue}, 
+                 label style = {thick, draw=NavyBlue, text=blue, fill=white, anchor=mid,}}
+
+% words
+\begin{deptext}[column sep=1em, row sep=0.1em]
+|[word]| In \& |[word]| July \& |[word]| , \& |[word]| the \& |[word]| Environmental \& |[word]| Protection \& |[word]| Agency \& |[word]| imposed \& |[word]| a \& |[word]| gradual \& |[word]| ban \& |[word]| on \& |[word]| virtually \& |[word]| all \& |[word]| uses \& |[word]| of \& |[word]| asbestos \& |[word]| . \\
+|[attr]| ADP \& |[attr]| PROPN \& |[attr]| PUNCT \& |[attr]| DET \& |[attr]| PROPN \& |[attr]| PROPN \& |[attr]| PROPN \& |[attr]| VERB \& |[attr]| DET \& |[attr]| ADJ \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| ADV \& |[attr]| DET \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| NOUN \& |[attr]| PUNCT \\
+|[word]| (S/S)/NP \& |[word]| N \& |[word]| \_ \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N/N \& |[word]| N \& |[word]| ((S{[}dcl{]}\textbackslash{}NP)/PP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N \& |[word]| PP/NP \& |[word]| (N/N)/(N/N) \& |[word]| N/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| N \& |[word]| \_ \\
+\end{deptext}
+
+% roots
+\deproot[root, edge unit distance=10ex]{8}{ROOT}
+
+% edges ud
+\depedge[rel]{11}{9}{det}
+\depedge[rel]{11}{10}{amod}
+\depedge[rel]{17}{16}{case}
+\depedge[rel]{15}{14}{amod}
+\depedge[rel]{15}{12}{case}
+\depedge[rel]{15}{17}{nmod}
+\depedge[rel]{14}{13}{advmod}
+\depedge[rel]{2}{1}{case}
+\depedge[rel]{8}{11}{dobj}
+\depedge[rel]{8}{11}{dobj}
+\depedge[rel]{8}{7}{nsubj}
+\depedge[rel]{8}{7}{nsubj}
+\depedge[rel]{8}{3}{punct}
+\depedge[rel]{8}{18}{punct}
+\depedge[rel]{8}{2}{nmod}
+\depedge[rel]{8}{15}{nmod}
+\depedge[rel]{7}{4}{det}
+\depedge[rel]{7}{5}{compound}
+\depedge[rel]{7}{6}{compound}
+
+% edges ccg
+\depedge[relccg, edge below]{1}{8}{1}
+\depedge[relccg, edge below]{1}{2}{2}
+\depedge[relccg, edge below]{9}{11}{1}
+\depedge[relccg, edge below]{14}{15}{1}
+\depedge[relccg, edge below]{6}{7}{1}
+\depedge[relccg, edge below]{10}{11}{1}
+\depedge[relccg, edge below]{13}{14}{2}
+\depedge[relccg, edge below]{16}{15}{1}
+\depedge[relccg, edge below]{16}{17}{2}
+\depedge[relccg, edge below]{8}{11}{3}
+\depedge[relccg, edge below]{8}{11}{3}
+\depedge[relccg, edge below]{8}{7}{1}
+\depedge[relccg, edge below]{8}{7}{1}
+\depedge[relccg, edge below]{8}{12}{2}
+\depedge[relccg, edge below]{12}{15}{1}
+\depedge[relccg, edge below]{5}{7}{1}
+\depedge[relccg, edge below]{4}{7}{1}
+
+% groups
+
+\end{dependency}
+
+}
+\caption{wsj\_0003.22}
+
+\end{figure}
+
+
+\end{document}
+

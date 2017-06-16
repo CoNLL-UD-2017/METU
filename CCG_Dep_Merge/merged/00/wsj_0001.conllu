@@ -1,0 +1,35 @@
+# sent_id = wsj_0001.1
+1	Pierre	Pierre	PROPN	NNP	_	2	compound	_	cat=N/N|args=2:1
+2	Vinken	Vinken	PROPN	NNP	_	9	nsubj	_	cat=N|preds=6:1,9:1,1:1,8:1
+3	,	,	PUNCT	,	_	2	punct	_	cat=_
+4	61	61	NUM	CD	_	5	nummod	_	cat=N/N|args=5:1
+5	years	year	NOUN	NNS	_	6	nmod:npmod	_	cat=N|preds=4:1,6:2
+6	old	old	ADJ	JJ	_	2	amod	_	cat=(S[adj]\NP)\NP|args=2:1,5:2
+7	,	,	PUNCT	,	_	2	punct	_	cat=_
+8	will	will	AUX	MD	_	9	aux	_	cat=(S[dcl]\NP)/(S[b]\NP)|args=2:1,9:2
+9	join	join	VERB	VB	_	0	root	_	cat=((S[b]\NP)/PP)/NP|args=11:3,2:1,12:2|preds=8:2,16:2
+10	the	the	DET	DT	_	11	det	_	cat=NP[nb]/N|args=11:1
+11	board	board	NOUN	NN	_	9	dobj	_	cat=N|preds=10:1,9:3
+12	as	as	ADP	IN	_	15	case	_	cat=PP/NP|args=15:1|preds=9:2
+13	a	a	DET	DT	_	15	det	_	cat=NP[nb]/N|args=15:1
+14	nonexecutive	nonexecutive	ADJ	JJ	_	15	amod	_	cat=N/N|args=15:1
+15	director	director	NOUN	NN	_	9	nmod	_	cat=N|preds=13:1,14:1,12:1
+16	Nov.	Nov.	PROPN	NNP	_	9	nmod:tmod	_	cat=((S\NP)\(S\NP))/N[num]|args=17:3,9:2
+17	29	29	NUM	CD	_	16	nummod	_	cat=N|preds=16:3
+18	.	.	PUNCT	.	_	9	punct	_	cat=_
+
+# sent_id = wsj_0001.2
+1	Mr.	Mr.	PROPN	NNP	_	2	compound	_	cat=N/N|args=2:1
+2	Vinken	Vinken	PROPN	NNP	_	4	nsubj	_	cat=N|preds=3:1,1:1
+3	is	be	VERB	VBZ	_	4	cop	_	cat=(S[dcl]\NP)/NP|args=4:2,2:1
+4	chairman	chairman	NOUN	NN	_	0	root	_	cat=N|preds=3:2,5:1
+5	of	of	ADP	IN	_	7	case	_	cat=(NP\NP)/NP|args=4:1,7:2,12:2
+6	Elsevier	Elsevier	PROPN	NNP	_	7	compound	_	cat=N/N|args=7:1
+7	N.V.	N.V.	PROPN	NNP	_	4	nmod	_	cat=N|preds=6:1,5:2
+8	,	,	PUNCT	,	_	7	punct	_	cat=_
+9	the	the	DET	DT	_	12	det	_	cat=NP[nb]/N|args=12:1
+10	Dutch	Dutch	PROPN	NNP	_	12	compound	_	cat=N/N|args=12:1
+11	publishing	publish	VERB	VBG	_	12	amod	_	cat=N/N|args=12:1
+12	group	group	NOUN	NN	_	7	appos	_	cat=N|preds=11:1,10:1,9:1,5:2
+13	.	.	PUNCT	.	_	4	punct	_	cat=_
+

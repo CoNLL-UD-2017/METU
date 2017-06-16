@@ -1,0 +1,1524 @@
+loading ccg tagger for grc
+2017-05-10 18:51:51,506-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/grc.pickle
+tagging ccg for grc dev
+2017-05-10 18:51:51,506-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:52:01,694-|Supertagger:         tag|-INFO-> 10.19s extracted test features
+2017-05-10 18:52:01,694-|Supertagger:         tag|-INFO-> processed 1142 sentences
+2017-05-10 18:52:02,450-|Supertagger:         tag|-INFO-> 0.76s generated predictions
+2017-05-10 18:52:02,709-|Supertagger:         tag|-INFO-> 0.26s saved as data_ccg/grc-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/grc-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 51
+#Labels: 25
+ROOTLABEL: root
+PreComputed 93302, Elapsed Time: 2.18 (s)
+Initializing dependency parser ... done [5.3 sec].
+Test File: data_ccg/grc-udpipe-ccg-2.conllu
+OOV Words: 4822 / 22139 = 21.78%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 22139 words in 1142 sentences in 4.2s at 5214.1 w/s, 269.0 sent/s.
+
+
+loading ccg tagger for grc_proiel
+2017-05-10 18:52:15,590-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/grc_proiel.pickle
+tagging ccg for grc_proiel dev
+2017-05-10 18:52:15,590-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:52:23,530-|Supertagger:         tag|-INFO-> 7.94s extracted test features
+2017-05-10 18:52:23,530-|Supertagger:         tag|-INFO-> processed 893 sentences
+2017-05-10 18:52:24,040-|Supertagger:         tag|-INFO-> 0.51s generated predictions
+2017-05-10 18:52:24,181-|Supertagger:         tag|-INFO-> 0.14s saved as data_ccg/grc_proiel-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/grc_proiel-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 67
+#Labels: 33
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.174 (s)
+Initializing dependency parser ... done [5.0 sec].
+Test File: data_ccg/grc_proiel-udpipe-ccg-2.conllu
+OOV Words: 1508 / 13652 = 11.05%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 13652 words in 893 sentences in 2.0s at 6826.0 w/s, 446.5 sent/s.
+
+
+loading ccg tagger for ar
+2017-05-10 18:52:33,644-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/ar.pickle
+tagging ccg for ar dev
+2017-05-10 18:52:33,644-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:52:41,842-|Supertagger:         tag|-INFO-> 8.20s extracted test features
+2017-05-10 18:52:41,842-|Supertagger:         tag|-INFO-> processed 763 sentences
+2017-05-10 18:52:42,883-|Supertagger:         tag|-INFO-> 1.04s generated predictions
+2017-05-10 18:52:43,194-|Supertagger:         tag|-INFO-> 0.31s saved as data_ccg/ar-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/ar-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 65
+#Labels: 32
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.184 (s)
+Initializing dependency parser ... done [4.6 sec].
+Test File: data_ccg/ar-udpipe-ccg-2.conllu
+OOV Words: 2829 / 29459 = 9.60%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 29459 words in 763 sentences in 3.5s at 8424.1 w/s, 218.2 sent/s.
+
+
+loading ccg tagger for eu
+2017-05-10 18:52:54,913-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/eu.pickle
+tagging ccg for eu dev
+2017-05-10 18:52:54,914-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:53:10,626-|Supertagger:         tag|-INFO-> 15.71s extracted test features
+2017-05-10 18:53:10,626-|Supertagger:         tag|-INFO-> processed 1810 sentences
+2017-05-10 18:53:11,344-|Supertagger:         tag|-INFO-> 0.72s generated predictions
+2017-05-10 18:53:11,578-|Supertagger:         tag|-INFO-> 0.23s saved as data_ccg/eu-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/eu-nndep-ccg.model.txt.gz ... 
+Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: Resource or file looks like a gzip file, but is not: ../DependencyTraining/models/eu-nndep-ccg.model.txt.gz
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:491)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:617)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:555)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:546)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1313)
+Caused by: java.io.EOFException
+	at java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:268)
+	at java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:258)
+	at java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:164)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:79)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:91)
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:489)
+	... 4 more
+ls: data_dep/eu-udpipe-ccg-2-parsed.conllu: No such file or directory
+Traceback (most recent call last):
+  File "src_util/concat_multi_lines.py", line 12, in <module>
+    with open(outfilename, 'r') as outfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'data_dep/eu-udpipe-ccg-2-parsed.conllu'
+Traceback (most recent call last):
+  File "src_eval/conll17_ud_eval.py", line 514, in <module>
+    main()
+  File "src_eval/conll17_ud_eval.py", line 492, in main
+    evaluation = evaluate_wrapper(args)
+  File "src_eval/conll17_ud_eval.py", line 471, in evaluate_wrapper
+    return evaluate(gold_ud, system_ud, deprel_weights)
+  File "src_eval/conll17_ud_eval.py", line 399, in evaluate
+    while gold_ud.characters[index] == system_ud.characters[index]:
+IndexError: list index out of range
+
+
+loading ccg tagger for bg
+2017-05-10 18:53:13,552-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/bg.pickle
+tagging ccg for bg dev
+2017-05-10 18:53:13,552-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:53:23,192-|Supertagger:         tag|-INFO-> 9.64s extracted test features
+2017-05-10 18:53:23,192-|Supertagger:         tag|-INFO-> processed 1097 sentences
+2017-05-10 18:53:23,692-|Supertagger:         tag|-INFO-> 0.50s generated predictions
+2017-05-10 18:53:23,916-|Supertagger:         tag|-INFO-> 0.22s saved as data_ccg/bg-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/bg-nndep-ccg.model.txt.gz ... 
+Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: Resource or file looks like a gzip file, but is not: ../DependencyTraining/models/bg-nndep-ccg.model.txt.gz
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:491)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:617)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:555)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:546)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1313)
+Caused by: java.io.EOFException
+	at java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:268)
+	at java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:258)
+	at java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:164)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:79)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:91)
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:489)
+	... 4 more
+ls: data_dep/bg-udpipe-ccg-2-parsed.conllu: No such file or directory
+Traceback (most recent call last):
+  File "src_util/concat_multi_lines.py", line 12, in <module>
+    with open(outfilename, 'r') as outfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'data_dep/bg-udpipe-ccg-2-parsed.conllu'
+Traceback (most recent call last):
+  File "src_eval/conll17_ud_eval.py", line 514, in <module>
+    main()
+  File "src_eval/conll17_ud_eval.py", line 492, in main
+    evaluation = evaluate_wrapper(args)
+  File "src_eval/conll17_ud_eval.py", line 471, in evaluate_wrapper
+    return evaluate(gold_ud, system_ud, deprel_weights)
+  File "src_eval/conll17_ud_eval.py", line 399, in evaluate
+    while gold_ud.characters[index] == system_ud.characters[index]:
+IndexError: list index out of range
+
+
+loading ccg tagger for ca
+2017-05-10 18:53:25,593-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/ca.pickle
+tagging ccg for ca dev
+2017-05-10 18:53:25,593-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:53:43,289-|Supertagger:         tag|-INFO-> 17.70s extracted test features
+2017-05-10 18:53:43,289-|Supertagger:         tag|-INFO-> processed 1703 sentences
+2017-05-10 18:53:45,672-|Supertagger:         tag|-INFO-> 2.38s generated predictions
+2017-05-10 18:53:46,205-|Supertagger:         tag|-INFO-> 0.53s saved as data_ccg/ca-udpipe-ccg-2.conllu
+
+
+ls: ../DependencyTraining/models/ca-nndep-ccg.model.txt.gz: No such file or directory
+Loading depparse model file: ../DependencyTraining/models/ca-nndep-ccg.model.txt.gz ... 
+Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: java.io.IOException: Unable to open "../DependencyTraining/models/ca-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:651)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:546)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1313)
+Caused by: java.io.IOException: Unable to open "../DependencyTraining/models/ca-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:480)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:617)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:555)
+	... 2 more
+ls: data_dep/ca-udpipe-ccg-2-parsed.conllu: No such file or directory
+Traceback (most recent call last):
+  File "src_util/concat_multi_lines.py", line 12, in <module>
+    with open(outfilename, 'r') as outfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'data_dep/ca-udpipe-ccg-2-parsed.conllu'
+Traceback (most recent call last):
+  File "src_eval/conll17_ud_eval.py", line 514, in <module>
+    main()
+  File "src_eval/conll17_ud_eval.py", line 492, in main
+    evaluation = evaluate_wrapper(args)
+  File "src_eval/conll17_ud_eval.py", line 471, in evaluate_wrapper
+    return evaluate(gold_ud, system_ud, deprel_weights)
+  File "src_eval/conll17_ud_eval.py", line 399, in evaluate
+    while gold_ud.characters[index] == system_ud.characters[index]:
+IndexError: list index out of range
+
+
+loading ccg tagger for zh
+2017-05-10 18:53:48,751-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/zh.pickle
+tagging ccg for zh dev
+2017-05-10 18:53:48,751-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:53:52,620-|Supertagger:         tag|-INFO-> 3.87s extracted test features
+2017-05-10 18:53:52,620-|Supertagger:         tag|-INFO-> processed 500 sentences
+2017-05-10 18:53:52,902-|Supertagger:         tag|-INFO-> 0.28s generated predictions
+2017-05-10 18:53:53,027-|Supertagger:         tag|-INFO-> 0.12s saved as data_ccg/zh-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/zh-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 85
+#Labels: 42
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.218 (s)
+Initializing dependency parser ... done [4.4 sec].
+Test File: data_ccg/zh-udpipe-ccg-2.conllu
+OOV Words: 1804 / 12807 = 14.09%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 12807 words in 500 sentences in 1.8s at 7170.8 w/s, 280.0 sent/s.
+
+
+loading ccg tagger for hr
+2017-05-10 18:54:01,506-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/hr.pickle
+tagging ccg for hr dev
+2017-05-10 18:54:01,506-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:54:07,270-|Supertagger:         tag|-INFO-> 5.76s extracted test features
+2017-05-10 18:54:07,271-|Supertagger:         tag|-INFO-> processed 593 sentences
+2017-05-10 18:54:07,833-|Supertagger:         tag|-INFO-> 0.56s generated predictions
+2017-05-10 18:54:07,999-|Supertagger:         tag|-INFO-> 0.17s saved as data_ccg/hr-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/hr-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 83
+#Labels: 41
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.2 (s)
+Initializing dependency parser ... done [5.1 sec].
+Test File: data_ccg/hr-udpipe-ccg-2.conllu
+OOV Words: 1939 / 14533 = 13.34%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 14533 words in 593 sentences in 2.3s at 6285.9 w/s, 256.5 sent/s.
+
+
+loading ccg tagger for cs
+2017-05-10 18:54:18,177-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/cs.pickle
+tagging ccg for cs dev
+2017-05-10 18:54:18,178-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:55:47,759-|Supertagger:         tag|-INFO-> 89.58s extracted test features
+2017-05-10 18:55:47,760-|Supertagger:         tag|-INFO-> processed 9115 sentences
+2017-05-10 18:55:55,687-|Supertagger:         tag|-INFO-> 7.93s generated predictions
+2017-05-10 18:55:57,358-|Supertagger:         tag|-INFO-> 1.67s saved as data_ccg/cs-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/cs-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 83
+#Labels: 41
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.153 (s)
+Initializing dependency parser ... done [11.0 sec].
+Test File: data_ccg/cs-udpipe-ccg-2.conllu
+OOV Words: 10708 / 159231 = 6.72%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 159231 words in 9115 sentences in 22.6s at 7032.2 w/s, 402.6 sent/s.
+
+
+loading ccg tagger for cs_cac
+2017-05-10 18:56:48,097-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/cs_cac.pickle
+tagging ccg for cs_cac dev
+2017-05-10 18:56:48,097-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:56:53,961-|Supertagger:         tag|-INFO-> 5.86s extracted test features
+2017-05-10 18:56:53,961-|Supertagger:         tag|-INFO-> processed 604 sentences
+2017-05-10 18:56:54,412-|Supertagger:         tag|-INFO-> 0.45s generated predictions
+2017-05-10 18:56:54,523-|Supertagger:         tag|-INFO-> 0.11s saved as data_ccg/cs_cac-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/cs_cac-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 83
+#Labels: 41
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.178 (s)
+Initializing dependency parser ... done [7.2 sec].
+Test File: data_ccg/cs_cac-udpipe-ccg-2.conllu
+OOV Words: 1314 / 10912 = 12.04%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 10912 words in 604 sentences in 1.8s at 6203.5 w/s, 343.4 sent/s.
+
+
+loading ccg tagger for cs_cltt
+2017-05-10 18:57:05,758-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/cs_cltt.pickle
+tagging ccg for cs_cltt dev
+2017-05-10 18:57:05,759-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:57:09,815-|Supertagger:         tag|-INFO-> 4.06s extracted test features
+2017-05-10 18:57:09,815-|Supertagger:         tag|-INFO-> processed 412 sentences
+2017-05-10 18:57:10,099-|Supertagger:         tag|-INFO-> 0.28s generated predictions
+2017-05-10 18:57:10,208-|Supertagger:         tag|-INFO-> 0.11s saved as data_ccg/cs_cltt-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/cs_cltt-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 71
+#Labels: 35
+ROOTLABEL: root
+PreComputed 22959, Elapsed Time: 0.526 (s)
+Initializing dependency parser ... done [1.7 sec].
+Test File: data_ccg/cs_cltt-udpipe-ccg-2.conllu
+OOV Words: 2291 / 10439 = 21.95%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 10439 words in 412 sentences in 2.0s at 5347.8 w/s, 211.1 sent/s.
+
+
+loading ccg tagger for da
+2017-05-10 18:57:15,937-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/da.pickle
+tagging ccg for da dev
+2017-05-10 18:57:15,938-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:57:20,944-|Supertagger:         tag|-INFO-> 5.01s extracted test features
+2017-05-10 18:57:20,944-|Supertagger:         tag|-INFO-> processed 555 sentences
+2017-05-10 18:57:21,312-|Supertagger:         tag|-INFO-> 0.37s generated predictions
+2017-05-10 18:57:21,409-|Supertagger:         tag|-INFO-> 0.10s saved as data_ccg/da-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/da-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 73
+#Labels: 36
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.18 (s)
+Initializing dependency parser ... done [4.1 sec].
+Test File: data_ccg/da-udpipe-ccg-2.conllu
+OOV Words: 1471 / 10354 = 14.21%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 10354 words in 555 sentences in 1.4s at 7180.3 w/s, 384.9 sent/s.
+
+
+loading ccg tagger for nl
+2017-05-10 18:57:29,121-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/nl.pickle
+tagging ccg for nl dev
+2017-05-10 18:57:29,121-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:57:36,075-|Supertagger:         tag|-INFO-> 6.95s extracted test features
+2017-05-10 18:57:36,075-|Supertagger:         tag|-INFO-> processed 750 sentences
+2017-05-10 18:57:36,566-|Supertagger:         tag|-INFO-> 0.49s generated predictions
+2017-05-10 18:57:36,678-|Supertagger:         tag|-INFO-> 0.11s saved as data_ccg/nl-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/nl-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 65
+#Labels: 32
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.174 (s)
+Initializing dependency parser ... done [4.7 sec].
+Test File: data_ccg/nl-udpipe-ccg-2.conllu
+OOV Words: 1514 / 11452 = 13.22%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 11452 words in 750 sentences in 1.5s at 7402.7 w/s, 484.8 sent/s.
+
+
+loading ccg tagger for nl_lassysmall
+2017-05-10 18:57:45,197-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/nl_lassysmall.pickle
+tagging ccg for nl_lassysmall dev
+2017-05-10 18:57:45,197-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:57:50,911-|Supertagger:         tag|-INFO-> 5.71s extracted test features
+2017-05-10 18:57:50,911-|Supertagger:         tag|-INFO-> processed 776 sentences
+2017-05-10 18:57:51,204-|Supertagger:         tag|-INFO-> 0.29s generated predictions
+2017-05-10 18:57:51,305-|Supertagger:         tag|-INFO-> 0.10s saved as data_ccg/nl_lassysmall-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/nl_lassysmall-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 63
+#Labels: 31
+ROOTLABEL: root
+PreComputed 70093, Elapsed Time: 1.533 (s)
+Initializing dependency parser ... done [3.4 sec].
+Test File: data_ccg/nl_lassysmall-udpipe-ccg-2.conllu
+OOV Words: 1165 / 10558 = 11.03%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 10558 words in 776 sentences in 1.3s at 8004.5 w/s, 588.3 sent/s.
+
+
+loading ccg tagger for en
+2017-05-10 18:57:58,117-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/en.pickle
+tagging ccg for en dev
+2017-05-10 18:57:58,118-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:58:12,037-|Supertagger:         tag|-INFO-> 13.92s extracted test features
+2017-05-10 18:58:12,037-|Supertagger:         tag|-INFO-> processed 1728 sentences
+2017-05-10 18:58:12,849-|Supertagger:         tag|-INFO-> 0.81s generated predictions
+2017-05-10 18:58:13,084-|Supertagger:         tag|-INFO-> 0.23s saved as data_ccg/en-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/en-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 101
+#Labels: 50
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.373 (s)
+Initializing dependency parser ... done [4.5 sec].
+Test File: data_ccg/en-udpipe-ccg-2.conllu
+OOV Words: 2161 / 25021 = 8.64%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 25021 words in 1728 sentences in 2.8s at 8907.4 w/s, 615.2 sent/s.
+
+
+loading ccg tagger for en_lines
+2017-05-10 18:58:23,480-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/en_lines.pickle
+tagging ccg for en_lines dev
+2017-05-10 18:58:23,480-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:58:29,807-|Supertagger:         tag|-INFO-> 6.33s extracted test features
+2017-05-10 18:58:29,807-|Supertagger:         tag|-INFO-> processed 931 sentences
+2017-05-10 18:58:30,211-|Supertagger:         tag|-INFO-> 0.40s generated predictions
+2017-05-10 18:58:30,370-|Supertagger:         tag|-INFO-> 0.16s saved as data_ccg/en_lines-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/en_lines-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 75
+#Labels: 37
+ROOTLABEL: root
+PreComputed 48373, Elapsed Time: 1.063 (s)
+Initializing dependency parser ... done [2.5 sec].
+Test File: data_ccg/en_lines-udpipe-ccg-2.conllu
+OOV Words: 1803 / 17102 = 10.54%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 17102 words in 931 sentences in 2.2s at 7798.4 w/s, 424.5 sent/s.
+
+
+loading ccg tagger for en_partut
+2017-05-10 18:58:37,610-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/en_partut.pickle
+tagging ccg for en_partut dev
+2017-05-10 18:58:37,610-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:58:42,110-|Supertagger:         tag|-INFO-> 4.50s extracted test features
+2017-05-10 18:58:42,110-|Supertagger:         tag|-INFO-> processed 508 sentences
+2017-05-10 18:58:42,444-|Supertagger:         tag|-INFO-> 0.33s generated predictions
+2017-05-10 18:58:42,567-|Supertagger:         tag|-INFO-> 0.12s saved as data_ccg/en_partut-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/en_partut-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 89
+#Labels: 44
+ROOTLABEL: root
+PreComputed 48739, Elapsed Time: 1.112 (s)
+Initializing dependency parser ... done [2.4 sec].
+Test File: data_ccg/en_partut-udpipe-ccg-2.conllu
+OOV Words: 1455 / 12220 = 11.91%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 12220 words in 508 sentences in 1.7s at 7265.2 w/s, 302.0 sent/s.
+
+
+loading ccg tagger for et
+2017-05-10 18:58:48,891-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/et.pickle
+tagging ccg for et dev
+2017-05-10 18:58:48,892-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:58:56,421-|Supertagger:         tag|-INFO-> 7.53s extracted test features
+2017-05-10 18:58:56,421-|Supertagger:         tag|-INFO-> processed 933 sentences
+2017-05-10 18:58:56,745-|Supertagger:         tag|-INFO-> 0.32s generated predictions
+2017-05-10 18:58:56,861-|Supertagger:         tag|-INFO-> 0.12s saved as data_ccg/et-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/et-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 71
+#Labels: 35
+ROOTLABEL: root
+PreComputed 54632, Elapsed Time: 1.193 (s)
+Initializing dependency parser ... done [2.7 sec].
+Test File: data_ccg/et-udpipe-ccg-2.conllu
+OOV Words: 3786 / 12107 = 31.27%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 12107 words in 933 sentences in 2.3s at 5380.9 w/s, 414.7 sent/s.
+
+
+loading ccg tagger for fi
+2017-05-10 18:59:04,020-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/fi.pickle
+tagging ccg for fi dev
+2017-05-10 18:59:04,020-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:59:14,762-|Supertagger:         tag|-INFO-> 10.74s extracted test features
+2017-05-10 18:59:14,762-|Supertagger:         tag|-INFO-> processed 1252 sentences
+2017-05-10 18:59:15,418-|Supertagger:         tag|-INFO-> 0.66s generated predictions
+2017-05-10 18:59:15,597-|Supertagger:         tag|-INFO-> 0.18s saved as data_ccg/fi-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/fi-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 93
+#Labels: 46
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.195 (s)
+Initializing dependency parser ... done [6.2 sec].
+Test File: data_ccg/fi-udpipe-ccg-2.conllu
+OOV Words: 4497 / 18283 = 24.60%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 18283 words in 1252 sentences in 3.3s at 5478.9 w/s, 375.2 sent/s.
+
+
+loading ccg tagger for fi_ftb
+2017-05-10 18:59:27,843-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/fi_ftb.pickle
+tagging ccg for fi_ftb dev
+2017-05-10 18:59:27,843-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 18:59:41,628-|Supertagger:         tag|-INFO-> 13.79s extracted test features
+2017-05-10 18:59:41,628-|Supertagger:         tag|-INFO-> processed 1775 sentences
+2017-05-10 18:59:42,162-|Supertagger:         tag|-INFO-> 0.53s generated predictions
+2017-05-10 18:59:42,321-|Supertagger:         tag|-INFO-> 0.16s saved as data_ccg/fi_ftb-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/fi_ftb-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 77
+#Labels: 38
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.433 (s)
+Initializing dependency parser ... done [5.8 sec].
+Test File: data_ccg/fi_ftb-udpipe-ccg-2.conllu
+OOV Words: 3570 / 15729 = 22.70%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 15729 words in 1775 sentences in 2.5s at 6286.6 w/s, 709.4 sent/s.
+
+
+loading ccg tagger for fr
+2017-05-10 18:59:53,339-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/fr.pickle
+tagging ccg for fr dev
+2017-05-10 18:59:53,339-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:00:06,165-|Supertagger:         tag|-INFO-> 12.83s extracted test features
+2017-05-10 19:00:06,165-|Supertagger:         tag|-INFO-> processed 1478 sentences
+2017-05-10 19:00:07,442-|Supertagger:         tag|-INFO-> 1.28s generated predictions
+2017-05-10 19:00:07,790-|Supertagger:         tag|-INFO-> 0.35s saved as data_ccg/fr-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/fr-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 81
+#Labels: 40
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.256 (s)
+Initializing dependency parser ... done [5.8 sec].
+Test File: data_ccg/fr-udpipe-ccg-2.conllu
+OOV Words: 2720 / 35891 = 7.58%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 35891 words in 1478 sentences in 4.2s at 8640.1 w/s, 355.8 sent/s.
+
+
+loading ccg tagger for fr_sequoia
+2017-05-10 19:00:21,566-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/fr_sequoia.pickle
+tagging ccg for fr_sequoia dev
+2017-05-10 19:00:21,566-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:00:25,151-|Supertagger:         tag|-INFO-> 3.58s extracted test features
+2017-05-10 19:00:25,151-|Supertagger:         tag|-INFO-> processed 404 sentences
+2017-05-10 19:00:25,436-|Supertagger:         tag|-INFO-> 0.29s generated predictions
+2017-05-10 19:00:25,534-|Supertagger:         tag|-INFO-> 0.10s saved as data_ccg/fr_sequoia-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/fr_sequoia-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 73
+#Labels: 36
+ROOTLABEL: root
+PreComputed 64746, Elapsed Time: 1.489 (s)
+Initializing dependency parser ... done [2.9 sec].
+Test File: data_ccg/fr_sequoia-udpipe-ccg-2.conllu
+OOV Words: 907 / 10094 = 8.99%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 10094 words in 404 sentences in 1.2s at 8206.5 w/s, 328.5 sent/s.
+
+
+loading ccg tagger for gl
+2017-05-10 19:00:31,805-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/gl.pickle
+tagging ccg for gl dev
+2017-05-10 19:00:31,805-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:00:38,559-|Supertagger:         tag|-INFO-> 6.75s extracted test features
+2017-05-10 19:00:38,559-|Supertagger:         tag|-INFO-> processed 869 sentences
+2017-05-10 19:00:39,277-|Supertagger:         tag|-INFO-> 0.72s generated predictions
+2017-05-10 19:00:39,553-|Supertagger:         tag|-INFO-> 0.28s saved as data_ccg/gl-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/gl-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 41
+#Labels: 20
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.171 (s)
+Initializing dependency parser ... done [4.0 sec].
+Test File: data_ccg/gl-udpipe-ccg-2.conllu
+OOV Words: 2842 / 29778 = 9.54%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 29778 words in 869 sentences in 3.0s at 9808.3 w/s, 286.2 sent/s.
+
+
+loading ccg tagger for de
+2017-05-10 19:00:49,854-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/de.pickle
+tagging ccg for de dev
+2017-05-10 19:00:49,854-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:00:56,601-|Supertagger:         tag|-INFO-> 6.75s extracted test features
+2017-05-10 19:00:56,601-|Supertagger:         tag|-INFO-> processed 801 sentences
+2017-05-10 19:00:57,086-|Supertagger:         tag|-INFO-> 0.49s generated predictions
+2017-05-10 19:00:57,206-|Supertagger:         tag|-INFO-> 0.12s saved as data_ccg/de-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/de-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 71
+#Labels: 35
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.242 (s)
+Initializing dependency parser ... done [6.2 sec].
+Test File: data_ccg/de-udpipe-ccg-2.conllu
+OOV Words: 1297 / 12351 = 10.50%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 12351 words in 801 sentences in 1.7s at 7387.0 w/s, 479.1 sent/s.
+
+
+loading ccg tagger for got
+2017-05-10 19:01:07,367-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/got.pickle
+tagging ccg for got dev
+2017-05-10 19:01:07,367-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:01:13,535-|Supertagger:         tag|-INFO-> 6.17s extracted test features
+2017-05-10 19:01:13,535-|Supertagger:         tag|-INFO-> processed 725 sentences
+2017-05-10 19:01:13,848-|Supertagger:         tag|-INFO-> 0.31s generated predictions
+2017-05-10 19:01:13,948-|Supertagger:         tag|-INFO-> 0.10s saved as data_ccg/got-udpipe-ccg-2.conllu
+
+
+ls: ../DependencyTraining/models/got-nndep-ccg.model.txt.gz: No such file or directory
+Loading depparse model file: ../DependencyTraining/models/got-nndep-ccg.model.txt.gz ... 
+Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: java.io.IOException: Unable to open "../DependencyTraining/models/got-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:651)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:546)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1313)
+Caused by: java.io.IOException: Unable to open "../DependencyTraining/models/got-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:480)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:617)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:555)
+	... 2 more
+ls: data_dep/got-udpipe-ccg-2-parsed.conllu: No such file or directory
+Traceback (most recent call last):
+  File "src_util/concat_multi_lines.py", line 12, in <module>
+    with open(outfilename, 'r') as outfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'data_dep/got-udpipe-ccg-2-parsed.conllu'
+Traceback (most recent call last):
+  File "src_eval/conll17_ud_eval.py", line 514, in <module>
+    main()
+  File "src_eval/conll17_ud_eval.py", line 492, in main
+    evaluation = evaluate_wrapper(args)
+  File "src_eval/conll17_ud_eval.py", line 471, in evaluate_wrapper
+    return evaluate(gold_ud, system_ud, deprel_weights)
+  File "src_eval/conll17_ud_eval.py", line 399, in evaluate
+    while gold_ud.characters[index] == system_ud.characters[index]:
+IndexError: list index out of range
+
+
+loading ccg tagger for el
+2017-05-10 19:01:15,500-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/el.pickle
+tagging ccg for el dev
+2017-05-10 19:01:15,500-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:01:19,456-|Supertagger:         tag|-INFO-> 3.96s extracted test features
+2017-05-10 19:01:19,456-|Supertagger:         tag|-INFO-> processed 409 sentences
+2017-05-10 19:01:19,758-|Supertagger:         tag|-INFO-> 0.30s generated predictions
+2017-05-10 19:01:19,859-|Supertagger:         tag|-INFO-> 0.10s saved as data_ccg/el-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/el-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 65
+#Labels: 32
+ROOTLABEL: root
+PreComputed 68204, Elapsed Time: 1.677 (s)
+Initializing dependency parser ... done [3.3 sec].
+Test File: data_ccg/el-udpipe-ccg-2.conllu
+OOV Words: 2019 / 10142 = 19.91%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 10142 words in 409 sentences in 1.5s at 6752.3 w/s, 272.3 sent/s.
+
+
+loading ccg tagger for he
+2017-05-10 19:01:26,804-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/he.pickle
+tagging ccg for he dev
+2017-05-10 19:01:26,804-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:01:31,338-|Supertagger:         tag|-INFO-> 4.53s extracted test features
+2017-05-10 19:01:31,338-|Supertagger:         tag|-INFO-> processed 494 sentences
+2017-05-10 19:01:31,704-|Supertagger:         tag|-INFO-> 0.37s generated predictions
+2017-05-10 19:01:31,821-|Supertagger:         tag|-INFO-> 0.12s saved as data_ccg/he-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/he-nndep-ccg.model.txt.gz ... 
+Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: Resource or file looks like a gzip file, but is not: ../DependencyTraining/models/he-nndep-ccg.model.txt.gz
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:491)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:617)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:555)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:546)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1313)
+Caused by: java.io.EOFException
+	at java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:268)
+	at java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:258)
+	at java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:164)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:79)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:91)
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:489)
+	... 4 more
+ls: data_dep/he-udpipe-ccg-2-parsed.conllu: No such file or directory
+Traceback (most recent call last):
+  File "src_util/concat_multi_lines.py", line 12, in <module>
+    with open(outfilename, 'r') as outfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'data_dep/he-udpipe-ccg-2-parsed.conllu'
+Traceback (most recent call last):
+  File "src_eval/conll17_ud_eval.py", line 514, in <module>
+    main()
+  File "src_eval/conll17_ud_eval.py", line 492, in main
+    evaluation = evaluate_wrapper(args)
+  File "src_eval/conll17_ud_eval.py", line 471, in evaluate_wrapper
+    return evaluate(gold_ud, system_ud, deprel_weights)
+  File "src_eval/conll17_ud_eval.py", line 399, in evaluate
+    while gold_ud.characters[index] == system_ud.characters[index]:
+IndexError: list index out of range
+
+
+loading ccg tagger for hi
+2017-05-10 19:01:33,401-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/hi.pickle
+tagging ccg for hi dev
+2017-05-10 19:01:33,401-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:01:48,792-|Supertagger:         tag|-INFO-> 15.39s extracted test features
+2017-05-10 19:01:48,792-|Supertagger:         tag|-INFO-> processed 1642 sentences
+2017-05-10 19:01:50,122-|Supertagger:         tag|-INFO-> 1.33s generated predictions
+2017-05-10 19:01:50,477-|Supertagger:         tag|-INFO-> 0.36s saved as data_ccg/hi-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/hi-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 55
+#Labels: 27
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.179 (s)
+Initializing dependency parser ... done [4.2 sec].
+Test File: data_ccg/hi-udpipe-ccg-2.conllu
+OOV Words: 1517 / 35217 = 4.31%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 35217 words in 1642 sentences in 3.0s at 11758.6 w/s, 548.2 sent/s.
+
+
+loading ccg tagger for hu
+2017-05-10 19:02:01,659-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/hu.pickle
+tagging ccg for hu dev
+2017-05-10 19:02:01,659-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:02:06,235-|Supertagger:         tag|-INFO-> 4.58s extracted test features
+2017-05-10 19:02:06,235-|Supertagger:         tag|-INFO-> processed 458 sentences
+2017-05-10 19:02:06,545-|Supertagger:         tag|-INFO-> 0.31s generated predictions
+2017-05-10 19:02:06,658-|Supertagger:         tag|-INFO-> 0.11s saved as data_ccg/hu-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/hu-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 109
+#Labels: 54
+ROOTLABEL: root
+PreComputed 50110, Elapsed Time: 1.143 (s)
+Initializing dependency parser ... done [2.6 sec].
+Test File: data_ccg/hu-udpipe-ccg-2.conllu
+OOV Words: 3922 / 11425 = 34.33%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 11425 words in 458 sentences in 2.6s at 4392.5 w/s, 176.1 sent/s.
+
+
+loading ccg tagger for id
+2017-05-10 19:02:14,049-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/id.pickle
+tagging ccg for id dev
+2017-05-10 19:02:14,049-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:02:18,102-|Supertagger:         tag|-INFO-> 4.05s extracted test features
+2017-05-10 19:02:18,102-|Supertagger:         tag|-INFO-> processed 564 sentences
+2017-05-10 19:02:18,410-|Supertagger:         tag|-INFO-> 0.31s generated predictions
+2017-05-10 19:02:18,528-|Supertagger:         tag|-INFO-> 0.12s saved as data_ccg/id-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/id-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 63
+#Labels: 31
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.285 (s)
+Initializing dependency parser ... done [4.4 sec].
+Test File: data_ccg/id-udpipe-ccg-2.conllu
+OOV Words: 1691 / 12611 = 13.41%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 12611 words in 564 sentences in 1.7s at 7619.9 w/s, 340.8 sent/s.
+
+
+loading ccg tagger for it
+2017-05-10 19:02:26,821-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/it.pickle
+tagging ccg for it dev
+2017-05-10 19:02:26,821-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:02:31,664-|Supertagger:         tag|-INFO-> 4.84s extracted test features
+2017-05-10 19:02:31,664-|Supertagger:         tag|-INFO-> processed 554 sentences
+2017-05-10 19:02:32,029-|Supertagger:         tag|-INFO-> 0.36s generated predictions
+2017-05-10 19:02:32,145-|Supertagger:         tag|-INFO-> 0.12s saved as data_ccg/it-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/it-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 89
+#Labels: 44
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.145 (s)
+Initializing dependency parser ... done [4.7 sec].
+Test File: data_ccg/it-udpipe-ccg-2.conllu
+OOV Words: 791 / 11919 = 6.64%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 11919 words in 554 sentences in 1.6s at 7669.9 w/s, 356.5 sent/s.
+
+
+loading ccg tagger for it_partut
+2017-05-10 19:02:40,681-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/it_partut.pickle
+tagging ccg for it_partut dev
+2017-05-10 19:02:40,681-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:02:45,368-|Supertagger:         tag|-INFO-> 4.69s extracted test features
+2017-05-10 19:02:45,368-|Supertagger:         tag|-INFO-> processed 505 sentences
+2017-05-10 19:02:45,755-|Supertagger:         tag|-INFO-> 0.39s generated predictions
+2017-05-10 19:02:45,889-|Supertagger:         tag|-INFO-> 0.13s saved as data_ccg/it_partut-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/it_partut-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 85
+#Labels: 42
+ROOTLABEL: root
+PreComputed 53706, Elapsed Time: 1.219 (s)
+Initializing dependency parser ... done [2.5 sec].
+Test File: data_ccg/it_partut-udpipe-ccg-2.conllu
+OOV Words: 1852 / 13804 = 13.42%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 13804 words in 505 sentences in 2.1s at 6704.2 w/s, 245.3 sent/s.
+
+
+loading ccg tagger for ja
+2017-05-10 19:02:52,816-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/ja.pickle
+tagging ccg for ja dev
+2017-05-10 19:02:52,816-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:02:56,500-|Supertagger:         tag|-INFO-> 3.68s extracted test features
+2017-05-10 19:02:56,500-|Supertagger:         tag|-INFO-> processed 510 sentences
+2017-05-10 19:02:56,806-|Supertagger:         tag|-INFO-> 0.31s generated predictions
+2017-05-10 19:02:56,922-|Supertagger:         tag|-INFO-> 0.12s saved as data_ccg/ja-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/ja-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 43
+#Labels: 21
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.218 (s)
+Initializing dependency parser ... done [4.7 sec].
+Test File: data_ccg/ja-udpipe-ccg-2.conllu
+OOV Words: 1187 / 11673 = 10.17%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 11673 words in 510 sentences in 1.4s at 8237.8 w/s, 359.9 sent/s.
+
+
+loading ccg tagger for ko
+2017-05-10 19:03:05,231-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/ko.pickle
+tagging ccg for ko dev
+2017-05-10 19:03:05,231-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:03:11,077-|Supertagger:         tag|-INFO-> 5.85s extracted test features
+2017-05-10 19:03:11,077-|Supertagger:         tag|-INFO-> processed 927 sentences
+2017-05-10 19:03:11,316-|Supertagger:         tag|-INFO-> 0.24s generated predictions
+2017-05-10 19:03:11,429-|Supertagger:         tag|-INFO-> 0.11s saved as data_ccg/ko-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/ko-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 49
+#Labels: 24
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.159 (s)
+Initializing dependency parser ... done [5.0 sec].
+Test File: data_ccg/ko-udpipe-ccg-2.conllu
+OOV Words: 4846 / 11077 = 43.75%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 11077 words in 927 sentences in 2.4s at 4615.4 w/s, 386.3 sent/s.
+
+
+loading ccg tagger for la_ittb
+2017-05-10 19:03:21,000-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/la_ittb.pickle
+tagging ccg for la_ittb dev
+2017-05-10 19:03:21,000-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:03:26,343-|Supertagger:         tag|-INFO-> 5.34s extracted test features
+2017-05-10 19:03:26,343-|Supertagger:         tag|-INFO-> processed 600 sentences
+2017-05-10 19:03:26,761-|Supertagger:         tag|-INFO-> 0.42s generated predictions
+2017-05-10 19:03:26,860-|Supertagger:         tag|-INFO-> 0.10s saved as data_ccg/la_ittb-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/la_ittb-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 69
+#Labels: 34
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.253 (s)
+Initializing dependency parser ... done [4.1 sec].
+Test File: data_ccg/la_ittb-udpipe-ccg-2.conllu
+OOV Words: 621 / 10339 = 6.01%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 10339 words in 600 sentences in 1.2s at 8623.0 w/s, 500.4 sent/s.
+
+
+loading ccg tagger for la_proiel
+2017-05-10 19:03:34,471-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/la_proiel.pickle
+tagging ccg for la_proiel dev
+2017-05-10 19:03:34,471-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:03:39,833-|Supertagger:         tag|-INFO-> 5.36s extracted test features
+2017-05-10 19:03:39,833-|Supertagger:         tag|-INFO-> processed 589 sentences
+2017-05-10 19:03:40,348-|Supertagger:         tag|-INFO-> 0.51s generated predictions
+2017-05-10 19:03:40,466-|Supertagger:         tag|-INFO-> 0.12s saved as data_ccg/la_proiel-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/la_proiel-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 69
+#Labels: 34
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.147 (s)
+Initializing dependency parser ... done [4.4 sec].
+Test File: data_ccg/la_proiel-udpipe-ccg-2.conllu
+OOV Words: 1171 / 12364 = 9.47%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 12364 words in 589 sentences in 1.7s at 7324.6 w/s, 348.9 sent/s.
+
+
+loading ccg tagger for lv
+2017-05-10 19:03:48,811-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/lv.pickle
+tagging ccg for lv dev
+2017-05-10 19:03:48,811-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:03:55,170-|Supertagger:         tag|-INFO-> 6.36s extracted test features
+2017-05-10 19:03:55,170-|Supertagger:         tag|-INFO-> processed 735 sentences
+2017-05-10 19:03:55,469-|Supertagger:         tag|-INFO-> 0.30s generated predictions
+2017-05-10 19:03:55,572-|Supertagger:         tag|-INFO-> 0.10s saved as data_ccg/lv-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/lv-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 73
+#Labels: 36
+ROOTLABEL: root
+PreComputed 92160, Elapsed Time: 2.051 (s)
+Initializing dependency parser ... done [3.8 sec].
+Test File: data_ccg/lv-udpipe-ccg-2.conllu
+OOV Words: 2975 / 10122 = 29.39%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 10122 words in 735 sentences in 1.9s at 5280.1 w/s, 383.4 sent/s.
+
+
+loading ccg tagger for no_bokmaal
+2017-05-10 19:04:03,458-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/no_bokmaal.pickle
+tagging ccg for no_bokmaal dev
+2017-05-10 19:04:03,458-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:04:23,369-|Supertagger:         tag|-INFO-> 19.91s extracted test features
+2017-05-10 19:04:23,369-|Supertagger:         tag|-INFO-> processed 2382 sentences
+2017-05-10 19:04:24,706-|Supertagger:         tag|-INFO-> 1.34s generated predictions
+2017-05-10 19:04:25,059-|Supertagger:         tag|-INFO-> 0.35s saved as data_ccg/no_bokmaal-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/no_bokmaal-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 75
+#Labels: 37
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.166 (s)
+Initializing dependency parser ... done [4.9 sec].
+Test File: data_ccg/no_bokmaal-udpipe-ccg-2.conllu
+OOV Words: 3541 / 36343 = 9.74%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 36343 words in 2382 sentences in 4.4s at 8189.0 w/s, 536.7 sent/s.
+
+
+loading ccg tagger for no_nynorsk
+2017-05-10 19:04:38,288-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/no_nynorsk.pickle
+tagging ccg for no_nynorsk dev
+2017-05-10 19:04:38,289-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:04:53,828-|Supertagger:         tag|-INFO-> 15.54s extracted test features
+2017-05-10 19:04:53,829-|Supertagger:         tag|-INFO-> processed 1822 sentences
+2017-05-10 19:04:54,952-|Supertagger:         tag|-INFO-> 1.12s generated predictions
+2017-05-10 19:04:55,257-|Supertagger:         tag|-INFO-> 0.30s saved as data_ccg/no_nynorsk-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/no_nynorsk-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 75
+#Labels: 37
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.234 (s)
+Initializing dependency parser ... done [4.9 sec].
+Test File: data_ccg/no_nynorsk-udpipe-ccg-2.conllu
+OOV Words: 3172 / 31256 = 10.15%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 31256 words in 1822 sentences in 3.7s at 8395.4 w/s, 489.4 sent/s.
+
+
+loading ccg tagger for cu
+2017-05-10 19:05:07,474-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/cu.pickle
+tagging ccg for cu dev
+2017-05-10 19:05:07,474-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:05:14,741-|Supertagger:         tag|-INFO-> 7.27s extracted test features
+2017-05-10 19:05:14,742-|Supertagger:         tag|-INFO-> processed 863 sentences
+2017-05-10 19:05:15,040-|Supertagger:         tag|-INFO-> 0.30s generated predictions
+2017-05-10 19:05:15,146-|Supertagger:         tag|-INFO-> 0.11s saved as data_ccg/cu-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/cu-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 63
+#Labels: 31
+ROOTLABEL: root
+PreComputed 46537, Elapsed Time: 1.014 (s)
+Initializing dependency parser ... done [2.5 sec].
+Test File: data_ccg/cu-udpipe-ccg-2.conllu
+OOV Words: 1329 / 10100 = 13.16%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 10100 words in 863 sentences in 1.5s at 6898.9 w/s, 589.5 sent/s.
+
+
+loading ccg tagger for fa
+2017-05-10 19:05:21,210-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/fa.pickle
+tagging ccg for fa dev
+2017-05-10 19:05:21,210-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:05:26,291-|Supertagger:         tag|-INFO-> 5.08s extracted test features
+2017-05-10 19:05:26,291-|Supertagger:         tag|-INFO-> processed 591 sentences
+2017-05-10 19:05:26,799-|Supertagger:         tag|-INFO-> 0.51s generated predictions
+2017-05-10 19:05:26,959-|Supertagger:         tag|-INFO-> 0.16s saved as data_ccg/fa-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/fa-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 75
+#Labels: 37
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.168 (s)
+Initializing dependency parser ... done [4.1 sec].
+Test File: data_ccg/fa-udpipe-ccg-2.conllu
+OOV Words: 1356 / 15811 = 8.58%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 15811 words in 591 sentences in 1.6s at 9629.1 w/s, 359.9 sent/s.
+
+
+loading ccg tagger for pl
+2017-05-10 19:05:35,143-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/pl.pickle
+tagging ccg for pl dev
+2017-05-10 19:05:35,143-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:05:43,863-|Supertagger:         tag|-INFO-> 8.72s extracted test features
+2017-05-10 19:05:43,863-|Supertagger:         tag|-INFO-> processed 1026 sentences
+2017-05-10 19:05:44,161-|Supertagger:         tag|-INFO-> 0.30s generated predictions
+2017-05-10 19:05:44,269-|Supertagger:         tag|-INFO-> 0.11s saved as data_ccg/pl-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/pl-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 61
+#Labels: 30
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.202 (s)
+Initializing dependency parser ... done [4.4 sec].
+Test File: data_ccg/pl-udpipe-ccg-2.conllu
+OOV Words: 2659 / 10265 = 25.90%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 10265 words in 1026 sentences in 1.7s at 6048.9 w/s, 604.6 sent/s.
+
+
+loading ccg tagger for pt
+2017-05-10 19:05:52,536-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/pt.pickle
+tagging ccg for pt dev
+2017-05-10 19:05:52,536-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:05:57,212-|Supertagger:         tag|-INFO-> 4.68s extracted test features
+2017-05-10 19:05:57,213-|Supertagger:         tag|-INFO-> processed 540 sentences
+2017-05-10 19:05:57,605-|Supertagger:         tag|-INFO-> 0.39s generated predictions
+2017-05-10 19:05:57,713-|Supertagger:         tag|-INFO-> 0.11s saved as data_ccg/pt-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/pt-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 85
+#Labels: 42
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.251 (s)
+Initializing dependency parser ... done [5.0 sec].
+Test File: data_ccg/pt-udpipe-ccg-2.conllu
+OOV Words: 999 / 10855 = 9.20%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 10855 words in 540 sentences in 1.7s at 6296.4 w/s, 313.2 sent/s.
+
+
+loading ccg tagger for pt_br
+2017-05-10 19:06:06,636-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/pt_br.pickle
+tagging ccg for pt_br dev
+2017-05-10 19:06:06,636-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:06:16,436-|Supertagger:         tag|-INFO-> 9.80s extracted test features
+2017-05-10 19:06:16,436-|Supertagger:         tag|-INFO-> processed 1209 sentences
+2017-05-10 19:06:17,535-|Supertagger:         tag|-INFO-> 1.10s generated predictions
+2017-05-10 19:06:17,844-|Supertagger:         tag|-INFO-> 0.31s saved as data_ccg/pt_br-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/pt_br-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 69
+#Labels: 34
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.169 (s)
+Initializing dependency parser ... done [5.0 sec].
+Test File: data_ccg/pt_br-udpipe-ccg-2.conllu
+OOV Words: 2130 / 32156 = 6.62%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 32156 words in 1209 sentences in 3.7s at 8616.3 w/s, 324.0 sent/s.
+
+
+loading ccg tagger for ro
+2017-05-10 19:06:30,337-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/ro.pickle
+tagging ccg for ro dev
+2017-05-10 19:06:30,337-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:06:37,826-|Supertagger:         tag|-INFO-> 7.49s extracted test features
+2017-05-10 19:06:37,826-|Supertagger:         tag|-INFO-> processed 757 sentences
+2017-05-10 19:06:38,516-|Supertagger:         tag|-INFO-> 0.69s generated predictions
+2017-05-10 19:06:38,686-|Supertagger:         tag|-INFO-> 0.17s saved as data_ccg/ro-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/ro-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 99
+#Labels: 49
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.188 (s)
+Initializing dependency parser ... done [5.0 sec].
+Test File: data_ccg/ro-udpipe-ccg-2.conllu
+OOV Words: 1885 / 17067 = 11.04%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 17067 words in 757 sentences in 2.6s at 6489.4 w/s, 287.8 sent/s.
+
+
+loading ccg tagger for ru
+2017-05-10 19:06:48,926-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/ru.pickle
+tagging ccg for ru dev
+2017-05-10 19:06:48,926-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:06:54,020-|Supertagger:         tag|-INFO-> 5.09s extracted test features
+2017-05-10 19:06:54,020-|Supertagger:         tag|-INFO-> processed 573 sentences
+2017-05-10 19:06:54,360-|Supertagger:         tag|-INFO-> 0.34s generated predictions
+2017-05-10 19:06:54,481-|Supertagger:         tag|-INFO-> 0.12s saved as data_ccg/ru-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/ru-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 81
+#Labels: 40
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.176 (s)
+Initializing dependency parser ... done [4.8 sec].
+Test File: data_ccg/ru-udpipe-ccg-2.conllu
+OOV Words: 3140 / 11875 = 26.44%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 11875 words in 573 sentences in 2.2s at 5485.0 w/s, 264.7 sent/s.
+
+
+loading ccg tagger for ru_syntagrus
+2017-05-10 19:07:03,762-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/ru_syntagrus.pickle
+tagging ccg for ru_syntagrus dev
+2017-05-10 19:07:03,762-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:08:02,679-|Supertagger:         tag|-INFO-> 58.92s extracted test features
+2017-05-10 19:08:02,679-|Supertagger:         tag|-INFO-> processed 6619 sentences
+2017-05-10 19:08:08,132-|Supertagger:         tag|-INFO-> 5.45s generated predictions
+2017-05-10 19:08:09,405-|Supertagger:         tag|-INFO-> 1.27s saved as data_ccg/ru_syntagrus-udpipe-ccg-2.conllu
+
+
+ls: ../DependencyTraining/models/ru_syntagrus-nndep-ccg.model.txt.gz: No such file or directory
+Loading depparse model file: ../DependencyTraining/models/ru_syntagrus-nndep-ccg.model.txt.gz ... 
+Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: java.io.IOException: Unable to open "../DependencyTraining/models/ru_syntagrus-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:651)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:546)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1313)
+Caused by: java.io.IOException: Unable to open "../DependencyTraining/models/ru_syntagrus-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:480)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:617)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:555)
+	... 2 more
+ls: data_dep/ru_syntagrus-udpipe-ccg-2-parsed.conllu: No such file or directory
+Traceback (most recent call last):
+  File "src_util/concat_multi_lines.py", line 12, in <module>
+    with open(outfilename, 'r') as outfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'data_dep/ru_syntagrus-udpipe-ccg-2-parsed.conllu'
+Traceback (most recent call last):
+  File "src_eval/conll17_ud_eval.py", line 514, in <module>
+    main()
+  File "src_eval/conll17_ud_eval.py", line 492, in main
+    evaluation = evaluate_wrapper(args)
+  File "src_eval/conll17_ud_eval.py", line 471, in evaluate_wrapper
+    return evaluate(gold_ud, system_ud, deprel_weights)
+  File "src_eval/conll17_ud_eval.py", line 399, in evaluate
+    while gold_ud.characters[index] == system_ud.characters[index]:
+IndexError: list index out of range
+
+
+loading ccg tagger for sk
+2017-05-10 19:08:15,530-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/sk.pickle
+tagging ccg for sk dev
+2017-05-10 19:08:15,530-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:08:24,566-|Supertagger:         tag|-INFO-> 9.04s extracted test features
+2017-05-10 19:08:24,566-|Supertagger:         tag|-INFO-> processed 1044 sentences
+2017-05-10 19:08:24,920-|Supertagger:         tag|-INFO-> 0.35s generated predictions
+2017-05-10 19:08:25,049-|Supertagger:         tag|-INFO-> 0.13s saved as data_ccg/sk-udpipe-ccg-2.conllu
+
+
+ls: ../DependencyTraining/models/sk-nndep-ccg.model.txt.gz: No such file or directory
+Loading depparse model file: ../DependencyTraining/models/sk-nndep-ccg.model.txt.gz ... 
+Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: java.io.IOException: Unable to open "../DependencyTraining/models/sk-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:651)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:546)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1313)
+Caused by: java.io.IOException: Unable to open "../DependencyTraining/models/sk-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:480)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:617)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:555)
+	... 2 more
+ls: data_dep/sk-udpipe-ccg-2-parsed.conllu: No such file or directory
+Traceback (most recent call last):
+  File "src_util/concat_multi_lines.py", line 12, in <module>
+    with open(outfilename, 'r') as outfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'data_dep/sk-udpipe-ccg-2-parsed.conllu'
+Traceback (most recent call last):
+  File "src_eval/conll17_ud_eval.py", line 514, in <module>
+    main()
+  File "src_eval/conll17_ud_eval.py", line 492, in main
+    evaluation = evaluate_wrapper(args)
+  File "src_eval/conll17_ud_eval.py", line 471, in evaluate_wrapper
+    return evaluate(gold_ud, system_ud, deprel_weights)
+  File "src_eval/conll17_ud_eval.py", line 399, in evaluate
+    while gold_ud.characters[index] == system_ud.characters[index]:
+IndexError: list index out of range
+
+
+loading ccg tagger for sl
+2017-05-10 19:08:26,688-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/sl.pickle
+tagging ccg for sl dev
+2017-05-10 19:08:26,688-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:08:33,538-|Supertagger:         tag|-INFO-> 6.85s extracted test features
+2017-05-10 19:08:33,538-|Supertagger:         tag|-INFO-> processed 734 sentences
+2017-05-10 19:08:33,948-|Supertagger:         tag|-INFO-> 0.41s generated predictions
+2017-05-10 19:08:34,087-|Supertagger:         tag|-INFO-> 0.14s saved as data_ccg/sl-udpipe-ccg-2.conllu
+
+
+ls: ../DependencyTraining/models/sl-nndep-ccg.model.txt.gz: No such file or directory
+Loading depparse model file: ../DependencyTraining/models/sl-nndep-ccg.model.txt.gz ... 
+Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: java.io.IOException: Unable to open "../DependencyTraining/models/sl-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:651)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:546)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1313)
+Caused by: java.io.IOException: Unable to open "../DependencyTraining/models/sl-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:480)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:617)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:555)
+	... 2 more
+ls: data_dep/sl-udpipe-ccg-2-parsed.conllu: No such file or directory
+Traceback (most recent call last):
+  File "src_util/concat_multi_lines.py", line 12, in <module>
+    with open(outfilename, 'r') as outfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'data_dep/sl-udpipe-ccg-2-parsed.conllu'
+Traceback (most recent call last):
+  File "src_eval/conll17_ud_eval.py", line 514, in <module>
+    main()
+  File "src_eval/conll17_ud_eval.py", line 492, in main
+    evaluation = evaluate_wrapper(args)
+  File "src_eval/conll17_ud_eval.py", line 471, in evaluate_wrapper
+    return evaluate(gold_ud, system_ud, deprel_weights)
+  File "src_eval/conll17_ud_eval.py", line 399, in evaluate
+    while gold_ud.characters[index] == system_ud.characters[index]:
+IndexError: list index out of range
+
+
+loading ccg tagger for es
+2017-05-10 19:08:35,736-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/es.pickle
+tagging ccg for es dev
+2017-05-10 19:08:35,736-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:08:49,115-|Supertagger:         tag|-INFO-> 13.38s extracted test features
+2017-05-10 19:08:49,115-|Supertagger:         tag|-INFO-> processed 1394 sentences
+2017-05-10 19:08:50,575-|Supertagger:         tag|-INFO-> 1.46s generated predictions
+2017-05-10 19:08:50,927-|Supertagger:         tag|-INFO-> 0.35s saved as data_ccg/es-udpipe-ccg-2.conllu
+
+
+ls: ../DependencyTraining/models/es-nndep-ccg.model.txt.gz: No such file or directory
+Loading depparse model file: ../DependencyTraining/models/es-nndep-ccg.model.txt.gz ... 
+Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: java.io.IOException: Unable to open "../DependencyTraining/models/es-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:651)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:546)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1313)
+Caused by: java.io.IOException: Unable to open "../DependencyTraining/models/es-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:480)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:617)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:555)
+	... 2 more
+ls: data_dep/es-udpipe-ccg-2-parsed.conllu: No such file or directory
+Traceback (most recent call last):
+  File "src_util/concat_multi_lines.py", line 12, in <module>
+    with open(outfilename, 'r') as outfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'data_dep/es-udpipe-ccg-2-parsed.conllu'
+Traceback (most recent call last):
+  File "src_eval/conll17_ud_eval.py", line 514, in <module>
+    main()
+  File "src_eval/conll17_ud_eval.py", line 492, in main
+    evaluation = evaluate_wrapper(args)
+  File "src_eval/conll17_ud_eval.py", line 471, in evaluate_wrapper
+    return evaluate(gold_ud, system_ud, deprel_weights)
+  File "src_eval/conll17_ud_eval.py", line 399, in evaluate
+    while gold_ud.characters[index] == system_ud.characters[index]:
+IndexError: list index out of range
+
+
+loading ccg tagger for es_ancora
+2017-05-10 19:08:53,042-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/es_ancora.pickle
+tagging ccg for es_ancora dev
+2017-05-10 19:08:53,043-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:09:10,076-|Supertagger:         tag|-INFO-> 17.03s extracted test features
+2017-05-10 19:09:10,076-|Supertagger:         tag|-INFO-> processed 1672 sentences
+2017-05-10 19:09:12,195-|Supertagger:         tag|-INFO-> 2.12s generated predictions
+2017-05-10 19:09:12,687-|Supertagger:         tag|-INFO-> 0.49s saved as data_ccg/es_ancora-udpipe-ccg-2.conllu
+
+
+ls: ../DependencyTraining/models/es_ancora-nndep-ccg.model.txt.gz: No such file or directory
+Loading depparse model file: ../DependencyTraining/models/es_ancora-nndep-ccg.model.txt.gz ... 
+Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: java.io.IOException: Unable to open "../DependencyTraining/models/es_ancora-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:651)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:546)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1313)
+Caused by: java.io.IOException: Unable to open "../DependencyTraining/models/es_ancora-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:480)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:617)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:555)
+	... 2 more
+ls: data_dep/es_ancora-udpipe-ccg-2-parsed.conllu: No such file or directory
+Traceback (most recent call last):
+  File "src_util/concat_multi_lines.py", line 12, in <module>
+    with open(outfilename, 'r') as outfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'data_dep/es_ancora-udpipe-ccg-2-parsed.conllu'
+Traceback (most recent call last):
+  File "src_eval/conll17_ud_eval.py", line 514, in <module>
+    main()
+  File "src_eval/conll17_ud_eval.py", line 492, in main
+    evaluation = evaluate_wrapper(args)
+  File "src_eval/conll17_ud_eval.py", line 471, in evaluate_wrapper
+    return evaluate(gold_ud, system_ud, deprel_weights)
+  File "src_eval/conll17_ud_eval.py", line 399, in evaluate
+    while gold_ud.characters[index] == system_ud.characters[index]:
+IndexError: list index out of range
+
+
+loading ccg tagger for sv
+2017-05-10 19:09:15,141-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/sv.pickle
+tagging ccg for sv dev
+2017-05-10 19:09:15,141-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:09:19,699-|Supertagger:         tag|-INFO-> 4.56s extracted test features
+2017-05-10 19:09:19,699-|Supertagger:         tag|-INFO-> processed 517 sentences
+2017-05-10 19:09:20,056-|Supertagger:         tag|-INFO-> 0.36s generated predictions
+2017-05-10 19:09:20,154-|Supertagger:         tag|-INFO-> 0.10s saved as data_ccg/sv-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/sv-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 79
+#Labels: 39
+ROOTLABEL: root
+PreComputed 100000, Elapsed Time: 2.179 (s)
+Initializing dependency parser ... done [3.9 sec].
+Test File: data_ccg/sv-udpipe-ccg-2.conllu
+OOV Words: 1270 / 9804 = 12.95%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 9804 words in 517 sentences in 1.1s at 8691.5 w/s, 458.3 sent/s.
+
+
+loading ccg tagger for sv_lines
+2017-05-10 19:09:27,250-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/sv_lines.pickle
+tagging ccg for sv_lines dev
+2017-05-10 19:09:27,251-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:09:33,625-|Supertagger:         tag|-INFO-> 6.37s extracted test features
+2017-05-10 19:09:33,625-|Supertagger:         tag|-INFO-> processed 928 sentences
+2017-05-10 19:09:33,972-|Supertagger:         tag|-INFO-> 0.35s generated predictions
+2017-05-10 19:09:34,174-|Supertagger:         tag|-INFO-> 0.20s saved as data_ccg/sv_lines-udpipe-ccg-2.conllu
+
+
+ls: ../DependencyTraining/models/sv_lines-nndep-ccg.model.txt.gz: No such file or directory
+Loading depparse model file: ../DependencyTraining/models/sv_lines-nndep-ccg.model.txt.gz ... 
+Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: java.io.IOException: Unable to open "../DependencyTraining/models/sv_lines-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:651)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:546)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1313)
+Caused by: java.io.IOException: Unable to open "../DependencyTraining/models/sv_lines-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:480)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:617)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:555)
+	... 2 more
+ls: data_dep/sv_lines-udpipe-ccg-2-parsed.conllu: No such file or directory
+Traceback (most recent call last):
+  File "src_util/concat_multi_lines.py", line 12, in <module>
+    with open(outfilename, 'r') as outfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'data_dep/sv_lines-udpipe-ccg-2-parsed.conllu'
+Traceback (most recent call last):
+  File "src_eval/conll17_ud_eval.py", line 514, in <module>
+    main()
+  File "src_eval/conll17_ud_eval.py", line 492, in main
+    evaluation = evaluate_wrapper(args)
+  File "src_eval/conll17_ud_eval.py", line 471, in evaluate_wrapper
+    return evaluate(gold_ud, system_ud, deprel_weights)
+  File "src_eval/conll17_ud_eval.py", line 399, in evaluate
+    while gold_ud.characters[index] == system_ud.characters[index]:
+IndexError: list index out of range
+
+
+loading ccg tagger for tr
+2017-05-10 19:09:35,792-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/tr.pickle
+tagging ccg for tr dev
+2017-05-10 19:09:35,792-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:09:43,680-|Supertagger:         tag|-INFO-> 7.89s extracted test features
+2017-05-10 19:09:43,680-|Supertagger:         tag|-INFO-> processed 978 sentences
+2017-05-10 19:09:44,002-|Supertagger:         tag|-INFO-> 0.32s generated predictions
+2017-05-10 19:09:44,111-|Supertagger:         tag|-INFO-> 0.11s saved as data_ccg/tr-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/tr-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 59
+#Labels: 29
+ROOTLABEL: root
+PreComputed 93316, Elapsed Time: 2.042 (s)
+Initializing dependency parser ... done [3.9 sec].
+Test File: data_ccg/tr-udpipe-ccg-2.conllu
+OOV Words: 2662 / 9933 = 26.80%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 9933 words in 978 sentences in 1.6s at 6049.3 w/s, 595.6 sent/s.
+
+
+loading ccg tagger for ur
+2017-05-10 19:09:51,768-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/ur.pickle
+tagging ccg for ur dev
+2017-05-10 19:09:51,768-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:09:57,151-|Supertagger:         tag|-INFO-> 5.38s extracted test features
+2017-05-10 19:09:57,151-|Supertagger:         tag|-INFO-> processed 552 sentences
+2017-05-10 19:09:57,645-|Supertagger:         tag|-INFO-> 0.49s generated predictions
+2017-05-10 19:09:57,792-|Supertagger:         tag|-INFO-> 0.15s saved as data_ccg/ur-udpipe-ccg-2.conllu
+
+
+Loading depparse model file: ../DependencyTraining/models/ur-nndep-ccg.model.txt.gz ... 
+###################
+#Transitions: 51
+#Labels: 25
+ROOTLABEL: root
+PreComputed 78363, Elapsed Time: 1.871 (s)
+Initializing dependency parser ... done [3.4 sec].
+Test File: data_ccg/ur-udpipe-ccg-2.conllu
+OOV Words: 883 / 14580 = 6.06%
+UAS = 0.0000
+LAS = 0.0000
+DependencyParser parsed 14580 words in 552 sentences in 1.4s at 10504.3 w/s, 397.7 sent/s.
+
+
+loading ccg tagger for vi
+2017-05-10 19:10:05,027-|Supertagger:        load|-INFO-> loaded model from ../Supertagger2/models/vi.pickle
+tagging ccg for vi dev
+2017-05-10 19:10:05,027-|Supertagger:         tag|-INFO-> started tagging
+2017-05-10 19:10:10,453-|Supertagger:         tag|-INFO-> 5.43s extracted test features
+2017-05-10 19:10:10,453-|Supertagger:         tag|-INFO-> processed 814 sentences
+2017-05-10 19:10:10,664-|Supertagger:         tag|-INFO-> 0.21s generated predictions
+2017-05-10 19:10:10,782-|Supertagger:         tag|-INFO-> 0.12s saved as data_ccg/vi-udpipe-ccg-2.conllu
+
+
+ls: ../DependencyTraining/models/vi-nndep-ccg.model.txt.gz: No such file or directory
+Loading depparse model file: ../DependencyTraining/models/vi-nndep-ccg.model.txt.gz ... 
+Exception in thread "main" edu.stanford.nlp.io.RuntimeIOException: java.io.IOException: Unable to open "../DependencyTraining/models/vi-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:651)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:546)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.main(DependencyParser.java:1313)
+Caused by: java.io.IOException: Unable to open "../DependencyTraining/models/vi-nndep-ccg.model.txt.gz" as class path, filename or URL
+	at edu.stanford.nlp.io.IOUtils.getInputStreamFromURLOrClasspathOrFileSystem(IOUtils.java:480)
+	at edu.stanford.nlp.io.IOUtils.readerFromString(IOUtils.java:617)
+	at edu.stanford.nlp.parser.nndep.DependencyParser.loadModelFile(DependencyParser.java:555)
+	... 2 more
+ls: data_dep/vi-udpipe-ccg-2-parsed.conllu: No such file or directory
+Traceback (most recent call last):
+  File "src_util/concat_multi_lines.py", line 12, in <module>
+    with open(outfilename, 'r') as outfile:
+FileNotFoundError: [Errno 2] No such file or directory: 'data_dep/vi-udpipe-ccg-2-parsed.conllu'
+Traceback (most recent call last):
+  File "src_eval/conll17_ud_eval.py", line 514, in <module>
+    main()
+  File "src_eval/conll17_ud_eval.py", line 492, in main
+    evaluation = evaluate_wrapper(args)
+  File "src_eval/conll17_ud_eval.py", line 471, in evaluate_wrapper
+    return evaluate(gold_ud, system_ud, deprel_weights)
+  File "src_eval/conll17_ud_eval.py", line 399, in evaluate
+    while gold_ud.characters[index] == system_ud.characters[index]:
+IndexError: list index out of range
+
+

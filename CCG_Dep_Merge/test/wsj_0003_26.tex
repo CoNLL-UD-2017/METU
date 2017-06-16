@@ -1,0 +1,152 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt,a4paper]{article} 
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{fontspec}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{adjustbox}
+
+\usepackage{tikz} 
+\usepackage{tikzscale}
+\usepackage{tikz-dependency}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
+
+
+\begin{document}
+
+\setmainfont{Arial Unicode MS}
+
+
+\begin{figure}[h]
+\centering
+\adjustbox{max width=\columnwidth}{
+
+\begin{dependency}[theme = simple]
+
+\tikzstyle{word}=[font=\normalsize, text=black,
+                   draw=Green, rounded corners]
+
+\tikzstyle{word-empty}=[font=\normalsize, text=Thistle,
+                        draw=Thistle, rounded corners]
+
+\tikzstyle{attr}=[text=black, font=\normalsize, ]
+
+\tikzstyle{attr-empty}=[text=Thistle, font=\normalsize, ]
+
+\depstyle{rel}{edge style = {thick, OrangeRed}, 
+                 label style = {thick, draw=OrangeRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{rel2}{edge style = {thick, BrickRed}, 
+                 label style = {thick, draw=BrickRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root}{edge style = {thick, OliveGreen}, 
+                 label style = {thick, draw=OliveGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root2}{edge style = {thick, YellowGreen}, 
+                  label style = {thick, draw=YellowGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{relccg}{edge style = {thick, NavyBlue}, 
+                 label style = {thick, draw=NavyBlue, text=blue, fill=white, anchor=mid,}}
+
+% words
+\begin{deptext}[column sep=1em, row sep=0.1em]
+|[word]| Workers \& |[word]| dumped \& |[word]| large \& |[word]| burlap \& |[word]| sacks \& |[word]| of \& |[word]| the \& |[word]| imported \& |[word]| material \& |[word]| into \& |[word]| a \& |[word]| huge \& |[word]| bin \& |[word]| , \& |[word]| poured \& |[word]| in \& |[word]| cotton \& |[word]| and \& |[word]| acetate \& |[word]| fibers \& |[word]| and \& |[word]| mechanically \& |[word]| mixed \& |[word]| the \& |[word]| dry \& |[word]| fibers \& |[word]| in \& |[word]| a \& |[word]| process \& |[word]| used \& |[word]| to \& |[word]| make \& |[word]| filters \& |[word]| . \\
+|[attr]| NOUN \& |[attr]| VERB \& |[attr]| ADJ \& |[attr]| NOUN \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| DET \& |[attr]| VERB \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| DET \& |[attr]| ADJ \& |[attr]| NOUN \& |[attr]| PUNCT \& |[attr]| VERB \& |[attr]| ADP \& |[attr]| NOUN \& |[attr]| CONJ \& |[attr]| NOUN \& |[attr]| NOUN \& |[attr]| CONJ \& |[attr]| ADV \& |[attr]| VERB \& |[attr]| DET \& |[attr]| ADJ \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| DET \& |[attr]| NOUN \& |[attr]| VERB \& |[attr]| PART \& |[attr]| VERB \& |[attr]| NOUN \& |[attr]| PUNCT \\
+|[word]| N \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/NP \& |[word]| N/N \& |[word]| N/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N \& |[word]| ((S\textbackslash{}NP)\textbackslash{}(S\textbackslash{}NP))/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N \& |[word]| \_ \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/NP \& |[word]| (S\textbackslash{}NP)\textbackslash{}(S\textbackslash{}NP) \& |[word]| N/N \& |[word]| \_ \& |[word]| N/N \& |[word]| N \& |[word]| \_ \& |[word]| (S\textbackslash{}NP)/(S\textbackslash{}NP) \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N/N \& |[word]| N \& |[word]| ((S\textbackslash{}NP)\textbackslash{}(S\textbackslash{}NP))/NP \& |[word]| NP{[}nb{]}/N \& |[word]| N \& |[word]| (S{[}pss{]}\textbackslash{}NP)/(S{[}to{]}\textbackslash{}NP) \& |[word]| (S{[}to{]}\textbackslash{}NP)/(S{[}b{]}\textbackslash{}NP) \& |[word]| (S{[}b{]}\textbackslash{}NP)/NP \& |[word]| N \& |[word]| \_ \\
+\end{deptext}
+
+% roots
+\deproot[root, edge unit distance=32ex]{2}{ROOT}
+
+% edges ud
+\depedge[rel]{32}{31}{mark}
+\depedge[rel]{32}{33}{dobj}
+\depedge[rel]{32}{33}{dobj}
+\depedge[rel]{30}{32}{xcomp}
+\depedge[rel]{17}{18}{cc}
+\depedge[rel]{17}{19}{conj}
+\depedge[rel]{15}{16}{compound:prt}
+\depedge[rel]{15}{20}{dobj}
+\depedge[rel]{15}{20}{dobj}
+\depedge[rel]{2}{13}{nmod}
+\depedge[rel]{2}{1}{nsubj}
+\depedge[rel]{2}{1}{nsubj}
+\depedge[rel]{2}{23}{conj}
+\depedge[rel]{2}{34}{punct}
+\depedge[rel]{2}{5}{dobj}
+\depedge[rel]{2}{5}{dobj}
+\depedge[rel]{2}{14}{punct}
+\depedge[rel]{2}{15}{conj}
+\depedge[rel]{2}{21}{cc}
+\depedge[rel]{9}{6}{case}
+\depedge[rel]{9}{8}{amod}
+\depedge[rel]{9}{7}{det}
+\depedge[rel]{20}{17}{compound}
+\depedge[rel]{13}{11}{det}
+\depedge[rel]{13}{12}{amod}
+\depedge[rel]{13}{10}{case}
+\depedge[rel]{23}{22}{advmod}
+\depedge[rel]{23}{26}{dobj}
+\depedge[rel]{23}{26}{dobj}
+\depedge[rel]{23}{29}{nmod}
+\depedge[rel]{5}{4}{compound}
+\depedge[rel]{5}{9}{nmod}
+\depedge[rel]{5}{3}{amod}
+\depedge[rel]{26}{25}{amod}
+\depedge[rel]{26}{24}{det}
+\depedge[rel]{29}{27}{case}
+\depedge[rel]{29}{30}{acl:relcl}
+\depedge[rel]{29}{28}{det}
+
+% edges ccg
+\depedge[relccg, edge below]{32}{33}{2}
+\depedge[relccg, edge below]{32}{33}{2}
+\depedge[relccg, edge below]{32}{29}{1}
+\depedge[relccg, edge below]{11}{13}{1}
+\depedge[relccg, edge below]{30}{31}{2}
+\depedge[relccg, edge below]{30}{29}{1}
+\depedge[relccg, edge below]{17}{20}{1}
+\depedge[relccg, edge below]{22}{23}{2}
+\depedge[relccg, edge below]{15}{20}{2}
+\depedge[relccg, edge below]{15}{20}{2}
+\depedge[relccg, edge below]{15}{1}{1}
+\depedge[relccg, edge below]{2}{1}{1}
+\depedge[relccg, edge below]{2}{1}{1}
+\depedge[relccg, edge below]{2}{5}{2}
+\depedge[relccg, edge below]{2}{5}{2}
+\depedge[relccg, edge below]{16}{15}{2}
+\depedge[relccg, edge below]{6}{5}{1}
+\depedge[relccg, edge below]{6}{9}{2}
+\depedge[relccg, edge below]{12}{13}{1}
+\depedge[relccg, edge below]{7}{9}{1}
+\depedge[relccg, edge below]{3}{5}{1}
+\depedge[relccg, edge below]{24}{26}{1}
+\depedge[relccg, edge below]{27}{23}{2}
+\depedge[relccg, edge below]{27}{29}{3}
+\depedge[relccg, edge below]{23}{1}{1}
+\depedge[relccg, edge below]{23}{26}{2}
+\depedge[relccg, edge below]{23}{26}{2}
+\depedge[relccg, edge below]{19}{20}{1}
+\depedge[relccg, edge below]{4}{5}{1}
+\depedge[relccg, edge below]{10}{13}{3}
+\depedge[relccg, edge below]{10}{2}{2}
+\depedge[relccg, edge below]{31}{32}{2}
+\depedge[relccg, edge below]{28}{29}{1}
+\depedge[relccg, edge below]{8}{9}{1}
+\depedge[relccg, edge below]{25}{26}{1}
+
+% groups
+
+\end{dependency}
+
+}
+\caption{wsj\_0003.26}
+
+\end{figure}
+
+
+\end{document}
+

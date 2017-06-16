@@ -1,0 +1,106 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt,a4paper]{article} 
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{fontspec}
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{adjustbox}
+
+\usepackage{tikz} 
+\usepackage{tikzscale}
+\usepackage{tikz-dependency}
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
+
+
+\begin{document}
+
+\setmainfont{Arial Unicode MS}
+
+
+\begin{figure}[h]
+\centering
+\adjustbox{max width=\columnwidth}{
+
+\begin{dependency}[theme = simple]
+
+\tikzstyle{word}=[font=\normalsize, text=black,
+                   draw=Green, rounded corners]
+
+\tikzstyle{word-empty}=[font=\normalsize, text=Thistle,
+                        draw=Thistle, rounded corners]
+
+\tikzstyle{attr}=[text=black, font=\normalsize, ]
+
+\tikzstyle{attr-empty}=[text=Thistle, font=\normalsize, ]
+
+\depstyle{rel}{edge style = {thick, OrangeRed}, 
+                 label style = {thick, draw=OrangeRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{rel2}{edge style = {thick, BrickRed}, 
+                 label style = {thick, draw=BrickRed, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root}{edge style = {thick, OliveGreen}, 
+                 label style = {thick, draw=OliveGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{root2}{edge style = {thick, YellowGreen}, 
+                  label style = {thick, draw=YellowGreen, text=blue, fill=white, anchor=mid,}}
+
+\depstyle{relccg}{edge style = {thick, NavyBlue}, 
+                 label style = {thick, draw=NavyBlue, text=blue, fill=white, anchor=mid,}}
+
+% words
+\begin{deptext}[column sep=1em, row sep=0.1em]
+|[word]| By \& |[word]| 1997 \& |[word]| , \& |[word]| almost \& |[word]| all \& |[word]| remaining \& |[word]| uses \& |[word]| of \& |[word]| cancer-causing \& |[word]| asbestos \& |[word]| will \& |[word]| be \& |[word]| outlawed \& |[word]| . \\
+|[attr]| ADP \& |[attr]| NUM \& |[attr]| PUNCT \& |[attr]| ADV \& |[attr]| DET \& |[attr]| VERB \& |[attr]| NOUN \& |[attr]| ADP \& |[attr]| ADJ \& |[attr]| NOUN \& |[attr]| AUX \& |[attr]| AUX \& |[attr]| VERB \& |[attr]| PUNCT \\
+|[word]| (S/S)/NP \& |[word]| N \& |[word]| \_ \& |[word]| (N/N)/(N/N) \& |[word]| N/N \& |[word]| N/N \& |[word]| N \& |[word]| (NP\textbackslash{}NP)/NP \& |[word]| N/N \& |[word]| N \& |[word]| (S{[}dcl{]}\textbackslash{}NP)/(S{[}b{]}\textbackslash{}NP) \& |[word]| (S{[}b{]}\textbackslash{}NP)/(S{[}pss{]}\textbackslash{}NP) \& |[word]| S{[}pss{]}\textbackslash{}NP \& |[word]| \_ \\
+\end{deptext}
+
+% roots
+\deproot[root, edge unit distance=11ex]{13}{ROOT}
+
+% edges ud
+\depedge[rel]{2}{1}{case}
+\depedge[rel]{10}{8}{case}
+\depedge[rel]{10}{9}{amod}
+\depedge[rel]{13}{11}{aux}
+\depedge[rel]{13}{12}{auxpass}
+\depedge[rel]{13}{7}{nsubjpass}
+\depedge[rel]{13}{7}{nsubjpass}
+\depedge[rel]{13}{3}{punct}
+\depedge[rel]{13}{14}{punct}
+\depedge[rel]{13}{2}{nmod}
+\depedge[rel]{7}{5}{amod}
+\depedge[rel]{7}{6}{amod}
+\depedge[rel]{7}{10}{nmod}
+\depedge[rel]{5}{4}{advmod}
+
+% edges ccg
+\depedge[relccg, edge below]{1}{11}{1}
+\depedge[relccg, edge below]{1}{2}{2}
+\depedge[relccg, edge below]{11}{12}{2}
+\depedge[relccg, edge below]{11}{7}{1}
+\depedge[relccg, edge below]{9}{10}{1}
+\depedge[relccg, edge below]{6}{7}{1}
+\depedge[relccg, edge below]{13}{7}{1}
+\depedge[relccg, edge below]{13}{7}{1}
+\depedge[relccg, edge below]{8}{7}{1}
+\depedge[relccg, edge below]{8}{10}{2}
+\depedge[relccg, edge below]{12}{13}{2}
+\depedge[relccg, edge below]{5}{7}{1}
+\depedge[relccg, edge below]{4}{5}{2}
+
+% groups
+
+\end{dependency}
+
+}
+\caption{wsj\_0003.23}
+
+\end{figure}
+
+
+\end{document}
+

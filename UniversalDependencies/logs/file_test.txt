@@ -1,0 +1,1388 @@
+
+
+1
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Ancient_Greek
+LANGUAGE CODE   grc
+LANGUAGE SHORT  grc
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/grc-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/grc.pickle
+TAGGED          data_ccg/grc-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/grc-nndep-ccg.model.txt.gz
+PARSED          data_dep/grc-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/grc-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/grc-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1978494 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/grc-udpipe.conllu
+-rw-r--r--  1 git  staff  12979615 Apr 27 13:57 ../Supertagger2/models/grc.pickle
+-rw-r--r--  1 git  staff  2152145 May 10 18:52 data_ccg/grc-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  45089075 May 10 16:58 ../DependencyTraining/models/grc-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  1107125 May 10 18:52 data_dep/grc-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1107125 May 10 18:52 outputs/grc-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  2246724 Apr 27 13:58 ../Supertagger2/ud-treebanks-conll2017/grc-ud-dev-ccg-2.connlu
+
+
+
+
+2
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Ancient_Greek-PROIEL
+LANGUAGE CODE   grc_proiel
+LANGUAGE SHORT  grc
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/grc_proiel-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/grc_proiel.pickle
+TAGGED          data_ccg/grc_proiel-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/grc_proiel-nndep-ccg.model.txt.gz
+PARSED          data_dep/grc_proiel-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/grc_proiel-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/grc_proiel-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1275213 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/grc_proiel-udpipe.conllu
+-rw-r--r--  1 git  staff  11339340 Apr 27 14:05 ../Supertagger2/models/grc_proiel.pickle
+-rw-r--r--  1 git  staff  1380955 May 10 18:52 data_ccg/grc_proiel-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  41309431 May 10 16:59 ../DependencyTraining/models/grc_proiel-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  496458 May 10 18:52 data_dep/grc_proiel-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  496458 May 10 18:52 outputs/grc_proiel-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1644333 Apr 27 14:05 ../Supertagger2/ud-treebanks-conll2017/grc_proiel-ud-dev-ccg-2.connlu
+
+
+
+
+3
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Arabic
+LANGUAGE CODE   ar
+LANGUAGE SHORT  ar
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ar-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/ar.pickle
+TAGGED          data_ccg/ar-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/ar-nndep-ccg.model.txt.gz
+PARSED          data_dep/ar-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ar-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/ar-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  2554708 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ar-udpipe.conllu
+-rw-r--r--  1 git  staff  10962775 Apr 27 14:12 ../Supertagger2/models/ar.pickle
+-rw-r--r--  1 git  staff  2750931 May 10 18:52 data_ccg/ar-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  34501559 Apr 29 02:22 ../DependencyTraining/models/ar-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  1453916 May 10 18:52 data_dep/ar-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1569796 May 10 18:52 outputs/ar-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  5367674 Apr 27 14:12 ../Supertagger2/ud-treebanks-conll2017/ar-ud-dev-ccg-2.connlu
+
+
+
+
+4
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Basque
+LANGUAGE CODE   eu
+LANGUAGE SHORT  eu
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/eu-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/eu.pickle
+TAGGED          data_ccg/eu-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/eu-nndep-ccg.model.txt.gz
+PARSED          data_dep/eu-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/eu-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/eu-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1542214 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/eu-udpipe.conllu
+-rw-r--r--  1 git  staff  4116219 Apr 27 14:14 ../Supertagger2/models/eu.pickle
+-rw-r--r--  1 git  staff  1729277 May 10 18:53 data_ccg/eu-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  30677774 May 11 01:15 ../DependencyTraining/models/eu-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  0 May 10 18:53 outputs/eu-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1804211 Apr 27 14:14 ../Supertagger2/ud-treebanks-conll2017/eu-ud-dev-ccg-2.connlu
+
+
+
+
+5
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Bulgarian
+LANGUAGE CODE   bg
+LANGUAGE SHORT  bg
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/bg-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/bg.pickle
+TAGGED          data_ccg/bg-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/bg-nndep-ccg.model.txt.gz
+PARSED          data_dep/bg-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/bg-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/bg-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1359276 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/bg-udpipe.conllu
+-rw-r--r--  1 git  staff  5108616 Apr 27 14:18 ../Supertagger2/models/bg.pickle
+-rw-r--r--  1 git  staff  1487982 May 10 18:53 data_ccg/bg-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  36550499 May 11 08:40 ../DependencyTraining/models/bg-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  0 May 10 18:53 outputs/bg-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1551363 Apr 27 14:18 ../Supertagger2/ud-treebanks-conll2017/bg-ud-dev-ccg-2.connlu
+
+
+
+
+6
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Catalan
+LANGUAGE CODE   ca
+LANGUAGE SHORT  ca
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ca-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/ca.pickle
+TAGGED          data_ccg/ca-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/ca-nndep-ccg.model.txt.gz
+PARSED          data_dep/ca-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ca-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/ca-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  3504503 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ca-udpipe.conllu
+-rw-r--r--  1 git  staff  9493188 Apr 27 14:34 ../Supertagger2/models/ca.pickle
+-rw-r--r--  1 git  staff  3950214 May 10 18:53 data_ccg/ca-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  41458159 May 11 19:00 ../DependencyTraining/models/ca-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  0 May 10 18:53 outputs/ca-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  4237037 Apr 27 14:34 ../Supertagger2/ud-treebanks-conll2017/ca-ud-dev-ccg-2.connlu
+
+
+
+
+7
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Chinese
+LANGUAGE CODE   zh
+LANGUAGE SHORT  zh
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/zh-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/zh.pickle
+TAGGED          data_ccg/zh-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/zh-nndep-ccg.model.txt.gz
+PARSED          data_dep/zh-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/zh-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/zh-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  626650 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/zh-udpipe.conllu
+-rw-r--r--  1 git  staff  8346194 Apr 27 14:36 ../Supertagger2/models/zh.pickle
+-rw-r--r--  1 git  staff  738779 May 10 18:53 data_ccg/zh-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  29108221 May  2 22:52 ../DependencyTraining/models/zh-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  393661 May 10 18:53 data_dep/zh-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  393661 May 10 18:54 outputs/zh-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  800249 Apr 27 14:37 ../Supertagger2/ud-treebanks-conll2017/zh-ud-dev-ccg-2.connlu
+
+
+
+
+8
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Croatian
+LANGUAGE CODE   hr
+LANGUAGE SHORT  hr
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hr-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/hr.pickle
+TAGGED          data_ccg/hr-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/hr-nndep-ccg.model.txt.gz
+PARSED          data_dep/hr-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/hr-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/hr-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  988334 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hr-udpipe.conllu
+-rw-r--r--  1 git  staff  8107578 Apr 27 14:42 ../Supertagger2/models/hr.pickle
+-rw-r--r--  1 git  staff  1097972 May 10 18:54 data_ccg/hr-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  45205508 May  3 04:58 ../DependencyTraining/models/hr-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  417308 May 10 18:54 data_dep/hr-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  417308 May 10 18:54 outputs/hr-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1148208 Apr 27 14:42 ../Supertagger2/ud-treebanks-conll2017/hr-ud-dev-ccg-2.connlu
+
+
+
+
+9
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Czech
+LANGUAGE CODE   cs
+LANGUAGE SHORT  cs
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/cs.pickle
+TAGGED          data_ccg/cs-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/cs-nndep-ccg.model.txt.gz
+PARSED          data_dep/cs-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/cs-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/cs-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  15059137 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs-udpipe.conllu
+-rw-r--r--  1 git  staff  30229130 Apr 27 15:40 ../Supertagger2/models/cs.pickle
+-rw-r--r--  1 git  staff  16222056 May 10 18:55 data_ccg/cs-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  130653327 May  4 00:24 ../DependencyTraining/models/cs-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  9064283 May 10 18:56 data_dep/cs-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  9072989 May 10 18:56 outputs/cs-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  18078751 Apr 27 15:42 ../Supertagger2/ud-treebanks-conll2017/cs-ud-dev-ccg-2.connlu
+
+
+
+
+10
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Czech-CAC
+LANGUAGE CODE   cs_cac
+LANGUAGE SHORT  cs
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs_cac-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/cs_cac.pickle
+TAGGED          data_ccg/cs_cac-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/cs_cac-nndep-ccg.model.txt.gz
+PARSED          data_dep/cs_cac-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/cs_cac-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/cs_cac-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1052939 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs_cac-udpipe.conllu
+-rw-r--r--  1 git  staff  15070976 Apr 27 16:10 ../Supertagger2/models/cs_cac.pickle
+-rw-r--r--  1 git  staff  1129736 May 10 18:56 data_ccg/cs_cac-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  75436362 May  4 12:22 ../DependencyTraining/models/cs_cac-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  624647 May 10 18:57 data_dep/cs_cac-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  625342 May 10 18:57 outputs/cs_cac-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1235803 Apr 27 16:11 ../Supertagger2/ud-treebanks-conll2017/cs_cac-ud-dev-ccg-2.connlu
+
+
+
+
+11
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Czech-CLTT
+LANGUAGE CODE   cs_cltt
+LANGUAGE SHORT  cs
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs_cltt-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/cs_cltt.pickle
+TAGGED          data_ccg/cs_cltt-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/cs_cltt-nndep-ccg.model.txt.gz
+PARSED          data_dep/cs_cltt-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/cs_cltt-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/cs_cltt-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  966902 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs_cltt-udpipe.conllu
+-rw-r--r--  1 git  staff  897013 Apr 27 16:12 ../Supertagger2/models/cs_cltt.pickle
+-rw-r--r--  1 git  staff  1038649 May 10 18:57 data_ccg/cs_cltt-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  15503164 May  4 19:31 ../DependencyTraining/models/cs_cltt-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  604392 May 10 18:57 data_dep/cs_cltt-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  604416 May 10 18:57 outputs/cs_cltt-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1092235 Apr 27 16:12 ../Supertagger2/ud-treebanks-conll2017/cs_cltt-ud-dev-ccg-2.connlu
+
+
+
+
+12
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Danish
+LANGUAGE CODE   da
+LANGUAGE SHORT  da
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/da-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/da.pickle
+TAGGED          data_ccg/da-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/da-nndep-ccg.model.txt.gz
+PARSED          data_dep/da-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/da-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/da-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  611064 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/da-udpipe.conllu
+-rw-r--r--  1 git  staff  4196899 Apr 27 16:14 ../Supertagger2/models/da.pickle
+-rw-r--r--  1 git  staff  691928 May 10 18:57 data_ccg/da-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  27986293 May  4 21:39 ../DependencyTraining/models/da-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  289290 May 10 18:57 data_dep/da-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  289290 May 10 18:57 outputs/da-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  722362 Apr 27 16:14 ../Supertagger2/ud-treebanks-conll2017/da-ud-dev-ccg-2.connlu
+
+
+
+
+13
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Dutch
+LANGUAGE CODE   nl
+LANGUAGE SHORT  nl
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/nl-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/nl.pickle
+TAGGED          data_ccg/nl-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/nl-nndep-ccg.model.txt.gz
+PARSED          data_dep/nl-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/nl-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/nl-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  854692 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/nl-udpipe.conllu
+-rw-r--r--  1 git  staff  7373736 Apr 27 16:22 ../Supertagger2/models/nl.pickle
+-rw-r--r--  1 git  staff  945071 May 10 18:57 data_ccg/nl-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  38065043 May  5 11:17 ../DependencyTraining/models/nl-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  668938 May 10 18:57 data_dep/nl-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  668938 May 10 18:57 outputs/nl-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1008542 Apr 27 16:23 ../Supertagger2/ud-treebanks-conll2017/nl-ud-dev-ccg-2.connlu
+
+
+
+
+14
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_Dutch-LassySmall
+LANGUAGE CODE   nl_lassysmall
+LANGUAGE SHORT  nl
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/nl_lassysmall-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/nl_lassysmall.pickle
+TAGGED          data_ccg/nl_lassysmall-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/nl_lassysmall-nndep-ccg.model.txt.gz
+PARSED          data_dep/nl_lassysmall-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/nl_lassysmall-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/nl_lassysmall-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  529014 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/nl_lassysmall-udpipe.conllu
+-rw-r--r--  1 git  staff  4155894 Apr 27 16:25 ../Supertagger2/models/nl_lassysmall.pickle
+-rw-r--r--  1 git  staff  606317 May 10 18:57 data_ccg/nl_lassysmall-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  26250557 May  5 22:55 ../DependencyTraining/models/nl_lassysmall-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  299323 May 10 18:57 data_dep/nl_lassysmall-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  299323 May 10 18:57 outputs/nl_lassysmall-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  653282 Apr 27 16:25 ../Supertagger2/ud-treebanks-conll2017/nl_lassysmall-ud-dev-ccg-2.connlu
+
+
+
+
+15
+Time: Fri May 12 11:00:29 EEST 2017
+
+LANGUAGE        UD_English
+LANGUAGE CODE   en
+LANGUAGE SHORT  en
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/en.pickle
+TAGGED          data_ccg/en-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/en-nndep-ccg.model.txt.gz
+PARSED          data_dep/en-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/en-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/en-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1305033 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en-udpipe.conllu
+-rw-r--r--  1 git  staff  6777376 Apr 27 16:32 ../Supertagger2/models/en.pickle
+-rw-r--r--  1 git  staff  1508421 May 10 18:58 data_ccg/en-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  31094066 May  6 05:18 ../DependencyTraining/models/en-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  756914 May 10 18:58 data_dep/en-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  756914 May 10 18:58 outputs/en-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1690151 Apr 27 16:32 ../Supertagger2/ud-treebanks-conll2017/en-ud-dev-ccg-2.connlu
+
+
+
+
+16
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_English-LinES
+LANGUAGE CODE   en_lines
+LANGUAGE SHORT  en
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en_lines-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/en_lines.pickle
+TAGGED          data_ccg/en_lines-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/en_lines-nndep-ccg.model.txt.gz
+PARSED          data_dep/en_lines-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/en_lines-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/en_lines-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  655999 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en_lines-udpipe.conllu
+-rw-r--r--  1 git  staff  2438680 Apr 27 16:33 ../Supertagger2/models/en_lines.pickle
+-rw-r--r--  1 git  staff  794913 May 10 18:58 data_ccg/en_lines-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  19646477 May  6 14:58 ../DependencyTraining/models/en_lines-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  589561 May 10 18:58 data_dep/en_lines-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  589561 May 10 18:58 outputs/en_lines-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  846491 Apr 27 16:33 ../Supertagger2/ud-treebanks-conll2017/en_lines-ud-dev-ccg-2.connlu
+
+
+
+
+17
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_English-ParTUT
+LANGUAGE CODE   en_partut
+LANGUAGE SHORT  en
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en_partut-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/en_partut.pickle
+TAGGED          data_ccg/en_partut-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/en_partut-nndep-ccg.model.txt.gz
+PARSED          data_dep/en_partut-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/en_partut-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/en_partut-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  623958 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en_partut-udpipe.conllu
+-rw-r--r--  1 git  staff  1494974 Apr 27 16:34 ../Supertagger2/models/en_partut.pickle
+-rw-r--r--  1 git  staff  721601 May 10 18:58 data_ccg/en_partut-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  17836274 May  6 21:19 ../DependencyTraining/models/en_partut-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  355424 May 10 18:58 data_dep/en_partut-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  355699 May 10 18:58 outputs/en_partut-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  767522 Apr 27 16:34 ../Supertagger2/ud-treebanks-conll2017/en_partut-ud-dev-ccg-2.connlu
+
+
+
+
+18
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Estonian
+LANGUAGE CODE   et
+LANGUAGE SHORT  et
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/et-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/et.pickle
+TAGGED          data_ccg/et-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/et-nndep-ccg.model.txt.gz
+PARSED          data_dep/et-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/et-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/et-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  758080 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/et-udpipe.conllu
+-rw-r--r--  1 git  staff  1709403 Apr 27 16:34 ../Supertagger2/models/et.pickle
+-rw-r--r--  1 git  staff  854360 May 10 18:58 data_ccg/et-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  20348824 May  7 10:05 ../DependencyTraining/models/et-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  343274 May 10 18:59 data_dep/et-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  343274 May 10 18:59 outputs/et-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  908841 Apr 27 16:34 ../Supertagger2/ud-treebanks-conll2017/et-ud-dev-ccg-2.connlu
+
+
+
+
+19
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Finnish
+LANGUAGE CODE   fi
+LANGUAGE SHORT  fi
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fi-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/fi.pickle
+TAGGED          data_ccg/fi-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/fi-nndep-ccg.model.txt.gz
+PARSED          data_dep/fi-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/fi-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/fi-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1291321 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fi-udpipe.conllu
+-rw-r--r--  1 git  staff  10583741 Apr 27 16:40 ../Supertagger2/models/fi.pickle
+-rw-r--r--  1 git  staff  1430208 May 10 18:59 data_ccg/fi-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  58677400 May  7 20:20 ../DependencyTraining/models/fi-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  595642 May 10 18:59 data_dep/fi-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  595642 May 10 18:59 outputs/fi-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1507226 Apr 27 16:40 ../Supertagger2/ud-treebanks-conll2017/fi-ud-dev-ccg-2.connlu
+
+
+
+
+20
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Finnish-FTB
+LANGUAGE CODE   fi_ftb
+LANGUAGE SHORT  fi
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fi_ftb-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/fi_ftb.pickle
+TAGGED          data_ccg/fi_ftb-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/fi_ftb-nndep-ccg.model.txt.gz
+PARSED          data_dep/fi_ftb-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/fi_ftb-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/fi_ftb-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1212396 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fi_ftb-udpipe.conllu
+-rw-r--r--  1 git  staff  7808619 Apr 27 16:46 ../Supertagger2/models/fi_ftb.pickle
+-rw-r--r--  1 git  staff  1339248 May 10 18:59 data_ccg/fi_ftb-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  51017052 May  8 03:20 ../DependencyTraining/models/fi_ftb-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  743416 May 10 18:59 data_dep/fi_ftb-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  744282 May 10 18:59 outputs/fi_ftb-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1415657 Apr 27 16:46 ../Supertagger2/ud-treebanks-conll2017/fi_ftb-ud-dev-ccg-2.connlu
+
+
+
+
+21
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_French
+LANGUAGE CODE   fr
+LANGUAGE SHORT  fr
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fr-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/fr.pickle
+TAGGED          data_ccg/fr-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/fr-nndep-ccg.model.txt.gz
+PARSED          data_dep/fr-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/fr-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/fr-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  2087233 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fr-udpipe.conllu
+-rw-r--r--  1 git  staff  9143668 Apr 27 16:57 ../Supertagger2/models/fr.pickle
+-rw-r--r--  1 git  staff  2365201 May 10 19:00 data_ccg/fr-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  51951783 May  8 18:49 ../DependencyTraining/models/fr-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  1003265 May 10 19:00 data_dep/fr-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1034984 May 10 19:00 outputs/fr-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  2479769 Apr 27 16:57 ../Supertagger2/ud-treebanks-conll2017/fr-ud-dev-ccg-2.connlu
+
+
+
+
+22
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_French-Sequoia
+LANGUAGE CODE   fr_sequoia
+LANGUAGE SHORT  fr
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fr_sequoia-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/fr_sequoia.pickle
+TAGGED          data_ccg/fr_sequoia-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/fr_sequoia-nndep-ccg.model.txt.gz
+PARSED          data_dep/fr_sequoia-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/fr_sequoia-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/fr_sequoia-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  589676 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fr_sequoia-udpipe.conllu
+-rw-r--r--  1 git  staff  1963336 Apr 27 16:59 ../Supertagger2/models/fr_sequoia.pickle
+-rw-r--r--  1 git  staff  669742 May 10 19:00 data_ccg/fr_sequoia-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  20522895 May  9 03:04 ../DependencyTraining/models/fr_sequoia-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  284086 May 10 19:00 data_dep/fr_sequoia-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  293114 May 10 19:00 outputs/fr_sequoia-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  699866 Apr 27 16:59 ../Supertagger2/ud-treebanks-conll2017/fr_sequoia-ud-dev-ccg-2.connlu
+
+
+
+
+23
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Galician
+LANGUAGE CODE   gl
+LANGUAGE SHORT  gl
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/gl-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/gl.pickle
+TAGGED          data_ccg/gl-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/gl-nndep-ccg.model.txt.gz
+PARSED          data_dep/gl-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/gl-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/gl-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1280408 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/gl-udpipe.conllu
+-rw-r--r--  1 git  staff  4141526 Apr 27 17:01 ../Supertagger2/models/gl.pickle
+-rw-r--r--  1 git  staff  1500832 May 10 19:00 data_ccg/gl-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  24380731 May  9 10:29 ../DependencyTraining/models/gl-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  1099269 May 10 19:00 data_dep/gl-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1099269 May 10 19:00 outputs/gl-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1959691 Apr 27 17:01 ../Supertagger2/ud-treebanks-conll2017/gl-ud-dev-ccg-2.connlu
+
+
+
+
+24
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_German
+LANGUAGE CODE   de
+LANGUAGE SHORT  de
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/de-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/de.pickle
+TAGGED          data_ccg/de-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/de-nndep-ccg.model.txt.gz
+PARSED          data_dep/de-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/de-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/de-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  762286 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/de-udpipe.conllu
+-rw-r--r--  1 git  staff  10450063 Apr 27 17:09 ../Supertagger2/models/de.pickle
+-rw-r--r--  1 git  staff  863198 May 10 19:00 data_ccg/de-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  58766652 May 10 17:00 ../DependencyTraining/models/de-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  406093 May 10 19:01 data_dep/de-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  410252 May 10 19:01 outputs/de-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  908771 Apr 27 17:10 ../Supertagger2/ud-treebanks-conll2017/de-ud-dev-ccg-2.connlu
+
+
+
+
+25
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Gothic
+LANGUAGE CODE   got
+LANGUAGE SHORT  got
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/got-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/got.pickle
+TAGGED          data_ccg/got-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/got-nndep-ccg.model.txt.gz
+PARSED          data_dep/got-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/got-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/got-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  755986 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/got-udpipe.conllu
+-rw-r--r--  1 git  staff  2606311 Apr 27 17:11 ../Supertagger2/models/got.pickle
+-rw-r--r--  1 git  staff  834972 May 10 19:01 data_ccg/got-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  0 May 10 19:01 outputs/got-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1048677 Apr 27 17:11 ../Supertagger2/ud-treebanks-conll2017/got-ud-dev-ccg-2.connlu
+
+
+
+
+26
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Greek
+LANGUAGE CODE   el
+LANGUAGE SHORT  el
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/el-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/el.pickle
+TAGGED          data_ccg/el-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/el-nndep-ccg.model.txt.gz
+PARSED          data_dep/el-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/el-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/el-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  895017 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/el-udpipe.conllu
+-rw-r--r--  1 git  staff  2301855 Apr 27 17:12 ../Supertagger2/models/el.pickle
+-rw-r--r--  1 git  staff  970021 May 10 19:01 data_ccg/el-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  21119145 Apr 29 05:40 ../DependencyTraining/models/el-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  393276 May 10 19:01 data_dep/el-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  393276 May 10 19:01 outputs/el-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1009910 Apr 27 17:12 ../Supertagger2/ud-treebanks-conll2017/el-ud-dev-ccg-2.connlu
+
+
+
+
+27
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Hebrew
+LANGUAGE CODE   he
+LANGUAGE SHORT  he
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/he-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/he.pickle
+TAGGED          data_ccg/he-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/he-nndep-ccg.model.txt.gz
+PARSED          data_dep/he-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/he-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/he-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  760999 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/he-udpipe.conllu
+-rw-r--r--  1 git  staff  6379379 Apr 27 17:16 ../Supertagger2/models/he.pickle
+-rw-r--r--  1 git  staff  841978 May 10 19:01 data_ccg/he-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  0 Apr 29 13:53 ../DependencyTraining/models/he-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  0 May 10 19:01 outputs/he-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  938189 Apr 27 17:16 ../Supertagger2/ud-treebanks-conll2017/he-ud-dev-ccg-2.connlu
+
+
+
+
+28
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Hindi
+LANGUAGE CODE   hi
+LANGUAGE SHORT  hi
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hi-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/hi.pickle
+TAGGED          data_ccg/hi-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/hi-nndep-ccg.model.txt.gz
+PARSED          data_dep/hi-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/hi-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/hi-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  3146771 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hi-udpipe.conllu
+-rw-r--r--  1 git  staff  7289456 Apr 27 17:25 ../Supertagger2/models/hi.pickle
+-rw-r--r--  1 git  staff  3422638 May 10 19:01 data_ccg/hi-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  28676518 May  2 21:13 ../DependencyTraining/models/hi-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  1355033 May 10 19:01 data_dep/hi-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1355033 May 10 19:01 outputs/hi-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  5496913 Apr 27 17:25 ../Supertagger2/ud-treebanks-conll2017/hi-ud-dev-ccg-2.connlu
+
+
+
+
+29
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Hungarian
+LANGUAGE CODE   hu
+LANGUAGE SHORT  hu
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hu-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/hu.pickle
+TAGGED          data_ccg/hu-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/hu-nndep-ccg.model.txt.gz
+PARSED          data_dep/hu-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/hu-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/hu-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1022417 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hu-udpipe.conllu
+-rw-r--r--  1 git  staff  1852871 Apr 27 17:26 ../Supertagger2/models/hu.pickle
+-rw-r--r--  1 git  staff  1103113 May 10 19:02 data_ccg/hu-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  19965410 May  3 01:02 ../DependencyTraining/models/hu-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  362478 May 10 19:02 data_dep/hu-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  362478 May 10 19:02 outputs/hu-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1083604 Apr 27 17:26 ../Supertagger2/ud-treebanks-conll2017/hu-ud-dev-ccg-2.connlu
+
+
+
+
+30
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Indonesian
+LANGUAGE CODE   id
+LANGUAGE SHORT  id
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/id-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/id.pickle
+TAGGED          data_ccg/id-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/id-nndep-ccg.model.txt.gz
+PARSED          data_dep/id-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/id-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/id-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  478578 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/id-udpipe.conllu
+-rw-r--r--  1 git  staff  6134163 Apr 27 17:28 ../Supertagger2/models/id.pickle
+-rw-r--r--  1 git  staff  565069 May 10 19:02 data_ccg/id-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  30559918 May  3 10:38 ../DependencyTraining/models/id-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  365109 May 10 19:02 data_dep/id-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  365109 May 10 19:02 outputs/id-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  606520 Apr 27 17:28 ../Supertagger2/ud-treebanks-conll2017/id-ud-dev-ccg-2.connlu
+
+
+
+
+31
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Italian
+LANGUAGE CODE   it
+LANGUAGE SHORT  it
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/it-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/it.pickle
+TAGGED          data_ccg/it-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/it-nndep-ccg.model.txt.gz
+PARSED          data_dep/it-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/it-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/it-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  712961 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/it-udpipe.conllu
+-rw-r--r--  1 git  staff  6522843 Apr 27 17:36 ../Supertagger2/models/it.pickle
+-rw-r--r--  1 git  staff  806818 May 10 19:02 data_ccg/it-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  38822555 May  4 05:27 ../DependencyTraining/models/it-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  340889 May 10 19:02 data_dep/it-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  363686 May 10 19:02 outputs/it-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  845380 Apr 27 17:36 ../Supertagger2/ud-treebanks-conll2017/it-ud-dev-ccg-2.connlu
+
+
+
+
+32
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Italian-ParTUT
+LANGUAGE CODE   it_partut
+LANGUAGE SHORT  it
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/it_partut-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/it_partut.pickle
+TAGGED          data_ccg/it_partut-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/it_partut-nndep-ccg.model.txt.gz
+PARSED          data_dep/it_partut-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/it_partut-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/it_partut-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  842621 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/it_partut-udpipe.conllu
+-rw-r--r--  1 git  staff  1434945 Apr 27 17:37 ../Supertagger2/models/it_partut.pickle
+-rw-r--r--  1 git  staff  950972 May 10 19:02 data_ccg/it_partut-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  18453592 May  4 12:30 ../DependencyTraining/models/it_partut-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  400233 May 10 19:02 data_dep/it_partut-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  431259 May 10 19:02 outputs/it_partut-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  997987 Apr 27 17:37 ../Supertagger2/ud-treebanks-conll2017/it_partut-ud-dev-ccg-2.connlu
+
+
+
+
+33
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Japanese
+LANGUAGE CODE   ja
+LANGUAGE SHORT  ja
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ja-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/ja.pickle
+TAGGED          data_ccg/ja-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/ja-nndep-ccg.model.txt.gz
+PARSED          data_dep/ja-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ja-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/ja-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  575567 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ja-udpipe.conllu
+-rw-r--r--  1 git  staff  8552080 Apr 27 17:41 ../Supertagger2/models/ja.pickle
+-rw-r--r--  1 git  staff  697112 May 10 19:02 data_ccg/ja-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  33438731 May  4 22:42 ../DependencyTraining/models/ja-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  334084 May 10 19:03 data_dep/ja-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  334084 May 10 19:03 outputs/ja-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  746900 Apr 27 17:41 ../Supertagger2/ud-treebanks-conll2017/ja-ud-dev-ccg-2.connlu
+
+
+
+
+34
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Korean
+LANGUAGE CODE   ko
+LANGUAGE SHORT  ko
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ko-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/ko.pickle
+TAGGED          data_ccg/ko-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/ko-nndep-ccg.model.txt.gz
+PARSED          data_dep/ko-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ko-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/ko-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  525334 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ko-udpipe.conllu
+-rw-r--r--  1 git  staff  7349803 Apr 27 17:43 ../Supertagger2/models/ko.pickle
+-rw-r--r--  1 git  staff  606181 May 10 19:03 data_ccg/ko-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  38897942 May  5 03:59 ../DependencyTraining/models/ko-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  432906 May 10 19:03 data_dep/ko-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  432906 May 10 19:03 outputs/ko-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  652592 Apr 27 17:43 ../Supertagger2/ud-treebanks-conll2017/ko-ud-dev-ccg-2.connlu
+
+
+
+
+35
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Latin-ITTB
+LANGUAGE CODE   la_ittb
+LANGUAGE SHORT  la
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/la_ittb-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/la_ittb.pickle
+TAGGED          data_ccg/la_ittb-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/la_ittb-nndep-ccg.model.txt.gz
+PARSED          data_dep/la_ittb-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/la_ittb-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/la_ittb-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  911421 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/la_ittb-udpipe.conllu
+-rw-r--r--  1 git  staff  7637398 Apr 27 17:52 ../Supertagger2/models/la_ittb.pickle
+-rw-r--r--  1 git  staff  992490 May 10 19:03 data_ccg/la_ittb-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  27286849 May  6 00:08 ../DependencyTraining/models/la_ittb-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  610573 May 10 19:03 data_dep/la_ittb-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  610573 May 10 19:03 outputs/la_ittb-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1048584 Apr 27 17:52 ../Supertagger2/ud-treebanks-conll2017/la_ittb-ud-dev-ccg-2.connlu
+
+
+
+
+36
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Latin-PROIEL
+LANGUAGE CODE   la_proiel
+LANGUAGE SHORT  la
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/la_proiel-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/la_proiel.pickle
+TAGGED          data_ccg/la_proiel-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/la_proiel-nndep-ccg.model.txt.gz
+PARSED          data_dep/la_proiel-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/la_proiel-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/la_proiel-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  913470 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/la_proiel-udpipe.conllu
+-rw-r--r--  1 git  staff  8291652 Apr 27 17:58 ../Supertagger2/models/la_proiel.pickle
+-rw-r--r--  1 git  staff  1014414 May 10 19:03 data_ccg/la_proiel-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  33387700 May  6 05:24 ../DependencyTraining/models/la_proiel-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  386582 May 10 19:03 data_dep/la_proiel-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  386582 May 10 19:03 outputs/la_proiel-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1265113 Apr 27 17:59 ../Supertagger2/ud-treebanks-conll2017/la_proiel-ud-dev-ccg-2.connlu
+
+
+
+
+37
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Latvian
+LANGUAGE CODE   lv
+LANGUAGE SHORT  lv
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/lv-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/lv.pickle
+TAGGED          data_ccg/lv-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/lv-nndep-ccg.model.txt.gz
+PARSED          data_dep/lv-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/lv-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/lv-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  743173 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/lv-udpipe.conllu
+-rw-r--r--  1 git  staff  2693224 Apr 27 18:00 ../Supertagger2/models/lv.pickle
+-rw-r--r--  1 git  staff  815317 May 10 19:03 data_ccg/lv-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  23532030 May  7 00:28 ../DependencyTraining/models/lv-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  381319 May 10 19:04 data_dep/lv-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  381319 May 10 19:04 outputs/lv-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  883534 Apr 27 18:00 ../Supertagger2/ud-treebanks-conll2017/lv-ud-dev-ccg-2.connlu
+
+
+
+
+38
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Norwegian-Bokmaal
+LANGUAGE CODE   no_bokmaal
+LANGUAGE SHORT  no_bokmaal
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/no_bokmaal-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/no_bokmaal.pickle
+TAGGED          data_ccg/no_bokmaal-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/no_bokmaal-nndep-ccg.model.txt.gz
+PARSED          data_dep/no_bokmaal-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/no_bokmaal-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/no_bokmaal-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  2118200 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/no_bokmaal-udpipe.conllu
+-rw-r--r--  1 git  staff  7804335 Apr 27 18:08 ../Supertagger2/models/no_bokmaal.pickle
+-rw-r--r--  1 git  staff  2414933 May 10 19:04 data_ccg/no_bokmaal-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  40767072 May  7 09:11 ../DependencyTraining/models/no_bokmaal-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  1015885 May 10 19:04 data_dep/no_bokmaal-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1015885 May 10 19:04 outputs/no_bokmaal-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  2535378 Apr 27 18:08 ../Supertagger2/ud-treebanks-conll2017/no_bokmaal-ud-dev-ccg-2.connlu
+
+
+
+
+39
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Norwegian-Nynorsk
+LANGUAGE CODE   no_nynorsk
+LANGUAGE SHORT  no_nynorsk
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/no_nynorsk-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/no_nynorsk.pickle
+TAGGED          data_ccg/no_nynorsk-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/no_nynorsk-nndep-ccg.model.txt.gz
+PARSED          data_dep/no_nynorsk-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/no_nynorsk-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/no_nynorsk-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1815353 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/no_nynorsk-udpipe.conllu
+-rw-r--r--  1 git  staff  8089477 Apr 27 18:16 ../Supertagger2/models/no_nynorsk.pickle
+-rw-r--r--  1 git  staff  2074217 May 10 19:04 data_ccg/no_nynorsk-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  40173185 May  7 18:45 ../DependencyTraining/models/no_nynorsk-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  874088 May 10 19:05 data_dep/no_nynorsk-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  874088 May 10 19:05 outputs/no_nynorsk-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  2174225 Apr 27 18:17 ../Supertagger2/ud-treebanks-conll2017/no_nynorsk-ud-dev-ccg-2.connlu
+
+
+
+
+40
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Old_Church_Slavonic
+LANGUAGE CODE   cu
+LANGUAGE SHORT  cu
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cu-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/cu.pickle
+TAGGED          data_ccg/cu-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/cu-nndep-ccg.model.txt.gz
+PARSED          data_dep/cu-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/cu-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/cu-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  878436 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cu-udpipe.conllu
+-rw-r--r--  1 git  staff  2947225 Apr 27 18:18 ../Supertagger2/models/cu.pickle
+-rw-r--r--  1 git  staff  961783 May 10 19:05 data_ccg/cu-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  20030729 May  7 23:15 ../DependencyTraining/models/cu-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  345350 May 10 19:05 data_dep/cu-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  345350 May 10 19:05 outputs/cu-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1181563 Apr 27 18:18 ../Supertagger2/ud-treebanks-conll2017/cu-ud-dev-ccg-2.connlu
+
+
+
+
+41
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Persian
+LANGUAGE CODE   fa
+LANGUAGE SHORT  fa
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fa-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/fa.pickle
+TAGGED          data_ccg/fa-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/fa-nndep-ccg.model.txt.gz
+PARSED          data_dep/fa-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/fa-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/fa-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  954918 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fa-udpipe.conllu
+-rw-r--r--  1 git  staff  5284049 Apr 27 18:21 ../Supertagger2/models/fa.pickle
+-rw-r--r--  1 git  staff  1065124 May 10 19:05 data_ccg/fa-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  25229976 May  8 07:25 ../DependencyTraining/models/fa-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  611185 May 10 19:05 data_dep/fa-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  613248 May 10 19:05 outputs/fa-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1119894 Apr 27 18:21 ../Supertagger2/ud-treebanks-conll2017/fa-ud-dev-ccg-2.connlu
+
+
+
+
+42
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Polish
+LANGUAGE CODE   pl
+LANGUAGE SHORT  pl
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pl-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/pl.pickle
+TAGGED          data_ccg/pl-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/pl-nndep-ccg.model.txt.gz
+PARSED          data_dep/pl-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/pl-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/pl-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  898104 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pl-udpipe.conllu
+-rw-r--r--  1 git  staff  3680568 Apr 27 18:23 ../Supertagger2/models/pl.pickle
+-rw-r--r--  1 git  staff  974614 May 10 19:05 data_ccg/pl-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  32531744 May  8 23:23 ../DependencyTraining/models/pl-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  519092 May 10 19:05 data_dep/pl-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  521940 May 10 19:05 outputs/pl-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1034337 Apr 27 18:23 ../Supertagger2/ud-treebanks-conll2017/pl-ud-dev-ccg-2.connlu
+
+
+
+
+43
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Portuguese
+LANGUAGE CODE   pt
+LANGUAGE SHORT  pt
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pt-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/pt.pickle
+TAGGED          data_ccg/pt-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/pt-nndep-ccg.model.txt.gz
+PARSED          data_dep/pt-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/pt-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/pt-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  806780 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pt-udpipe.conllu
+-rw-r--r--  1 git  staff  6696969 Apr 27 18:30 ../Supertagger2/models/pt.pickle
+-rw-r--r--  1 git  staff  889558 May 10 19:05 data_ccg/pt-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  42201787 May  9 13:00 ../DependencyTraining/models/pt-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  614063 May 10 19:06 data_dep/pt-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  633964 May 10 19:06 outputs/pt-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  976089 Apr 27 18:30 ../Supertagger2/ud-treebanks-conll2017/pt-ud-dev-ccg-2.connlu
+
+
+
+
+44
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Portuguese-BR
+LANGUAGE CODE   pt_br
+LANGUAGE SHORT  pt
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pt_br-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/pt_br.pickle
+TAGGED          data_ccg/pt_br-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/pt_br-nndep-ccg.model.txt.gz
+PARSED          data_dep/pt_br-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/pt_br-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/pt_br-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1373077 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pt_br-udpipe.conllu
+-rw-r--r--  1 git  staff  7579235 Apr 27 18:37 ../Supertagger2/models/pt_br.pickle
+-rw-r--r--  1 git  staff  1633595 May 10 19:06 data_ccg/pt_br-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  40450124 May  9 17:12 ../DependencyTraining/models/pt_br-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  1041766 May 10 19:06 data_dep/pt_br-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1103391 May 10 19:06 outputs/pt_br-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1732116 Apr 27 18:37 ../Supertagger2/ud-treebanks-conll2017/pt_br-ud-dev-ccg-2.connlu
+
+
+
+
+45
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Romanian
+LANGUAGE CODE   ro
+LANGUAGE SHORT  ro
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ro-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/ro.pickle
+TAGGED          data_ccg/ro-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/ro-nndep-ccg.model.txt.gz
+PARSED          data_dep/ro-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ro-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/ro-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1284378 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ro-udpipe.conllu
+-rw-r--r--  1 git  staff  7673317 Apr 27 18:44 ../Supertagger2/models/ro.pickle
+-rw-r--r--  1 git  staff  1416052 May 10 19:06 data_ccg/ro-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  41992994 May 10 01:22 ../DependencyTraining/models/ro-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  644322 May 10 19:06 data_dep/ro-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  644322 May 10 19:06 outputs/ro-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1474349 Apr 27 18:44 ../Supertagger2/ud-treebanks-conll2017/ro-ud-dev-ccg-2.connlu
+
+
+
+
+46
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Russian
+LANGUAGE CODE   ru
+LANGUAGE SHORT  ru
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ru-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/ru.pickle
+TAGGED          data_ccg/ru-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/ru-nndep-ccg.model.txt.gz
+PARSED          data_dep/ru-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ru-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/ru-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1015615 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ru-udpipe.conllu
+-rw-r--r--  1 git  staff  4644011 Apr 27 18:46 ../Supertagger2/models/ru.pickle
+-rw-r--r--  1 git  staff  1094716 May 10 19:06 data_ccg/ru-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  36691314 May 10 17:11 ../DependencyTraining/models/ru-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  428266 May 10 19:07 data_dep/ru-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  428266 May 10 19:07 outputs/ru-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1131808 Apr 27 18:46 ../Supertagger2/ud-treebanks-conll2017/ru-ud-dev-ccg-2.connlu
+
+
+
+
+47
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Russian-SynTagRus
+LANGUAGE CODE   ru_syntagrus
+LANGUAGE SHORT  ru
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ru_syntagrus-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/ru_syntagrus.pickle
+TAGGED          data_ccg/ru_syntagrus-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/ru_syntagrus-nndep-ccg.model.txt.gz
+PARSED          data_dep/ru_syntagrus-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ru_syntagrus-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/ru_syntagrus-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  9698820 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ru_syntagrus-udpipe.conllu
+-rw-r--r--  1 git  staff  26428009 Apr 27 19:26 ../Supertagger2/models/ru_syntagrus.pickle
+-rw-r--r--  1 git  staff  10544452 May 10 19:08 data_ccg/ru_syntagrus-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  113031858 May 12 06:21 ../DependencyTraining/models/ru_syntagrus-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  0 May 10 19:08 outputs/ru_syntagrus-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  11872234 Apr 27 19:27 ../Supertagger2/ud-treebanks-conll2017/ru_syntagrus-ud-dev-ccg-2.connlu
+
+
+
+
+48
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Slovak
+LANGUAGE CODE   sk
+LANGUAGE SHORT  sk
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sk-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/sk.pickle
+TAGGED          data_ccg/sk-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/sk-nndep-ccg.model.txt.gz
+PARSED          data_dep/sk-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/sk-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/sk-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  988973 Mar 19 15:30 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sk-udpipe.conllu
+-rw-r--r--  1 git  staff  4255156 Apr 27 19:34 ../Supertagger2/models/sk.pickle
+-rw-r--r--  1 git  staff  1076502 May 10 19:08 data_ccg/sk-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  33316149 May 11 08:06 ../DependencyTraining/models/sk-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  0 May 10 19:08 outputs/sk-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1147542 Apr 27 19:34 ../Supertagger2/ud-treebanks-conll2017/sk-ud-dev-ccg-2.connlu
+
+
+
+
+49
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Slovenian
+LANGUAGE CODE   sl
+LANGUAGE SHORT  sl
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sl-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/sl.pickle
+TAGGED          data_ccg/sl-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/sl-nndep-ccg.model.txt.gz
+PARSED          data_dep/sl-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/sl-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/sl-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  993076 Mar 19 15:31 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sl-udpipe.conllu
+-rw-r--r--  1 git  staff  5292540 Apr 27 19:37 ../Supertagger2/models/sl.pickle
+-rw-r--r--  1 git  staff  1107934 May 10 19:08 data_ccg/sl-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  40967094 May 11 13:40 ../DependencyTraining/models/sl-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  0 May 10 19:08 outputs/sl-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1377718 Apr 27 19:37 ../Supertagger2/ud-treebanks-conll2017/sl-ud-dev-ccg-2.connlu
+
+
+
+
+50
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Spanish
+LANGUAGE CODE   es
+LANGUAGE SHORT  es
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/es-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/es.pickle
+TAGGED          data_ccg/es-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/es-nndep-ccg.model.txt.gz
+PARSED          data_dep/es-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/es-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/es-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  2106555 Mar 19 15:31 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/es-udpipe.conllu
+-rw-r--r--  1 git  staff  10980537 Apr 27 19:50 ../Supertagger2/models/es.pickle
+-rw-r--r--  1 git  staff  2394597 May 10 19:08 data_ccg/es-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  55593727 May 11 02:18 ../DependencyTraining/models/es-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  0 May 10 19:08 outputs/es-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  2515321 Apr 27 19:50 ../Supertagger2/ud-treebanks-conll2017/es-ud-dev-ccg-2.connlu
+
+
+
+
+51
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Spanish-AnCora
+LANGUAGE CODE   es_ancora
+LANGUAGE SHORT  es
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/es_ancora-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/es_ancora.pickle
+TAGGED          data_ccg/es_ancora-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/es_ancora-nndep-ccg.model.txt.gz
+PARSED          data_dep/es_ancora-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/es_ancora-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/es_ancora-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  3284442 Mar 19 15:31 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/es_ancora-udpipe.conllu
+-rw-r--r--  1 git  staff  11088782 Apr 27 20:06 ../Supertagger2/models/es_ancora.pickle
+-rw-r--r--  1 git  staff  3683266 May 10 19:09 data_ccg/es_ancora-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  47524197 May 12 00:08 ../DependencyTraining/models/es_ancora-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  0 May 10 19:09 outputs/es_ancora-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  3934626 Apr 27 20:06 ../Supertagger2/ud-treebanks-conll2017/es_ancora-ud-dev-ccg-2.connlu
+
+
+
+
+52
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Swedish
+LANGUAGE CODE   sv
+LANGUAGE SHORT  sv
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sv-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/sv.pickle
+TAGGED          data_ccg/sv-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/sv-nndep-ccg.model.txt.gz
+PARSED          data_dep/sv-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/sv-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/sv-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  744176 Mar 19 15:31 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sv-udpipe.conllu
+-rw-r--r--  1 git  staff  3272995 Apr 27 20:08 ../Supertagger2/models/sv.pickle
+-rw-r--r--  1 git  staff  826849 May 10 19:09 data_ccg/sv-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  24919950 May 11 20:20 ../DependencyTraining/models/sv-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  482185 May 10 19:09 data_dep/sv-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  482185 May 10 19:09 outputs/sv-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  862524 Apr 27 20:08 ../Supertagger2/ud-treebanks-conll2017/sv-ud-dev-ccg-2.connlu
+
+
+
+
+53
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Swedish-LinES
+LANGUAGE CODE   sv_lines
+LANGUAGE SHORT  sv
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sv_lines-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/sv_lines.pickle
+TAGGED          data_ccg/sv_lines-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/sv_lines-nndep-ccg.model.txt.gz
+PARSED          data_dep/sv_lines-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/sv_lines-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/sv_lines-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  680702 Mar 19 15:31 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sv_lines-udpipe.conllu
+-rw-r--r--  1 git  staff  2633405 Apr 27 20:09 ../Supertagger2/models/sv_lines.pickle
+-rw-r--r--  1 git  staff  817337 May 10 19:09 data_ccg/sv_lines-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  21840218 May 12 09:28 ../DependencyTraining/models/sv_lines-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  0 May 10 19:09 outputs/sv_lines-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  867319 Apr 27 20:09 ../Supertagger2/ud-treebanks-conll2017/sv_lines-ud-dev-ccg-2.connlu
+
+
+
+
+54
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Turkish
+LANGUAGE CODE   tr
+LANGUAGE SHORT  tr
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/tr-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/tr.pickle
+TAGGED          data_ccg/tr-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/tr-nndep-ccg.model.txt.gz
+PARSED          data_dep/tr-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/tr-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/tr-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  757622 Mar 19 15:31 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/tr-udpipe.conllu
+-rw-r--r--  1 git  staff  4007253 Apr 27 20:10 ../Supertagger2/models/tr.pickle
+-rw-r--r--  1 git  staff  821891 May 10 19:09 data_ccg/tr-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  25552463 May 10 16:57 ../DependencyTraining/models/tr-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  349762 May 10 19:09 data_dep/tr-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  357794 May 10 19:09 outputs/tr-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  866029 Apr 27 20:11 ../Supertagger2/ud-treebanks-conll2017/tr-ud-dev-ccg-2.connlu
+
+
+
+
+55
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Urdu
+LANGUAGE CODE   ur
+LANGUAGE SHORT  ur
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ur-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/ur.pickle
+TAGGED          data_ccg/ur-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/ur-nndep-ccg.model.txt.gz
+PARSED          data_dep/ur-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ur-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/ur-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  1114749 Mar 19 15:31 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ur-udpipe.conllu
+-rw-r--r--  1 git  staff  4585071 Apr 27 20:14 ../Supertagger2/models/ur.pickle
+-rw-r--r--  1 git  staff  1242249 May 10 19:09 data_ccg/ur-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  21721455 May 11 22:07 ../DependencyTraining/models/ur-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  527138 May 10 19:10 data_dep/ur-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  527138 May 10 19:10 outputs/ur-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  1830472 Apr 27 20:14 ../Supertagger2/ud-treebanks-conll2017/ur-ud-dev-ccg-2.connlu
+
+
+
+
+56
+Time: Fri May 12 11:00:30 EEST 2017
+
+LANGUAGE        UD_Vietnamese
+LANGUAGE CODE   vi
+LANGUAGE SHORT  vi
+INPUT           media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/vi-udpipe.conllu
+CCG MODEL       ../Supertagger2/models/vi.pickle
+TAGGED          data_ccg/vi-udpipe-ccg-2.conllu
+DEP MODEL       ../DependencyTraining/models/vi-nndep-ccg.model.txt.gz
+PARSED          data_dep/vi-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/vi-udpipe-ccg-2-parsed.conllu
+GOLD            ../Supertagger2/ud-treebanks-conll2017/vi-ud-dev-ccg-2.connlu
+
+-rwxrwx---@ 1 git  staff  493659 Mar 19 15:31 media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/vi-udpipe.conllu
+-rw-r--r--  1 git  staff  1834730 Apr 27 20:14 ../Supertagger2/models/vi.pickle
+-rw-r--r--  1 git  staff  587285 May 10 19:10 data_ccg/vi-udpipe-ccg-2.conllu
+-rw-r--r--  1 git  staff  16020648 May 12 05:11 ../DependencyTraining/models/vi-nndep-ccg.model.txt.gz
+-rw-r--r--  1 git  staff  0 May 10 19:10 outputs/vi-udpipe-ccg-2-parsed.conllu
+-rw-r--r--  1 git  staff  624409 Apr 27 20:14 ../Supertagger2/ud-treebanks-conll2017/vi-ud-dev-ccg-2.connlu
+
+
+Time: Fri May 12 11:00:30 EEST 2017

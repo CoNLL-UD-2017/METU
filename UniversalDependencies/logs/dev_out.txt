@@ -1,0 +1,2103 @@
+INPUT DIR  : /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19
+OUTPUT DIR : outputs
+
+
+
+1
+Time: Fri May 12 11:37:09 CEST 2017
+
+LANGUAGE        UD_Ancient_Greek
+LANGUAGE CODE   grc
+LANGUAGE SHORT  grc
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/grc-udpipe.conllu
+CCG MODEL       models_ccg/grc.pickle
+TAGGED          data_ccg/grc-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/grc-nndep-ccg.model.txt.gz
+PARSED          data_dep/grc-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/grc-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/grc.conllu
+
+-rwxrwx--- 1 root vboxsf 1978494 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/grc-udpipe.conllu
+-rw-r--r-- 1 METU sudo 12979615 May 11 10:13 models_ccg/grc.pickle
+-rw-r--r-- 1 METU sudo 2152145 May 12 11:37 data_ccg/grc-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 45089075 May 12 10:03 models_dep/grc-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 1107125 May 12 11:37 data_dep/grc-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 1107125 May 12 11:37 outputs/grc-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 2081938 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/grc.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.97 |     99.99 |     99.98 |
+Sentences  |     98.95 |     99.38 |     99.17 |
+Words      |     99.97 |     99.99 |     99.98 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     72.14 |     72.15 |     72.15 |     72.16
+Feats      |     36.62 |     36.63 |     36.63 |     36.63
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     56.55 |     56.56 |     56.55 |     56.56
+LAS        |     48.33 |     48.34 |     48.33 |     48.34
+WeightedLAS|     42.04 |     42.34 |     42.19 |     42.34
+
+
+
+
+2
+Time: Fri May 12 11:37:57 CEST 2017
+
+LANGUAGE        UD_Ancient_Greek-PROIEL
+LANGUAGE CODE   grc_proiel
+LANGUAGE SHORT  grc
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/grc_proiel-udpipe.conllu
+CCG MODEL       models_ccg/grc_proiel.pickle
+TAGGED          data_ccg/grc_proiel-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/grc_proiel-nndep-ccg.model.txt.gz
+PARSED          data_dep/grc_proiel-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/grc_proiel-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/grc_proiel.conllu
+
+-rwxrwx--- 1 root vboxsf 1275213 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/grc_proiel-udpipe.conllu
+-rw-r--r-- 1 METU sudo 11339340 May 11 10:14 models_ccg/grc_proiel.pickle
+-rw-r--r-- 1 METU sudo 1380955 May 12 11:38 data_ccg/grc_proiel-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 41309431 May 12 10:03 models_dep/grc_proiel-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 496458 May 12 11:38 data_dep/grc_proiel-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 496458 May 12 11:38 outputs/grc_proiel-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1516382 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/grc_proiel.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |     44.90 |     39.35 |     41.95 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     96.11 |     96.11 |     96.11 |     96.11
+Feats      |     24.78 |     24.78 |     24.78 |     24.78
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     65.10 |     65.10 |     65.10 |     65.10
+LAS        |     59.31 |     59.31 |     59.31 |     59.31
+WeightedLAS|     51.60 |     51.35 |     51.47 |     51.35
+
+
+
+
+3
+Time: Fri May 12 11:38:40 CEST 2017
+
+LANGUAGE        UD_Arabic
+LANGUAGE CODE   ar
+LANGUAGE SHORT  ar
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ar-udpipe.conllu
+CCG MODEL       models_ccg/ar.pickle
+TAGGED          data_ccg/ar-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/ar-nndep-ccg.model.txt.gz
+PARSED          data_dep/ar-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ar-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ar.conllu
+
+-rwxrwx--- 1 root vboxsf 2554708 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ar-udpipe.conllu
+-rw-r--r-- 1 METU sudo 10962775 May 11 10:13 models_ccg/ar.pickle
+-rw-r--r-- 1 METU sudo 2750931 May 12 11:39 data_ccg/ar-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 34501559 May 12 10:01 models_dep/ar-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 1453916 May 12 11:39 data_dep/ar-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 1569796 May 12 11:39 outputs/ar-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 5120125 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ar.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.99 |     99.98 |     99.99 |
+Sentences  |     85.45 |     71.73 |     77.99 |
+Words      |     95.11 |     92.65 |     93.86 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     83.95 |     81.78 |     82.85 |     88.27
+Feats      |     23.30 |     22.70 |     23.00 |     24.50
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     70.05 |     68.24 |     69.13 |     73.65
+LAS        |     63.79 |     62.14 |     62.96 |     67.07
+WeightedLAS|     59.14 |     58.64 |     58.89 |     62.93
+
+
+
+
+4
+Time: Fri May 12 11:39:28 CEST 2017
+
+LANGUAGE        UD_Basque
+LANGUAGE CODE   eu
+LANGUAGE SHORT  eu
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/eu-udpipe.conllu
+CCG MODEL       models_ccg/eu.pickle
+TAGGED          data_ccg/eu-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/eu-nndep-ccg.model.txt.gz
+PARSED          data_dep/eu-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/eu-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/eu.conllu
+
+-rwxrwx--- 1 root vboxsf 1542214 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/eu-udpipe.conllu
+-rw-r--r-- 1 METU sudo 4116219 May 11 10:13 models_ccg/eu.pickle
+-rw-r--r-- 1 METU sudo 1729277 May 12 11:40 data_ccg/eu-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 30677774 May 12 10:02 models_dep/eu-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 688757 May 12 11:40 data_dep/eu-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 688757 May 12 11:40 outputs/eu-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1625533 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/eu.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.99 |    100.00 |     99.99 |
+Sentences  |     98.67 |     99.33 |     99.00 |
+Words      |     99.99 |    100.00 |     99.99 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     99.99 |    100.00 |     99.99 |    100.00
+Feats      |     37.28 |     37.28 |     37.28 |     37.28
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.12 |      0.12 |      0.12 |      0.12
+UAS        |     67.63 |     67.64 |     67.64 |     67.64
+LAS        |     59.43 |     59.44 |     59.43 |     59.44
+WeightedLAS|     55.40 |     56.23 |     55.81 |     56.23
+
+
+
+
+5
+Time: Fri May 12 11:40:22 CEST 2017
+
+LANGUAGE        UD_Bulgarian
+LANGUAGE CODE   bg
+LANGUAGE SHORT  bg
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/bg-udpipe.conllu
+CCG MODEL       models_ccg/bg.pickle
+TAGGED          data_ccg/bg-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/bg-nndep-ccg.model.txt.gz
+PARSED          data_dep/bg-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/bg-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/bg.conllu
+
+-rwxrwx--- 1 root vboxsf 1359276 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/bg-udpipe.conllu
+-rw-r--r-- 1 METU sudo 5108616 May 11 10:13 models_ccg/bg.pickle
+-rw-r--r-- 1 METU sudo 1487982 May 12 11:40 data_ccg/bg-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 36550499 May 12 10:01 models_dep/bg-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 639372 May 12 11:41 data_dep/bg-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 639372 May 12 11:41 outputs/bg-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1427971 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/bg.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.81 |     99.86 |     99.84 |
+Sentences  |     93.16 |     91.66 |     92.41 |
+Words      |     99.81 |     99.86 |     99.84 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     94.23 |     94.28 |     94.26 |     94.41
+Feats      |     36.22 |     36.24 |     36.23 |     36.29
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     85.85 |     85.90 |     85.88 |     86.01
+LAS        |     81.39 |     81.43 |     81.41 |     81.54
+WeightedLAS|     77.00 |     76.51 |     76.75 |     76.64
+
+
+
+
+6
+Time: Fri May 12 11:41:05 CEST 2017
+
+LANGUAGE        UD_Catalan
+LANGUAGE CODE   ca
+LANGUAGE SHORT  ca
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ca-udpipe.conllu
+CCG MODEL       models_ccg/ca.pickle
+TAGGED          data_ccg/ca-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/ca-nndep-ccg.model.txt.gz
+PARSED          data_dep/ca-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ca-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ca.conllu
+
+-rwxrwx--- 1 root vboxsf 3504503 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ca-udpipe.conllu
+-rw-r--r-- 1 METU sudo 9493188 May 11 10:13 models_ccg/ca.pickle
+-rw-r--r-- 1 METU sudo 3950214 May 12 11:41 data_ccg/ca-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 41458159 May 12 10:01 models_dep/ca-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 1883171 May 12 11:42 data_dep/ca-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 1888756 May 12 11:42 outputs/ca-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 3800177 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ca.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.97 |     99.97 |     99.97 |
+Sentences  |     98.94 |     98.60 |     98.77 |
+Words      |     99.96 |     99.96 |     99.96 |
+UPOS       |     98.12 |     98.12 |     98.12 |     98.16
+XPOS       |     98.12 |     98.12 |     98.12 |     98.16
+Feats      |     18.77 |     18.77 |     18.77 |     18.78
+AllTags    |     18.23 |     18.23 |     18.23 |     18.24
+Lemmas     |      0.01 |      0.01 |      0.01 |      0.01
+UAS        |     85.82 |     85.83 |     85.82 |     85.86
+LAS        |     82.20 |     82.20 |     82.20 |     82.23
+WeightedLAS|     76.47 |     76.14 |     76.30 |     76.18
+
+
+
+
+7
+Time: Fri May 12 11:42:20 CEST 2017
+
+LANGUAGE        UD_Chinese
+LANGUAGE CODE   zh
+LANGUAGE SHORT  zh
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/zh-udpipe.conllu
+CCG MODEL       models_ccg/zh.pickle
+TAGGED          data_ccg/zh-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/zh-nndep-ccg.model.txt.gz
+PARSED          data_dep/zh-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/zh-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/zh.conllu
+
+-rwxrwx--- 1 root vboxsf 626650 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/zh-udpipe.conllu
+-rw-r--r-- 1 METU sudo 8346194 May 11 10:14 models_ccg/zh.pickle
+-rw-r--r-- 1 METU sudo 738779 May 12 11:42 data_ccg/zh-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 29108221 May 12 10:05 models_dep/zh-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 393661 May 12 11:42 data_dep/zh-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 393661 May 12 11:42 outputs/zh-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 689380 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/zh.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     88.45 |     89.46 |     88.95 |
+Sentences  |     97.60 |     97.60 |     97.60 |
+Words      |     88.45 |     89.46 |     88.95 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     81.85 |     82.78 |     82.32 |     92.54
+Feats      |     78.31 |     79.20 |     78.75 |     88.53
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     56.93 |     57.58 |     57.25 |     64.36
+LAS        |     52.71 |     53.30 |     53.00 |     59.59
+WeightedLAS|     48.65 |     49.29 |     48.97 |     56.57
+
+
+
+
+8
+Time: Fri May 12 11:42:48 CEST 2017
+
+LANGUAGE        UD_Croatian
+LANGUAGE CODE   hr
+LANGUAGE SHORT  hr
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hr-udpipe.conllu
+CCG MODEL       models_ccg/hr.pickle
+TAGGED          data_ccg/hr-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/hr-nndep-ccg.model.txt.gz
+PARSED          data_dep/hr-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/hr-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hr.conllu
+
+-rwxrwx--- 1 root vboxsf 988334 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hr-udpipe.conllu
+-rw-r--r-- 1 METU sudo 8107578 May 11 10:14 models_ccg/hr.pickle
+-rw-r--r-- 1 METU sudo 1097972 May 12 11:43 data_ccg/hr-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 45205508 May 12 10:03 models_dep/hr-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 417308 May 12 11:43 data_dep/hr-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 417308 May 12 11:43 outputs/hr-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1041445 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hr.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.98 |     99.98 |     99.98 |
+Sentences  |     97.81 |     96.67 |     97.23 |
+Words      |     99.98 |     99.98 |     99.98 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     99.98 |     99.98 |     99.98 |    100.00
+Feats      |     18.14 |     18.14 |     18.14 |     18.14
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     76.34 |     76.34 |     76.34 |     76.36
+LAS        |     69.04 |     69.04 |     69.04 |     69.05
+WeightedLAS|     65.40 |     65.13 |     65.26 |     65.15
+
+
+
+
+9
+Time: Fri May 12 11:43:21 CEST 2017
+
+LANGUAGE        UD_Czech
+LANGUAGE CODE   cs
+LANGUAGE SHORT  cs
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs-udpipe.conllu
+CCG MODEL       models_ccg/cs.pickle
+TAGGED          data_ccg/cs-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/cs-nndep-ccg.model.txt.gz
+PARSED          data_dep/cs-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/cs-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs.conllu
+
+-rwxrwx--- 1 root vboxsf 15059137 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs-udpipe.conllu
+-rw-r--r-- 1 METU sudo 30229130 May 11 10:13 models_ccg/cs.pickle
+-rw-r--r-- 1 METU sudo 16222056 May 12 11:46 data_ccg/cs-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 130653327 May 12 10:02 models_dep/cs-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 9064283 May 12 11:48 data_dep/cs-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 9072989 May 12 11:48 outputs/cs-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 16893421 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.97 |     99.94 |     99.96 |
+Sentences  |     93.20 |     91.64 |     92.41 |
+Words      |     99.97 |     99.94 |     99.96 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     93.28 |     93.25 |     93.26 |     93.30
+Feats      |     23.45 |     23.44 |     23.44 |     23.45
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     84.54 |     84.51 |     84.52 |     84.56
+LAS        |     80.69 |     80.66 |     80.67 |     80.71
+WeightedLAS|     77.82 |     78.24 |     78.03 |     78.28
+
+
+
+
+10
+Time: Fri May 12 11:48:41 CEST 2017
+
+LANGUAGE        UD_Czech-CAC
+LANGUAGE CODE   cs_cac
+LANGUAGE SHORT  cs
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs_cac-udpipe.conllu
+CCG MODEL       models_ccg/cs_cac.pickle
+TAGGED          data_ccg/cs_cac-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/cs_cac-nndep-ccg.model.txt.gz
+PARSED          data_dep/cs_cac-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/cs_cac-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs_cac.conllu
+
+-rwxrwx--- 1 root vboxsf 1052939 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs_cac-udpipe.conllu
+-rw-r--r-- 1 METU sudo 15070976 May 11 10:13 models_ccg/cs_cac.pickle
+-rw-r--r-- 1 METU sudo 1129736 May 12 11:48 data_ccg/cs_cac-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 75436362 May 12 10:02 models_dep/cs_cac-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 624647 May 12 11:49 data_dep/cs_cac-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 625342 May 12 11:49 outputs/cs_cac-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1156804 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs_cac.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |     99.01 |     99.17 |     99.09 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     90.76 |     90.76 |     90.76 |     90.76
+Feats      |     21.43 |     21.43 |     21.43 |     21.43
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     84.02 |     84.02 |     84.02 |     84.02
+LAS        |     80.56 |     80.56 |     80.56 |     80.56
+WeightedLAS|     77.33 |     77.72 |     77.53 |     77.72
+
+
+
+
+11
+Time: Fri May 12 11:49:16 CEST 2017
+
+LANGUAGE        UD_Czech-CLTT
+LANGUAGE CODE   cs_cltt
+LANGUAGE SHORT  cs
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs_cltt-udpipe.conllu
+CCG MODEL       models_ccg/cs_cltt.pickle
+TAGGED          data_ccg/cs_cltt-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/cs_cltt-nndep-ccg.model.txt.gz
+PARSED          data_dep/cs_cltt-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/cs_cltt-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs_cltt.conllu
+
+-rwxrwx--- 1 root vboxsf 966902 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs_cltt-udpipe.conllu
+-rw-r--r-- 1 METU sudo 897013 May 11 10:13 models_ccg/cs_cltt.pickle
+-rw-r--r-- 1 METU sudo 1038649 May 12 11:49 data_ccg/cs_cltt-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 15503164 May 12 10:02 models_dep/cs_cltt-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 604392 May 12 11:49 data_dep/cs_cltt-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 604416 May 12 11:49 outputs/cs_cltt-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1013902 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cs_cltt.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     98.37 |     98.92 |     98.65 |
+Sentences  |     68.45 |     80.80 |     74.11 |
+Words      |     98.37 |     98.92 |     98.65 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     78.38 |     78.82 |     78.60 |     79.68
+Feats      |     30.59 |     30.76 |     30.67 |     31.09
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     65.26 |     65.63 |     65.45 |     66.35
+LAS        |     61.97 |     62.32 |     62.14 |     63.00
+WeightedLAS|     59.10 |     57.83 |     58.46 |     58.57
+
+
+
+
+12
+Time: Fri May 12 11:49:37 CEST 2017
+
+LANGUAGE        UD_Danish
+LANGUAGE CODE   da
+LANGUAGE SHORT  da
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/da-udpipe.conllu
+CCG MODEL       models_ccg/da.pickle
+TAGGED          data_ccg/da-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/da-nndep-ccg.model.txt.gz
+PARSED          data_dep/da-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/da-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/da.conllu
+
+-rwxrwx--- 1 root vboxsf 611064 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/da-udpipe.conllu
+-rw-r--r-- 1 METU sudo 4196899 May 11 10:13 models_ccg/da.pickle
+-rw-r--r-- 1 METU sudo 691928 May 12 11:49 data_ccg/da-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 27986293 May 12 10:02 models_dep/da-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 289290 May 12 11:50 data_dep/da-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 289290 May 12 11:50 outputs/da-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 644435 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/da.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.58 |     99.79 |     99.68 |
+Sentences  |     85.05 |     83.69 |     84.36 |
+Words      |     99.58 |     99.79 |     99.68 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     99.58 |     99.79 |     99.68 |    100.00
+Feats      |     29.41 |     29.47 |     29.44 |     29.53
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     72.20 |     72.36 |     72.28 |     72.51
+LAS        |     67.28 |     67.42 |     67.35 |     67.57
+WeightedLAS|     61.67 |     61.52 |     61.60 |     61.73
+
+
+
+
+13
+Time: Fri May 12 11:50:03 CEST 2017
+
+LANGUAGE        UD_Dutch
+LANGUAGE CODE   nl
+LANGUAGE SHORT  nl
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/nl-udpipe.conllu
+CCG MODEL       models_ccg/nl.pickle
+TAGGED          data_ccg/nl-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/nl-nndep-ccg.model.txt.gz
+PARSED          data_dep/nl-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/nl-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/nl.conllu
+
+-rwxrwx--- 1 root vboxsf 854692 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/nl-udpipe.conllu
+-rw-r--r-- 1 METU sudo 7373736 May 11 10:14 models_ccg/nl.pickle
+-rw-r--r-- 1 METU sudo 945071 May 12 11:50 data_ccg/nl-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 38065043 May 12 10:04 models_dep/nl-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 668938 May 12 11:50 data_dep/nl-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 668938 May 12 11:50 outputs/nl-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 921747 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/nl.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.90 |     99.84 |     99.87 |
+Sentences  |     90.27 |     94.03 |     92.11 |
+Words      |     99.90 |     99.84 |     99.87 |
+UPOS       |      2.90 |      2.90 |      2.90 |      2.90
+XPOS       |     90.67 |     90.62 |     90.64 |     90.76
+Feats      |      8.31 |      8.31 |      8.31 |      8.32
+AllTags    |      2.03 |      2.03 |      2.03 |      2.04
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     76.55 |     76.51 |     76.53 |     76.63
+LAS        |     71.24 |     71.20 |     71.22 |     71.31
+WeightedLAS|     65.50 |     65.08 |     65.29 |     65.16
+
+
+
+
+14
+Time: Fri May 12 11:50:36 CEST 2017
+
+LANGUAGE        UD_Dutch-LassySmall
+LANGUAGE CODE   nl_lassysmall
+LANGUAGE SHORT  nl
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/nl_lassysmall-udpipe.conllu
+CCG MODEL       models_ccg/nl_lassysmall.pickle
+TAGGED          data_ccg/nl_lassysmall-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/nl_lassysmall-nndep-ccg.model.txt.gz
+PARSED          data_dep/nl_lassysmall-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/nl_lassysmall-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/nl_lassysmall.conllu
+
+-rwxrwx--- 1 root vboxsf 529014 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/nl_lassysmall-udpipe.conllu
+-rw-r--r-- 1 METU sudo 4155894 May 11 10:14 models_ccg/nl_lassysmall.pickle
+-rw-r--r-- 1 METU sudo 606317 May 12 11:50 data_ccg/nl_lassysmall-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 26250557 May 12 10:04 models_dep/nl_lassysmall-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 299323 May 12 11:51 data_dep/nl_lassysmall-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 299323 May 12 11:51 outputs/nl_lassysmall-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 580088 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/nl_lassysmall.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.86 |     99.93 |     99.90 |
+Sentences  |     80.54 |     78.12 |     79.31 |
+Words      |     99.86 |     99.93 |     99.90 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     99.86 |     99.93 |     99.90 |    100.00
+Feats      |     46.58 |     46.62 |     46.60 |     46.65
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     70.62 |     70.67 |     70.65 |     70.72
+LAS        |     65.69 |     65.74 |     65.72 |     65.79
+WeightedLAS|     60.74 |     59.76 |     60.24 |     59.82
+
+
+
+
+15
+Time: Fri May 12 11:51:02 CEST 2017
+
+LANGUAGE        UD_English
+LANGUAGE CODE   en
+LANGUAGE SHORT  en
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en-udpipe.conllu
+CCG MODEL       models_ccg/en.pickle
+TAGGED          data_ccg/en-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/en-nndep-ccg.model.txt.gz
+PARSED          data_dep/en-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/en-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en.conllu
+
+-rwxrwx--- 1 root vboxsf 1305033 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en-udpipe.conllu
+-rw-r--r-- 1 METU sudo 6777376 May 11 10:13 models_ccg/en.pickle
+-rw-r--r-- 1 METU sudo 1508421 May 12 11:51 data_ccg/en-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 31094066 May 12 10:02 models_dep/en-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 756914 May 12 11:51 data_dep/en-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 756914 May 12 11:51 outputs/en-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1493313 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     98.94 |     98.44 |     98.69 |
+Sentences  |     82.41 |     71.13 |     76.35 |
+Words      |     98.94 |     98.44 |     98.69 |
+UPOS       |      0.02 |      0.02 |      0.02 |      0.02
+XPOS       |     92.65 |     92.19 |     92.42 |     93.65
+Feats      |     33.50 |     33.33 |     33.41 |     33.85
+AllTags    |      0.02 |      0.02 |      0.02 |      0.02
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     77.51 |     77.12 |     77.31 |     78.34
+LAS        |     73.79 |     73.42 |     73.61 |     74.58
+WeightedLAS|     70.13 |     69.57 |     69.85 |     70.66
+
+
+
+
+16
+Time: Fri May 12 11:51:53 CEST 2017
+
+LANGUAGE        UD_English-LinES
+LANGUAGE CODE   en_lines
+LANGUAGE SHORT  en
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en_lines-udpipe.conllu
+CCG MODEL       models_ccg/en_lines.pickle
+TAGGED          data_ccg/en_lines-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/en_lines-nndep-ccg.model.txt.gz
+PARSED          data_dep/en_lines-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/en_lines-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en_lines.conllu
+
+-rwxrwx--- 1 root vboxsf 655999 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en_lines-udpipe.conllu
+-rw-r--r-- 1 METU sudo 2438680 May 11 10:13 models_ccg/en_lines.pickle
+-rw-r--r-- 1 METU sudo 794913 May 12 11:52 data_ccg/en_lines-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 19646477 May 12 10:02 models_dep/en_lines-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 589561 May 12 11:52 data_dep/en_lines-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 589561 May 12 11:52 outputs/en_lines-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 712276 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en_lines.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.93 |     99.93 |     99.93 |
+Sentences  |     86.47 |     88.27 |     87.36 |
+Words      |     99.93 |     99.93 |     99.93 |
+UPOS       |      0.06 |      0.06 |      0.06 |      0.06
+XPOS       |     92.85 |     92.85 |     92.85 |     92.91
+Feats      |     99.93 |     99.93 |     99.93 |    100.00
+AllTags    |      0.06 |      0.06 |      0.06 |      0.06
+Lemmas     |     99.93 |     99.93 |     99.93 |    100.00
+UAS        |     75.93 |     75.93 |     75.93 |     75.98
+LAS        |     71.59 |     71.59 |     71.59 |     71.64
+WeightedLAS|     67.86 |     67.47 |     67.66 |     67.49
+
+
+
+
+17
+Time: Fri May 12 11:52:25 CEST 2017
+
+LANGUAGE        UD_English-ParTUT
+LANGUAGE CODE   en_partut
+LANGUAGE SHORT  en
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en_partut-udpipe.conllu
+CCG MODEL       models_ccg/en_partut.pickle
+TAGGED          data_ccg/en_partut-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/en_partut-nndep-ccg.model.txt.gz
+PARSED          data_dep/en_partut-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/en_partut-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en_partut.conllu
+
+-rwxrwx--- 1 root vboxsf 623958 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en_partut-udpipe.conllu
+-rw-r--r-- 1 METU sudo 1494974 May 11 10:13 models_ccg/en_partut.pickle
+-rw-r--r-- 1 METU sudo 721601 May 12 11:52 data_ccg/en_partut-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 17836274 May 12 10:02 models_dep/en_partut-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 355424 May 12 11:52 data_dep/en_partut-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 355699 May 12 11:52 outputs/en_partut-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 672721 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/en_partut.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.56 |     99.37 |     99.46 |
+Sentences  |     96.85 |     98.40 |     97.62 |
+Words      |     99.56 |     99.37 |     99.46 |
+UPOS       |      2.36 |      2.36 |      2.36 |      2.38
+XPOS       |     93.77 |     93.60 |     93.68 |     94.19
+Feats      |     37.75 |     37.68 |     37.71 |     37.92
+AllTags    |      1.83 |      1.83 |      1.83 |      1.84
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     77.25 |     77.11 |     77.18 |     77.59
+LAS        |     73.32 |     73.18 |     73.25 |     73.65
+WeightedLAS|     67.61 |     67.06 |     67.34 |     67.60
+
+
+
+
+18
+Time: Fri May 12 11:52:48 CEST 2017
+
+LANGUAGE        UD_Estonian
+LANGUAGE CODE   et
+LANGUAGE SHORT  et
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/et-udpipe.conllu
+CCG MODEL       models_ccg/et.pickle
+TAGGED          data_ccg/et-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/et-nndep-ccg.model.txt.gz
+PARSED          data_dep/et-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/et-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/et.conllu
+
+-rwxrwx--- 1 root vboxsf 758080 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/et-udpipe.conllu
+-rw-r--r-- 1 METU sudo 1709403 May 11 10:13 models_ccg/et.pickle
+-rw-r--r-- 1 METU sudo 854360 May 12 11:53 data_ccg/et-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 20348824 May 12 10:02 models_dep/et-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 343274 May 12 11:53 data_dep/et-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 343274 May 12 11:53 outputs/et-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 816859 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/et.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.77 |     99.80 |     99.79 |
+Sentences  |     83.82 |     86.03 |     84.91 |
+Words      |     99.77 |     99.80 |     99.79 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     89.68 |     89.71 |     89.70 |     89.89
+Feats      |     34.67 |     34.68 |     34.67 |     34.75
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     63.36 |     63.38 |     63.37 |     63.51
+LAS        |     52.72 |     52.74 |     52.73 |     52.84
+WeightedLAS|     48.72 |     48.25 |     48.48 |     48.35
+
+
+
+
+19
+Time: Fri May 12 11:53:18 CEST 2017
+
+LANGUAGE        UD_Finnish
+LANGUAGE CODE   fi
+LANGUAGE SHORT  fi
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fi-udpipe.conllu
+CCG MODEL       models_ccg/fi.pickle
+TAGGED          data_ccg/fi-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/fi-nndep-ccg.model.txt.gz
+PARSED          data_dep/fi-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/fi-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fi.conllu
+
+-rwxrwx--- 1 root vboxsf 1291321 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fi-udpipe.conllu
+-rw-r--r-- 1 METU sudo 10583741 May 11 10:13 models_ccg/fi.pickle
+-rw-r--r-- 1 METU sudo 1430208 May 12 11:53 data_ccg/fi-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 58677400 May 12 10:03 models_dep/fi-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 595642 May 12 11:54 data_dep/fi-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 595642 May 12 11:54 outputs/fi-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1375083 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fi.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.71 |     99.67 |     99.69 |
+Sentences  |     90.34 |     82.92 |     86.47 |
+Words      |     99.71 |     99.67 |     99.69 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     95.38 |     95.34 |     95.36 |     95.66
+Feats      |     28.84 |     28.83 |     28.84 |     28.92
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     71.67 |     71.64 |     71.65 |     71.88
+LAS        |     65.65 |     65.63 |     65.64 |     65.84
+WeightedLAS|     62.15 |     62.19 |     62.17 |     62.40
+
+
+
+
+20
+Time: Fri May 12 11:54:06 CEST 2017
+
+LANGUAGE        UD_Finnish-FTB
+LANGUAGE CODE   fi_ftb
+LANGUAGE SHORT  fi
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fi_ftb-udpipe.conllu
+CCG MODEL       models_ccg/fi_ftb.pickle
+TAGGED          data_ccg/fi_ftb-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/fi_ftb-nndep-ccg.model.txt.gz
+PARSED          data_dep/fi_ftb-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/fi_ftb-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fi_ftb.conllu
+
+-rwxrwx--- 1 root vboxsf 1212396 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fi_ftb-udpipe.conllu
+-rw-r--r-- 1 METU sudo 7808619 May 11 10:13 models_ccg/fi_ftb.pickle
+-rw-r--r-- 1 METU sudo 1339248 May 12 11:54 data_ccg/fi_ftb-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 51017052 May 12 10:03 models_dep/fi_ftb-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 743416 May 12 11:54 data_dep/fi_ftb-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 744282 May 12 11:54 outputs/fi_ftb-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1294255 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fi_ftb.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.92 |     99.96 |     99.94 |
+Sentences  |     84.85 |     80.32 |     82.52 |
+Words      |     99.92 |     99.95 |     99.93 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     90.94 |     90.97 |     90.95 |     91.02
+Feats      |     28.66 |     28.67 |     28.66 |     28.68
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     76.93 |     76.95 |     76.94 |     76.99
+LAS        |     72.38 |     72.40 |     72.39 |     72.44
+WeightedLAS|     66.91 |     67.20 |     67.05 |     67.24
+
+
+
+
+21
+Time: Fri May 12 11:54:57 CEST 2017
+
+LANGUAGE        UD_French
+LANGUAGE CODE   fr
+LANGUAGE SHORT  fr
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fr-udpipe.conllu
+CCG MODEL       models_ccg/fr.pickle
+TAGGED          data_ccg/fr-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/fr-nndep-ccg.model.txt.gz
+PARSED          data_dep/fr-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/fr-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fr.conllu
+
+-rwxrwx--- 1 root vboxsf 2087233 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fr-udpipe.conllu
+-rw-r--r-- 1 METU sudo 9143668 May 11 10:13 models_ccg/fr.pickle
+-rw-r--r-- 1 METU sudo 2365201 May 12 11:55 data_ccg/fr-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 51951783 May 12 10:03 models_dep/fr-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 1003265 May 12 11:55 data_dep/fr-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 1034984 May 12 11:55 outputs/fr-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 2212187 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fr.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.85 |     99.77 |     99.81 |
+Sentences  |     97.09 |     97.09 |     97.09 |
+Words      |     99.01 |     99.35 |     99.18 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     99.01 |     99.35 |     99.18 |    100.00
+Feats      |     43.62 |     43.78 |     43.70 |     44.06
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     84.74 |     85.03 |     84.88 |     85.59
+LAS        |     81.58 |     81.87 |     81.73 |     82.40
+WeightedLAS|     77.66 |     77.38 |     77.52 |     77.65
+
+
+
+
+22
+Time: Fri May 12 11:55:55 CEST 2017
+
+LANGUAGE        UD_French-Sequoia
+LANGUAGE CODE   fr_sequoia
+LANGUAGE SHORT  fr
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fr_sequoia-udpipe.conllu
+CCG MODEL       models_ccg/fr_sequoia.pickle
+TAGGED          data_ccg/fr_sequoia-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/fr_sequoia-nndep-ccg.model.txt.gz
+PARSED          data_dep/fr_sequoia-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/fr_sequoia-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fr_sequoia.conllu
+
+-rwxrwx--- 1 root vboxsf 589676 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fr_sequoia-udpipe.conllu
+-rw-r--r-- 1 METU sudo 1963336 May 11 10:13 models_ccg/fr_sequoia.pickle
+-rw-r--r-- 1 METU sudo 669742 May 12 11:56 data_ccg/fr_sequoia-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 20522895 May 12 10:03 models_dep/fr_sequoia-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 284086 May 12 11:56 data_dep/fr_sequoia-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 293114 May 12 11:56 outputs/fr_sequoia-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 623127 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fr_sequoia.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.51 |     99.68 |     99.59 |
+Sentences  |     91.09 |     89.32 |     90.20 |
+Words      |     98.26 |     99.05 |     98.65 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     98.26 |     99.05 |     98.65 |    100.00
+Feats      |     36.56 |     36.85 |     36.70 |     37.21
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     79.10 |     79.74 |     79.42 |     80.50
+LAS        |     76.10 |     76.72 |     76.41 |     77.46
+WeightedLAS|     72.56 |     72.01 |     72.28 |     72.44
+
+
+
+
+23
+Time: Fri May 12 11:56:16 CEST 2017
+
+LANGUAGE        UD_Galician
+LANGUAGE CODE   gl
+LANGUAGE SHORT  gl
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/gl-udpipe.conllu
+CCG MODEL       models_ccg/gl.pickle
+TAGGED          data_ccg/gl-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/gl-nndep-ccg.model.txt.gz
+PARSED          data_dep/gl-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/gl-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/gl.conllu
+
+-rwxrwx--- 1 root vboxsf 1280408 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/gl-udpipe.conllu
+-rw-r--r-- 1 METU sudo 4141526 May 11 10:13 models_ccg/gl.pickle
+-rw-r--r-- 1 METU sudo 1500832 May 12 11:56 data_ccg/gl-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 24380731 May 12 10:03 models_dep/gl-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 1099269 May 12 11:56 data_dep/gl-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 1099269 May 12 11:56 outputs/gl-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1692188 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/gl.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.93 |     99.93 |     99.93 |
+Sentences  |     97.70 |     98.38 |     98.04 |
+Words      |     99.93 |     99.93 |     99.93 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     96.07 |     96.07 |     96.07 |     96.14
+Feats      |     99.73 |     99.73 |     99.73 |     99.80
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.13 |      0.13 |      0.13 |      0.13
+UAS        |     79.25 |     79.26 |     79.25 |     79.31
+LAS        |     75.54 |     75.54 |     75.54 |     75.59
+WeightedLAS|     69.24 |     68.91 |     69.08 |     68.97
+
+
+
+
+24
+Time: Fri May 12 11:56:57 CEST 2017
+
+LANGUAGE        UD_German
+LANGUAGE CODE   de
+LANGUAGE SHORT  de
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/de-udpipe.conllu
+CCG MODEL       models_ccg/de.pickle
+TAGGED          data_ccg/de-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/de-nndep-ccg.model.txt.gz
+PARSED          data_dep/de-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/de-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/de.conllu
+
+-rwxrwx--- 1 root vboxsf 762286 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/de-udpipe.conllu
+-rw-r--r-- 1 METU sudo 10450063 May 11 10:13 models_ccg/de.pickle
+-rw-r--r-- 1 METU sudo 863198 May 12 11:57 data_ccg/de-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 58766652 May 12 10:02 models_dep/de-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 406093 May 12 11:57 data_dep/de-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 410252 May 12 11:57 outputs/de-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 811203 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/de.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.91 |     99.94 |     99.93 |
+Sentences  |     92.13 |     92.37 |     92.25 |
+Words      |     99.90 |     99.93 |     99.91 |
+UPOS       |      5.89 |      5.89 |      5.89 |      5.89
+XPOS       |     95.12 |     95.14 |     95.13 |     95.21
+Feats      |     44.90 |     44.91 |     44.91 |     44.95
+AllTags    |      5.70 |      5.70 |      5.70 |      5.71
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     76.90 |     76.92 |     76.91 |     76.98
+LAS        |     71.92 |     71.94 |     71.93 |     71.99
+WeightedLAS|     66.95 |     66.98 |     66.96 |     67.02
+
+
+
+
+25
+Time: Fri May 12 11:57:33 CEST 2017
+
+LANGUAGE        UD_Gothic
+LANGUAGE CODE   got
+LANGUAGE SHORT  got
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/got-udpipe.conllu
+CCG MODEL       models_ccg/got.pickle
+TAGGED          data_ccg/got-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/got-nndep-ccg.model.txt.gz
+PARSED          data_dep/got-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/got-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/got.conllu
+
+-rwxrwx--- 1 root vboxsf 755986 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/got-udpipe.conllu
+-rw-r--r-- 1 METU sudo 2606311 May 11 10:13 models_ccg/got.pickle
+-rw-r--r-- 1 METU sudo 834972 May 12 11:57 data_ccg/got-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 0 May 12 11:57 outputs/got-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 954577 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/got.conllu
+
+
+
+
+26
+Time: Fri May 12 11:57:51 CEST 2017
+
+LANGUAGE        UD_Greek
+LANGUAGE CODE   el
+LANGUAGE SHORT  el
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/el-udpipe.conllu
+CCG MODEL       models_ccg/el.pickle
+TAGGED          data_ccg/el-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/el-nndep-ccg.model.txt.gz
+PARSED          data_dep/el-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/el-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/el.conllu
+
+-rwxrwx--- 1 root vboxsf 895017 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/el-udpipe.conllu
+-rw-r--r-- 1 METU sudo 2301855 May 11 10:13 models_ccg/el.pickle
+-rw-r--r-- 1 METU sudo 970021 May 12 11:58 data_ccg/el-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 21119145 May 12 10:02 models_dep/el-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 393276 May 12 11:58 data_dep/el-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 393276 May 12 11:58 outputs/el-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 938028 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/el.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.85 |     99.88 |     99.87 |
+Sentences  |     88.02 |     89.33 |     88.67 |
+Words      |     99.85 |     99.88 |     99.87 |
+UPOS       |     94.01 |     94.04 |     94.03 |     94.15
+XPOS       |     94.01 |     94.04 |     94.03 |     94.15
+Feats      |     27.78 |     27.78 |     27.78 |     27.82
+AllTags    |     27.11 |     27.11 |     27.11 |     27.15
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     79.17 |     79.19 |     79.18 |     79.28
+LAS        |     75.18 |     75.20 |     75.19 |     75.29
+WeightedLAS|     68.55 |     68.34 |     68.45 |     68.45
+
+
+
+
+27
+Time: Fri May 12 11:58:15 CEST 2017
+
+LANGUAGE        UD_Hebrew
+LANGUAGE CODE   he
+LANGUAGE SHORT  he
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/he-udpipe.conllu
+CCG MODEL       models_ccg/he.pickle
+TAGGED          data_ccg/he-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/he-nndep-ccg.model.txt.gz
+PARSED          data_dep/he-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/he-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/he.conllu
+
+-rwxrwx--- 1 root vboxsf 760999 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/he-udpipe.conllu
+-rw-r--r-- 1 METU sudo 6379379 May 11 10:14 models_ccg/he.pickle
+-rw-r--r-- 1 METU sudo 841978 May 12 11:58 data_ccg/he-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 0 May 12 10:03 models_dep/he-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 0 May 12 11:58 outputs/he-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 858770 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/he.conllu
+
+
+
+
+28
+Time: Fri May 12 11:58:27 CEST 2017
+
+LANGUAGE        UD_Hindi
+LANGUAGE CODE   hi
+LANGUAGE SHORT  hi
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hi-udpipe.conllu
+CCG MODEL       models_ccg/hi.pickle
+TAGGED          data_ccg/hi-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/hi-nndep-ccg.model.txt.gz
+PARSED          data_dep/hi-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/hi-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hi.conllu
+
+-rwxrwx--- 1 root vboxsf 3146771 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hi-udpipe.conllu
+-rw-r--r-- 1 METU sudo 7289456 May 11 10:14 models_ccg/hi.pickle
+-rw-r--r-- 1 METU sudo 3422638 May 12 11:59 data_ccg/hi-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 28676518 May 12 10:03 models_dep/hi-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 1355033 May 12 11:59 data_dep/hi-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 1355033 May 12 11:59 outputs/hi-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 5160754 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hi.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |     98.96 |     97.95 |     98.46 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     94.81 |     94.81 |     94.81 |     94.81
+Feats      |     14.82 |     14.82 |     14.82 |     14.82
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     88.59 |     88.59 |     88.59 |     88.59
+LAS        |     83.85 |     83.85 |     83.85 |     83.85
+WeightedLAS|     78.62 |     78.89 |     78.76 |     78.89
+
+
+
+
+29
+Time: Fri May 12 11:59:23 CEST 2017
+
+LANGUAGE        UD_Hungarian
+LANGUAGE CODE   hu
+LANGUAGE SHORT  hu
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hu-udpipe.conllu
+CCG MODEL       models_ccg/hu.pickle
+TAGGED          data_ccg/hu-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/hu-nndep-ccg.model.txt.gz
+PARSED          data_dep/hu-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/hu-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hu.conllu
+
+-rwxrwx--- 1 root vboxsf 1022417 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hu-udpipe.conllu
+-rw-r--r-- 1 METU sudo 1852871 May 11 10:14 models_ccg/hu.pickle
+-rw-r--r-- 1 METU sudo 1103113 May 12 11:59 data_ccg/hu-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 19965410 May 12 10:03 models_dep/hu-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 362478 May 12 11:59 data_dep/hu-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 362478 May 12 11:59 outputs/hu-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1006585 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/hu.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.88 |     99.94 |     99.91 |
+Sentences  |     92.79 |     96.37 |     94.55 |
+Words      |     99.88 |     99.94 |     99.91 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     99.88 |     99.94 |     99.91 |    100.00
+Feats      |     24.26 |     24.28 |     24.27 |     24.29
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     64.39 |     64.42 |     64.40 |     64.46
+LAS        |     53.91 |     53.94 |     53.92 |     53.97
+WeightedLAS|     50.17 |     49.00 |     49.58 |     49.04
+
+
+
+
+30
+Time: Fri May 12 11:59:50 CEST 2017
+
+LANGUAGE        UD_Indonesian
+LANGUAGE CODE   id
+LANGUAGE SHORT  id
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/id-udpipe.conllu
+CCG MODEL       models_ccg/id.pickle
+TAGGED          data_ccg/id-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/id-nndep-ccg.model.txt.gz
+PARSED          data_dep/id-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/id-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/id.conllu
+
+-rwxrwx--- 1 root vboxsf 478578 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/id-udpipe.conllu
+-rw-r--r-- 1 METU sudo 6134163 May 11 10:14 models_ccg/id.pickle
+-rw-r--r-- 1 METU sudo 565069 May 12 12:00 data_ccg/id-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 30559918 May 12 10:03 models_dep/id-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 365109 May 12 12:00 data_dep/id-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 365109 May 12 12:00 outputs/id-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 523770 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/id.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.99 |     99.98 |     99.99 |
+Sentences  |     90.43 |     91.23 |     90.83 |
+Words      |     99.99 |     99.98 |     99.99 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     99.99 |     99.98 |     99.99 |    100.00
+Feats      |     96.24 |     96.23 |     96.24 |     96.25
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |     99.99 |     99.98 |     99.99 |    100.00
+UAS        |     75.66 |     75.65 |     75.65 |     75.66
+LAS        |     67.90 |     67.90 |     67.90 |     67.91
+WeightedLAS|     65.38 |     65.57 |     65.47 |     65.57
+
+
+
+
+31
+Time: Fri May 12 12:00:17 CEST 2017
+
+LANGUAGE        UD_Italian
+LANGUAGE CODE   it
+LANGUAGE SHORT  it
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/it-udpipe.conllu
+CCG MODEL       models_ccg/it.pickle
+TAGGED          data_ccg/it-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/it-nndep-ccg.model.txt.gz
+PARSED          data_dep/it-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/it-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/it.conllu
+
+-rwxrwx--- 1 root vboxsf 712961 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/it-udpipe.conllu
+-rw-r--r-- 1 METU sudo 6522843 May 11 10:14 models_ccg/it.pickle
+-rw-r--r-- 1 METU sudo 806818 May 12 12:00 data_ccg/it-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 38822555 May 12 10:03 models_dep/it-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 340889 May 12 12:00 data_dep/it-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 363686 May 12 12:00 outputs/it-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 756052 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/it.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.79 |     99.84 |     99.82 |
+Sentences  |     94.04 |     92.38 |     93.20 |
+Words      |     99.66 |     99.75 |     99.70 |
+UPOS       |      0.05 |      0.05 |      0.05 |      0.05
+XPOS       |     96.47 |     96.56 |     96.51 |     96.80
+Feats      |     39.20 |     39.23 |     39.22 |     39.33
+AllTags    |      0.05 |      0.05 |      0.05 |      0.05
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     83.89 |     83.97 |     83.93 |     84.18
+LAS        |     80.87 |     80.95 |     80.91 |     81.15
+WeightedLAS|     75.14 |     74.89 |     75.02 |     75.11
+
+
+
+
+32
+Time: Fri May 12 12:00:46 CEST 2017
+
+LANGUAGE        UD_Italian-ParTUT
+LANGUAGE CODE   it_partut
+LANGUAGE SHORT  it
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/it_partut-udpipe.conllu
+CCG MODEL       models_ccg/it_partut.pickle
+TAGGED          data_ccg/it_partut-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/it_partut-nndep-ccg.model.txt.gz
+PARSED          data_dep/it_partut-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/it_partut-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/it_partut.conllu
+
+-rwxrwx--- 1 root vboxsf 842621 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/it_partut-udpipe.conllu
+-rw-r--r-- 1 METU sudo 1434945 May 11 10:14 models_ccg/it_partut.pickle
+-rw-r--r-- 1 METU sudo 950972 May 12 12:00 data_ccg/it_partut-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 18453592 May 12 10:04 models_dep/it_partut-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 400233 May 12 12:01 data_dep/it_partut-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 431259 May 12 12:01 outputs/it_partut-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 894306 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/it_partut.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.64 |     99.66 |     99.65 |
+Sentences  |     95.25 |     96.20 |     95.72 |
+Words      |     99.50 |     99.48 |     99.49 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     94.52 |     94.50 |     94.51 |     95.00
+Feats      |     35.93 |     35.92 |     35.93 |     36.11
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     78.96 |     78.94 |     78.95 |     79.35
+LAS        |     75.48 |     75.46 |     75.47 |     75.86
+WeightedLAS|     66.27 |     65.85 |     66.06 |     66.39
+
+
+
+
+33
+Time: Fri May 12 12:01:12 CEST 2017
+
+LANGUAGE        UD_Japanese
+LANGUAGE CODE   ja
+LANGUAGE SHORT  ja
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ja-udpipe.conllu
+CCG MODEL       models_ccg/ja.pickle
+TAGGED          data_ccg/ja-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/ja-nndep-ccg.model.txt.gz
+PARSED          data_dep/ja-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ja-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ja.conllu
+
+-rwxrwx--- 1 root vboxsf 575567 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ja-udpipe.conllu
+-rw-r--r-- 1 METU sudo 8552080 May 11 10:14 models_ccg/ja.pickle
+-rw-r--r-- 1 METU sudo 697112 May 12 12:01 data_ccg/ja-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 33438731 May 12 10:04 models_dep/ja-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 334084 May 12 12:01 data_dep/ja-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 334084 May 12 12:01 outputs/ja-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 626910 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ja.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     89.08 |     89.98 |     89.53 |
+Sentences  |     99.80 |     99.61 |     99.71 |
+Words      |     89.08 |     89.98 |     89.53 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     89.08 |     89.98 |     89.53 |    100.00
+Feats      |     86.94 |     87.82 |     87.38 |     97.61
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.03 |      0.03 |      0.03 |      0.04
+UAS        |     73.01 |     73.75 |     73.37 |     81.96
+LAS        |     71.39 |     72.11 |     71.75 |     80.14
+WeightedLAS|     61.63 |     62.71 |     62.16 |     75.39
+
+
+
+
+34
+Time: Fri May 12 12:01:40 CEST 2017
+
+LANGUAGE        UD_Korean
+LANGUAGE CODE   ko
+LANGUAGE SHORT  ko
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ko-udpipe.conllu
+CCG MODEL       models_ccg/ko.pickle
+TAGGED          data_ccg/ko-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/ko-nndep-ccg.model.txt.gz
+PARSED          data_dep/ko-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ko-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ko.conllu
+
+-rwxrwx--- 1 root vboxsf 525334 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ko-udpipe.conllu
+-rw-r--r-- 1 METU sudo 7349803 May 11 10:14 models_ccg/ko.pickle
+-rw-r--r-- 1 METU sudo 606181 May 12 12:01 data_ccg/ko-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 38897942 May 12 10:04 models_dep/ko-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 432906 May 12 12:02 data_dep/ko-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 432906 May 12 12:02 outputs/ko-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 574970 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ko.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.55 |     99.36 |     99.45 |
+Sentences  |     92.23 |     90.00 |     91.10 |
+Words      |     99.55 |     99.36 |     99.45 |
+UPOS       |     55.10 |     54.99 |     55.04 |     55.35
+XPOS       |     87.53 |     87.37 |     87.45 |     87.93
+Feats      |     98.96 |     98.77 |     98.87 |     99.41
+AllTags    |     51.55 |     51.45 |     51.50 |     51.78
+Lemmas     |     93.45 |     93.28 |     93.37 |     93.88
+UAS        |     65.26 |     65.14 |     65.20 |     65.56
+LAS        |     58.57 |     58.46 |     58.52 |     58.84
+WeightedLAS|     55.97 |     56.71 |     56.34 |     57.00
+
+
+
+
+35
+Time: Fri May 12 12:02:16 CEST 2017
+
+LANGUAGE        UD_Latin-ITTB
+LANGUAGE CODE   la_ittb
+LANGUAGE SHORT  la
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/la_ittb-udpipe.conllu
+CCG MODEL       models_ccg/la_ittb.pickle
+TAGGED          data_ccg/la_ittb-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/la_ittb-nndep-ccg.model.txt.gz
+PARSED          data_dep/la_ittb-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/la_ittb-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/la_ittb.conllu
+
+-rwxrwx--- 1 root vboxsf 911421 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/la_ittb-udpipe.conllu
+-rw-r--r-- 1 METU sudo 7637398 May 11 10:14 models_ccg/la_ittb.pickle
+-rw-r--r-- 1 METU sudo 992490 May 12 12:02 data_ccg/la_ittb-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 27286849 May 12 10:04 models_dep/la_ittb-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 610573 May 12 12:02 data_dep/la_ittb-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 610573 May 12 12:02 outputs/la_ittb-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 972323 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/la_ittb.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.85 |     99.92 |     99.88 |
+Sentences  |     83.83 |     71.86 |     77.38 |
+Words      |     99.85 |     99.92 |     99.88 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     87.48 |     87.55 |     87.52 |     87.62
+Feats      |     31.03 |     31.05 |     31.04 |     31.08
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.70 |      0.70 |      0.70 |      0.70
+UAS        |     67.75 |     67.81 |     67.78 |     67.86
+LAS        |     62.12 |     62.17 |     62.15 |     62.22
+WeightedLAS|     59.04 |     59.07 |     59.06 |     59.14
+
+
+
+
+36
+Time: Fri May 12 12:02:45 CEST 2017
+
+LANGUAGE        UD_Latin-PROIEL
+LANGUAGE CODE   la_proiel
+LANGUAGE SHORT  la
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/la_proiel-udpipe.conllu
+CCG MODEL       models_ccg/la_proiel.pickle
+TAGGED          data_ccg/la_proiel-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/la_proiel-nndep-ccg.model.txt.gz
+PARSED          data_dep/la_proiel-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/la_proiel-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/la_proiel.conllu
+
+-rwxrwx--- 1 root vboxsf 913470 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/la_proiel-udpipe.conllu
+-rw-r--r-- 1 METU sudo 8291652 May 11 10:14 models_ccg/la_proiel.pickle
+-rw-r--r-- 1 METU sudo 1014414 May 12 12:02 data_ccg/la_proiel-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 33387700 May 12 10:04 models_dep/la_proiel-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 386582 May 12 12:03 data_dep/la_proiel-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 386582 May 12 12:03 outputs/la_proiel-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1146086 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/la_proiel.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.98 |     99.99 |     99.99 |
+Sentences  |     28.86 |     15.02 |     19.76 |
+Words      |     99.98 |     99.99 |     99.99 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     95.34 |     95.35 |     95.35 |     95.36
+Feats      |     26.49 |     26.49 |     26.49 |     26.49
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     58.99 |     58.99 |     58.99 |     59.00
+LAS        |     52.82 |     52.83 |     52.82 |     52.83
+WeightedLAS|     49.15 |     48.73 |     48.94 |     48.74
+
+
+
+
+37
+Time: Fri May 12 12:03:14 CEST 2017
+
+LANGUAGE        UD_Latvian
+LANGUAGE CODE   lv
+LANGUAGE SHORT  lv
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/lv-udpipe.conllu
+CCG MODEL       models_ccg/lv.pickle
+TAGGED          data_ccg/lv-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/lv-nndep-ccg.model.txt.gz
+PARSED          data_dep/lv-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/lv-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/lv.conllu
+
+-rwxrwx--- 1 root vboxsf 743173 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/lv-udpipe.conllu
+-rw-r--r-- 1 METU sudo 2693224 May 11 10:14 models_ccg/lv.pickle
+-rw-r--r-- 1 METU sudo 815317 May 12 12:03 data_ccg/lv-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 23532030 May 12 10:04 models_dep/lv-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 381319 May 12 12:03 data_dep/lv-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 381319 May 12 12:03 outputs/lv-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 814764 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/lv.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     98.94 |     98.88 |     98.91 |
+Sentences  |     96.87 |     96.09 |     96.48 |
+Words      |     98.94 |     98.88 |     98.91 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     75.91 |     75.87 |     75.89 |     76.72
+Feats      |     38.49 |     38.47 |     38.48 |     38.90
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     64.75 |     64.71 |     64.73 |     65.44
+LAS        |     58.13 |     58.10 |     58.11 |     58.75
+WeightedLAS|     54.42 |     53.76 |     54.09 |     54.54
+
+
+
+
+38
+Time: Fri May 12 12:03:47 CEST 2017
+
+LANGUAGE        UD_Norwegian-Bokmaal
+LANGUAGE CODE   no_bokmaal
+LANGUAGE SHORT  no_bokmaal
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/no_bokmaal-udpipe.conllu
+CCG MODEL       models_ccg/no_bokmaal.pickle
+TAGGED          data_ccg/no_bokmaal-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/no_bokmaal-nndep-ccg.model.txt.gz
+PARSED          data_dep/no_bokmaal-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/no_bokmaal-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/no_bokmaal.conllu
+
+-rwxrwx--- 1 root vboxsf 2118200 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/no_bokmaal-udpipe.conllu
+-rw-r--r-- 1 METU sudo 7804335 May 11 10:14 models_ccg/no_bokmaal.pickle
+-rw-r--r-- 1 METU sudo 2414933 May 12 12:04 data_ccg/no_bokmaal-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 40767072 May 12 10:04 models_dep/no_bokmaal-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 1015885 May 12 12:04 data_dep/no_bokmaal-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 1015885 May 12 12:04 outputs/no_bokmaal-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 2250541 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/no_bokmaal.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.92 |     99.85 |     99.89 |
+Sentences  |     97.48 |     96.35 |     96.91 |
+Words      |     99.92 |     99.85 |     99.89 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     99.92 |     99.85 |     99.89 |    100.00
+Feats      |     40.18 |     40.16 |     40.17 |     40.21
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     83.14 |     83.08 |     83.11 |     83.21
+LAS        |     79.32 |     79.26 |     79.29 |     79.38
+WeightedLAS|     75.11 |     75.09 |     75.10 |     75.20
+
+
+
+
+39
+Time: Fri May 12 12:05:00 CEST 2017
+
+LANGUAGE        UD_Norwegian-Nynorsk
+LANGUAGE CODE   no_nynorsk
+LANGUAGE SHORT  no_nynorsk
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/no_nynorsk-udpipe.conllu
+CCG MODEL       models_ccg/no_nynorsk.pickle
+TAGGED          data_ccg/no_nynorsk-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/no_nynorsk-nndep-ccg.model.txt.gz
+PARSED          data_dep/no_nynorsk-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/no_nynorsk-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/no_nynorsk.conllu
+
+-rwxrwx--- 1 root vboxsf 1815353 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/no_nynorsk-udpipe.conllu
+-rw-r--r-- 1 METU sudo 8089477 May 11 10:14 models_ccg/no_nynorsk.pickle
+-rw-r--r-- 1 METU sudo 2074217 May 12 12:05 data_ccg/no_nynorsk-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 40173185 May 12 10:04 models_dep/no_nynorsk-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 874088 May 12 12:05 data_dep/no_nynorsk-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 874088 May 12 12:05 outputs/no_nynorsk-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1924410 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/no_nynorsk.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.91 |     99.93 |     99.92 |
+Sentences  |     94.79 |     91.38 |     93.05 |
+Words      |     99.91 |     99.93 |     99.92 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     99.91 |     99.93 |     99.92 |    100.00
+Feats      |     40.15 |     40.16 |     40.15 |     40.19
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     80.94 |     80.96 |     80.95 |     81.02
+LAS        |     76.67 |     76.68 |     76.67 |     76.74
+WeightedLAS|     72.59 |     72.19 |     72.39 |     72.27
+
+
+
+
+40
+Time: Fri May 12 12:05:58 CEST 2017
+
+LANGUAGE        UD_Old_Church_Slavonic
+LANGUAGE CODE   cu
+LANGUAGE SHORT  cu
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cu-udpipe.conllu
+CCG MODEL       models_ccg/cu.pickle
+TAGGED          data_ccg/cu-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/cu-nndep-ccg.model.txt.gz
+PARSED          data_dep/cu-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/cu-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cu.conllu
+
+-rwxrwx--- 1 root vboxsf 878436 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cu-udpipe.conllu
+-rw-r--r-- 1 METU sudo 2947225 May 11 10:13 models_ccg/cu.pickle
+-rw-r--r-- 1 METU sudo 961783 May 12 12:06 data_ccg/cu-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 20030729 May 12 10:02 models_dep/cu-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 345350 May 12 12:06 data_dep/cu-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 345350 May 12 12:06 outputs/cu-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1083228 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/cu.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |     41.60 |     33.46 |     37.09 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     93.95 |     93.95 |     93.95 |     93.95
+Feats      |     26.98 |     26.98 |     26.98 |     26.98
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     66.92 |     66.92 |     66.92 |     66.92
+LAS        |     59.61 |     59.61 |     59.61 |     59.61
+WeightedLAS|     56.98 |     56.65 |     56.82 |     56.65
+
+
+
+
+41
+Time: Fri May 12 12:06:27 CEST 2017
+
+LANGUAGE        UD_Persian
+LANGUAGE CODE   fa
+LANGUAGE SHORT  fa
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fa-udpipe.conllu
+CCG MODEL       models_ccg/fa.pickle
+TAGGED          data_ccg/fa-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/fa-nndep-ccg.model.txt.gz
+PARSED          data_dep/fa-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/fa-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fa.conllu
+
+-rwxrwx--- 1 root vboxsf 954918 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fa-udpipe.conllu
+-rw-r--r-- 1 METU sudo 5284049 May 11 10:13 models_ccg/fa.pickle
+-rw-r--r-- 1 METU sudo 1065124 May 12 12:06 data_ccg/fa-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 25229976 May 12 10:03 models_dep/fa-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 611185 May 12 12:06 data_dep/fa-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 613248 May 12 12:06 outputs/fa-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1013594 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/fa.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |     97.80 |     96.49 |     97.14 |
+Words      |     99.76 |     99.63 |     99.69 |
+UPOS       |     12.74 |     12.72 |     12.73 |     12.77
+XPOS       |     95.78 |     95.65 |     95.71 |     96.01
+Feats      |     33.73 |     33.68 |     33.71 |     33.81
+AllTags    |      2.66 |      2.65 |      2.65 |      2.66
+Lemmas     |     11.95 |     11.94 |     11.95 |     11.98
+UAS        |     79.75 |     79.65 |     79.70 |     79.95
+LAS        |     75.50 |     75.40 |     75.45 |     75.68
+WeightedLAS|     71.79 |     71.44 |     71.61 |     71.77
+
+
+
+
+42
+Time: Fri May 12 12:06:56 CEST 2017
+
+LANGUAGE        UD_Polish
+LANGUAGE CODE   pl
+LANGUAGE SHORT  pl
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pl-udpipe.conllu
+CCG MODEL       models_ccg/pl.pickle
+TAGGED          data_ccg/pl-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/pl-nndep-ccg.model.txt.gz
+PARSED          data_dep/pl-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/pl-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pl.conllu
+
+-rwxrwx--- 1 root vboxsf 898104 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pl-udpipe.conllu
+-rw-r--r-- 1 METU sudo 3680568 May 11 10:14 models_ccg/pl.pickle
+-rw-r--r-- 1 METU sudo 974614 May 12 12:07 data_ccg/pl-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 32531744 May 12 10:04 models_dep/pl-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 519092 May 12 12:07 data_dep/pl-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 521940 May 12 12:07 outputs/pl-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 963465 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pl.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |     99.61 |     99.51 |     99.56 |
+Words      |     99.85 |     99.88 |     99.87 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     82.13 |     82.16 |     82.15 |     82.25
+Feats      |     25.71 |     25.72 |     25.71 |     25.75
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     81.22 |     81.24 |     81.23 |     81.34
+LAS        |     75.36 |     75.38 |     75.37 |     75.47
+WeightedLAS|     71.37 |     71.39 |     71.38 |     71.44
+
+
+
+
+43
+Time: Fri May 12 12:07:32 CEST 2017
+
+LANGUAGE        UD_Portuguese
+LANGUAGE CODE   pt
+LANGUAGE SHORT  pt
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pt-udpipe.conllu
+CCG MODEL       models_ccg/pt.pickle
+TAGGED          data_ccg/pt-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/pt-nndep-ccg.model.txt.gz
+PARSED          data_dep/pt-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/pt-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pt.conllu
+
+-rwxrwx--- 1 root vboxsf 806780 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pt-udpipe.conllu
+-rw-r--r-- 1 METU sudo 6696969 May 11 10:14 models_ccg/pt.pickle
+-rw-r--r-- 1 METU sudo 889558 May 12 12:07 data_ccg/pt-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 42201787 May 12 10:04 models_dep/pt-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 614063 May 12 12:08 data_dep/pt-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 633964 May 12 12:08 outputs/pt-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 896939 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pt.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.82 |     99.81 |     99.82 |
+Sentences  |     90.93 |     87.68 |     89.27 |
+Words      |     99.72 |     99.76 |     99.74 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     73.15 |     73.17 |     73.16 |     73.35
+Feats      |     34.76 |     34.77 |     34.76 |     34.85
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     81.50 |     81.53 |     81.52 |     81.73
+LAS        |     77.74 |     77.77 |     77.76 |     77.96
+WeightedLAS|     71.21 |     71.00 |     71.10 |     71.22
+
+
+
+
+44
+Time: Fri May 12 12:08:03 CEST 2017
+
+LANGUAGE        UD_Portuguese-BR
+LANGUAGE CODE   pt_br
+LANGUAGE SHORT  pt
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pt_br-udpipe.conllu
+CCG MODEL       models_ccg/pt_br.pickle
+TAGGED          data_ccg/pt_br-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/pt_br-nndep-ccg.model.txt.gz
+PARSED          data_dep/pt_br-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/pt_br-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pt_br.conllu
+
+-rwxrwx--- 1 root vboxsf 1373077 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pt_br-udpipe.conllu
+-rw-r--r-- 1 METU sudo 7579235 May 11 10:14 models_ccg/pt_br.pickle
+-rw-r--r-- 1 METU sudo 1633595 May 12 12:08 data_ccg/pt_br-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 40450124 May 12 10:04 models_dep/pt_br-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 1041766 May 12 12:08 data_dep/pt_br-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 1103391 May 12 12:08 outputs/pt_br-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1478865 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/pt_br.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.97 |     99.96 |     99.96 |
+Sentences  |     96.69 |     96.61 |     96.65 |
+Words      |     99.79 |     99.87 |     99.83 |
+UPOS       |     70.87 |     70.93 |     70.90 |     71.03
+XPOS       |     97.17 |     97.25 |     97.21 |     97.38
+Feats      |     89.78 |     89.86 |     89.82 |     89.97
+AllTags    |     60.92 |     60.97 |     60.94 |     61.05
+Lemmas     |     85.75 |     85.83 |     85.79 |     85.94
+UAS        |     85.67 |     85.74 |     85.71 |     85.85
+LAS        |     83.33 |     83.40 |     83.37 |     83.51
+WeightedLAS|     77.52 |     77.55 |     77.53 |     77.64
+
+
+
+
+45
+Time: Fri May 12 12:08:51 CEST 2017
+
+LANGUAGE        UD_Romanian
+LANGUAGE CODE   ro
+LANGUAGE SHORT  ro
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ro-udpipe.conllu
+CCG MODEL       models_ccg/ro.pickle
+TAGGED          data_ccg/ro-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/ro-nndep-ccg.model.txt.gz
+PARSED          data_dep/ro-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ro-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ro.conllu
+
+-rwxrwx--- 1 root vboxsf 1284378 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ro-udpipe.conllu
+-rw-r--r-- 1 METU sudo 7673317 May 11 10:14 models_ccg/ro.pickle
+-rw-r--r-- 1 METU sudo 1416052 May 12 12:09 data_ccg/ro-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 41992994 May 12 10:04 models_dep/ro-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 644322 May 12 12:09 data_dep/ro-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 644322 May 12 12:09 outputs/ro-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1347043 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ro.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.57 |     99.53 |     99.55 |
+Sentences  |     94.85 |     95.48 |     95.16 |
+Words      |     99.57 |     99.53 |     99.55 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     95.54 |     95.50 |     95.52 |     95.95
+Feats      |     16.78 |     16.77 |     16.78 |     16.85
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     82.04 |     82.00 |     82.02 |     82.39
+LAS        |     76.40 |     76.37 |     76.38 |     76.73
+WeightedLAS|     71.21 |     70.38 |     70.80 |     70.73
+
+
+
+
+46
+Time: Fri May 12 12:09:31 CEST 2017
+
+LANGUAGE        UD_Russian
+LANGUAGE CODE   ru
+LANGUAGE SHORT  ru
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ru-udpipe.conllu
+CCG MODEL       models_ccg/ru.pickle
+TAGGED          data_ccg/ru-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/ru-nndep-ccg.model.txt.gz
+PARSED          data_dep/ru-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ru-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ru.conllu
+
+-rwxrwx--- 1 root vboxsf 1015615 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ru-udpipe.conllu
+-rw-r--r-- 1 METU sudo 4644011 May 11 10:14 models_ccg/ru.pickle
+-rw-r--r-- 1 METU sudo 1094716 May 12 12:09 data_ccg/ru-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 36691314 May 12 10:04 models_dep/ru-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 428266 May 12 12:10 data_dep/ru-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 428266 May 12 12:10 outputs/ru-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1055874 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ru.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.93 |     99.92 |     99.92 |
+Sentences  |     96.68 |     95.68 |     96.18 |
+Words      |     99.93 |     99.92 |     99.92 |
+UPOS       |      0.16 |      0.16 |      0.16 |      0.16
+XPOS       |     94.09 |     94.07 |     94.08 |     94.15
+Feats      |     37.27 |     37.27 |     37.27 |     37.30
+AllTags    |      0.16 |      0.16 |      0.16 |      0.16
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     78.01 |     78.00 |     78.01 |     78.07
+LAS        |     72.56 |     72.55 |     72.56 |     72.61
+WeightedLAS|     69.93 |     69.51 |     69.72 |     69.56
+
+
+
+
+47
+Time: Fri May 12 12:10:01 CEST 2017
+
+LANGUAGE        UD_Russian-SynTagRus
+LANGUAGE CODE   ru_syntagrus
+LANGUAGE SHORT  ru
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ru_syntagrus-udpipe.conllu
+CCG MODEL       models_ccg/ru_syntagrus.pickle
+TAGGED          data_ccg/ru_syntagrus-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/ru_syntagrus-nndep-ccg.model.txt.gz
+PARSED          data_dep/ru_syntagrus-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ru_syntagrus-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ru_syntagrus.conllu
+
+-rwxrwx--- 1 root vboxsf 9698820 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ru_syntagrus-udpipe.conllu
+-rw-r--r-- 1 METU sudo 26428009 May 11 10:14 models_ccg/ru_syntagrus.pickle
+-rw-r--r-- 1 METU sudo 10544452 May 12 12:12 data_ccg/ru_syntagrus-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 113031858 May 12 10:04 models_dep/ru_syntagrus-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 3949876 May 12 12:13 data_dep/ru_syntagrus-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 3949876 May 12 12:13 outputs/ru_syntagrus-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 11068668 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ru_syntagrus.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.68 |     99.68 |     99.68 |
+Sentences  |     97.42 |     97.93 |     97.67 |
+Words      |     99.68 |     99.68 |     99.68 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     99.68 |     99.68 |     99.68 |    100.00
+Feats      |     37.66 |     37.66 |     37.66 |     37.78
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     84.51 |     84.51 |     84.51 |     84.78
+LAS        |     80.26 |     80.26 |     80.26 |     80.52
+WeightedLAS|     73.62 |     73.90 |     73.76 |     74.17
+
+
+
+
+48
+Time: Fri May 12 12:13:49 CEST 2017
+
+LANGUAGE        UD_Slovak
+LANGUAGE CODE   sk
+LANGUAGE SHORT  sk
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sk-udpipe.conllu
+CCG MODEL       models_ccg/sk.pickle
+TAGGED          data_ccg/sk-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/sk-nndep-ccg.model.txt.gz
+PARSED          data_dep/sk-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/sk-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sk.conllu
+
+-rwxrwx--- 1 root vboxsf 988973 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sk-udpipe.conllu
+-rw-r--r-- 1 METU sudo 4255156 May 11 10:14 models_ccg/sk.pickle
+-rw-r--r-- 1 METU sudo 1076502 May 12 12:14 data_ccg/sk-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 33316149 May 12 10:04 models_dep/sk-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 431562 May 12 12:14 data_dep/sk-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 431562 May 12 12:14 outputs/sk-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1067191 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sk.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |    100.00 |    100.00 |    100.00 |
+Sentences  |     78.45 |     77.26 |     77.85 |
+Words      |    100.00 |    100.00 |    100.00 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     74.87 |     74.87 |     74.87 |     74.87
+Feats      |     17.82 |     17.82 |     17.82 |     17.82
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     76.71 |     76.71 |     76.71 |     76.71
+LAS        |     70.68 |     70.68 |     70.68 |     70.68
+WeightedLAS|     66.72 |     66.67 |     66.70 |     66.67
+
+
+
+
+49
+Time: Fri May 12 12:14:30 CEST 2017
+
+LANGUAGE        UD_Slovenian
+LANGUAGE CODE   sl
+LANGUAGE SHORT  sl
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sl-udpipe.conllu
+CCG MODEL       models_ccg/sl.pickle
+TAGGED          data_ccg/sl-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/sl-nndep-ccg.model.txt.gz
+PARSED          data_dep/sl-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/sl-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sl.conllu
+
+-rwxrwx--- 1 root vboxsf 993076 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sl-udpipe.conllu
+-rw-r--r-- 1 METU sudo 5292540 May 11 10:14 models_ccg/sl.pickle
+-rw-r--r-- 1 METU sudo 1107934 May 12 12:14 data_ccg/sl-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 40967094 May 12 10:05 models_dep/sl-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 490248 May 12 12:15 data_dep/sl-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 490248 May 12 12:15 outputs/sl-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1242135 Mar 19 16:30 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sl.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.93 |     99.96 |     99.94 |
+Sentences  |     99.59 |     99.59 |     99.59 |
+Words      |     99.93 |     99.96 |     99.94 |
+UPOS       |      0.02 |      0.02 |      0.02 |      0.02
+XPOS       |     88.17 |     88.20 |     88.18 |     88.23
+Feats      |     23.11 |     23.12 |     23.11 |     23.13
+AllTags    |      0.02 |      0.02 |      0.02 |      0.02
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     81.18 |     81.20 |     81.19 |     81.23
+LAS        |     77.76 |     77.79 |     77.77 |     77.82
+WeightedLAS|     74.12 |     73.80 |     73.96 |     73.84
+
+
+
+
+50
+Time: Fri May 12 12:15:04 CEST 2017
+
+LANGUAGE        UD_Spanish
+LANGUAGE CODE   es
+LANGUAGE SHORT  es
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/es-udpipe.conllu
+CCG MODEL       models_ccg/es.pickle
+TAGGED          data_ccg/es-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/es-nndep-ccg.model.txt.gz
+PARSED          data_dep/es-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/es-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/es.conllu
+
+-rwxrwx--- 1 root vboxsf 2106555 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/es-udpipe.conllu
+-rw-r--r-- 1 METU sudo 10980537 May 11 10:13 models_ccg/es.pickle
+-rw-r--r-- 1 METU sudo 2394597 May 12 12:15 data_ccg/es-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 55593727 May 12 10:02 models_dep/es-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 1032865 May 12 12:16 data_dep/es-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 1051812 May 12 12:16 outputs/es-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 2235933 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/es.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.90 |     99.92 |     99.91 |
+Sentences  |     98.28 |     97.86 |     98.07 |
+Words      |     99.79 |     99.81 |     99.80 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     99.78 |     99.80 |     99.79 |    100.00
+Feats      |     44.65 |     44.66 |     44.65 |     44.74
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     83.82 |     83.84 |     83.83 |     84.00
+LAS        |     80.17 |     80.19 |     80.18 |     80.34
+WeightedLAS|     73.72 |     73.42 |     73.57 |     73.63
+
+
+
+
+51
+Time: Fri May 12 12:16:04 CEST 2017
+
+LANGUAGE        UD_Spanish-AnCora
+LANGUAGE CODE   es_ancora
+LANGUAGE SHORT  es
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/es_ancora-udpipe.conllu
+CCG MODEL       models_ccg/es_ancora.pickle
+TAGGED          data_ccg/es_ancora-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/es_ancora-nndep-ccg.model.txt.gz
+PARSED          data_dep/es_ancora-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/es_ancora-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/es_ancora.conllu
+
+-rwxrwx--- 1 root vboxsf 3284442 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/es_ancora-udpipe.conllu
+-rw-r--r-- 1 METU sudo 11088782 May 11 10:13 models_ccg/es_ancora.pickle
+-rw-r--r-- 1 METU sudo 3683266 May 12 12:16 data_ccg/es_ancora-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 47524197 May 12 10:02 models_dep/es_ancora-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 1755970 May 12 12:17 data_dep/es_ancora-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 1761848 May 12 12:17 outputs/es_ancora-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 3545925 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/es_ancora.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.97 |     99.98 |     99.98 |
+Sentences  |     95.81 |     96.86 |     96.33 |
+Words      |     99.94 |     99.94 |     99.94 |
+UPOS       |     98.10 |     98.10 |     98.10 |     98.16
+XPOS       |     98.10 |     98.10 |     98.10 |     98.16
+Feats      |     16.93 |     16.93 |     16.93 |     16.94
+AllTags    |     16.49 |     16.49 |     16.49 |     16.50
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     84.44 |     84.44 |     84.44 |     84.49
+LAS        |     80.84 |     80.84 |     80.84 |     80.89
+WeightedLAS|     75.33 |     75.06 |     75.20 |     75.14
+
+
+
+
+52
+Time: Fri May 12 12:17:15 CEST 2017
+
+LANGUAGE        UD_Swedish
+LANGUAGE CODE   sv
+LANGUAGE SHORT  sv
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sv-udpipe.conllu
+CCG MODEL       models_ccg/sv.pickle
+TAGGED          data_ccg/sv-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/sv-nndep-ccg.model.txt.gz
+PARSED          data_dep/sv-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/sv-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sv.conllu
+
+-rwxrwx--- 1 root vboxsf 744176 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sv-udpipe.conllu
+-rw-r--r-- 1 METU sudo 3272995 May 11 10:14 models_ccg/sv.pickle
+-rw-r--r-- 1 METU sudo 826849 May 12 12:17 data_ccg/sv-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 24919950 May 12 10:05 models_dep/sv-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 487074 May 12 12:17 data_dep/sv-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 487074 May 12 12:17 outputs/sv-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 782758 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sv.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.73 |     99.81 |     99.77 |
+Sentences  |     94.39 |     96.83 |     95.59 |
+Words      |     99.73 |     99.81 |     99.77 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     93.18 |     93.24 |     93.21 |     93.42
+Feats      |     35.57 |     35.59 |     35.58 |     35.66
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     75.09 |     75.15 |     75.12 |     75.29
+LAS        |     70.85 |     70.90 |     70.87 |     71.04
+WeightedLAS|     68.00 |     67.65 |     67.82 |     67.80
+
+
+
+
+53
+Time: Fri May 12 12:17:42 CEST 2017
+
+LANGUAGE        UD_Swedish-LinES
+LANGUAGE CODE   sv_lines
+LANGUAGE SHORT  sv
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sv_lines-udpipe.conllu
+CCG MODEL       models_ccg/sv_lines.pickle
+TAGGED          data_ccg/sv_lines-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/sv_lines-nndep-ccg.model.txt.gz
+PARSED          data_dep/sv_lines-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/sv_lines-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sv_lines.conllu
+
+-rwxrwx--- 1 root vboxsf 680702 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sv_lines-udpipe.conllu
+-rw-r--r-- 1 METU sudo 2633405 May 11 10:14 models_ccg/sv_lines.pickle
+-rw-r--r-- 1 METU sudo 817337 May 12 12:17 data_ccg/sv_lines-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 21840218 May 12 10:05 models_dep/sv_lines-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 634844 May 12 12:18 data_dep/sv_lines-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 634844 May 12 12:18 outputs/sv_lines-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 735299 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/sv_lines.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.97 |     99.97 |     99.97 |
+Sentences  |     86.53 |     88.05 |     87.28 |
+Words      |     99.97 |     99.97 |     99.97 |
+UPOS       |      0.22 |      0.22 |      0.22 |      0.22
+XPOS       |     92.07 |     92.07 |     92.07 |     92.10
+Feats      |     99.97 |     99.97 |     99.97 |    100.00
+AllTags    |      0.22 |      0.22 |      0.22 |      0.22
+Lemmas     |     99.97 |     99.97 |     99.97 |    100.00
+UAS        |     76.60 |     76.60 |     76.60 |     76.62
+LAS        |     71.67 |     71.67 |     71.67 |     71.70
+WeightedLAS|     68.27 |     67.87 |     68.07 |     67.89
+
+
+
+
+54
+Time: Fri May 12 12:18:13 CEST 2017
+
+LANGUAGE        UD_Turkish
+LANGUAGE CODE   tr
+LANGUAGE SHORT  tr
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/tr-udpipe.conllu
+CCG MODEL       models_ccg/tr.pickle
+TAGGED          data_ccg/tr-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/tr-nndep-ccg.model.txt.gz
+PARSED          data_dep/tr-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/tr-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/tr.conllu
+
+-rwxrwx--- 1 root vboxsf 757622 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/tr-udpipe.conllu
+-rw-r--r-- 1 METU sudo 4007253 May 11 10:14 models_ccg/tr.pickle
+-rw-r--r-- 1 METU sudo 821891 May 12 12:18 data_ccg/tr-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 25552463 May 12 10:05 models_dep/tr-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 349762 May 12 12:18 data_dep/tr-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 357794 May 12 12:18 outputs/tr-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 806641 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/tr.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.87 |     99.88 |     99.87 |
+Sentences  |     96.83 |     97.13 |     96.98 |
+Words      |     98.26 |     97.49 |     97.87 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     89.93 |     89.23 |     89.58 |     91.53
+Feats      |     37.24 |     36.95 |     37.09 |     37.90
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.12 |      0.12 |      0.12 |      0.12
+UAS        |     56.94 |     56.50 |     56.72 |     57.95
+LAS        |     47.79 |     47.42 |     47.60 |     48.64
+WeightedLAS|     43.46 |     43.02 |     43.24 |     43.93
+
+
+
+
+55
+Time: Fri May 12 12:18:46 CEST 2017
+
+LANGUAGE        UD_Urdu
+LANGUAGE CODE   ur
+LANGUAGE SHORT  ur
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ur-udpipe.conllu
+CCG MODEL       models_ccg/ur.pickle
+TAGGED          data_ccg/ur-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/ur-nndep-ccg.model.txt.gz
+PARSED          data_dep/ur-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/ur-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ur.conllu
+
+-rwxrwx--- 1 root vboxsf 1114749 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ur-udpipe.conllu
+-rw-r--r-- 1 METU sudo 4585071 May 11 10:14 models_ccg/ur.pickle
+-rw-r--r-- 1 METU sudo 1242249 May 12 12:19 data_ccg/ur-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 21721455 May 12 10:05 models_dep/ur-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 502788 May 12 12:19 data_dep/ur-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 502788 May 12 12:19 outputs/ur-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 1678559 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/ur.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     99.99 |     99.99 |     99.99 |
+Sentences  |     98.37 |     98.37 |     98.37 |
+Words      |     99.99 |     99.99 |     99.99 |
+UPOS       |      0.00 |      0.00 |      0.00 |      0.00
+XPOS       |     90.46 |     90.45 |     90.46 |     90.47
+Feats      |     15.38 |     15.38 |     15.38 |     15.38
+AllTags    |      0.00 |      0.00 |      0.00 |      0.00
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     81.26 |     81.25 |     81.25 |     81.26
+LAS        |     74.50 |     74.49 |     74.50 |     74.50
+WeightedLAS|     66.23 |     66.55 |     66.39 |     66.56
+
+
+
+
+56
+Time: Fri May 12 12:19:13 CEST 2017
+
+LANGUAGE        UD_Vietnamese
+LANGUAGE CODE   vi
+LANGUAGE SHORT  vi
+INPUT           /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/vi-udpipe.conllu
+CCG MODEL       models_ccg/vi.pickle
+TAGGED          data_ccg/vi-udpipe-ccg-2.conllu
+DEP MODEL       models_dep/vi-nndep-ccg.model.txt.gz
+PARSED          data_dep/vi-udpipe-ccg-2-parsed.conllu
+OUTPUT          outputs/vi-udpipe-ccg-2-parsed.conllu
+GOLD            /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/vi.conllu
+
+-rwxrwx--- 1 root vboxsf 493659 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/vi-udpipe.conllu
+-rw-r--r-- 1 METU sudo 1834730 May 11 10:14 models_ccg/vi.pickle
+-rw-r--r-- 1 METU sudo 587285 May 12 12:19 data_ccg/vi-udpipe-ccg-2.conllu
+-rw-r--r-- 1 METU sudo 16020648 May 12 10:05 models_dep/vi-nndep-ccg.model.txt.gz
+-rw-r--r-- 1 METU sudo 340509 May 12 12:19 data_dep/vi-udpipe-ccg-2-parsed.conllu
+-rw-r--r-- 1 METU sudo 340509 May 12 12:19 outputs/vi-udpipe-ccg-2-parsed.conllu
+-rwxrwx--- 1 root vboxsf 534964 Mar 19 16:31 /media/training-datasets/universal-dependency-learning/conll17-ud-development-2017-03-19/vi.conllu
+Metrics    | Precision |    Recall |  F1 Score | AligndAcc
+-----------+-----------+-----------+-----------+-----------
+Tokens     |     83.17 |     84.82 |     83.99 |
+Sentences  |     95.45 |     97.12 |     96.28 |
+Words      |     83.17 |     84.82 |     83.99 |
+UPOS       |      0.09 |      0.10 |      0.09 |      0.11
+XPOS       |     72.90 |     74.34 |     73.62 |     87.65
+Feats      |     79.84 |     81.42 |     80.62 |     96.00
+AllTags    |      0.08 |      0.08 |      0.08 |      0.09
+Lemmas     |      0.00 |      0.00 |      0.00 |      0.00
+UAS        |     43.40 |     44.26 |     43.83 |     52.18
+LAS        |     38.47 |     39.23 |     38.85 |     46.25
+WeightedLAS|     35.18 |     35.68 |     35.43 |     44.51
+
+
+Time: Fri May 12 12:19:36 CEST 2017
